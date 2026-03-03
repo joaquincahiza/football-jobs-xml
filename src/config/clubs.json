@@ -1,0 +1,59 @@
+[
+  {
+    "club_id": "liverpool",
+    "name": "Liverpool FC",
+    "source_type": "tribepad",
+    "source_url": "https://jobsearch.liverpoolfc.com/jobs",
+    "company_url": "https://www.liverpoolfc.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "manutd",
+    "name": "Manchester United",
+    "source_type": "custom",
+    "source_url": "https://www.manutd.com/en/Club/Jobs/Permanent-and-Temporary-Opportunities"
+  },
+  {
+    "club_id": "arsenal",
+    "name": "Arsenal FC",
+    "source_type": "custom",
+    "source_url": "https://careers.arsenal.com/jobs"
+  },
+  {
+    "club_id": "chelsea",
+    "name": "Chelsea FC",
+    "source_type": "workforceready",
+    "source_url": "https://secure.workforceready.eu/ta/6189861.careers?CareersSearch=&lang=en-GB",
+    "workforce_company_id": "6189861",
+    "lang": "en-GB",
+    "page_size": 50,
+    "company_url": "https://www.chelseafc.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "bayern",
+    "name": "FC Bayern Munich",
+    "source_type": "custom",
+    "source_url": "https://careers.fcbayern.com/"
+  },
+  {
+    "club_id": "dortmund",
+    "name": "Borussia Dortmund",
+    "source_type": "custom",
+    "source_url": "https://karriere.bvb.de/"
+  },
+  {
+    "club_id": "inter",
+    "name": "Inter Milan",
+    "source_type": "intervieweb",
+    "source_url": "https://inter.intervieweb.it/it/career",
+    "lang": "en"
+  },
+  {
+    "club_id": "juventus",
+    "name": "Juventus",
+    "source_type": "teamtailor",
+    "source_url": "https://careers.juventus.com/jobs"
+  }
+]
+  

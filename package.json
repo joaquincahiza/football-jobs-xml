@@ -1,0 +1,16 @@
+{
+  "name": "club-jobs-crawler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modular jobs crawler for football clubs (Playwright + Cheerio)",
+  "main": "src/index.js",
+  "scripts": {
+    "crawl": "node src/index.js crawl",
+    "export:xml": "node src/index.js export:xml",
+    "run": "node src/index.js run"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "playwright": "^1.52.0"
+  }
+}
