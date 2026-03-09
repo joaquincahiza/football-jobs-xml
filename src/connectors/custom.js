@@ -29,6 +29,11 @@ const MANUTD_LISTING_URL_REGEX = /candidatemanager\.net\/cm\/p\/pjobs\.aspx/i;
 const MANUTD_DETAIL_URL_REGEX = /candidatemanager\.net\/cm\/p\/pjobdetails\.aspx/i;
 const MANUTD_TABLE_HEADING_REGEX = /current vacancies/i;
 const MANUTD_CACHE = new Map();
+const SHARED_CAREERS_CLUB_IDS = new Set(["newcastle", "astonvilla"]);
+const SHARED_CAREERS_CACHE = new Map();
+const SHARED_CAREERS_LISTING_PATH_REGEX = /^\/jobs\/?$/i;
+const SHARED_CAREERS_DETAIL_PATH_REGEX = /^\/job\/([^/?#]+)\/?$/i;
+const SHARED_CAREERS_APPLY_PATH_REGEX = /^\/job\/([^/?#]+)\/apply\/?$/i;
 
 function logManUtdHttp(message) {
   console.log(`[http] manutd ${message}`);
@@ -83,8 +88,212 @@ function isManUtdClub(club) {
   return normalizeText(club && club.club_id).toLowerCase() === MANUTD_CLUB_ID;
 }
 
+function isSharedCareersClub(club) {
+  return SHARED_CAREERS_CLUB_IDS.has(
+    normalizeText(club && club.club_id).toLowerCase()
+  );
+}
+
 function buildManUtdCacheKey(club, sourceId) {
   return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function buildSharedCareersCacheKey(club, sourceId) {
+  return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function extractSharedSourceIdFromSlug(slug) {
+  const match = normalizeText(slug).match(/-(\d+)$/);
+  return match ? match[1] : "";
+}
+
+function parseSharedCareersLink(url) {
+  try {
+    const parsed = new URL(url);
+    const pathname = decodeURIComponent(parsed.pathname || "");
+    const applyMatch = pathname.match(SHARED_CAREERS_APPLY_PATH_REGEX);
+
+    if (applyMatch) {
+      const slug = normalizeText(applyMatch[1]);
+      const sourceId = extractSharedSourceIdFromSlug(slug);
+      return sourceId
+        ? {
+            type: "apply",
+            slug,
+            source_id: sourceId,
+          }
+        : null;
+    }
+
+    const detailMatch = pathname.match(SHARED_CAREERS_DETAIL_PATH_REGEX);
+    if (detailMatch) {
+      const slug = normalizeText(detailMatch[1]);
+      const sourceId = extractSharedSourceIdFromSlug(slug);
+      return sourceId
+        ? {
+            type: "detail",
+            slug,
+            source_id: sourceId,
+          }
+        : null;
+    }
+  } catch {
+    // Ignore URL parsing failures.
+  }
+
+  return null;
+}
+
+function buildSharedCareersDefaultApplyUrl(jobUrl, slug) {
+  if (slug) {
+    return canonicalizeUrl(jobUrl, `/job/${slug}/apply`);
+  }
+
+  const normalized = normalizeText(jobUrl);
+  if (!normalized) {
+    return "";
+  }
+
+  return `${normalized.replace(/\/+$/, "")}/apply`;
+}
+
+function extractTitleFromSharedSlug(slug) {
+  const cleaned = normalizeText(slug).replace(/-\d+$/, "");
+  if (!cleaned) {
+    return "";
+  }
+
+  return cleaned.replace(/-/g, " ").trim();
+}
+
+function isSharedActionText(value) {
+  const text = normalizeText(value).toLowerCase();
+
+  return (
+    !text ||
+    text === "read more" ||
+    text === "apply" ||
+    text === "apply now" ||
+    text === "view details" ||
+    text === "details"
+  );
+}
+
+function findSharedCareersCard($, anchorNode) {
+  const selectors = [
+    "article",
+    "li",
+    '[class*="job"]',
+    '[class*="vacan"]',
+    '[class*="card"]',
+    '[data-testid*="job"]',
+  ];
+
+  for (const selector of selectors) {
+    const candidate = $(anchorNode).closest(selector).first();
+    if (candidate.length) {
+      return candidate;
+    }
+  }
+
+  return $(anchorNode).parent();
+}
+
+function findValueInSharedCardByLabels($, cardNode, labels) {
+  if (!cardNode || !cardNode.length) {
+    return "";
+  }
+
+  const snippet = String(cardNode.html() || "").trim();
+  if (!snippet) {
+    return "";
+  }
+
+  const local$ = cheerio.load(`<section id="__card__">${snippet}</section>`);
+  return findValueByLabels(local$, labels);
+}
+
+function extractSharedListingMeta($, cardNode, anchorNode, slug) {
+  const heading = cardNode
+    .find("h1,h2,h3,h4,h5,h6,[class*='title'],[data-testid*='title']")
+    .first();
+  const headingText = normalizeText(heading.text());
+  const anchorText = normalizeText($(anchorNode).text());
+  const fallbackFromSlug = extractTitleFromSharedSlug(slug);
+
+  const title = !isSharedActionText(headingText)
+    ? headingText
+    : !isSharedActionText(anchorText)
+      ? anchorText
+      : fallbackFromSlug;
+
+  const location =
+    findValueInSharedCardByLabels($, cardNode, [
+      "location",
+      "job location",
+      "base location",
+    ]) || "";
+
+  const arrangement =
+    findValueInSharedCardByLabels($, cardNode, [
+      "job type",
+      "employment type",
+      "contract type",
+      "type",
+    ]) || "";
+
+  const publishedAt =
+    findValueInSharedCardByLabels($, cardNode, [
+      "posted on",
+      "posted",
+      "date posted",
+      "published",
+    ]) || "";
+
+  const locationTypeRaw =
+    findValueInSharedCardByLabels($, cardNode, [
+      "location type",
+      "workplace",
+      "working model",
+    ]) || "";
+
+  const locationTypeText = normalizeText(locationTypeRaw).toLowerCase();
+  const locationType = locationTypeText.includes("hybrid")
+    ? "hybrid"
+    : locationTypeText.includes("remote")
+      ? "remote"
+      : "onsite";
+
+  return {
+    title,
+    location,
+    arrangement,
+    published_at: publishedAt,
+    location_type: locationType,
+  };
+}
+
+function resolveSharedLocationType(value, detailText) {
+  const normalized = normalizeText(value).toLowerCase();
+
+  if (normalized.includes("hybrid")) {
+    return "hybrid";
+  }
+
+  if (normalized.includes("remote")) {
+    return "remote";
+  }
+
+  const detailNormalized = normalizeText(detailText).toLowerCase();
+  if (detailNormalized.includes("hybrid")) {
+    return "hybrid";
+  }
+
+  if (detailNormalized.includes("remote")) {
+    return "remote";
+  }
+
+  return "onsite";
 }
 
 function extractManUtdSourceId(url) {
@@ -469,9 +678,277 @@ async function fetchManUtdJob(club, jobUrl, options = {}) {
   });
 }
 
+function isSharedListingPath(pathname) {
+  return SHARED_CAREERS_LISTING_PATH_REGEX.test(String(pathname || ""));
+}
+
+function isSharedPaginationLink(url, linkText) {
+  const text = normalizeText(linkText).toLowerCase();
+  if (text.includes("next") || text.includes("more") || text.includes("page")) {
+    return true;
+  }
+
+  try {
+    const parsed = new URL(url);
+    if (!isSharedListingPath(parsed.pathname)) {
+      return false;
+    }
+
+    return parsed.searchParams.has("page");
+  } catch {
+    return false;
+  }
+}
+
+async function discoverSharedCareersJobUrls(club, options = {}) {
+  return withPage(options, async (page) => {
+    const queue = [club.source_url];
+    const queued = new Set(queue);
+    const visited = new Set();
+    const listings = new Map();
+    let crawledPages = 0;
+    let seedHost = "";
+
+    try {
+      seedHost = new URL(club.source_url).hostname;
+    } catch {
+      seedHost = "";
+    }
+
+    while (queue.length && crawledPages < MAX_DISCOVERY_PAGES) {
+      const currentUrl = queue.shift();
+      queued.delete(currentUrl);
+
+      if (visited.has(currentUrl)) {
+        continue;
+      }
+
+      await gotoWithRetry(page, currentUrl);
+      visited.add(currentUrl);
+      crawledPages += 1;
+
+      const $ = cheerio.load(await page.content());
+
+      $("a[href]").each((_, anchorNode) => {
+        const href = $(anchorNode).attr("href");
+        const absoluteUrl = canonicalizeUrl(currentUrl, href);
+        if (!absoluteUrl) {
+          return;
+        }
+
+        let parsed;
+        try {
+          parsed = new URL(absoluteUrl);
+        } catch {
+          return;
+        }
+
+        if (seedHost && parsed.hostname !== seedHost) {
+          return;
+        }
+
+        const sharedLink = parseSharedCareersLink(absoluteUrl);
+        if (sharedLink && sharedLink.source_id) {
+          const key = sharedLink.source_id;
+          const existing = listings.get(key) || {
+            source_id: key,
+            slug: sharedLink.slug,
+            url: "",
+            application_link: "",
+            title: "",
+            location: "",
+            arrangement: "",
+            published_at: "",
+            location_type: "onsite",
+          };
+
+          const card = findSharedCareersCard($, anchorNode);
+          const metadata = extractSharedListingMeta($, card, anchorNode, sharedLink.slug);
+          if (metadata.title && isSharedActionText(existing.title)) {
+            existing.title = metadata.title;
+          } else if (!existing.title && metadata.title) {
+            existing.title = metadata.title;
+          }
+          if (!existing.location && metadata.location) {
+            existing.location = metadata.location;
+          }
+          if (!existing.arrangement && metadata.arrangement) {
+            existing.arrangement = metadata.arrangement;
+          }
+          if (!existing.published_at && metadata.published_at) {
+            existing.published_at = metadata.published_at;
+          }
+          if (metadata.location_type && existing.location_type === "onsite") {
+            existing.location_type = metadata.location_type;
+          }
+
+          if (sharedLink.type === "detail") {
+            existing.url = absoluteUrl;
+          } else if (sharedLink.type === "apply") {
+            existing.application_link = absoluteUrl;
+            if (!existing.url) {
+              existing.url = canonicalizeUrl(absoluteUrl, `/job/${sharedLink.slug}`);
+            }
+          }
+
+          listings.set(key, existing);
+          return;
+        }
+
+        if (
+          isSharedListingPath(parsed.pathname) ||
+          isSharedPaginationLink(absoluteUrl, $(anchorNode).text())
+        ) {
+          if (!visited.has(absoluteUrl) && !queued.has(absoluteUrl)) {
+            queue.push(absoluteUrl);
+            queued.add(absoluteUrl);
+          }
+        }
+      });
+    }
+
+    const jobUrls = [];
+    for (const entry of listings.values()) {
+      if (!entry.source_id || !entry.url || !parseSharedCareersLink(entry.url)) {
+        continue;
+      }
+
+      if (!entry.application_link) {
+        entry.application_link = buildSharedCareersDefaultApplyUrl(
+          entry.url,
+          entry.slug
+        );
+      }
+
+      SHARED_CAREERS_CACHE.set(
+        buildSharedCareersCacheKey(club, entry.source_id),
+        entry
+      );
+      jobUrls.push(entry.url);
+    }
+
+    return Array.from(new Set(jobUrls));
+  });
+}
+
+function extractSharedSourceIdFromUrl(jobUrl) {
+  const sharedLink = parseSharedCareersLink(jobUrl);
+  if (sharedLink && sharedLink.source_id) {
+    return sharedLink.source_id;
+  }
+
+  return extractSourceIdFromUrl(jobUrl);
+}
+
+async function fetchSharedCareersJob(club, jobUrl, options = {}) {
+  return withPage(options, async (page) => {
+    const sharedLink = parseSharedCareersLink(jobUrl);
+    const sourceId = extractSharedSourceIdFromUrl(jobUrl);
+    const listingCache = sourceId
+      ? SHARED_CAREERS_CACHE.get(buildSharedCareersCacheKey(club, sourceId))
+      : null;
+
+    await gotoWithRetry(page, jobUrl);
+    const $ = cheerio.load(await page.content());
+
+    const detailText = normalizeText($("body").text());
+    let title =
+      normalizeText(listingCache && listingCache.title) ||
+      normalizeText($("h1").first().text()) ||
+      extractTitleFromSharedSlug(sharedLink && sharedLink.slug);
+
+    if (isSharedActionText(title)) {
+      title = normalizeText($("h1").first().text()) || title;
+    }
+
+    const location =
+      normalizeText(listingCache && listingCache.location) ||
+      extractFallbackLocation($);
+    const employmentType =
+      normalizeText(listingCache && listingCache.arrangement) ||
+      extractFallbackEmploymentType($);
+    const htmlDescription = extractFallbackDescriptionHtml($);
+    const plainTextDescription = htmlToStructuredPlainText(htmlDescription);
+    const publishedAt = parseDateToIso(
+      normalizeText(listingCache && listingCache.published_at) ||
+        findValueByLabels($, ["posted on", "published", "date posted", "posted"])
+    );
+    const expiresAt = parseDateToIso(
+      findValueByLabels($, [
+        "closing date",
+        "application deadline",
+        "expires",
+        "valid through",
+      ])
+    );
+
+    let applicationLink = normalizeText(listingCache && listingCache.application_link);
+    if (!applicationLink) {
+      $("a[href]").each((_, node) => {
+        if (applicationLink) {
+          return;
+        }
+
+        const href = $(node).attr("href");
+        const absoluteUrl = canonicalizeUrl(jobUrl, href);
+        if (!absoluteUrl) {
+          return;
+        }
+
+        const parsed = parseSharedCareersLink(absoluteUrl);
+        if (parsed && parsed.type === "apply") {
+          applicationLink = absoluteUrl;
+          return;
+        }
+
+        const text = normalizeText($(node).text()).toLowerCase();
+        if (text.includes("apply")) {
+          applicationLink = absoluteUrl;
+        }
+      });
+    }
+
+    if (!applicationLink) {
+      applicationLink = buildSharedCareersDefaultApplyUrl(
+        jobUrl,
+        sharedLink && sharedLink.slug
+      );
+    }
+
+    return {
+      club_id: club.club_id,
+      source_id: sourceId,
+      id: sourceId,
+      url: jobUrl,
+      application_link: applicationLink,
+      title,
+      arrangement: mapArrangementFromEmploymentType(employmentType),
+      employment_type: employmentType,
+      location_type: resolveSharedLocationType(
+        normalizeText(listingCache && listingCache.location_type),
+        detailText
+      ),
+      location,
+      published_at: publishedAt,
+      expires_at: expiresAt,
+      highlighted: false,
+      sticky: false,
+      html_description: htmlDescription,
+      plain_text_description: plainTextDescription,
+      company_name: club.name,
+      company_url: club.company_url || club.source_url || "",
+      company_logo_url: club.company_logo_url || "",
+    };
+  });
+}
+
 async function discoverJobUrls(club, options = {}) {
   if (isManUtdClub(club)) {
     return discoverManUtdJobUrls(club, options);
+  }
+
+  if (isSharedCareersClub(club)) {
+    return discoverSharedCareersJobUrls(club, options);
   }
 
   return withPage(options, async (page) => {
@@ -543,6 +1020,10 @@ async function discoverJobUrls(club, options = {}) {
 async function fetchJob(club, jobUrl, options = {}) {
   if (isManUtdClub(club)) {
     return fetchManUtdJob(club, jobUrl, options);
+  }
+
+  if (isSharedCareersClub(club)) {
+    return fetchSharedCareersJob(club, jobUrl, options);
   }
 
   return withPage(options, async (page) => {

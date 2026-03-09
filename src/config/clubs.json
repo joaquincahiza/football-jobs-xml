@@ -31,6 +31,22 @@
     "company_logo_url": ""
   },
   {
+    "club_id": "newcastle",
+    "name": "Newcastle United",
+    "source_type": "custom",
+    "source_url": "https://careers.newcastleunited.com/jobs",
+    "company_url": "https://www.newcastleunited.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "astonvilla",
+    "name": "Aston Villa",
+    "source_type": "custom",
+    "source_url": "https://careers.avfc.co.uk/jobs",
+    "company_url": "https://www.avfc.co.uk/",
+    "company_logo_url": ""
+  },
+  {
     "club_id": "bayern",
     "name": "FC Bayern Munich",
     "source_type": "custom",
