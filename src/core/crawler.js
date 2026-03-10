@@ -3,6 +3,9 @@ const custom = require("../connectors/custom");
 const teamtailor = require("../connectors/teamtailor");
 const intervieweb = require("../connectors/intervieweb");
 const workforceready = require("../connectors/workforceready");
+const talos = require("../connectors/talos");
+const pinpoint = require("../connectors/pinpoint");
+const hibob = require("../connectors/hibob");
 const { normalizeJobRecord } = require("../connectors/utils");
 const { upsertJobs } = require("../storage/fileStore");
 
@@ -23,6 +26,9 @@ const CONNECTORS = {
   teamtailor,
   intervieweb,
   workforceready,
+  talos,
+  pinpoint,
+  hibob,
 };
 
 const LANDING_PAGE_TITLES = new Set([

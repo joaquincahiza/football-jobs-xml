@@ -47,6 +47,30 @@
     "company_logo_url": ""
   },
   {
+    "club_id": "everton",
+    "name": "Everton",
+    "source_type": "talos",
+    "source_url": "https://careers.evertonfc.com/vacancies",
+    "company_url": "https://www.evertonfc.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "bournemouth",
+    "name": "AFC Bournemouth",
+    "source_type": "pinpoint",
+    "source_url": "https://careers.afcb.co.uk/",
+    "company_url": "https://www.afcb.co.uk/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "fulham",
+    "name": "Fulham",
+    "source_type": "hibob",
+    "source_url": "https://fulhamfc.careers.hibob.com/jobs",
+    "company_url": "https://www.fulhamfc.com/",
+    "company_logo_url": ""
+  },
+  {
     "club_id": "bayern",
     "name": "FC Bayern Munich",
     "source_type": "custom",

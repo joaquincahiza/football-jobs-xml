@@ -739,6 +739,7 @@ function normalizeJobRecord(club, rawJob) {
 
   return {
     club_id: club.club_id,
+    club: normalizeText(input.club || club.name || ""),
     source_id: sourceId,
     id,
     guid: `${id}-${slugify(title)}`,
@@ -754,6 +755,7 @@ function normalizeJobRecord(club, rawJob) {
     sticky: false,
     html_description: htmlDescription,
     plain_text_description: plainTextDescription,
+    department: normalizeText(input.department || input.team || ""),
     company_name: normalizeText(input.company_name || club.name || ""),
     company_url: normalizeText(input.company_url || club.company_url || club.source_url || ""),
     company_logo_url: String(
@@ -761,6 +763,8 @@ function normalizeJobRecord(club, rawJob) {
         ? input.company_logo_url
         : club.company_logo_url || ""
     ),
+    source_url: normalizeText(input.source_url || club.source_url || ""),
+    ats: normalizeText(input.ats || club.source_type || ""),
     _meta: input._meta || undefined,
   };
 }
