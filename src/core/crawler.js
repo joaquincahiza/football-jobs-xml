@@ -6,7 +6,6 @@ const workforceready = require("../connectors/workforceready");
 const talos = require("../connectors/talos");
 const pinpoint = require("../connectors/pinpoint");
 const hibob = require("../connectors/hibob");
-const successfactors = require("../connectors/successfactors");
 const softgarden = require("../connectors/softgarden");
 const { normalizeJobRecord } = require("../connectors/utils");
 const { upsertJobs } = require("../storage/fileStore");
@@ -31,7 +30,6 @@ const CONNECTORS = {
   talos,
   pinpoint,
   hibob,
-  successfactors,
   softgarden,
 };
 

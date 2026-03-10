@@ -73,10 +73,8 @@
   {
     "club_id": "bayern",
     "name": "FC Bayern Munich",
-    "source_type": "successfactors",
-    "source_url": "https://careers.fcbayern.com/go/View-all-job-offers/8774801/",
-    "company_url": "https://fcbayern.com/",
-    "company_logo_url": ""
+    "source_type": "custom",
+    "source_url": "https://careers.fcbayern.com/"
   },
   {
     "club_id": "dortmund",
