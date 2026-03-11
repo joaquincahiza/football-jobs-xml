@@ -7,6 +7,7 @@ const talos = require("../connectors/talos");
 const pinpoint = require("../connectors/pinpoint");
 const hibob = require("../connectors/hibob");
 const softgarden = require("../connectors/softgarden");
+const postingpanda = require("../connectors/postingpanda");
 const { normalizeJobRecord } = require("../connectors/utils");
 const { upsertJobs } = require("../storage/fileStore");
 
@@ -31,6 +32,7 @@ const CONNECTORS = {
   pinpoint,
   hibob,
   softgarden,
+  postingpanda,
 };
 
 const LANDING_PAGE_TITLES = new Set([

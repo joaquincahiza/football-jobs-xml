@@ -5,6 +5,7 @@ const {
   gotoWithRetry,
   canonicalizeUrl,
   normalizeText,
+  slugify,
   extractJobPostingJsonLd,
   extractIdentifierFromJsonLd,
   extractLocationFromJsonLd,
@@ -29,6 +30,13 @@ const MANUTD_LISTING_URL_REGEX = /candidatemanager\.net\/cm\/p\/pjobs\.aspx/i;
 const MANUTD_DETAIL_URL_REGEX = /candidatemanager\.net\/cm\/p\/pjobdetails\.aspx/i;
 const MANUTD_TABLE_HEADING_REGEX = /current vacancies/i;
 const MANUTD_CACHE = new Map();
+const LEEDS_CLUB_ID = "leeds";
+const WOLVES_CLUB_ID = "wolves";
+const LEEDS_APPLY_URL_REGEX = /^https:\/\/forms\.office\.com\//i;
+const LEEDS_CACHE = new Map();
+const LEEDS_URL_CACHE = new Map();
+const WOLVES_CACHE = new Map();
+const WOLVES_URL_CACHE = new Map();
 const SHARED_CAREERS_CLUB_IDS = new Set(["newcastle", "astonvilla"]);
 const SHARED_CAREERS_CACHE = new Map();
 const SHARED_CAREERS_LISTING_PATH_REGEX = /^\/jobs\/?$/i;
@@ -88,6 +96,14 @@ function isManUtdClub(club) {
   return normalizeText(club && club.club_id).toLowerCase() === MANUTD_CLUB_ID;
 }
 
+function isLeedsClub(club) {
+  return normalizeText(club && club.club_id).toLowerCase() === LEEDS_CLUB_ID;
+}
+
+function isWolvesClub(club) {
+  return normalizeText(club && club.club_id).toLowerCase() === WOLVES_CLUB_ID;
+}
+
 function isSharedCareersClub(club) {
   return SHARED_CAREERS_CLUB_IDS.has(
     normalizeText(club && club.club_id).toLowerCase()
@@ -99,6 +115,14 @@ function buildManUtdCacheKey(club, sourceId) {
 }
 
 function buildSharedCareersCacheKey(club, sourceId) {
+  return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function buildLeedsCacheKey(club, sourceId) {
+  return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function buildWolvesCacheKey(club, sourceId) {
   return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
 }
 
@@ -942,9 +966,474 @@ async function fetchSharedCareersJob(club, jobUrl, options = {}) {
   });
 }
 
+function extractLeedsSourceIdFromApplyUrl(url) {
+  try {
+    const parsed = new URL(url);
+    const segments = parsed.pathname.split("/").filter(Boolean);
+
+    if (segments.length >= 2 && normalizeText(segments[0]).toLowerCase() === "e") {
+      return normalizeText(segments[1]).toLowerCase();
+    }
+
+    const queryId = normalizeText(
+      parsed.searchParams.get("id") || parsed.searchParams.get("ID") || ""
+    );
+    if (queryId) {
+      return slugify(queryId);
+    }
+  } catch {
+    // Ignore URL parsing failures.
+  }
+
+  return normalizeText(extractSourceIdFromUrl(url)).toLowerCase();
+}
+
+function cleanLeedsTitle(value) {
+  const normalized = normalizeText(value)
+    .replace(/\s*[–-]\s*fill\s*out\s*form\s*$/i, "")
+    .replace(/^apply(?:\s+here)?\s*:\s*/i, "")
+    .trim();
+
+  if (!normalized || /^https?:\/\//i.test(normalized)) {
+    return "";
+  }
+
+  return normalized;
+}
+
+function extractLeedsTitleFromAccordion($, articleNode) {
+  const heading = $(articleNode)
+    .closest(".v3-accordion__expandableSection")
+    .children("h1,h2,h3,h4,h5,h6")
+    .first();
+
+  return cleanLeedsTitle(heading.text());
+}
+
+function extractLeedsEntry($, club, anchorNode) {
+  const applyUrl = canonicalizeUrl(club.source_url, $(anchorNode).attr("href"));
+  if (!applyUrl || !LEEDS_APPLY_URL_REGEX.test(applyUrl)) {
+    return null;
+  }
+
+  const sourceId = extractLeedsSourceIdFromApplyUrl(applyUrl);
+  if (!sourceId) {
+    return null;
+  }
+
+  const article = $(anchorNode).closest("article").first();
+  if (!article.length) {
+    return null;
+  }
+
+  const articleHtml = String(article.html() || "").trim();
+  if (!articleHtml) {
+    return null;
+  }
+
+  const local$ = cheerio.load(`<section id="__leeds_card__">${articleHtml}</section>`);
+  const anchorTitle = cleanLeedsTitle($(anchorNode).text());
+  const labelTitle = cleanLeedsTitle(
+    findValueByLabels(local$, ["job title", "title", "position", "role"])
+  );
+  const accordionTitle = extractLeedsTitleFromAccordion($, article);
+  const title = anchorTitle || labelTitle || accordionTitle || `Leeds role ${sourceId}`;
+  const location = findValueByLabels(local$, ["location", "base location"]);
+  const department = findValueByLabels(local$, ["department", "team"]);
+  const employmentType = findValueByLabels(local$, [
+    "hours of work",
+    "hours",
+    "employment type",
+    "contract type",
+    "job type",
+  ]);
+  const expiresAt = parseDateToIso(
+    findValueByLabels(local$, [
+      "closing",
+      "closing date",
+      "application deadline",
+      "deadline",
+    ])
+  );
+
+  const htmlDescription = articleHtml;
+  const plainTextDescription = htmlToStructuredPlainText(htmlDescription);
+
+  return {
+    source_id: sourceId,
+    id: sourceId,
+    url: applyUrl,
+    application_link: applyUrl,
+    title,
+    department,
+    arrangement: mapArrangementFromEmploymentType(employmentType),
+    employment_type: employmentType,
+    location_type: "onsite",
+    location,
+    published_at: "",
+    expires_at: expiresAt,
+    highlighted: false,
+    sticky: false,
+    html_description: htmlDescription,
+    plain_text_description: plainTextDescription,
+    company_name: club.name,
+    company_url: club.company_url || club.source_url || "",
+    company_logo_url: club.company_logo_url || "",
+  };
+}
+
+function mergeLeedsEntries(existing, incoming) {
+  if (!existing) {
+    return incoming;
+  }
+
+  const merged = { ...existing };
+  const fields = [
+    "title",
+    "department",
+    "arrangement",
+    "employment_type",
+    "location",
+    "published_at",
+    "expires_at",
+    "html_description",
+    "plain_text_description",
+  ];
+
+  for (const field of fields) {
+    if (!normalizeText(merged[field]) && normalizeText(incoming[field])) {
+      merged[field] = incoming[field];
+    }
+  }
+
+  return merged;
+}
+
+function parseLeedsEntries(club, html) {
+  const $ = cheerio.load(String(html || ""));
+  const bySourceId = new Map();
+
+  $("a[href]").each((_, anchorNode) => {
+    const entry = extractLeedsEntry($, club, anchorNode);
+    if (!entry || !entry.source_id) {
+      return;
+    }
+
+    const existing = bySourceId.get(entry.source_id);
+    bySourceId.set(entry.source_id, mergeLeedsEntries(existing, entry));
+  });
+
+  return Array.from(bySourceId.values());
+}
+
+async function discoverLeedsJobUrls(club, options = {}) {
+  return withPage(options, async (page) => {
+    await gotoWithRetry(page, club.source_url);
+    const entries = parseLeedsEntries(club, await page.content());
+    const urls = [];
+
+    for (const entry of entries) {
+      if (!entry.source_id || !entry.url) {
+        continue;
+      }
+
+      LEEDS_CACHE.set(buildLeedsCacheKey(club, entry.source_id), entry);
+      LEEDS_URL_CACHE.set(
+        `${normalizeText(club && club.club_id)}::${normalizeText(entry.url)}`,
+        entry.source_id
+      );
+      urls.push(entry.url);
+    }
+
+    return Array.from(new Set(urls));
+  });
+}
+
+function findLeedsSourceIdByUrl(club, jobUrl) {
+  const direct = extractLeedsSourceIdFromApplyUrl(jobUrl);
+  if (direct) {
+    return direct;
+  }
+
+  return normalizeText(
+    LEEDS_URL_CACHE.get(
+      `${normalizeText(club && club.club_id)}::${normalizeText(jobUrl)}`
+    ) || ""
+  );
+}
+
+async function fetchLeedsJob(club, jobUrl, options = {}) {
+  const sourceId = findLeedsSourceIdByUrl(club, jobUrl);
+  let cachedJob = sourceId
+    ? LEEDS_CACHE.get(buildLeedsCacheKey(club, sourceId))
+    : null;
+
+  if (!cachedJob) {
+    await discoverLeedsJobUrls(club, options);
+    cachedJob = sourceId
+      ? LEEDS_CACHE.get(buildLeedsCacheKey(club, sourceId))
+      : null;
+  }
+
+  if (!cachedJob) {
+    return {
+      club_id: club.club_id,
+      source_id: sourceId,
+      id: sourceId,
+      url: jobUrl,
+      application_link: jobUrl,
+      title: "",
+      arrangement: "",
+      location_type: "onsite",
+      location: "",
+      published_at: "",
+      expires_at: "",
+      highlighted: false,
+      sticky: false,
+      html_description: "",
+      plain_text_description: "",
+      company_name: club.name,
+      company_url: club.company_url || club.source_url || "",
+      company_logo_url: club.company_logo_url || "",
+    };
+  }
+
+  return {
+    club_id: club.club_id,
+    ...cachedJob,
+  };
+}
+
+function extractEmailAddress(text) {
+  const match = normalizeText(text).match(
+    /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i
+  );
+  return match ? String(match[0]).toLowerCase() : "";
+}
+
+function buildWolvesFallbackUrl(club, sourceId) {
+  const base = normalizeText(club && club.source_url);
+  if (!base) {
+    return "";
+  }
+
+  const separator = base.includes("?") ? "&" : "?";
+  return `${base}${separator}job=${encodeURIComponent(sourceId)}`;
+}
+
+function extractWolvesClosingDate(text) {
+  const match = String(text || "").match(
+    /closing\s*date\s*:\s*([^\n\r]+)/i
+  );
+  if (!match) {
+    return "";
+  }
+
+  return parseDateToIso(match[1]);
+}
+
+function extractWolvesEntry($, club, cardNode) {
+  const title = normalizeText($(cardNode).find("h1,h2,h3,h4,h5,h6").first().text());
+  const sourceId = slugify(title);
+  if (!sourceId) {
+    return null;
+  }
+
+  const cardHtml = String($(cardNode).html() || "").trim();
+  if (!cardHtml) {
+    return null;
+  }
+
+  const local$ = cheerio.load(`<section id="__wolves_card__">${cardHtml}</section>`);
+  const rawText = normalizeText($(cardNode).text());
+  const links = [];
+
+  $(cardNode)
+    .find("a[href]")
+    .each((_, node) => {
+      const absolute = canonicalizeUrl(club.source_url, $(node).attr("href"));
+      if (!absolute) {
+        return;
+      }
+
+      links.push({
+        href: absolute,
+        text: normalizeText($(node).text()),
+      });
+    });
+
+  const pdfLink = normalizeText(
+    (links.find((item) => /\.pdf(?:$|\?)/i.test(item.href)) || {}).href
+  );
+  const explicitApplyLink = normalizeText(
+    (
+      links.find(
+        (item) =>
+          item.text.toLowerCase().includes("apply") &&
+          !/\.pdf(?:$|\?)/i.test(item.href)
+      ) || {}
+    ).href
+  );
+  const mailtoLink = normalizeText(
+    (links.find((item) => item.href.toLowerCase().startsWith("mailto:")) || {}).href
+  );
+  const emailAddress = extractEmailAddress(rawText);
+  const inferredMailto = emailAddress ? `mailto:${emailAddress}` : "";
+  const fallbackUrl = buildWolvesFallbackUrl(club, sourceId);
+  const url = pdfLink || explicitApplyLink || fallbackUrl;
+  const applicationLink =
+    explicitApplyLink || mailtoLink || inferredMailto || pdfLink || fallbackUrl;
+
+  const employmentType =
+    findValueByLabels(local$, [
+      "employment type",
+      "job type",
+      "contract type",
+      "hours",
+      "hours of work",
+      "position type",
+    ]) || title;
+  const location = findValueByLabels(local$, [
+    "location",
+    "base location",
+    "site",
+  ]);
+
+  return {
+    source_id: sourceId,
+    id: sourceId,
+    url,
+    application_link: applicationLink,
+    title,
+    arrangement: mapArrangementFromEmploymentType(employmentType),
+    employment_type: employmentType,
+    location_type: "onsite",
+    location,
+    published_at: "",
+    expires_at: extractWolvesClosingDate(rawText),
+    highlighted: false,
+    sticky: false,
+    html_description: cardHtml,
+    plain_text_description: htmlToStructuredPlainText(cardHtml),
+    company_name: club.name,
+    company_url: club.company_url || club.source_url || "",
+    company_logo_url: club.company_logo_url || "",
+  };
+}
+
+function parseWolvesEntries(club, html) {
+  const $ = cheerio.load(String(html || ""));
+  const entries = [];
+
+  $(".module.vacancies .vacancies__cards article").each((_, cardNode) => {
+    const entry = extractWolvesEntry($, club, cardNode);
+    if (entry) {
+      entries.push(entry);
+    }
+  });
+
+  return entries;
+}
+
+async function discoverWolvesJobUrls(club, options = {}) {
+  return withPage(options, async (page) => {
+    await gotoWithRetry(page, club.source_url);
+    const entries = parseWolvesEntries(club, await page.content());
+    const urls = [];
+
+    for (const entry of entries) {
+      if (!entry.source_id || !entry.url) {
+        continue;
+      }
+
+      WOLVES_CACHE.set(buildWolvesCacheKey(club, entry.source_id), entry);
+      WOLVES_URL_CACHE.set(
+        `${normalizeText(club && club.club_id)}::${normalizeText(entry.url)}`,
+        entry.source_id
+      );
+      urls.push(entry.url);
+    }
+
+    return Array.from(new Set(urls));
+  });
+}
+
+function findWolvesSourceIdByUrl(club, jobUrl) {
+  const fromCache = normalizeText(
+    WOLVES_URL_CACHE.get(
+      `${normalizeText(club && club.club_id)}::${normalizeText(jobUrl)}`
+    ) || ""
+  );
+  if (fromCache) {
+    return fromCache;
+  }
+
+  try {
+    const parsed = new URL(jobUrl);
+    const byQuery = normalizeText(parsed.searchParams.get("job"));
+    if (byQuery) {
+      return byQuery;
+    }
+  } catch {
+    // Ignore URL parsing errors.
+  }
+
+  return "";
+}
+
+async function fetchWolvesJob(club, jobUrl, options = {}) {
+  const sourceId = findWolvesSourceIdByUrl(club, jobUrl);
+  let cachedJob = sourceId
+    ? WOLVES_CACHE.get(buildWolvesCacheKey(club, sourceId))
+    : null;
+
+  if (!cachedJob) {
+    await discoverWolvesJobUrls(club, options);
+    cachedJob = sourceId
+      ? WOLVES_CACHE.get(buildWolvesCacheKey(club, sourceId))
+      : null;
+  }
+
+  if (!cachedJob) {
+    return {
+      club_id: club.club_id,
+      source_id: sourceId,
+      id: sourceId,
+      url: jobUrl,
+      application_link: jobUrl,
+      title: "",
+      arrangement: "",
+      location_type: "onsite",
+      location: "",
+      published_at: "",
+      expires_at: "",
+      highlighted: false,
+      sticky: false,
+      html_description: "",
+      plain_text_description: "",
+      company_name: club.name,
+      company_url: club.company_url || club.source_url || "",
+      company_logo_url: club.company_logo_url || "",
+    };
+  }
+
+  return {
+    club_id: club.club_id,
+    ...cachedJob,
+  };
+}
+
 async function discoverJobUrls(club, options = {}) {
   if (isManUtdClub(club)) {
     return discoverManUtdJobUrls(club, options);
+  }
+
+  if (isLeedsClub(club)) {
+    return discoverLeedsJobUrls(club, options);
+  }
+
+  if (isWolvesClub(club)) {
+    return discoverWolvesJobUrls(club, options);
   }
 
   if (isSharedCareersClub(club)) {
@@ -1020,6 +1509,14 @@ async function discoverJobUrls(club, options = {}) {
 async function fetchJob(club, jobUrl, options = {}) {
   if (isManUtdClub(club)) {
     return fetchManUtdJob(club, jobUrl, options);
+  }
+
+  if (isLeedsClub(club)) {
+    return fetchLeedsJob(club, jobUrl, options);
+  }
+
+  if (isWolvesClub(club)) {
+    return fetchWolvesJob(club, jobUrl, options);
   }
 
   if (isSharedCareersClub(club)) {

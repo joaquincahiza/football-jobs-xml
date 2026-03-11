@@ -47,6 +47,46 @@
     "company_logo_url": ""
   },
   {
+    "club_id": "crystalpalace",
+    "name": "Crystal Palace",
+    "source_type": "teamtailor",
+    "source_url": "https://careers.cpfc.co.uk/jobs",
+    "company_url": "https://www.cpfc.co.uk/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "leeds",
+    "name": "Leeds United",
+    "source_type": "custom",
+    "source_url": "https://www.leedsunited.com/en/club/careers",
+    "company_url": "https://www.leedsunited.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "nottinghamforest",
+    "name": "Nottingham Forest",
+    "source_type": "teamtailor",
+    "source_url": "https://careers.nottinghamforest.co.uk/jobs",
+    "company_url": "https://www.nottinghamforest.co.uk/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "burnley",
+    "name": "Burnley",
+    "source_type": "postingpanda",
+    "source_url": "https://careers.burnleyfootballclub.com",
+    "company_url": "https://www.burnleyfootballclub.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "wolves",
+    "name": "Wolverhampton Wanderers",
+    "source_type": "custom",
+    "source_url": "https://www.wolves.co.uk/club/vacancies/",
+    "company_url": "https://www.wolves.co.uk/",
+    "company_logo_url": ""
+  },
+  {
     "club_id": "everton",
     "name": "Everton",
     "source_type": "talos",

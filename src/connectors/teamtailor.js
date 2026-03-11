@@ -22,6 +22,11 @@ const {
 const JOB_PATH_REGEX = /^\/jobs\/[^/?#]+\/?$/i;
 const LISTING_PATH_REGEX = /^\/jobs\/?$/i;
 const JOB_LINK_IN_HTML_REGEX = /(?:https?:\/\/[^\s"'<>]+|\/jobs\/[a-z0-9][a-z0-9-]*)/gi;
+const COOKIE_TITLE_PATTERNS = [
+  /select which cookies you accept/i,
+  /this website uses cookies/i,
+  /^cookie settings$/i,
+];
 
 function isTeamtailorJobUrl(url) {
   try {
@@ -58,6 +63,100 @@ function extractSourceIdFromTeamtailorUrl(jobUrl) {
   }
 
   return extractSourceIdFromUrl(jobUrl);
+}
+
+function isCookieTitle(value) {
+  const text = normalizeText(value);
+  if (!text) {
+    return true;
+  }
+
+  return COOKIE_TITLE_PATTERNS.some((pattern) => pattern.test(text));
+}
+
+function humanizeJobSegment(segment) {
+  const cleaned = normalizeText(
+    String(segment || "")
+      .replace(/^(\d{3,})-?/, "")
+      .replace(/-(\d{3,})$/, "")
+      .replace(/-/g, " ")
+  );
+
+  if (!cleaned) {
+    return "";
+  }
+
+  return cleaned
+    .split(" ")
+    .map((word) => {
+      if (!word) {
+        return "";
+      }
+
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+}
+
+function extractTitleFromTeamtailorUrl(jobUrl) {
+  try {
+    const parsed = new URL(jobUrl);
+    const segment = decodeURIComponent(
+      parsed.pathname.split("/").filter(Boolean).pop() || ""
+    );
+    return humanizeJobSegment(segment);
+  } catch {
+    return "";
+  }
+}
+
+function stripLikelySiteSuffix(value, club) {
+  const title = normalizeText(value);
+  if (!title) {
+    return "";
+  }
+
+  const parts = title.split(/\s[|-]\s/);
+  if (parts.length < 2) {
+    return title;
+  }
+
+  const lastPart = normalizeText(parts[parts.length - 1]).toLowerCase();
+  const clubTokens = normalizeText(club && club.name)
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((token) => token.length >= 3);
+
+  const suffixLooksLikeSite =
+    /teamtailor|career site|careers|jobs?|vacancies/.test(lastPart) ||
+    clubTokens.some((token) => lastPart.includes(token));
+
+  if (!suffixLooksLikeSite) {
+    return title;
+  }
+
+  return normalizeText(parts.slice(0, -1).join(" - "));
+}
+
+function pickBestTitle(club, jobUrl, $, jobPosting) {
+  const candidates = [
+    normalizeText((jobPosting && (jobPosting.title || jobPosting.name)) || ""),
+    normalizeText($("h1").first().text()),
+    normalizeText($('[data-testid*="title"]').first().text()),
+    normalizeText($("meta[property='og:title']").attr("content") || ""),
+    normalizeText($("meta[name='twitter:title']").attr("content") || ""),
+    normalizeText($("title").first().text()),
+    extractTitleFromTeamtailorUrl(jobUrl),
+  ];
+
+  for (const candidate of candidates) {
+    const stripped = stripLikelySiteSuffix(candidate, club);
+    if (stripped && !isCookieTitle(stripped)) {
+      return stripped;
+    }
+  }
+
+  return extractTitleFromTeamtailorUrl(jobUrl);
 }
 
 function isPaginationLink(url, linkText) {
@@ -204,9 +303,7 @@ async function fetchJob(club, jobUrl, options = {}) {
     const sourceId =
       extractSourceIdFromTeamtailorUrl(jobUrl) ||
       extractIdentifierFromJsonLd(jobPosting);
-    const title =
-      normalizeText((jobPosting && (jobPosting.title || jobPosting.name)) || "") ||
-      normalizeText($("h1").first().text());
+    const title = pickBestTitle(club, jobUrl, $, jobPosting);
     const location =
       extractLocationFromJsonLd(jobPosting) || extractFallbackLocation($);
     const employmentType =
