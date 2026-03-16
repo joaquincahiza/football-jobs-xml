@@ -8,6 +8,10 @@ const pinpoint = require("../connectors/pinpoint");
 const hibob = require("../connectors/hibob");
 const softgarden = require("../connectors/softgarden");
 const postingpanda = require("../connectors/postingpanda");
+const paylocity = require("../connectors/paylocity");
+const successfactors = require("../connectors/successfactors");
+const jobylon = require("../connectors/jobylon");
+const icims = require("../connectors/icims");
 const { normalizeJobRecord } = require("../connectors/utils");
 const { upsertJobs } = require("../storage/fileStore");
 
@@ -33,6 +37,10 @@ const CONNECTORS = {
   hibob,
   softgarden,
   postingpanda,
+  paylocity,
+  successfactors,
+  jobylon,
+  icims,
 };
 
 const LANDING_PAGE_TITLES = new Set([
@@ -128,7 +136,14 @@ async function crawlClub(club) {
 
   try {
     if (typeof connector.createSession === "function") {
-      session = await connector.createSession();
+      try {
+        session = await connector.createSession();
+      } catch (error) {
+        console.warn(
+          `[warn] ${club.club_id}: fallo al iniciar sesión de navegador -> ${error.message}`
+        );
+        session = undefined;
+      }
     }
 
     let jobUrls = [];

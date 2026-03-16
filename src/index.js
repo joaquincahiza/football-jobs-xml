@@ -5,6 +5,21 @@ const { exportJobsToXml } = require("./export/xmlExport");
 
 const CLUBS_FILE = path.resolve(__dirname, "./config/clubs.json");
 
+function installEpipeGuard(stream) {
+  if (!stream || typeof stream.on !== "function") {
+    return;
+  }
+
+  stream.on("error", (error) => {
+    if (error && error.code === "EPIPE") {
+      process.exit(0);
+    }
+  });
+}
+
+installEpipeGuard(process.stdout);
+installEpipeGuard(process.stderr);
+
 async function loadClubs() {
   const raw = await fs.readFile(CLUBS_FILE, "utf8");
   const parsed = JSON.parse(raw);

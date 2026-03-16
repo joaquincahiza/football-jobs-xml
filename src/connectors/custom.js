@@ -32,16 +32,26 @@ const MANUTD_TABLE_HEADING_REGEX = /current vacancies/i;
 const MANUTD_CACHE = new Map();
 const LEEDS_CLUB_ID = "leeds";
 const WOLVES_CLUB_ID = "wolves";
+const CLASSIC_FOOTBALL_SHIRTS_CLUB_ID = "classicfootballshirts";
+const THEFA_CLUB_ID = "thefa";
 const LEEDS_APPLY_URL_REGEX = /^https:\/\/forms\.office\.com\//i;
+const THEFA_DETAIL_PATH_REGEX = /\/jobs\/vacancy\/.+\/(\d+)\/description\/?$/i;
 const LEEDS_CACHE = new Map();
 const LEEDS_URL_CACHE = new Map();
 const WOLVES_CACHE = new Map();
 const WOLVES_URL_CACHE = new Map();
+const CLASSIC_CACHE = new Map();
+const CLASSIC_URL_CACHE = new Map();
+const THEFA_CACHE = new Map();
+const THEFA_URL_CACHE = new Map();
 const SHARED_CAREERS_CLUB_IDS = new Set(["newcastle", "astonvilla"]);
 const SHARED_CAREERS_CACHE = new Map();
 const SHARED_CAREERS_LISTING_PATH_REGEX = /^\/jobs\/?$/i;
 const SHARED_CAREERS_DETAIL_PATH_REGEX = /^\/job\/([^/?#]+)\/?$/i;
 const SHARED_CAREERS_APPLY_PATH_REGEX = /^\/job\/([^/?#]+)\/apply\/?$/i;
+const THEFA_PAGESTAMP_REGEX = /pagestamp=([a-z0-9-]{20,})/i;
+const THEFA_RESULTS_PATH = "/jobs/vacancy/find/results/";
+const THEFA_GRID_PATH = "/jobs/vacancy/find/results/ajaxaction/posbrowser_gridhandler/";
 
 function logManUtdHttp(message) {
   console.log(`[http] manutd ${message}`);
@@ -104,6 +114,17 @@ function isWolvesClub(club) {
   return normalizeText(club && club.club_id).toLowerCase() === WOLVES_CLUB_ID;
 }
 
+function isClassicFootballShirtsClub(club) {
+  return (
+    normalizeText(club && club.club_id).toLowerCase() ===
+    CLASSIC_FOOTBALL_SHIRTS_CLUB_ID
+  );
+}
+
+function isTheFaClub(club) {
+  return normalizeText(club && club.club_id).toLowerCase() === THEFA_CLUB_ID;
+}
+
 function isSharedCareersClub(club) {
   return SHARED_CAREERS_CLUB_IDS.has(
     normalizeText(club && club.club_id).toLowerCase()
@@ -124,6 +145,18 @@ function buildLeedsCacheKey(club, sourceId) {
 
 function buildWolvesCacheKey(club, sourceId) {
   return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function buildClassicCacheKey(club, sourceId) {
+  return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function buildTheFaCacheKey(club, sourceId) {
+  return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function buildUrlCacheKey(club, url) {
+  return `${normalizeText(club && club.club_id)}::${normalizeText(url)}`;
 }
 
 function extractSharedSourceIdFromSlug(slug) {
@@ -314,6 +347,20 @@ function resolveSharedLocationType(value, detailText) {
   }
 
   if (detailNormalized.includes("remote")) {
+    return "remote";
+  }
+
+  return "onsite";
+}
+
+function resolveLocationType(value) {
+  const normalized = normalizeText(value).toLowerCase();
+
+  if (normalized.includes("hybrid")) {
+    return "hybrid";
+  }
+
+  if (normalized.includes("remote")) {
     return "remote";
   }
 
@@ -1204,6 +1251,886 @@ async function fetchLeedsJob(club, jobUrl, options = {}) {
   };
 }
 
+function cleanClassicTitle(value) {
+  const cleaned = normalizeText(value)
+    .replace(/\bapply now\b/gi, "")
+    .replace(/\bapply\b/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+
+  if (!cleaned || /^careers?$/i.test(cleaned)) {
+    return "";
+  }
+
+  return cleaned;
+}
+
+function buildClassicSyntheticUrl(club, sourceId) {
+  const base = normalizeText(club && club.source_url);
+  if (!base || !sourceId) {
+    return base;
+  }
+
+  const separator = base.includes("?") ? "&" : "?";
+  return `${base}${separator}job=${encodeURIComponent(sourceId)}`;
+}
+
+function extractClassicSourceIdFromUrl(club, jobUrl) {
+  try {
+    const parsed = new URL(jobUrl);
+    const byQuery = normalizeText(parsed.searchParams.get("job") || "");
+    if (byQuery) {
+      return slugify(byQuery) || byQuery;
+    }
+  } catch {
+    // Ignore URL parsing failures.
+  }
+
+  return normalizeText(
+    CLASSIC_URL_CACHE.get(buildUrlCacheKey(club, jobUrl)) || ""
+  );
+}
+
+function findClassicCard($, anchorNode) {
+  const selectors = [
+    "article",
+    "li",
+    "section",
+    '[class*="job"]',
+    '[class*="vacan"]',
+    '[class*="role"]',
+    '[class*="position"]',
+    '[class*="card"]',
+    ".elementor-widget-container",
+  ];
+
+  for (const selector of selectors) {
+    const candidate = $(anchorNode).closest(selector).first();
+    if (candidate.length) {
+      return candidate;
+    }
+  }
+
+  return $(anchorNode).parent();
+}
+
+function extractClassicEntry($, club, anchorNode, fallbackIndex) {
+  const href = normalizeText($(anchorNode).attr("href"));
+  const emailFromHref = extractEmailAddress(href);
+  const card = findClassicCard($, anchorNode);
+  const cardHtml = String(card.html() || "").trim();
+  const cardText = normalizeText(card.text());
+  const emailFromCard = extractEmailAddress(cardText);
+  const emailAddress = emailFromHref || emailFromCard;
+  const applicationLink = emailAddress ? `mailto:${emailAddress}` : "";
+
+  if (!applicationLink) {
+    return null;
+  }
+
+  const local$ = cheerio.load(`<section id="__classic_card__">${cardHtml}</section>`);
+  const headingTitle = cleanClassicTitle(
+    card
+      .find("h1,h2,h3,h4,h5,h6,strong,[class*='title']")
+      .first()
+      .text()
+  );
+  const anchorTitle = cleanClassicTitle($(anchorNode).text());
+  const labelTitle = cleanClassicTitle(
+    findValueByLabels(local$, ["job title", "title", "position", "role"])
+  );
+  const title =
+    headingTitle ||
+    anchorTitle ||
+    labelTitle ||
+    `Classic Football Shirts role ${fallbackIndex + 1}`;
+  const sourceId =
+    slugify(title) || slugify(emailAddress) || `classic-role-${fallbackIndex + 1}`;
+  const employmentType = findValueByLabels(local$, [
+    "job type",
+    "employment type",
+    "contract type",
+    "hours",
+  ]);
+  const location = findValueByLabels(local$, [
+    "location",
+    "base location",
+    "site",
+  ]);
+  const locationTypeRaw = findValueByLabels(local$, [
+    "location type",
+    "work model",
+    "workplace",
+  ]);
+  const publishedAt = parseDateToIso(
+    findValueByLabels(local$, ["posted", "posted on", "date posted", "published"])
+  );
+  const expiresAt = parseDateToIso(
+    findValueByLabels(local$, ["closing date", "deadline", "application deadline"])
+  );
+  const htmlDescription =
+    cardHtml || `<p>${escapeHtml(cardText || title)}</p>`;
+  const plainTextDescription = htmlToStructuredPlainText(htmlDescription);
+
+  return {
+    source_id: sourceId,
+    id: sourceId,
+    url: buildClassicSyntheticUrl(club, sourceId),
+    application_link: applicationLink,
+    title,
+    department: findValueByLabels(local$, ["department", "team", "function"]),
+    arrangement: mapArrangementFromEmploymentType(employmentType),
+    employment_type: employmentType,
+    location_type: resolveLocationType(locationTypeRaw),
+    location,
+    published_at: publishedAt,
+    expires_at: expiresAt,
+    highlighted: false,
+    sticky: false,
+    html_description: htmlDescription,
+    plain_text_description: plainTextDescription,
+    company_name: club.name,
+    company_url: club.company_url || club.source_url || "",
+    company_logo_url: club.company_logo_url || "",
+  };
+}
+
+function mergeClassicEntries(existing, incoming) {
+  if (!existing) {
+    return incoming;
+  }
+
+  const merged = { ...existing };
+  const fields = [
+    "title",
+    "department",
+    "arrangement",
+    "employment_type",
+    "location_type",
+    "location",
+    "published_at",
+    "expires_at",
+    "html_description",
+    "plain_text_description",
+    "application_link",
+    "url",
+  ];
+
+  for (const field of fields) {
+    if (!normalizeText(merged[field]) && normalizeText(incoming[field])) {
+      merged[field] = incoming[field];
+    }
+  }
+
+  return merged;
+}
+
+function parseClassicEntries(club, html) {
+  const $ = cheerio.load(String(html || ""));
+  const bySourceId = new Map();
+
+  $('a[href^="mailto:"]').each((index, anchorNode) => {
+    const entry = extractClassicEntry($, club, anchorNode, index);
+    if (!entry || !entry.source_id) {
+      return;
+    }
+
+    bySourceId.set(
+      entry.source_id,
+      mergeClassicEntries(bySourceId.get(entry.source_id), entry)
+    );
+  });
+
+  if (!bySourceId.size) {
+    const htmlSource = String(html || "");
+    const emails = Array.from(
+      new Set(
+        Array.from(
+          htmlSource.matchAll(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi)
+        )
+          .map((match) => String(match[0] || "").toLowerCase().trim())
+          .filter(Boolean)
+      )
+    );
+
+    const fallbackTitleRaw =
+      normalizeText($("h1").first().text()) ||
+      normalizeText($("h2").first().text()) ||
+      "Email application opportunity";
+    const fallbackTitle = /^careers?$/i.test(fallbackTitleRaw)
+      ? "Email application opportunity"
+      : fallbackTitleRaw;
+    const fallbackDescription =
+      normalizeHtmlFragment(selectDescriptionHtml($)) ||
+      `<p>${escapeHtml(normalizeText($("body").text()).slice(0, 800))}</p>`;
+
+    emails.forEach((emailAddress, index) => {
+      const sourceId =
+        slugify(`${fallbackTitle}-${emailAddress}`) ||
+        slugify(emailAddress) ||
+        `classic-email-${index + 1}`;
+      bySourceId.set(sourceId, {
+        source_id: sourceId,
+        id: sourceId,
+        url: buildClassicSyntheticUrl(club, sourceId),
+        application_link: `mailto:${emailAddress}`,
+        title: fallbackTitle,
+        department: "",
+        arrangement: "fulltime",
+        employment_type: "",
+        location_type: "onsite",
+        location: "",
+        published_at: "",
+        expires_at: "",
+        highlighted: false,
+        sticky: false,
+        html_description: fallbackDescription,
+        plain_text_description: htmlToStructuredPlainText(fallbackDescription),
+        company_name: club.name,
+        company_url: club.company_url || club.source_url || "",
+        company_logo_url: club.company_logo_url || "",
+      });
+    });
+  }
+
+  if (!bySourceId.size) {
+    const source = String(html || "");
+    if (/cloudflare|cf-error-details|attention required/i.test(source)) {
+      console.warn(
+        `[warn] ${normalizeText(club && club.club_id)}: careers bloqueado por Cloudflare`
+      );
+    }
+  }
+
+  return Array.from(bySourceId.values());
+}
+
+async function discoverClassicJobUrls(club, options = {}) {
+  return withPage(options, async (page) => {
+    await gotoWithRetry(page, club.source_url);
+    const entries = parseClassicEntries(club, await page.content());
+    const urls = [];
+
+    for (const entry of entries) {
+      if (!entry.source_id || !entry.url) {
+        continue;
+      }
+
+      CLASSIC_CACHE.set(buildClassicCacheKey(club, entry.source_id), entry);
+      CLASSIC_URL_CACHE.set(buildUrlCacheKey(club, entry.url), entry.source_id);
+      urls.push(entry.url);
+    }
+
+    return Array.from(new Set(urls));
+  });
+}
+
+async function fetchClassicJob(club, jobUrl, options = {}) {
+  const sourceId = extractClassicSourceIdFromUrl(club, jobUrl);
+  let cachedJob = sourceId
+    ? CLASSIC_CACHE.get(buildClassicCacheKey(club, sourceId))
+    : null;
+
+  if (!cachedJob) {
+    await discoverClassicJobUrls(club, options);
+    cachedJob = sourceId
+      ? CLASSIC_CACHE.get(buildClassicCacheKey(club, sourceId))
+      : null;
+  }
+
+  if (!cachedJob) {
+    return {
+      club_id: club.club_id,
+      source_id: sourceId,
+      id: sourceId,
+      url: jobUrl,
+      application_link: "",
+      title: "",
+      arrangement: "",
+      location_type: "onsite",
+      location: "",
+      published_at: "",
+      expires_at: "",
+      highlighted: false,
+      sticky: false,
+      html_description: "",
+      plain_text_description: "",
+      company_name: club.name,
+      company_url: club.company_url || club.source_url || "",
+      company_logo_url: club.company_logo_url || "",
+    };
+  }
+
+  return {
+    club_id: club.club_id,
+    ...cachedJob,
+  };
+}
+
+function parseTheFaDetailLink(baseUrl, value) {
+  const absoluteUrl = canonicalizeUrl(baseUrl, value);
+  if (!absoluteUrl) {
+    return null;
+  }
+
+  try {
+    const parsed = new URL(absoluteUrl);
+    const pathname = String(parsed.pathname || "");
+    const match = pathname.match(THEFA_DETAIL_PATH_REGEX);
+    if (!match) {
+      return null;
+    }
+
+    const sourceId = normalizeText(match[1]);
+    if (!sourceId) {
+      return null;
+    }
+
+    return {
+      source_id: sourceId,
+      url: parsed.href,
+    };
+  } catch {
+    return null;
+  }
+}
+
+function isTheFaListingLink(seedHost, url, linkText) {
+  try {
+    const parsed = new URL(url);
+    if (seedHost && parsed.hostname !== seedHost) {
+      return false;
+    }
+
+    if (!String(parsed.pathname || "").toLowerCase().startsWith("/jobs")) {
+      return false;
+    }
+
+    if (THEFA_DETAIL_PATH_REGEX.test(parsed.pathname)) {
+      return false;
+    }
+
+    const text = normalizeText(linkText).toLowerCase();
+    return (
+      text.includes("next") ||
+      text.includes("page") ||
+      text.includes("more") ||
+      /\/jobs\/home\/?$/i.test(parsed.pathname) ||
+      parsed.searchParams.has("page")
+    );
+  } catch {
+    return false;
+  }
+}
+
+function findTheFaCard($, anchorNode) {
+  const selectors = [
+    "article",
+    "li",
+    "tr",
+    '[class*="job"]',
+    '[class*="vacan"]',
+    '[class*="result"]',
+    '[class*="card"]',
+  ];
+
+  for (const selector of selectors) {
+    const candidate = $(anchorNode).closest(selector).first();
+    if (candidate.length) {
+      return candidate;
+    }
+  }
+
+  return $(anchorNode).parent();
+}
+
+function extractTheFaListingMeta($, anchorNode) {
+  const card = findTheFaCard($, anchorNode);
+  const cardHtml = String(card.html() || "").trim();
+  const local$ = cheerio.load(`<section id="__thefa_card__">${cardHtml}</section>`);
+  const headingTitle = normalizeText(
+    card.find("h1,h2,h3,h4,h5,h6,[class*='title']").first().text()
+  );
+  const anchorTitle = normalizeText($(anchorNode).text());
+  const locationTypeRaw = findValueByLabels(local$, [
+    "location type",
+    "work model",
+    "workplace",
+  ]);
+
+  return {
+    title: headingTitle || anchorTitle,
+    location:
+      findValueByLabels(local$, ["location", "job location", "base location"]) ||
+      "",
+    department:
+      findValueByLabels(local$, ["department", "team", "division", "function"]) ||
+      "",
+    employment_type:
+      findValueByLabels(local$, ["job type", "employment type", "contract type"]) ||
+      "",
+    published_at:
+      findValueByLabels(local$, [
+        "posted on",
+        "posted",
+        "date posted",
+        "published",
+      ]) || "",
+    expires_at:
+      findValueByLabels(local$, [
+        "closing date",
+        "application deadline",
+        "deadline",
+      ]) || "",
+    location_type: resolveLocationType(locationTypeRaw),
+  };
+}
+
+function mergeTheFaEntries(existing, incoming) {
+  if (!existing) {
+    return incoming;
+  }
+
+  const merged = { ...existing };
+  const fields = [
+    "title",
+    "location",
+    "department",
+    "employment_type",
+    "published_at",
+    "expires_at",
+    "location_type",
+    "url",
+    "application_link",
+  ];
+
+  for (const field of fields) {
+    if (!normalizeText(merged[field]) && normalizeText(incoming[field])) {
+      merged[field] = incoming[field];
+    }
+  }
+
+  return merged;
+}
+
+function buildTheFaDefaultApplyUrl(detailUrl) {
+  const normalized = normalizeText(detailUrl);
+  if (!normalized) {
+    return "";
+  }
+
+  if (/\/apply\/?$/i.test(normalized)) {
+    return normalized;
+  }
+
+  return normalized.replace(/\/description\/?$/i, "/apply/");
+}
+
+function collectTheFaDetailLinksFromHtml(baseUrl, html) {
+  const links = [];
+  const source = String(html || "");
+  const pattern = /\/jobs\/vacancy\/[^"'<>?\s]+\/\d+\/description\/?/gi;
+
+  for (const match of source.matchAll(pattern)) {
+    const parsed = parseTheFaDetailLink(baseUrl, match[0]);
+    if (parsed) {
+      links.push(parsed);
+    }
+  }
+
+  return links;
+}
+
+function extractTheFaPagestamp(value) {
+  const match = String(value || "").match(THEFA_PAGESTAMP_REGEX);
+  return match ? normalizeText(match[1]) : "";
+}
+
+function buildTheFaGridUrl(baseUrl, pagestamp) {
+  const stamp = normalizeText(pagestamp);
+  if (!stamp) {
+    return "";
+  }
+
+  return canonicalizeUrl(baseUrl, `${THEFA_GRID_PATH}?pagestamp=${stamp}`);
+}
+
+async function requestTheFaText(page, url) {
+  let lastError;
+
+  for (let attempt = 0; attempt <= 2; attempt += 1) {
+    try {
+      const response = await page.request.get(url, {
+        timeout: 45000,
+      });
+
+      if (!response.ok()) {
+        throw new Error(`HTTP ${response.status()}`);
+      }
+
+      const text = await response.text();
+      await page.waitForTimeout(1000);
+      return text;
+    } catch (error) {
+      lastError = error;
+      if (attempt < 2) {
+        await page.waitForTimeout(1000);
+      }
+    }
+  }
+
+  throw lastError || new Error("request thefa failed");
+}
+
+function parseTheFaExpiresAt(value) {
+  const normalized = normalizeText(value).replace(/^closing date\s*/i, "");
+  if (!normalized) {
+    return "";
+  }
+
+  return parseDateToIso(normalized);
+}
+
+function parseTheFaGridRows(baseUrl, html) {
+  const $ = cheerio.load(String(html || ""));
+  const rows = [];
+
+  $(".rowContainer").each((_, rowNode) => {
+    const anchor = $(rowNode).find(".rowHeader .rowLabel a[href]").first();
+    if (!anchor.length) {
+      return;
+    }
+
+    const detail = parseTheFaDetailLink(baseUrl, anchor.attr("href"));
+    if (!detail || !detail.source_id) {
+      return;
+    }
+
+    const closingText = normalizeText(
+      $(rowNode).find(".pospublishenddate_vacancyColumn").first().text()
+    );
+    const location = normalizeText(
+      $(rowNode).find(".codelist5value_vacancyColumn").first().text()
+    );
+    const department = normalizeText(
+      $(rowNode).find(".codelist2value_vacancyColumn").first().text()
+    );
+    const vacancyType = normalizeText(
+      $(rowNode).find(".codelist7value_vacancyColumn").first().text()
+    );
+
+    rows.push({
+      source_id: detail.source_id,
+      id: detail.source_id,
+      url: detail.url,
+      application_link: buildTheFaDefaultApplyUrl(detail.url),
+      title: normalizeText(anchor.text()),
+      location,
+      department,
+      employment_type: vacancyType,
+      published_at: "",
+      expires_at: parseTheFaExpiresAt(closingText),
+      location_type: "onsite",
+    });
+  });
+
+  return rows;
+}
+
+function extractTheFaNextGridUrl(baseUrl, html) {
+  const $ = cheerio.load(String(html || ""));
+  const next = $(".pagingButtons a.scroller_movenext.buttonEnabled[href]").first();
+  if (next.length) {
+    const href = normalizeText(next.attr("href"));
+    const absolute = canonicalizeUrl(baseUrl, href);
+    if (absolute) {
+      return absolute;
+    }
+  }
+
+  const genericNext = $(".pagingButtons a.scroller_movenext[href]").first();
+  if (genericNext.length && !genericNext.attr("disabled")) {
+    const href = normalizeText(genericNext.attr("href"));
+    const absolute = canonicalizeUrl(baseUrl, href);
+    if (absolute && !/buttonDisabled/.test(normalizeText(genericNext.attr("class")))) {
+      return absolute;
+    }
+  }
+
+  return "";
+}
+
+async function discoverTheFaJobUrls(club, options = {}) {
+  return withPage(options, async (page) => {
+    const resultsUrl =
+      canonicalizeUrl(club.source_url, THEFA_RESULTS_PATH) || club.source_url;
+    const queue = [resultsUrl];
+    const queued = new Set(queue);
+    const visited = new Set();
+    const listings = new Map();
+    let crawledPages = 0;
+
+    while (queue.length && crawledPages < MAX_DISCOVERY_PAGES) {
+      const currentGridUrl = queue.shift();
+      queued.delete(currentGridUrl);
+
+      if (visited.has(currentGridUrl)) {
+        continue;
+      }
+
+      let gridHtml = "";
+      try {
+        gridHtml = await requestTheFaText(page, currentGridUrl);
+      } catch (error) {
+        if (crawledPages === 0) {
+          await gotoWithRetry(page, resultsUrl);
+          const listingHtml = await page.content();
+          const pagestamp = extractTheFaPagestamp(listingHtml);
+          const rebuiltGridUrl = buildTheFaGridUrl(resultsUrl, pagestamp);
+          if (rebuiltGridUrl && !visited.has(rebuiltGridUrl) && !queued.has(rebuiltGridUrl)) {
+            queue.unshift(rebuiltGridUrl);
+            queued.add(rebuiltGridUrl);
+          }
+
+          for (const parsed of collectTheFaDetailLinksFromHtml(resultsUrl, listingHtml)) {
+            const listing = {
+              source_id: parsed.source_id,
+              id: parsed.source_id,
+              url: parsed.url,
+              application_link: buildTheFaDefaultApplyUrl(parsed.url),
+              location_type: "onsite",
+            };
+
+            listings.set(
+              parsed.source_id,
+              mergeTheFaEntries(listings.get(parsed.source_id), listing)
+            );
+          }
+        }
+
+        visited.add(currentGridUrl);
+        crawledPages += 1;
+        continue;
+      }
+
+      if (/window\.open\('\/jobs\/vacancy\/find\/results\//i.test(gridHtml)) {
+        await gotoWithRetry(page, resultsUrl);
+        const listingHtml = await page.content();
+        const pagestamp = extractTheFaPagestamp(listingHtml);
+        const rebuiltGridUrl = buildTheFaGridUrl(resultsUrl, pagestamp);
+        if (rebuiltGridUrl && !visited.has(rebuiltGridUrl) && !queued.has(rebuiltGridUrl)) {
+          queue.unshift(rebuiltGridUrl);
+          queued.add(rebuiltGridUrl);
+        }
+
+        visited.add(currentGridUrl);
+        crawledPages += 1;
+        continue;
+      }
+
+      const discoveredPagestamp = extractTheFaPagestamp(gridHtml);
+      const discoveredGridUrl = buildTheFaGridUrl(currentGridUrl, discoveredPagestamp);
+      const isGridHandlerUrl = /\/jobs\/vacancy\/find\/results\/ajaxaction\/posbrowser_gridhandler\//i.test(
+        currentGridUrl
+      );
+      if (
+        discoveredGridUrl &&
+        (!isGridHandlerUrl || discoveredGridUrl !== currentGridUrl) &&
+        !visited.has(discoveredGridUrl) &&
+        !queued.has(discoveredGridUrl)
+      ) {
+        queue.push(discoveredGridUrl);
+        queued.add(discoveredGridUrl);
+      }
+
+      for (const listing of parseTheFaGridRows(currentGridUrl, gridHtml)) {
+        listings.set(
+          listing.source_id,
+          mergeTheFaEntries(listings.get(listing.source_id), listing)
+        );
+      }
+
+      const nextGridUrl = extractTheFaNextGridUrl(currentGridUrl, gridHtml);
+      if (nextGridUrl && !visited.has(nextGridUrl) && !queued.has(nextGridUrl)) {
+        queue.push(nextGridUrl);
+        queued.add(nextGridUrl);
+      }
+
+      for (const parsed of collectTheFaDetailLinksFromHtml(currentGridUrl, gridHtml)) {
+        const listing = {
+          source_id: parsed.source_id,
+          id: parsed.source_id,
+          url: parsed.url,
+          application_link: buildTheFaDefaultApplyUrl(parsed.url),
+          location_type: "onsite",
+        };
+
+        listings.set(
+          parsed.source_id,
+          mergeTheFaEntries(listings.get(parsed.source_id), listing)
+        );
+      }
+
+      visited.add(currentGridUrl);
+      crawledPages += 1;
+    }
+
+    if (!listings.size) {
+      await gotoWithRetry(page, club.source_url);
+      const homeHtml = await page.content();
+      for (const parsed of collectTheFaDetailLinksFromHtml(club.source_url, homeHtml)) {
+        const listing = {
+          source_id: parsed.source_id,
+          id: parsed.source_id,
+          url: parsed.url,
+          application_link: buildTheFaDefaultApplyUrl(parsed.url),
+          location_type: "onsite",
+        };
+
+        listings.set(
+          parsed.source_id,
+          mergeTheFaEntries(listings.get(parsed.source_id), listing)
+        );
+      }
+    }
+
+    const urls = [];
+    for (const listing of listings.values()) {
+      if (!listing.source_id || !listing.url) {
+        continue;
+      }
+
+      THEFA_CACHE.set(buildTheFaCacheKey(club, listing.source_id), listing);
+      THEFA_URL_CACHE.set(buildUrlCacheKey(club, listing.url), listing.source_id);
+      urls.push(listing.url);
+    }
+
+    return Array.from(new Set(urls));
+  });
+}
+
+function extractTheFaSourceIdFromUrl(club, jobUrl) {
+  const parsed = parseTheFaDetailLink(jobUrl, jobUrl);
+  if (parsed && parsed.source_id) {
+    return parsed.source_id;
+  }
+
+  return normalizeText(THEFA_URL_CACHE.get(buildUrlCacheKey(club, jobUrl)) || "");
+}
+
+function resolveTheFaApplicationLink($, jobUrl) {
+  let applicationLink = "";
+
+  $("a[href]").each((_, node) => {
+    if (applicationLink) {
+      return;
+    }
+
+    const href = normalizeText($(node).attr("href"));
+    const absoluteUrl = canonicalizeUrl(jobUrl, href);
+    if (!absoluteUrl) {
+      return;
+    }
+
+    const text = normalizeText($(node).text()).toLowerCase();
+    if (/\/apply\/?/i.test(absoluteUrl) || text.includes("apply")) {
+      applicationLink = absoluteUrl;
+    }
+  });
+
+  if (applicationLink) {
+    return applicationLink;
+  }
+
+  const fallback = buildTheFaDefaultApplyUrl(jobUrl);
+  if (fallback && fallback !== jobUrl) {
+    return fallback;
+  }
+
+  return normalizeText(jobUrl);
+}
+
+async function fetchTheFaJob(club, jobUrl, options = {}) {
+  return withPage(options, async (page) => {
+    const sourceId = extractTheFaSourceIdFromUrl(club, jobUrl);
+    let cachedJob = sourceId
+      ? THEFA_CACHE.get(buildTheFaCacheKey(club, sourceId))
+      : null;
+
+    if (!cachedJob) {
+      await discoverTheFaJobUrls(club, options);
+      cachedJob = sourceId
+        ? THEFA_CACHE.get(buildTheFaCacheKey(club, sourceId))
+        : null;
+    }
+
+    const detailUrl = normalizeText((cachedJob && cachedJob.url) || jobUrl);
+    await gotoWithRetry(page, detailUrl);
+    const $ = cheerio.load(await page.content());
+    const jobPosting = extractJobPostingJsonLd($);
+    const employmentType =
+      extractEmploymentTypeFromJsonLd(jobPosting) ||
+      findValueByLabels($, ["job type", "employment type", "contract type"]) ||
+      normalizeText(cachedJob && cachedJob.employment_type);
+    const locationTypeRaw = findValueByLabels($, [
+      "location type",
+      "work model",
+      "workplace",
+    ]);
+    const htmlDescription = normalizeHtmlFragment(
+      (jobPosting && jobPosting.description) || selectDescriptionHtml($)
+    );
+    const plainTextDescription = htmlToStructuredPlainText(htmlDescription);
+
+    return {
+      club_id: club.club_id,
+      source_id: sourceId,
+      id: sourceId,
+      url: detailUrl,
+      application_link: resolveTheFaApplicationLink($, detailUrl),
+      title:
+        normalizeText(jobPosting && (jobPosting.title || jobPosting.name)) ||
+        normalizeText($("h1").first().text()) ||
+        normalizeText(cachedJob && cachedJob.title),
+      department:
+        findValueByLabels($, ["department", "team", "division", "function"]) ||
+        normalizeText(cachedJob && cachedJob.department),
+      arrangement: mapArrangementFromEmploymentType(employmentType),
+      employment_type: employmentType,
+      location:
+        extractLocationFromJsonLd(jobPosting) ||
+        findValueByLabels($, ["location", "job location", "city"]) ||
+        normalizeText(cachedJob && cachedJob.location),
+      location_type: resolveLocationType(
+        locationTypeRaw || normalizeText(cachedJob && cachedJob.location_type)
+      ),
+      published_at: parseDateToIso(
+        (jobPosting && (jobPosting.datePosted || jobPosting.dateCreated)) ||
+          findValueByLabels($, ["posted on", "posted", "date posted", "published"]) ||
+          normalizeText(cachedJob && cachedJob.published_at)
+      ),
+      expires_at: parseDateToIso(
+        (jobPosting && jobPosting.validThrough) ||
+          findValueByLabels($, [
+            "closing date",
+            "application deadline",
+            "deadline",
+            "expires",
+          ]) ||
+          normalizeText(cachedJob && cachedJob.expires_at)
+      ),
+      highlighted: false,
+      sticky: false,
+      html_description: htmlDescription,
+      plain_text_description: plainTextDescription,
+      company_name: club.name,
+      company_url: club.company_url || club.source_url || "",
+      company_logo_url: club.company_logo_url || "",
+      _jobPosting: jobPosting || undefined,
+    };
+  });
+}
+
 function extractEmailAddress(text) {
   const match = normalizeText(text).match(
     /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i
@@ -1436,6 +2363,14 @@ async function discoverJobUrls(club, options = {}) {
     return discoverWolvesJobUrls(club, options);
   }
 
+  if (isClassicFootballShirtsClub(club)) {
+    return discoverClassicJobUrls(club, options);
+  }
+
+  if (isTheFaClub(club)) {
+    return discoverTheFaJobUrls(club, options);
+  }
+
   if (isSharedCareersClub(club)) {
     return discoverSharedCareersJobUrls(club, options);
   }
@@ -1517,6 +2452,14 @@ async function fetchJob(club, jobUrl, options = {}) {
 
   if (isWolvesClub(club)) {
     return fetchWolvesJob(club, jobUrl, options);
+  }
+
+  if (isClassicFootballShirtsClub(club)) {
+    return fetchClassicJob(club, jobUrl, options);
+  }
+
+  if (isTheFaClub(club)) {
+    return fetchTheFaJob(club, jobUrl, options);
   }
 
   if (isSharedCareersClub(club)) {

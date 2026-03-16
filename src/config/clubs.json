@@ -103,11 +103,84 @@
     "company_logo_url": ""
   },
   {
+    "club_id": "fifa",
+    "name": "FIFA",
+    "source_type": "pinpoint",
+    "source_url": "https://jobs.fifa.com/",
+    "company_url": "https://www.fifa.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "cityfootballgroup",
+    "name": "City Football Group",
+    "source_type": "successfactors",
+    "source_url": "https://careers.cityfootballgroup.com/search",
+    "company_url": "https://www.cityfootballgroup.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "thefa",
+    "name": "The FA",
+    "source_type": "custom",
+    "source_url": "https://careers.thefa.com/jobs/home/",
+    "company_url": "https://www.thefa.com/",
+    "company_logo_url": ""
+  },
+  {
     "club_id": "fulham",
     "name": "Fulham",
     "source_type": "hibob",
     "source_url": "https://fulhamfc.careers.hibob.com/jobs",
     "company_url": "https://www.fulhamfc.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "intermiami",
+    "name": "Inter Miami",
+    "source_type": "paylocity",
+    "source_url": "https://recruiting.paylocity.com/recruiting/jobs/All/4ec3259e-b119-41ed-9958-51fba03e38ab/Inter-Miami-CF-LLC",
+    "company_url": "https://www.intermiamicf.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "ussoccer",
+    "name": "US Soccer Federation",
+    "source_type": "paylocity",
+    "source_url": "https://recruiting.paylocity.com/recruiting/jobs/All/f69b583b-98d5-4bc1-8be9-734c2c4d7d92/UNITED-STATES-SOCCER-FEDERATION-1",
+    "company_url": "https://www.ussoccer.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "laliga",
+    "name": "LaLiga",
+    "source_type": "successfactors",
+    "source_url": "https://career2.successfactors.eu/career?company=liganacion&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH",
+    "company_url": "https://www.laliga.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "valencia",
+    "name": "Valencia CF",
+    "source_type": "custom",
+    "source_url": "https://www.valenciacf.com/rrhh",
+    "company_url": "https://www.valenciacf.com/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "uefa",
+    "name": "UEFA",
+    "source_type": "jobylon",
+    "source_url": "https://www.uefa.com/about/working-at-uefa/job-opportunities/",
+    "company_url": "https://www.uefa.com/",
+    "company_logo_url": "",
+    "jobylon_host": "https://emp.jobylon.com"
+  },
+  {
+    "club_id": "mls",
+    "name": "MLS",
+    "source_type": "icims",
+    "source_url": "https://careers-mlssoccer.icims.com/jobs/search?ss=1",
+    "company_url": "https://www.mlssoccer.com/",
     "company_logo_url": ""
   },
   {
