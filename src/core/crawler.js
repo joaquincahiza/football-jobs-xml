@@ -12,6 +12,9 @@ const paylocity = require("../connectors/paylocity");
 const successfactors = require("../connectors/successfactors");
 const jobylon = require("../connectors/jobylon");
 const icims = require("../connectors/icims");
+const taleez = require("../connectors/taleez");
+const losc = require("../connectors/losc");
+const staderennais = require("../connectors/staderennais");
 const { normalizeJobRecord } = require("../connectors/utils");
 const { upsertJobs } = require("../storage/fileStore");
 
@@ -41,6 +44,9 @@ const CONNECTORS = {
   successfactors,
   jobylon,
   icims,
+  taleez,
+  losc,
+  staderennais,
 };
 
 const LANDING_PAGE_TITLES = new Set([

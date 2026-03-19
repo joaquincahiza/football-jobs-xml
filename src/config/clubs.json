@@ -119,6 +119,30 @@
     "company_logo_url": ""
   },
   {
+    "club_id": "lyon",
+    "name": "Olympique Lyonnais",
+    "source_type": "successfactors",
+    "source_url": "https://careers.eaglefootballgroup.com/search",
+    "company_url": "https://www.ol.fr/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "marseille",
+    "name": "Olympique de Marseille",
+    "source_type": "taleez",
+    "source_url": "https://olympique-de-marseille.taleez.com/",
+    "company_url": "https://www.om.fr/",
+    "company_logo_url": ""
+  },
+  {
+    "club_id": "losc",
+    "name": "LOSC",
+    "source_type": "losc",
+    "source_url": "https://www.losc.fr/en/node/12420",
+    "company_url": "https://www.losc.fr/",
+    "company_logo_url": ""
+  },
+  {
     "club_id": "thefa",
     "name": "The FA",
     "source_type": "custom",
