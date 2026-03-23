@@ -233,6 +233,60 @@
     "name": "Juventus",
     "source_type": "teamtailor",
     "source_url": "https://careers.juventus.com/jobs"
+  },
+  {
+    "club_id": "nashvillesc",
+    "name": "Nashville SC",
+    "source_type": "dayforce",
+    "source_url": "https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL"
+  },
+  {
+    "club_id": "nycfc",
+    "name": "New York City FC",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/soccer-jobs/nycfc/nyc-fc"
+  },
+  {
+    "club_id": "charlottefc",
+    "name": "Charlotte FC",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/multiple-properties/tepper-sports-entertainment-jobs/mls-charlotte-jobs"
+  },
+  {
+    "club_id": "chicagofire",
+    "name": "Chicago Fire",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/soccer-jobs/chicago-fire-fc/chicago-fire"
+  },
+  {
+    "club_id": "dcunited",
+    "name": "D.C. United",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/soccer-jobs/dc-united/d-c--united"
+  },
+  {
+    "club_id": "newyorkredbulls",
+    "name": "New York Red Bulls",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/soccer-jobs/new-york-redbulls/new-york-red-bulls"
+  },
+  {
+    "club_id": "orlandocity",
+    "name": "Orlando City SC",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/soccer-jobs/orlando-city-sc-pride/orlando-city-sc-pride"
+  },
+  {
+    "club_id": "columbuscrew",
+    "name": "Columbus Crew",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/soccer-jobs/columbus-crew-jobs/columbus-crew"
+  },
+  {
+    "club_id": "philadelphiaunion",
+    "name": "Philadelphia Union",
+    "source_type": "teamworkonline",
+    "source_url": "https://www.teamworkonline.com/soccer-jobs/mls/philadelphia-union"
   }
 ]
   

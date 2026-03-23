@@ -1,6 +1,8 @@
 const tribepad = require("../connectors/tribepad");
 const custom = require("../connectors/custom");
+const dayforce = require("../connectors/dayforce");
 const teamtailor = require("../connectors/teamtailor");
+const teamworkonline = require("../connectors/teamworkonline");
 const intervieweb = require("../connectors/intervieweb");
 const workforceready = require("../connectors/workforceready");
 const talos = require("../connectors/talos");
@@ -32,7 +34,9 @@ const BLOCKED_NATIVE_ATS = new Set([
 const CONNECTORS = {
   tribepad,
   custom,
+  dayforce,
   teamtailor,
+  teamworkonline,
   intervieweb,
   workforceready,
   talos,
