@@ -2,6 +2,11 @@ const fs = require("fs/promises");
 const path = require("path");
 const { loadJobs } = require("./storage/fileStore");
 const { exportJobsToXml } = require("./export/xmlExport");
+const {
+  isDisabledSourceEntry,
+  findDisabledSourcePolicy,
+  describeDisabledSource,
+} = require("./config/disabledSources");
 
 const CLUBS_FILE = path.resolve(__dirname, "./config/clubs.json");
 
@@ -23,7 +28,18 @@ installEpipeGuard(process.stderr);
 async function loadClubs() {
   const raw = await fs.readFile(CLUBS_FILE, "utf8");
   const parsed = JSON.parse(raw);
-  return Array.isArray(parsed) ? parsed : [];
+  const clubs = Array.isArray(parsed) ? parsed : [];
+
+  return clubs.filter((club) => {
+    if (!isDisabledSourceEntry(club)) {
+      return true;
+    }
+
+    const policy = findDisabledSourcePolicy(club);
+    const label = club.club_id || club.name || "unknown";
+    console.warn(`[skip] ${label}: ${describeDisabledSource(policy)}`);
+    return false;
+  });
 }
 
 async function runCrawl() {

@@ -18,7 +18,12 @@ const taleez = require("../connectors/taleez");
 const losc = require("../connectors/losc");
 const staderennais = require("../connectors/staderennais");
 const { normalizeJobRecord } = require("../connectors/utils");
-const { upsertJobs } = require("../storage/fileStore");
+const { syncClubResults } = require("../storage/fileStore");
+const {
+  isDisabledSourceEntry,
+  findDisabledSourcePolicy,
+  describeDisabledSource,
+} = require("../config/disabledSources");
 
 const BLOCKED_NATIVE_ATS = new Set([
   "workday",
@@ -126,12 +131,30 @@ function logLandingPageSkip(club, job, fallbackUrl) {
 
 async function crawlClub(club) {
   const sourceType = normalizeSourceType(club.source_type);
+  const result = {
+    club,
+    jobs: [],
+    sync_safe: false,
+    sync_reason: "",
+    discovered_job_urls: 0,
+    fetch_error_count: 0,
+  };
+
+  if (isDisabledSourceEntry(club)) {
+    const policy = findDisabledSourcePolicy(club);
+    console.warn(
+      `[skip] ${club.club_id}: ${describeDisabledSource(policy)}`
+    );
+    result.sync_reason = "disabled_source";
+    return result;
+  }
 
   if (isBlockedSourceType(sourceType)) {
     console.warn(
       `[skip] ${club.club_id}: source_type "${club.source_type}" bloqueado por integración nativa`
     );
-    return [];
+    result.sync_reason = "blocked_source_type";
+    return result;
   }
 
   const connector = CONNECTORS[sourceType];
@@ -139,7 +162,8 @@ async function crawlClub(club) {
     console.warn(
       `[skip] ${club.club_id}: source_type "${club.source_type}" sin conector implementado`
     );
-    return [];
+    result.sync_reason = "missing_connector";
+    return result;
   }
 
   let session;
@@ -165,10 +189,12 @@ async function crawlClub(club) {
       console.error(
         `[warn] ${club.club_id}: fallo en discoverJobUrls -> ${error.message}`
       );
-      return [];
+      result.sync_reason = "discover_failed";
+      return result;
     }
 
     const uniqueJobUrls = Array.from(new Set(jobUrls));
+    result.discovered_job_urls = uniqueJobUrls.length;
     console.log(
       `[crawl] ${club.club_id}: encontrados ${uniqueJobUrls.length} job urls`
     );
@@ -193,13 +219,17 @@ async function crawlClub(club) {
 
         jobs.push(job);
       } catch (error) {
+        result.fetch_error_count += 1;
         console.error(
           `[warn] ${club.club_id}: fallo al procesar ${jobUrl} -> ${error.message}`
         );
       }
     }
 
-    return jobs;
+    result.jobs = jobs;
+    result.sync_safe = result.fetch_error_count === 0;
+    result.sync_reason = result.sync_safe ? "synced" : "fetch_errors";
+    return result;
   } finally {
     if (session && typeof session.close === "function") {
       await session.close();
@@ -209,6 +239,7 @@ async function crawlClub(club) {
 
 async function crawlClubs(clubs) {
   const collected = [];
+  const clubResults = [];
 
   for (const club of clubs) {
     if (!club || !club.club_id || !club.source_url) {
@@ -216,13 +247,22 @@ async function crawlClubs(clubs) {
     }
 
     console.log(`[crawl] ${club.club_id} (${club.source_type})`);
-    const jobs = await crawlClub(club);
-    console.log(`[crawl] ${club.club_id}: ${jobs.length} jobs`);
-    collected.push(...jobs);
+    const clubResult = await crawlClub(club);
+    console.log(`[crawl] ${club.club_id}: ${clubResult.jobs.length} jobs`);
+    collected.push(...clubResult.jobs);
+    clubResults.push(clubResult);
   }
 
-  const storedJobs = await upsertJobs(collected);
-  return { scrapedJobs: collected, storedJobs };
+  const { jobs: storedJobs, reports } = await syncClubResults(clubResults);
+  for (const report of reports) {
+    if (report && report.replaced === false) {
+      console.warn(
+        `[store] ${report.club_id}: preservado store existente (${report.reason})`
+      );
+    }
+  }
+
+  return { scrapedJobs: collected, storedJobs, clubResults, syncReports: reports };
 }
 
 module.exports = {

@@ -1,6 +1,7 @@
 const fs = require("fs/promises");
 const path = require("path");
 const { loadJobs } = require("../storage/fileStore");
+const { buildStableGuid } = require("../connectors/utils");
 
 const OUTPUT_FILE = path.resolve(__dirname, "../../public/jobs.xml");
 
@@ -55,7 +56,13 @@ function serializeJob(job) {
   const htmlDescription = escapeForCdata(buildHtmlDescription(job));
   const id = normalizeText(job.id || job.source_id || "");
   const title = sanitizeTitle(job.title || "") || normalizeText(job.title || "");
-  const guid = `${id}-${slugify(title || id)}`;
+  const guid =
+    normalizeText(job.guid) ||
+    buildStableGuid(
+      job.source_url || job.company_url || job.club_id || job.company_name,
+      id
+    ) ||
+    `${id}-${slugify(title || id)}`;
 
   return [
     " <job>",

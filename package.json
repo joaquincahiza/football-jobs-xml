@@ -7,7 +7,9 @@
   "scripts": {
     "crawl": "node src/index.js crawl",
     "export:xml": "node src/index.js export:xml",
-    "run": "node src/index.js run"
+    "run": "node src/index.js run",
+    "cleanup:store": "node scripts/cleanupStore.js --write",
+    "verify:store": "node scripts/cleanupStore.js --check"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

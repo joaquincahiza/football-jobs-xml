@@ -1,3 +1,4 @@
+const crypto = require("crypto");
 const { chromium } = require("playwright");
 const cheerio = require("cheerio");
 
@@ -34,6 +35,43 @@ const MONTHS = {
   november: 11,
   december: 12,
 };
+
+const IDENTITY_QUERY_PARAM_ALLOWLIST = new Set([
+  "company",
+  "careerjobreqid",
+  "jobreqid",
+  "jobid",
+  "reqid",
+  "id",
+  "job",
+  "ghjid",
+  "opportunityid",
+  "postingid",
+]);
+
+const IDENTITY_QUERY_PARAM_BLOCKLIST = [
+  /^utm_/i,
+  /^fbclid$/i,
+  /^gclid$/i,
+  /^yclid$/i,
+  /^_ga$/i,
+  /^_gl$/i,
+  /^mc_cid$/i,
+  /^mc_eid$/i,
+  /^browsertimezone$/i,
+  /^selectedlang$/i,
+  /^rcmsitelocale$/i,
+  /^careerns$/i,
+  /^navbarlevel$/i,
+  /^jobalertcontroller/i,
+  /^locale$/i,
+  /^lang$/i,
+  /^source$/i,
+  /^ref$/i,
+  /^referer$/i,
+  /^tracking$/i,
+  /^_s\.?crb$/i,
+];
 
 function normalizeText(value) {
   return String(value || "")
@@ -131,6 +169,86 @@ function canonicalizeUrl(baseUrl, value, options = {}) {
   }
 }
 
+function normalizeIdentityQueryParamKey(value) {
+  return normalizeText(value).toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+function shouldIgnoreIdentityQueryParam(key) {
+  const normalizedKey = normalizeIdentityQueryParamKey(key);
+  if (!normalizedKey) {
+    return true;
+  }
+
+  return IDENTITY_QUERY_PARAM_BLOCKLIST.some((pattern) =>
+    pattern.test(normalizedKey)
+  );
+}
+
+function normalizeUrlForIdentity(value) {
+  const raw = normalizeText(value);
+  if (!raw) {
+    return "";
+  }
+
+  try {
+    const parsed = new URL(raw);
+    parsed.hash = "";
+
+    if (parsed.pathname.length > 1) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    const params = Array.from(parsed.searchParams.entries())
+      .map(([key, entryValue]) => [normalizeText(key), normalizeText(entryValue)])
+      .filter(([key, entryValue]) => key && entryValue)
+      .filter(([key]) => !shouldIgnoreIdentityQueryParam(key));
+
+    const keepAllowlistedOnly = params.some(([key]) =>
+      IDENTITY_QUERY_PARAM_ALLOWLIST.has(normalizeIdentityQueryParamKey(key))
+    );
+
+    const filteredParams = (keepAllowlistedOnly
+      ? params.filter(([key]) =>
+          IDENTITY_QUERY_PARAM_ALLOWLIST.has(normalizeIdentityQueryParamKey(key))
+        )
+      : params
+    ).sort(([keyA, valueA], [keyB, valueB]) => {
+      const normalizedKeyA = normalizeIdentityQueryParamKey(keyA);
+      const normalizedKeyB = normalizeIdentityQueryParamKey(keyB);
+
+      if (normalizedKeyA === normalizedKeyB) {
+        return valueA.localeCompare(valueB);
+      }
+
+      return normalizedKeyA.localeCompare(normalizedKeyB);
+    });
+
+    parsed.search = "";
+    for (const [key, entryValue] of filteredParams) {
+      parsed.searchParams.append(key, entryValue);
+    }
+
+    return parsed.href;
+  } catch {
+    return raw.replace(/\/+$/, "");
+  }
+}
+
+function buildUrlIdentity(value) {
+  const normalizedUrl = normalizeUrlForIdentity(value);
+  if (!normalizedUrl) {
+    return "";
+  }
+
+  const hash = crypto
+    .createHash("sha1")
+    .update(normalizedUrl)
+    .digest("hex")
+    .slice(0, 16);
+
+  return `url-${hash}`;
+}
+
 function normalizeIdentifier(value) {
   const text = normalizeText(value);
   if (!text) {
@@ -178,6 +296,32 @@ function extractSourceIdFromUrl(jobUrl) {
   }
 
   return "";
+}
+
+function buildStableJobId(sourceId, url, applicationLink) {
+  const normalizedSourceId = normalizeText(sourceId);
+  if (normalizedSourceId) {
+    return normalizedSourceId;
+  }
+
+  return (
+    buildUrlIdentity(url) ||
+    buildUrlIdentity(applicationLink) ||
+    extractSourceIdFromUrl(url) ||
+    extractSourceIdFromUrl(applicationLink)
+  );
+}
+
+function buildStableGuid(clubIdentity, jobId) {
+  const normalizedJobId = normalizeText(jobId);
+  if (!normalizedJobId) {
+    return "";
+  }
+
+  const scope =
+    buildUrlIdentity(clubIdentity) || slugify(clubIdentity) || "club";
+
+  return `${scope}-${normalizedJobId}`;
 }
 
 function parseDayMonthYear(text) {
@@ -706,11 +850,13 @@ function mapArrangementFromEmploymentType(employmentType) {
 function normalizeJobRecord(club, rawJob) {
   const input = rawJob || {};
   const url = normalizeText(input.url || input.job_url || input.application_link);
-  const sourceId = normalizeText(
+  const applicationLink = normalizeText(input.application_link || url);
+  const sourceId = buildStableJobId(
     input.source_id ||
-      input.id ||
       extractIdentifierFromJsonLd(input._jobPosting) ||
-      extractSourceIdFromUrl(url)
+      extractSourceIdFromUrl(url),
+    url,
+    applicationLink
   );
 
   if (!sourceId) {
@@ -735,16 +881,24 @@ function normalizeJobRecord(club, rawJob) {
   )
     ? arrangementCandidate
     : "fulltime";
-  const id = normalizeText(input.id || sourceId) || sourceId;
+  const id =
+    normalizeText(input.id || buildStableJobId(sourceId, url, applicationLink)) ||
+    sourceId;
+  const clubIdentity =
+    input.source_url ||
+    club.source_url ||
+    input.company_url ||
+    club.company_url ||
+    club.club_id;
 
   return {
     club_id: club.club_id,
     club: normalizeText(input.club || club.name || ""),
     source_id: sourceId,
     id,
-    guid: `${id}-${slugify(title)}`,
+    guid: normalizeText(input.guid || buildStableGuid(clubIdentity, id)),
     url,
-    application_link: normalizeText(input.application_link || url),
+    application_link: applicationLink,
     title,
     arrangement,
     location_type: normalizeText(input.location_type || "onsite") || "onsite",
@@ -824,7 +978,11 @@ module.exports = {
   slugify,
   escapeHtml,
   canonicalizeUrl,
+  normalizeUrlForIdentity,
+  buildUrlIdentity,
   extractSourceIdFromUrl,
+  buildStableJobId,
+  buildStableGuid,
   parseDateToIso,
   htmlToStructuredPlainText,
   plainTextToHtml,
