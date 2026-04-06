@@ -19,9 +19,59 @@ const {
 } = require("./utils");
 
 const JOB_CACHE = new Map();
+const GENERIC_PAGE_TITLES = new Set([
+  "espace carriere",
+  "espace carrière",
+  "career space",
+  "careers",
+]);
 
 function buildCacheKey(club, sourceId) {
   return `${normalizeText(club && club.club_id)}::${normalizeText(sourceId)}`;
+}
+
+function normalizeTitleKey(value) {
+  return normalizeText(value)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function cleanDocumentTitle(value) {
+  const title = normalizeText(value)
+    .replace(/\s+d[ée]tails du poste.*$/i, "")
+    .replace(/\s+\|\s+.*$/i, "")
+    .trim();
+
+  return GENERIC_PAGE_TITLES.has(normalizeTitleKey(title)) ? "" : title;
+}
+
+function extractDetailTitle($) {
+  const candidates = [
+    normalizeText($("[itemprop='title']").first().text()),
+    normalizeText($("[data-careersite-propertyid='title']").first().text()),
+    normalizeText($(".jobDisplayShell .jobTitle").first().text()),
+    normalizeText($("meta[property='og:title']").attr("content")),
+    normalizeText($("meta[name='twitter:title']").attr("content")),
+    cleanDocumentTitle($("title").first().text()),
+    normalizeText($("h1").first().text()),
+  ];
+
+  for (const candidate of candidates) {
+    if (!candidate) {
+      continue;
+    }
+
+    if (GENERIC_PAGE_TITLES.has(normalizeTitleKey(candidate))) {
+      continue;
+    }
+
+    return candidate;
+  }
+
+  return "";
 }
 
 function extractSourceIdFromSuccessFactorsUrl(value) {
@@ -449,7 +499,7 @@ async function fetchJob(club, jobUrl, options = {}) {
       id: sourceId,
       title:
         normalizeText(jobPosting && (jobPosting.title || jobPosting.name)) ||
-        normalizeText($("h1").first().text()) ||
+        extractDetailTitle($) ||
         normalizeText(cached && cached.title),
       location:
         extractLocationFromJsonLd(jobPosting) ||
