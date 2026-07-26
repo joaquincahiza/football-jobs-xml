@@ -18328,7 +18328,7 @@ Preferred
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-26T03:20:08.265Z</published_at>
+  <published_at>2026-07-26T08:35:24.830Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -18358,7 +18358,7 @@ Preferred
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=9aa61e1e4908315d&amp;CSRFHash=421de4923f7f7ed66016bf41432708a3619babbcdadeee224a6353fe88dd78a7">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=c364802cfb3150eb&amp;CSRFHash=7e10210845f786c663d227ea3bdb3e56f2796f51f675cc89e5ffbd19f87faa0a">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -18371,7 +18371,7 @@ Preferred
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=9aa61e1e4908315d&amp;CSRFHash=66a7822ac9c77491626ec93ca187f2f33aa34ffb32344522a18b7ac2ef63bd5d" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=c364802cfb3150eb&amp;CSRFHash=4ca1ca927e66323ade6864c4ef59c5e56a8ec012a857be6e907c212cb8c3f739" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -18433,7 +18433,7 @@ Preferred
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?975144421" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?1508372613" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -18564,7 +18564,7 @@ Preferred
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=9aa61e1e4908315d&amp;CSRFHash=79ec89798b56b8102e696a542d9fc3478b891e06e2c009563af6e2862706bad6" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=c364802cfb3150eb&amp;CSRFHash=b1253c4d1327741c40f39d82f1842418f7efb0d6efb808beee5c1fcacfc21387" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -18853,7 +18853,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=2e47677a3528caf7cc09157764e3f8047111dabd538c84b8d347d70c7291b3bc',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=c5c4ef6c25096d9bb4c73c943981e1f0526208f79b3911cfb0898841cae8d658',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -18955,7 +18955,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=4ff4b59fcfb084af39763d7efc0ed4592ed507aaa263f140dcaf8b6cdb1ad4db';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=1bc0bf4cad26d4e72bb957a7f2d8fd2bb4e85415f28475adad7a7b1000f598b9';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -19053,7 +19053,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=27ef545f422d9b303d785fd07412fc87ed29de9c71b4b8279f391cac99199d65',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=221a71ff11712d1ae459a270945b05ae88a336eee88ea70caff3509b97a93e78',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -19415,7 +19415,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=9aa61e1e4908315d&CSRFHash=3f7486e89015d333a84577c9796b3b5c76697103bda2757f7ec7acc576eb538b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=c364802cfb3150eb&CSRFHash=67ee2f76ac5eb446bfc5fe33773396be09dbe5124bb4c18eb6123ad476c1ec8a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19456,7 +19456,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=9aa61e1e4908315d&CSRFHash=9e251cae695d1ad5dddbc5a78078acb970015da965debe7ab51f283819c89293',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=c364802cfb3150eb&CSRFHash=0b1ef9fff48a4ea36c45f63aa3f23511ae0a010659fdb4fdee74e62079091057',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19633,7 +19633,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=0ff1b5004b2ad91f9bcceaea86cc8921aab63a6ff92a451d4189dde80f4a27e3")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=425e4a56335e4d5670d7ea64e846a95d5af72524fa6e8ad159097e2089a4e72b")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -19769,7 +19769,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=80e2f86db5d3e5e363c0af8ec84ae0eec35573f3493d1836f799c8ab319554c0",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=b0df62ef3a5d4f2a4e1c00511562fa0942da82fd6a2a51de1d1544dc943a3a1b",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -19794,7 +19794,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=105773f2c2dc6d117c36a697720f0769d50132e7ac5af2825162f8d8a309345a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=c619f35d156cb44986d757bcd75145e309b2156fe1e88c12568841f52cea93a7",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -19816,7 +19816,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=fbfbfbbe6ae4c4d6d82e3cd7ed1cc8c1e7a313c91ce0aeb3abea087937336f39",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=6dbd948104ba0868049a435bf41596f9d6d387eeae4f1d54039e1e1b7b233b68",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -19842,7 +19842,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=8b3203f04e0c90792c5b6fe06d4aa96cbedfff095f5a154d356fc6524e05d777",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=5494541680b0fa90ea97b6bc0e6f8dad54e5ede4466c3b011149333d16f554f2",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -19877,7 +19877,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=4eef6c3e9bc6d3ce36251e65c7e13ee46a3bbe30067e9674d162a1f939a036d9",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=ffab6feb32eb27569305665197f1d07fcf8a8e40c8f0fe5fd12c47c43abe3a6e",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -20018,7 +20018,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=9aa61e1e4908315d&CSRFHash=3f7486e89015d333a84577c9796b3b5c76697103bda2757f7ec7acc576eb538b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=c364802cfb3150eb&CSRFHash=67ee2f76ac5eb446bfc5fe33773396be09dbe5124bb4c18eb6123ad476c1ec8a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20056,7 +20056,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=9aa61e1e4908315d&CSRFHash=1400fe9a4f8878911a4c7eff5c77932c58164b93d1716ea10d011b51e571ee89',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=c364802cfb3150eb&CSRFHash=f5f2f3ed76853ea16c70b1f04c07de83f494d8a3567bc148325efc91456fa63c',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20103,7 +20103,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=9aa61e1e4908315d&CSRFHash=9e251cae695d1ad5dddbc5a78078acb970015da965debe7ab51f283819c89293',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=c364802cfb3150eb&CSRFHash=0b1ef9fff48a4ea36c45f63aa3f23511ae0a010659fdb4fdee74e62079091057',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20152,7 +20152,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=9aa61e1e4908315d&CSRFHash=54bed1a4fe14cbaf641bc8b8d10caf5a83afdd90bb80427e5207c7a4037c34e1',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=c364802cfb3150eb&CSRFHash=b0497ccc67b268f722e376c8efd8bf65ceb01e99e2856a0ac61aec9e8746d3c5',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20199,7 +20199,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=9aa61e1e4908315d&CSRFHash=39308d6dd2cd11a817806c2dc3724d888afd7586d7bbe6d792e066d05dc8dc6d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=c364802cfb3150eb&CSRFHash=9b80a118bac9be16c0ab8a0b59873b053e0c079f23fa55f5fcfc37bedd7dae77',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20253,7 +20253,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=9aa61e1e4908315d&CSRFHash=4034e636955b48626889861cf32f0c71dfe580a58114e70e47df7d284782aad2',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=c364802cfb3150eb&CSRFHash=94faa3d0fc44943d719159c8c7cc166d3d147b317b0e6ce53e6607695cd6d4ef',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20307,7 +20307,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=9aa61e1e4908315d&CSRFHash=5daa8b040aa897a4cb55f8a24680079a92de87bf3d1e5cb1aa6b3c4cde3800c8',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=c364802cfb3150eb&CSRFHash=a1e987a6ed589b76facbf94e8c2ea4307268e4b8b77c6af316b6e2e6f59c4d92',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20548,7 +20548,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=0ff1b5004b2ad91f9bcceaea86cc8921aab63a6ff92a451d4189dde80f4a27e3")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=425e4a56335e4d5670d7ea64e846a95d5af72524fa6e8ad159097e2089a4e72b")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -20967,7 +20967,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=80e2f86db5d3e5e363c0af8ec84ae0eec35573f3493d1836f799c8ab319554c0",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=b0df62ef3a5d4f2a4e1c00511562fa0942da82fd6a2a51de1d1544dc943a3a1b",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -21013,7 +21013,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=fbfbfbbe6ae4c4d6d82e3cd7ed1cc8c1e7a313c91ce0aeb3abea087937336f39",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=6dbd948104ba0868049a435bf41596f9d6d387eeae4f1d54039e1e1b7b233b68",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21064,7 +21064,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=8b3203f04e0c90792c5b6fe06d4aa96cbedfff095f5a154d356fc6524e05d777",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=5494541680b0fa90ea97b6bc0e6f8dad54e5ede4466c3b011149333d16f554f2",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21125,7 +21125,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=6365accb067222f000f97c41d0b63e1ab8f4c4525c389c10d1c3f9b5bfaf42b5",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=a1c854bfe5c679d0eabc0882c9539e51d946c2a2c91d659d6c0e52e899646174",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -21196,7 +21196,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=fbfbfbbe6ae4c4d6d82e3cd7ed1cc8c1e7a313c91ce0aeb3abea087937336f39",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=6dbd948104ba0868049a435bf41596f9d6d387eeae4f1d54039e1e1b7b233b68",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21244,7 +21244,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=9aa61e1e4908315d&CSRFHash=4eef6c3e9bc6d3ce36251e65c7e13ee46a3bbe30067e9674d162a1f939a036d9",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=c364802cfb3150eb&CSRFHash=ffab6feb32eb27569305665197f1d07fcf8a8e40c8f0fe5fd12c47c43abe3a6e",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -21854,7 +21854,7 @@ $(function(){
 
                                             <input type="hidden" value="142469" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-07-26T03:20:10.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-07-26T08:35:27.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -21931,7 +21931,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a657cea1f6f5";
+        uid = "6a65c6cea943c";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -21955,7 +21955,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=9aa61e1e4908315d&CSRFHash=509d2205463a3255ce927fa7bc96527c7e582b4b89cd3078a2ab1a228e157688",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=c364802cfb3150eb&CSRFHash=15113d1a908b7d778c49f0f57d65d4640f4fb7317c73ebc870c586948ad93ef0",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -22301,7 +22301,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=9aa61e1e4908315d&CSRFHash=d91adce6ed15989590909ce87b2d14d455e81f08721204736466a5534f3e70e1",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=c364802cfb3150eb&CSRFHash=ed2ba8cdacc019d41b447bec2d267a17392418c561389dff3088955e07f91cc3",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -32593,7 +32593,7 @@ We encourage you to apply even if you do not meet all of the requirements that a
   <guid isPermaLink="false">url-5b451e42b8611ff7-3134</guid>
   <id>3134</id>
   <url>https://careers.thefa.com/jobs/vacancy/kent-fa---emerging-talent-centre---various-positions-1121-kent-fa/3134/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=331d0c61-b438-4f23-845f-c0a1c813e178</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=fca07d61-9449-4354-9cc8-4e75d1884d01</application_link>
   <title>Kent FA - Emerging Talent Centre - Various Positions</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -32693,7 +32693,7 @@ EQUALITY AND DIVERSITY MONITORING FORM</plain_text_description>
   <guid isPermaLink="false">url-5b451e42b8611ff7-3145</guid>
   <id>3145</id>
   <url>https://careers.thefa.com/jobs/vacancy/mens-team-physiotherapist-nfcsgp0566-national-football-centre-st-georges-park/3145/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=8e8ec980-fcb5-42c7-8d2d-5aee1a2fa130</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=f605fced-420f-4bd1-967e-f7390e5a84b6</application_link>
   <title>Men&apos;s Team Physiotherapist</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -33027,7 +33027,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3150</guid>
   <id>3150</id>
   <url>https://careers.thefa.com/jobs/vacancy/liverpool-fa---football-development-officer-clubs-1129-liverpool-fa/3150/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=6ed3dd19-51d9-4f70-a343-ec940b51c191</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=4da243f1-78fd-4a83-8135-eb9275515f5b</application_link>
   <title>Liverpool FA - Football Development Officer (Clubs)</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -33122,7 +33122,7 @@ As this role involves direct access to young people under the age of 18, within 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3154</guid>
   <id>3154</id>
   <url>https://careers.thefa.com/jobs/vacancy/casual-senior-womens-performance-chef-nfcsgp0570-national-football-centre-st-georges-park/3154/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=c135ebee-ab79-499e-9071-215e94e3f965</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=5430975a-3857-4da0-85a5-37389bb79ae6</application_link>
   <title>Casual Senior Women&apos;s Performance Chef</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -33248,7 +33248,7 @@ As part of The FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3155</guid>
   <id>3155</id>
   <url>https://careers.thefa.com/jobs/vacancy/casual--womens-pathway-performance-nutritionist-nfcsgp0571-national-football-centre-st-georges-park/3155/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=025a8013-ef37-47f2-91fc-35a7a6214388</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=2b771bcf-ac37-4739-ad7a-724361aca700</application_link>
   <title>Casual Women&apos;s Pathway Performance Nutritionist</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -33386,13 +33386,13 @@ As part of The FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3159</guid>
   <id>3159</id>
   <url>https://careers.thefa.com/jobs/vacancy/ml-engineer-wnsl1103-wembley-stadium/3159/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=01d9e019-4083-4071-8282-61187c742b28</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=839ba790-912d-4ef1-8a4b-2a2aea94e55f</application_link>
   <title>ML Engineer</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
   <location>Wembley Stadium, Wembley, London, HA9 0WS, United Kingdom</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-25T00:00:00.000Z</published_at>
+  <published_at>2026-07-26T00:00:00.000Z</published_at>
   <expires_at>2026-07-26T00:00:00.000Z</expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -33556,7 +33556,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3160</guid>
   <id>3160</id>
   <url>https://careers.thefa.com/jobs/vacancy/hampshire-fa--deputy-designated-safeguarding-officer--1130-hampshire-fa/3160/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=e89c1ad7-95e6-4ff7-914d-7b3e92cbcfc1</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=fa87d084-dd49-4235-aec8-abc1c8929e51</application_link>
   <title>Hampshire FA -Deputy Designated Safeguarding Officer.</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -33612,13 +33612,13 @@ Hampshire FA is committed to equality, diversity, inclusion and safeguarding chi
   <guid isPermaLink="false">url-5b451e42b8611ff7-3161</guid>
   <id>3161</id>
   <url>https://careers.thefa.com/jobs/vacancy/lancashire-fa---football-facilities-activator-1131-lancashire-fa/3161/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=65b67230-7e6b-4742-9ea6-a303549562b1</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=316b1060-e01c-40c3-8f9c-8e4ae3795756</application_link>
   <title>Lancashire FA - Football Facilities Activator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
   <location>1, Lancashire, Lancashire, pr25 2lf</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-25T00:00:00.000Z</published_at>
+  <published_at>2026-07-26T00:00:00.000Z</published_at>
   <expires_at>2026-07-26T00:00:00.000Z</expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -33679,13 +33679,13 @@ To support our equality, diversity and inclusion work, applicants will also be i
   <guid isPermaLink="false">url-5b451e42b8611ff7-3162</guid>
   <id>3162</id>
   <url>https://careers.thefa.com/jobs/vacancy/womens-casual-sport-psychologist-hb0311-home-based-/3162/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=71ba0fcb-5f59-4a8d-99ef-8799684eebca</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=d918d71a-5262-48c2-baa4-3a4b4d1ab1da</application_link>
   <title>Women&apos;s Casual Sport Psychologist</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
   <location>Home based, Home based, Home based, United Kingdom</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-25T00:00:00.000Z</published_at>
+  <published_at>2026-07-26T00:00:00.000Z</published_at>
   <expires_at>2026-07-26T00:00:00.000Z</expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -33875,7 +33875,7 @@ These dates are not exhaustive and could be subject to change in the case of cal
   <guid isPermaLink="false">url-5b451e42b8611ff7-3164</guid>
   <id>3164</id>
   <url>https://careers.thefa.com/jobs/vacancy/fa-core-programme---consultant--1132-variable/3164/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=daf2c60b-bec3-4389-aa6d-801267fe86a2</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=1dc2979f-9a97-4808-bc8a-263b455acbd8</application_link>
   <title>FA CORE Programme - Consultant</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -33978,7 +33978,7 @@ As part of The FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3165</guid>
   <id>3165</id>
   <url>https://careers.thefa.com/jobs/vacancy/ticketing-applications-coordinator--wnsl1105-wembley-stadium/3165/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=ae6cb8a1-0535-422f-97c7-6e4a9c2c10e0</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=624e641a-a560-404d-8b29-48354111b12f</application_link>
   <title>Ticketing Applications Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -34130,7 +34130,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3167</guid>
   <id>3167</id>
   <url>https://careers.thefa.com/jobs/vacancy/resource--planning-coordinator-wnsl1107-national-football-centre-st-georges-park/3167/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=585019a6-8b1d-49c3-a6c0-3be6d874a1bc</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=bbdbdf75-6215-4ff6-9747-d85d580409e1</application_link>
   <title>Resource &amp; Planning Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -34296,7 +34296,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3169</guid>
   <id>3169</id>
   <url>https://careers.thefa.com/jobs/vacancy/sheffield-fa---deputy-designated-safeguarding-officer-and-behaviour-improvement-coordinator-1133-sheffield-fa/3169/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=31d0ebde-c3b2-4083-9781-79ea9301623c</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=127db2ca-77ae-492b-a319-014a6d2f360b</application_link>
   <title>Sheffield FA - Deputy Designated Safeguarding Officer and Behaviour Improvement Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -34385,13 +34385,13 @@ Additional information
   <guid isPermaLink="false">url-5b451e42b8611ff7-3170</guid>
   <id>3170</id>
   <url>https://careers.thefa.com/jobs/vacancy/workforce-senior-coordinator-nfcsgp0573-national-football-centre-st-georges-park/3170/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=9708ab26-4ea9-4acb-8a30-6eec445add8c</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=8ead1391-aa04-454b-be49-c0ab5407278a</application_link>
   <title>Workforce Senior Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
   <location>St. George&apos;s Park, Needwood, Burton upon Trent, Staffordshire, DE13 9PD, United Kingdom</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-21T00:00:00.000Z</published_at>
+  <published_at>2026-07-26T00:00:00.000Z</published_at>
   <expires_at>2026-08-04T00:00:00.000Z</expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -34557,7 +34557,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3171</guid>
   <id>3171</id>
   <url>https://careers.thefa.com/jobs/vacancy/worcestershire-fa---club-consultant-1134-worcestershire-fa-/3171/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=77829967-4d29-4e82-98ca-f2a3c93366a3</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=42de2834-53b7-4cfd-9e77-7877e652d93a</application_link>
   <title>Worcestershire FA - Club Consultant</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -34641,7 +34641,7 @@ If you have any questions about the service required, please contact development
   <guid isPermaLink="false">url-5b451e42b8611ff7-3172</guid>
   <id>3172</id>
   <url>https://careers.thefa.com/jobs/vacancy/derbyshire-fa---referee-development-officer-1135-derbyshire-fa/3172/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=d501b748-64e2-4e17-b03b-2a4a3af0adda</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=8b2ae5f5-23a3-4a80-9522-d17a2d50777b</application_link>
   <title>Derbyshire FA - Referee Development Officer</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -34734,7 +34734,7 @@ Successful applicants will be subject to an Enhanced DBS check and must hold a f
   <guid isPermaLink="false">url-5b451e42b8611ff7-3173</guid>
   <id>3173</id>
   <url>https://careers.thefa.com/jobs/vacancy/hampshire-fa----disability-pathway-football-development-officer-1136-hampshire-fa/3173/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=73ec3476-5495-42e1-b96c-6d645680331f</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=83f2b5be-a7d4-45be-bf64-26a6515e6661</application_link>
   <title>Hampshire FA - Disability Pathway Football Development Officer</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
