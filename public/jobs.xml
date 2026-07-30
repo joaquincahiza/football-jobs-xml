@@ -18510,7 +18510,7 @@ Preferred
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-30T02:39:54.754Z</published_at>
+  <published_at>2026-07-30T08:36:58.895Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -18540,7 +18540,7 @@ Preferred
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=2c4365d6757ea731&amp;CSRFHash=01bf94f2007e1e919c8419db4f0761f53978e4172cd76636582f2217347ef89d">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=8d6d26f2a3ef3856&amp;CSRFHash=e4f0515681e883878d87259fd110901088458ded891365482af470041382b05d">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -18553,7 +18553,7 @@ Preferred
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=2c4365d6757ea731&amp;CSRFHash=951b274ec632f72d9e16c2cd1d7a331a20e88d6a1951c54e7228e72a8e5780f6" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=8d6d26f2a3ef3856&amp;CSRFHash=8ba8c18886a07894502ea7f782784d744b465818f1a771d949451b6c44948d6f" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -18615,7 +18615,7 @@ Preferred
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?1480913679" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?1627613407" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -18746,7 +18746,7 @@ Preferred
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=2c4365d6757ea731&amp;CSRFHash=7b8bb9773cf36a152815e6bebd82690a361336322b7b2b9f0e599ebeccddc0bd" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=8d6d26f2a3ef3856&amp;CSRFHash=4a7953f49fc74f42c4e3c1a631b8c0c23d36b2a420dd517ee1556527d6137097" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -19035,7 +19035,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=b18e9815b415046676d5586f59aaab28f96bf54a8c247f186a8627726514bb02',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=7fede5a77fb7375c39fdadbb8722689f386f13935442c72e8e8d2629f3ad8777',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -19137,7 +19137,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=1a52619d648721c39e5622942a7952b61c6626798070c24f810a3d2206d88c9f';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=6f98d174a9861c4e68bec02e8933799d73f8ddf7dc5e3ed615c6beafeed62052';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -19235,7 +19235,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=11a7676fbdddad1536a31bab33f278537795c15de9ff483199c592a25c6cef97',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=012a372df4b3a0312b574093454e4cae3af558c169d2030f49bf2f87506968b2',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -19597,7 +19597,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=2c4365d6757ea731&CSRFHash=e59ed99ef097e014cb634f5aec887c416a4b7a01adc7c50236e1e6b6e7673d5b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=8d6d26f2a3ef3856&CSRFHash=c5f2824c8f2cd62a7b8a22bc7893dccec9203529743be0ec5c1fe307914ce3ee',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19638,7 +19638,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=2c4365d6757ea731&CSRFHash=667da666476f2dfdd0a469d88fdf7b1b4b571d44cd758a556294a905f30970eb',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=9a9ab77b9117f95d1e7af31542b7fe62ba99e590ba77919789a22a6920d865c3',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19815,7 +19815,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=3f8fcd673c495a3e235c30841cc83cb401c57e8b8fbb77a163db836768a5cfe4")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=58b7fbecfafe26eee2906d806cd50f46b7cf7fd15f0c53e15eae0aaa97f94394")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -19951,7 +19951,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=57022d749cf984cdf54e7f043d5a39b5cc88120432a7e1f9752f1f1888971731",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=5d9ae416f02d21dbf6e4d88692ab24645b4aefdb35aa8e82b3e461f17a0e9582",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -19976,7 +19976,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=6f299d84c5fd763a36d0162990b4aeaa9cab3dbc3ce49cc8700de48925fe448f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=f492fbdd59cd14ed3c3802079122a06dac95ce10942536cfdc4541bee8551235",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -19998,7 +19998,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=770acbf2b9b1f136a8531be3d742f6bf80684fa57ad82f23ebc06f114f95f277",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1798ac07767ff60fa9539e3adfeac00b0e67fd2bfbcbc8c3f418ee260e905716",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20024,7 +20024,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=0a93f07d892e00c50b891b00297b2216c01e46675295af705d3a740dd50a34d3",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1a07be96d76cd1e21d638b453a5fd124171259083c0e91f634d7d7b5b89e76cf",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20059,7 +20059,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=c04e8f04cd2a0caa14a597e330e5969e71609b19d70acf483aff943d50d4c5b5",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=2fe6046450eeabafc2e9cc06e76675d9a1f241c39a0636abe8c77468dba30484",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -20200,7 +20200,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=2c4365d6757ea731&CSRFHash=e59ed99ef097e014cb634f5aec887c416a4b7a01adc7c50236e1e6b6e7673d5b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=8d6d26f2a3ef3856&CSRFHash=c5f2824c8f2cd62a7b8a22bc7893dccec9203529743be0ec5c1fe307914ce3ee',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20238,7 +20238,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=2c4365d6757ea731&CSRFHash=30b5e3cf3acc7da8ff0048b8387bb1310bd0f75902804c7441ea4b3c2f2a5b25',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=8d6d26f2a3ef3856&CSRFHash=906a944b66a68e91e4e298d840c2d9fef04d5590385aff4d76d08463a4fb657b',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20285,7 +20285,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=2c4365d6757ea731&CSRFHash=667da666476f2dfdd0a469d88fdf7b1b4b571d44cd758a556294a905f30970eb',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=9a9ab77b9117f95d1e7af31542b7fe62ba99e590ba77919789a22a6920d865c3',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20334,7 +20334,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=2c4365d6757ea731&CSRFHash=5ae9335570255e345702ca7deed0e3ca62e73e159575c7b4a04aa7ce88c1bfeb',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=a6271e1d35bf56073af8755c61db0dddabbac098b6ddbea0d443ffb6ab343a0d',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20381,7 +20381,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=2c4365d6757ea731&CSRFHash=c0203ce53deb424ba57d163b47c052a9ad2821dbca3c5fa9c16e707ef3b958e4',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=f83686c744fdbae73b2c2a15e0aefc959f11b8f4d8ef181b26e8c28ccce1f33f',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20435,7 +20435,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=2c4365d6757ea731&CSRFHash=53f1a5b08aa2961b1aad77c44b395b1ef4910085aa4dad8e0810df561e409357',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=2e359e744908d214d57b7b03b08a5a5af721f0e7713bde8f79fee8554959782b',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20489,7 +20489,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=2c4365d6757ea731&CSRFHash=46f473749ef0e6305ffc2e7622e5d372af35f43a8c89c2cda622f812213ee1fd',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=d6f0f140d4d2a24fcaf596af69a6622787e1da75105cf1c54a493eaf87125cc0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20730,7 +20730,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=3f8fcd673c495a3e235c30841cc83cb401c57e8b8fbb77a163db836768a5cfe4")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=58b7fbecfafe26eee2906d806cd50f46b7cf7fd15f0c53e15eae0aaa97f94394")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -21149,7 +21149,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=57022d749cf984cdf54e7f043d5a39b5cc88120432a7e1f9752f1f1888971731",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=5d9ae416f02d21dbf6e4d88692ab24645b4aefdb35aa8e82b3e461f17a0e9582",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -21195,7 +21195,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=770acbf2b9b1f136a8531be3d742f6bf80684fa57ad82f23ebc06f114f95f277",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1798ac07767ff60fa9539e3adfeac00b0e67fd2bfbcbc8c3f418ee260e905716",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21246,7 +21246,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=0a93f07d892e00c50b891b00297b2216c01e46675295af705d3a740dd50a34d3",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1a07be96d76cd1e21d638b453a5fd124171259083c0e91f634d7d7b5b89e76cf",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21307,7 +21307,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=d669a3e1ee4cc757b4e80d7460dbc542e65781b03fab244f769ab3e8a85f7c57",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=7de4b7e23d73628823c1a61993f51a902b5d344d1265edf9455a3803502141d1",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -21378,7 +21378,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=770acbf2b9b1f136a8531be3d742f6bf80684fa57ad82f23ebc06f114f95f277",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1798ac07767ff60fa9539e3adfeac00b0e67fd2bfbcbc8c3f418ee260e905716",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21426,7 +21426,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=c04e8f04cd2a0caa14a597e330e5969e71609b19d70acf483aff943d50d4c5b5",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=2fe6046450eeabafc2e9cc06e76675d9a1f241c39a0636abe8c77468dba30484",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -22061,7 +22061,7 @@ $(function(){
 
                                             <input type="hidden" value="142469" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-07-30T02:39:57.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-07-30T08:37:01.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -22138,7 +22138,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a6ab97d0d1e1";
+        uid = "6a6b0d2dba893";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -22162,7 +22162,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=2c4365d6757ea731&CSRFHash=931060d39d06f31dfaeeab2714f402448f671c2d62e9dec65d2c42cca3b175ab",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=8d6d26f2a3ef3856&CSRFHash=feecbe00c78d0efef39513ce5d94d9092b8ea13d4f798b536e518626941d3b87",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -22508,7 +22508,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=2c4365d6757ea731&CSRFHash=04863f949c4294c98b38a4aa2e26bbf11e0d91c7d23d0431be5d9915f50cc7b6",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=8d6d26f2a3ef3856&CSRFHash=84b8c3a7d6d81422a21bcfd3fd60897eb9d43412ed0f1d2f412c69494f99a7a9",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -23389,7 +23389,7 @@ Accessibility statement</plain_text_description>
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-30T02:39:59.171Z</published_at>
+  <published_at>2026-07-30T08:37:03.548Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -23419,7 +23419,7 @@ Accessibility statement</plain_text_description>
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=2c4365d6757ea731&amp;CSRFHash=01bf94f2007e1e919c8419db4f0761f53978e4172cd76636582f2217347ef89d">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=8d6d26f2a3ef3856&amp;CSRFHash=e4f0515681e883878d87259fd110901088458ded891365482af470041382b05d">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -23432,7 +23432,7 @@ Accessibility statement</plain_text_description>
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=2c4365d6757ea731&amp;CSRFHash=951b274ec632f72d9e16c2cd1d7a331a20e88d6a1951c54e7228e72a8e5780f6" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=8d6d26f2a3ef3856&amp;CSRFHash=8ba8c18886a07894502ea7f782784d744b465818f1a771d949451b6c44948d6f" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -23498,7 +23498,7 @@ Accessibility statement</plain_text_description>
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?1151372876" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?2013211643" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -23636,7 +23636,7 @@ Accessibility statement</plain_text_description>
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=2c4365d6757ea731&amp;CSRFHash=7b8bb9773cf36a152815e6bebd82690a361336322b7b2b9f0e599ebeccddc0bd" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=8d6d26f2a3ef3856&amp;CSRFHash=4a7953f49fc74f42c4e3c1a631b8c0c23d36b2a420dd517ee1556527d6137097" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -23925,7 +23925,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=b18e9815b415046676d5586f59aaab28f96bf54a8c247f186a8627726514bb02',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=7fede5a77fb7375c39fdadbb8722689f386f13935442c72e8e8d2629f3ad8777',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -24027,7 +24027,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=1a52619d648721c39e5622942a7952b61c6626798070c24f810a3d2206d88c9f';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=6f98d174a9861c4e68bec02e8933799d73f8ddf7dc5e3ed615c6beafeed62052';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -24125,7 +24125,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=11a7676fbdddad1536a31bab33f278537795c15de9ff483199c592a25c6cef97',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=012a372df4b3a0312b574093454e4cae3af558c169d2030f49bf2f87506968b2',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -24487,7 +24487,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=2c4365d6757ea731&CSRFHash=e59ed99ef097e014cb634f5aec887c416a4b7a01adc7c50236e1e6b6e7673d5b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=8d6d26f2a3ef3856&CSRFHash=c5f2824c8f2cd62a7b8a22bc7893dccec9203529743be0ec5c1fe307914ce3ee',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24528,7 +24528,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=2c4365d6757ea731&CSRFHash=667da666476f2dfdd0a469d88fdf7b1b4b571d44cd758a556294a905f30970eb',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=9a9ab77b9117f95d1e7af31542b7fe62ba99e590ba77919789a22a6920d865c3',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24705,7 +24705,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=3f8fcd673c495a3e235c30841cc83cb401c57e8b8fbb77a163db836768a5cfe4")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=58b7fbecfafe26eee2906d806cd50f46b7cf7fd15f0c53e15eae0aaa97f94394")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -24841,7 +24841,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=57022d749cf984cdf54e7f043d5a39b5cc88120432a7e1f9752f1f1888971731",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=5d9ae416f02d21dbf6e4d88692ab24645b4aefdb35aa8e82b3e461f17a0e9582",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -24866,7 +24866,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=6f299d84c5fd763a36d0162990b4aeaa9cab3dbc3ce49cc8700de48925fe448f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=f492fbdd59cd14ed3c3802079122a06dac95ce10942536cfdc4541bee8551235",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -24888,7 +24888,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=770acbf2b9b1f136a8531be3d742f6bf80684fa57ad82f23ebc06f114f95f277",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1798ac07767ff60fa9539e3adfeac00b0e67fd2bfbcbc8c3f418ee260e905716",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -24914,7 +24914,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=0a93f07d892e00c50b891b00297b2216c01e46675295af705d3a740dd50a34d3",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1a07be96d76cd1e21d638b453a5fd124171259083c0e91f634d7d7b5b89e76cf",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -24949,7 +24949,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=c04e8f04cd2a0caa14a597e330e5969e71609b19d70acf483aff943d50d4c5b5",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=2fe6046450eeabafc2e9cc06e76675d9a1f241c39a0636abe8c77468dba30484",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -25090,7 +25090,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=2c4365d6757ea731&CSRFHash=e59ed99ef097e014cb634f5aec887c416a4b7a01adc7c50236e1e6b6e7673d5b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=8d6d26f2a3ef3856&CSRFHash=c5f2824c8f2cd62a7b8a22bc7893dccec9203529743be0ec5c1fe307914ce3ee',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25128,7 +25128,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=2c4365d6757ea731&CSRFHash=30b5e3cf3acc7da8ff0048b8387bb1310bd0f75902804c7441ea4b3c2f2a5b25',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=8d6d26f2a3ef3856&CSRFHash=906a944b66a68e91e4e298d840c2d9fef04d5590385aff4d76d08463a4fb657b',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25175,7 +25175,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=2c4365d6757ea731&CSRFHash=667da666476f2dfdd0a469d88fdf7b1b4b571d44cd758a556294a905f30970eb',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=9a9ab77b9117f95d1e7af31542b7fe62ba99e590ba77919789a22a6920d865c3',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25224,7 +25224,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=2c4365d6757ea731&CSRFHash=5ae9335570255e345702ca7deed0e3ca62e73e159575c7b4a04aa7ce88c1bfeb',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=a6271e1d35bf56073af8755c61db0dddabbac098b6ddbea0d443ffb6ab343a0d',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25271,7 +25271,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=2c4365d6757ea731&CSRFHash=c0203ce53deb424ba57d163b47c052a9ad2821dbca3c5fa9c16e707ef3b958e4',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=f83686c744fdbae73b2c2a15e0aefc959f11b8f4d8ef181b26e8c28ccce1f33f',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25325,7 +25325,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=2c4365d6757ea731&CSRFHash=53f1a5b08aa2961b1aad77c44b395b1ef4910085aa4dad8e0810df561e409357',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=2e359e744908d214d57b7b03b08a5a5af721f0e7713bde8f79fee8554959782b',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25379,7 +25379,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=2c4365d6757ea731&CSRFHash=46f473749ef0e6305ffc2e7622e5d372af35f43a8c89c2cda622f812213ee1fd',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=8d6d26f2a3ef3856&CSRFHash=d6f0f140d4d2a24fcaf596af69a6622787e1da75105cf1c54a493eaf87125cc0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25620,7 +25620,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=3f8fcd673c495a3e235c30841cc83cb401c57e8b8fbb77a163db836768a5cfe4")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=58b7fbecfafe26eee2906d806cd50f46b7cf7fd15f0c53e15eae0aaa97f94394")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -26039,7 +26039,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=57022d749cf984cdf54e7f043d5a39b5cc88120432a7e1f9752f1f1888971731",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=5d9ae416f02d21dbf6e4d88692ab24645b4aefdb35aa8e82b3e461f17a0e9582",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -26085,7 +26085,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=770acbf2b9b1f136a8531be3d742f6bf80684fa57ad82f23ebc06f114f95f277",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1798ac07767ff60fa9539e3adfeac00b0e67fd2bfbcbc8c3f418ee260e905716",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -26136,7 +26136,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=0a93f07d892e00c50b891b00297b2216c01e46675295af705d3a740dd50a34d3",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1a07be96d76cd1e21d638b453a5fd124171259083c0e91f634d7d7b5b89e76cf",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -26197,7 +26197,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=d669a3e1ee4cc757b4e80d7460dbc542e65781b03fab244f769ab3e8a85f7c57",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=7de4b7e23d73628823c1a61993f51a902b5d344d1265edf9455a3803502141d1",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -26268,7 +26268,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=770acbf2b9b1f136a8531be3d742f6bf80684fa57ad82f23ebc06f114f95f277",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=1798ac07767ff60fa9539e3adfeac00b0e67fd2bfbcbc8c3f418ee260e905716",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -26316,7 +26316,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=2c4365d6757ea731&CSRFHash=c04e8f04cd2a0caa14a597e330e5969e71609b19d70acf483aff943d50d4c5b5",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=8d6d26f2a3ef3856&CSRFHash=2fe6046450eeabafc2e9cc06e76675d9a1f241c39a0636abe8c77468dba30484",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -26498,7 +26498,7 @@ $(function(){
                             <option value="27">LAUREA SPECIALISTICA A CICLO UNICO - Nuovo ordinamento</option>
                             <option value="28">LAUREA SPECIALISTICA - Nuovo ordinamento</option>
                             <option value="31">MASTER</option>
-                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -26563,7 +26563,7 @@ $(function(){
                             <option value="130">Master Degree - Literary Area</option>
                             <option value="131">Master Degree - Languages Area</option>
                             <option value="132">Master Degree - Psychological Area</option>
-                        </select><button type="button" tabindex="-1" class="field dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
 
     <script>
         $(function() {
@@ -26705,7 +26705,7 @@ $(function(){
                             <option value="9">Spanish</option>
                             <option value="10">German</option>
                             <option value="12">Chinese</option>
-                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -26756,7 +26756,7 @@ $(function(){
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -26807,7 +26807,7 @@ $(function(){
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -26951,7 +26951,7 @@ $(function(){
 
                                             <input type="hidden" value="143155" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-07-30T02:40:01.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-07-30T08:37:05.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -27028,7 +27028,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a6ab98101c76";
+        uid = "6a6b0d318f8cc";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -27052,7 +27052,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=2c4365d6757ea731&CSRFHash=931060d39d06f31dfaeeab2714f402448f671c2d62e9dec65d2c42cca3b175ab",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=8d6d26f2a3ef3856&CSRFHash=feecbe00c78d0efef39513ce5d94d9092b8ea13d4f798b536e518626941d3b87",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -27398,7 +27398,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=2c4365d6757ea731&CSRFHash=04863f949c4294c98b38a4aa2e26bbf11e0d91c7d23d0431be5d9915f50cc7b6",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=8d6d26f2a3ef3856&CSRFHash=84b8c3a7d6d81422a21bcfd3fd60897eb9d43412ed0f1d2f412c69494f99a7a9",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -34674,7 +34674,7 @@ Recruitment Agencies – please note that we do not accept unsolicited / specula
   <title>U13-U16 Academy Goalkeeping Coach (Lead) New</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Coaching and development Job type: Permanent Job ref: 010702 Published: about 13 hours ago Expiry date: 04 Aug 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Coaching and development Job type: Permanent Job ref: 010702 Published: about 18 hours ago Expiry date: 04 Aug 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at></expires_at>
@@ -34764,7 +34764,7 @@ Recruitment Agencies – please note that we do not accept unsolicited candidate
   <title>Lead UK Academy Scout New</title>
   <arrangement>fulltime</arrangement>
   <location_type>remote</location_type>
-  <location>Newcastle upon Tyne Discipline: Football Operations Job type: Permanent Job ref: 010703 Published: about 13 hours ago Expiry date: 07 Aug 2026 17:00</location>
+  <location>Newcastle upon Tyne Discipline: Football Operations Job type: Permanent Job ref: 010703 Published: about 18 hours ago Expiry date: 07 Aug 2026 17:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at></expires_at>
@@ -34842,6 +34842,72 @@ Please apply as soon as possible as this vacancy may close early should we recei
 This position is UK based and requires proof of the right to live and work in the UK. All job offers are conditional upon background checks, including reference history, DBS checks, and verification of your eligibility to work. Please note, we do not sponsor applicants without the right to work in the UK.
 
 Recruitment Agencies – please note that we do not accept unsolicited candidate details. Any candidates submitted without request will be considered direct applicants.</plain_text_description>
+  <company_name>Newcastle United</company_name>
+  <company_url>https://www.newcastleunited.com/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-6e15a94a4e95b29d-5981220</guid>
+  <id>5981220</id>
+  <url>https://careers.newcastleunited.com/job/casual-stadium-tour-guide-5981220</url>
+  <application_link>https://careers.newcastleunited.com/job/casual-stadium-tour-guide-5981220/apply</application_link>
+  <title>Casual Stadium Tour Guide New</title>
+  <arrangement>fulltime</arrangement>
+  <location_type>onsite</location_type>
+  <location>Newcastle upon Tyne Discipline: Commercial Job type: Casual Job ref: 010704 Published: 16 minutes ago Expiry date: 10 Aug 2026 08:00</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at></published_at>
+  <expires_at>2026-08-10T00:00:00.000Z</expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p><strong>Stadium Tour Guide</strong></p> <p><strong>Newcastle upon Tyne</strong></p> <p><strong>Casual</strong></p> <p><strong>£13.45 per hour</strong></p> <p><strong>Closing Date: 10th August 2026</strong></p> <p>We are the heartbeat of the city. Come and be a part of a long and proud history where we strive to be the best in everything we do, on and off the pitch. Bringing the people and communities together, join the Newcastle United Family, as we embark on the next steps of our exciting journey.</p> <p><strong>About the role</strong></p> <p>We’re looking for an enthusiastic and engaging <strong>Stadium Tour Guide</strong> to deliver exceptional and informative tours of St. James’ Park. You’ll provide visitors with a unique experience, sharing fascinating stories and facts about the Club’s rich history while ensuring the highest standards of customer service and safety.</p> <p><strong>Your impact</strong></p> <p>You will deliver engaging tours to diverse audiences, use storytelling to bring the Club’s history to life, provide outstanding customer service, manage and adapt tours for different group sizes and needs, ensure compliance with health and safety procedures. You will also have confidence in public speaking, excellent communication skills, and the ability to build rapport with guests. Previous experience in a customer-facing role and flexibility to work weekends are required.</p> <p><strong>About the team</strong></p> <p>You will work as part of our Stadium Tours team, acting as a brand ambassador for Newcastle United and ensuring every visitor leaves with an unforgettable experience.</p> <p><strong>Location</strong></p> <p>This role is based at St. James’ Park, Newcastle upon Tyne. Flexibility to work weekends is essential.</p> <p><strong>United As One</strong></p> <p>We’re committed to equality, diversity and inclusion and believe in equal opportunities for all. We recognise that the diversity of our people is one of our greatest strengths. We work together to reflect the communities we serve and to maintain an inclusive environment in which everyone can be their authentic self and is enabled to achieve their full potential.</p> <p><strong>Safeguarding</strong></p> <p>We’re committed to being a place where everyone is safe, heard, valued and able to thrive, so we place high value on the safeguarding and welfare of everyone we engage with</p> <p><strong>How to apply</strong></p> <p>To access the full job description for this role please&nbsp;<a href="https://api.my.xd.accessacloud.com/ws/nufcp/corehr/recruitment/vacancy/jobdescription/document?key1=F8E7062C0CFDBB09050C63B732A262DF10F12A62CE5799110AD8BC9E297FB9506C9C03EC394B50B134EF3B5822E2ABBBD5975F3B764E1C06DE7449E81EF60E5BFAE0279CB4ACE134DFAC4C1FD93E6C5F340F24473526CA9ED14803FDA7E5A9C482B713E88312B3382E6F1AC88731AEAA0F07E157C19847CFA91CBFF42E10BCBFDC180A09ADE4156AE0F29E4D76A9C2BED6269E492A359575E406378E0A44B28C13DB398ED75AC7525BDC7110D71504EC9D770B8A83483A9082027804A1EEBA20&amp;key2=F3E0A2AAEE14E80D7C5185DA00CD325D830DA5A2E193EC99EADD58C688DC3270BD72F120665AA96CB052A931DD1F25C8AF7D58B0D1294D241479F69EE165A69B1A01C66DD375DA055866D1E21AC968B3FBC4B9B782A52FE7C16183C3B99F8C25CFBBE348375E978360836137F266EFF1908D0A40AD5674C1B7046F245385A8F4258FB069C36F386B57CBCDA3F5F7F915C6EE97413166C8EA801FB2B15DADD802D6B7695036B34500964AC3F6D55105BF62D257D5E12F6D6440EB0381B8B220F2">click here.</a> <br>For further information on this role and about the club and our values, please visit our careers page. <br>Please apply as soon as possible as this vacancy may close early should we receive a high volume of suitable candidates.</p> <p><strong>Recruitment Agencies</strong> – please note that we do not accept unsolicited / speculative candidate details or applications. Any candidates supplied, unless formally requested, will be taken as a direct / free candidate</p> ]]></html_description>
+  <plain_text_description>Stadium Tour Guide
+
+Newcastle upon Tyne
+
+Casual
+
+£13.45 per hour
+
+Closing Date: 10th August 2026
+
+We are the heartbeat of the city. Come and be a part of a long and proud history where we strive to be the best in everything we do, on and off the pitch. Bringing the people and communities together, join the Newcastle United Family, as we embark on the next steps of our exciting journey.
+
+About the role
+
+We’re looking for an enthusiastic and engaging Stadium Tour Guide to deliver exceptional and informative tours of St. James’ Park. You’ll provide visitors with a unique experience, sharing fascinating stories and facts about the Club’s rich history while ensuring the highest standards of customer service and safety.
+
+Your impact
+
+You will deliver engaging tours to diverse audiences, use storytelling to bring the Club’s history to life, provide outstanding customer service, manage and adapt tours for different group sizes and needs, ensure compliance with health and safety procedures. You will also have confidence in public speaking, excellent communication skills, and the ability to build rapport with guests. Previous experience in a customer-facing role and flexibility to work weekends are required.
+
+About the team
+
+You will work as part of our Stadium Tours team, acting as a brand ambassador for Newcastle United and ensuring every visitor leaves with an unforgettable experience.
+
+Location
+
+This role is based at St. James’ Park, Newcastle upon Tyne. Flexibility to work weekends is essential.
+
+United As One
+
+We’re committed to equality, diversity and inclusion and believe in equal opportunities for all. We recognise that the diversity of our people is one of our greatest strengths. We work together to reflect the communities we serve and to maintain an inclusive environment in which everyone can be their authentic self and is enabled to achieve their full potential.
+
+Safeguarding
+
+We’re committed to being a place where everyone is safe, heard, valued and able to thrive, so we place high value on the safeguarding and welfare of everyone we engage with
+
+How to apply
+
+To access the full job description for this role please click here.
+For further information on this role and about the club and our values, please visit our careers page.
+Please apply as soon as possible as this vacancy may close early should we receive a high volume of suitable candidates.
+
+Recruitment Agencies – please note that we do not accept unsolicited / speculative candidate details or applications. Any candidates supplied, unless formally requested, will be taken as a direct / free candidate</plain_text_description>
   <company_name>Newcastle United</company_name>
   <company_url>https://www.newcastleunited.com/</company_url>
   <company_logo_url></company_logo_url>
@@ -37545,7 +37611,7 @@ We encourage you to apply even if you do not meet all of the requirements that a
   <guid isPermaLink="false">url-5b451e42b8611ff7-3134</guid>
   <id>3134</id>
   <url>https://careers.thefa.com/jobs/vacancy/kent-fa---emerging-talent-centre---various-positions-1121-kent-fa/3134/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=b4c0c91c-1951-4ff7-8c4a-feb60114e1ab</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=3ffe77ad-6ac6-4660-840a-f075e15843d9</application_link>
   <title>Kent FA - Emerging Talent Centre - Various Positions</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -37645,7 +37711,7 @@ EQUALITY AND DIVERSITY MONITORING FORM</plain_text_description>
   <guid isPermaLink="false">url-5b451e42b8611ff7-3145</guid>
   <id>3145</id>
   <url>https://careers.thefa.com/jobs/vacancy/mens-team-physiotherapist-nfcsgp0566-national-football-centre-st-georges-park/3145/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=f949af49-402b-4d9d-9e5f-f10302f53d02</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=d681cb15-d244-4a8e-8c2b-8c96245e9f57</application_link>
   <title>Men&apos;s Team Physiotherapist</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -37979,7 +38045,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3154</guid>
   <id>3154</id>
   <url>https://careers.thefa.com/jobs/vacancy/casual-senior-womens-performance-chef-nfcsgp0570-national-football-centre-st-georges-park/3154/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=d89fc3dd-f16b-4993-a26d-6cb116a70fab</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=8e0f10bf-0fca-426b-a3be-f2b9ba9f866e</application_link>
   <title>Casual Senior Women&apos;s Performance Chef</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38105,7 +38171,7 @@ As part of The FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3160</guid>
   <id>3160</id>
   <url>https://careers.thefa.com/jobs/vacancy/hampshire-fa--deputy-designated-safeguarding-officer--1130-hampshire-fa/3160/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=aba20821-dc31-42b9-891b-1dabf41aa31c</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=c93c6561-ba0b-4c0f-9d67-5c4594873a14</application_link>
   <title>Hampshire FA -Deputy Designated Safeguarding Officer.</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38161,7 +38227,7 @@ Hampshire FA is committed to equality, diversity, inclusion and safeguarding chi
   <guid isPermaLink="false">url-5b451e42b8611ff7-3165</guid>
   <id>3165</id>
   <url>https://careers.thefa.com/jobs/vacancy/ticketing-applications-coordinator--wnsl1105-wembley-stadium/3165/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=1147d1ce-3aca-4805-9db9-18636f73a6b1</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=16068ff4-6d75-467b-a0ce-a445254411ac</application_link>
   <title>Ticketing Applications Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38313,7 +38379,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3167</guid>
   <id>3167</id>
   <url>https://careers.thefa.com/jobs/vacancy/resource--planning-coordinator-wnsl1107-national-football-centre-st-georges-park/3167/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=d789fb44-34c6-4f7f-99f6-91980ebd61bb</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=bed727d2-20e6-49fb-8edb-2704bf4406e6</application_link>
   <title>Resource &amp; Planning Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38479,7 +38545,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3169</guid>
   <id>3169</id>
   <url>https://careers.thefa.com/jobs/vacancy/sheffield-fa---deputy-designated-safeguarding-officer-and-behaviour-improvement-coordinator-1133-sheffield-fa/3169/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=332c2421-e90c-48a1-86f7-28f228716914</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=40a87702-e8d9-4b89-bd07-0ab5be32a3aa</application_link>
   <title>Sheffield FA - Deputy Designated Safeguarding Officer and Behaviour Improvement Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38568,7 +38634,7 @@ Additional information
   <guid isPermaLink="false">url-5b451e42b8611ff7-3170</guid>
   <id>3170</id>
   <url>https://careers.thefa.com/jobs/vacancy/workforce-senior-coordinator-nfcsgp0573-national-football-centre-st-georges-park/3170/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=a9649933-33a1-4033-96ab-d312af7d1e26</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=187b40e1-ad3a-4899-80b3-a70262661a0c</application_link>
   <title>Workforce Senior Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38740,7 +38806,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3171</guid>
   <id>3171</id>
   <url>https://careers.thefa.com/jobs/vacancy/worcestershire-fa---club-consultant-1134-worcestershire-fa-/3171/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=b7694142-70b3-48e5-8946-6d937009b284</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=2dade2f0-a8a6-4eb2-b06b-8e85b674eb8f</application_link>
   <title>Worcestershire FA - Club Consultant</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38824,7 +38890,7 @@ If you have any questions about the service required, please contact development
   <guid isPermaLink="false">url-5b451e42b8611ff7-3172</guid>
   <id>3172</id>
   <url>https://careers.thefa.com/jobs/vacancy/derbyshire-fa---referee-development-officer-1135-derbyshire-fa/3172/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=347e9f81-45b3-49b0-9eba-08a8596f0a57</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=5cebb6dc-340d-4092-b999-fa18c8c90770</application_link>
   <title>Derbyshire FA - Referee Development Officer</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38917,7 +38983,7 @@ Successful applicants will be subject to an Enhanced DBS check and must hold a f
   <guid isPermaLink="false">url-5b451e42b8611ff7-3173</guid>
   <id>3173</id>
   <url>https://careers.thefa.com/jobs/vacancy/hampshire-fa----disability-pathway-football-development-officer-1136-hampshire-fa/3173/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=704298c0-31f6-489f-b49e-8c5ffa7589c6</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=9555e6a1-97d2-4f16-af43-269bab790d94</application_link>
   <title>Hampshire FA - Disability Pathway Football Development Officer</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -38990,7 +39056,7 @@ Hampshire FA is committed to equality, diversity, inclusion and safeguarding chi
   <guid isPermaLink="false">url-5b451e42b8611ff7-3174</guid>
   <id>3174</id>
   <url>https://careers.thefa.com/jobs/vacancy/fa-womens-national-league-independent-non-executive-director-1137-variable/3174/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=2e29ad4a-4b5e-4318-b973-a830e6f67ac1</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=270f87a1-53fd-443c-a824-55c003e3d95a</application_link>
   <title>FA Women&apos;s National League Independent Non-Executive Director</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -39218,7 +39284,7 @@ As part of the FA&apos;s commitment to ensuring a safe environment for everyone 
   <guid isPermaLink="false">url-5b451e42b8611ff7-3176</guid>
   <id>3176</id>
   <url>https://careers.thefa.com/jobs/vacancy/staffordshire-fa---football-workforce-officer---coaching--volunteering-1138-staffordshire-fa/3176/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=ec2d2471-75cf-473a-aec5-74aa693ef616</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=25444234-ef77-4787-aca6-da787e6128d8</application_link>
   <title>Staffordshire FA - Football Workforce Officer - Coaching &amp; Volunteering</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -39314,7 +39380,7 @@ Applicants will require a full, clean driving licence.</plain_text_description>
   <guid isPermaLink="false">url-5b451e42b8611ff7-3177</guid>
   <id>3177</id>
   <url>https://careers.thefa.com/jobs/vacancy/womens-u23-assistant-analyst-casual-hb0312-home-based-/3177/description/</url>
-  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=2ad86ccc-fa3f-464b-b4d0-90184624df06</application_link>
+  <application_link>https://careers.thefa.com/jobs/vacancy/find/results/action/posbrowser_resetto/?pagestamp=ecd23cf3-98c6-49a0-b823-aae6ee44a3c7</application_link>
   <title>Women&apos;s U23 Assistant Analyst (Casual)</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
@@ -41071,93 +41137,6 @@ U.S. Soccer is an equal opportunity employer that is committed to diversity, equ
   <salary_currency/>
  </job>
  <job>
-  <guid isPermaLink="false">url-0091ee0bf2146b42-4329512</guid>
-  <id>4329512</id>
-  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4329512</url>
-  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4329512</application_link>
-  <title>EQ Operations Specialist, Equipment Management Operations</title>
-  <arrangement>fulltime</arrangement>
-  <location_type>onsite</location_type>
-  <location>Atlanta, GA, US</location>
-  <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-14T22:29:52.000Z</published_at>
-  <expires_at></expires_at>
-  <highlighted>false</highlighted>
-  <sticky>false</sticky>
-  <html_description><![CDATA[ <p>Description</p><p><br/></p><p><strong>U.S. Soccer Overview</strong></p><p><br/></p><p>The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.</p><p><br/></p><p>We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.</p><p><br/></p><p>U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.</p><p><br/></p><p><strong>Position Description</strong></p><p><br/></p><p>As an Equipment Operations - Specialist for U.S. Soccer, this position is responsible managing various aspects of team equipment operations as it relates to U.S Soccer’s Youth National Teams (16), Extended National Teams (9), and key Sporting, Commercial, and Events departments based at our National Training Center (NTC) in Fayetteville, GA. The position demands a high level of familiarity with the sport of soccer, the products and equipment necessary for facilitating training and competition, both on and off the field. This position reports to and works closely with the Equipment Operations Management Team to meet departmental goals.</p><p><br/></p><p>As a member of the Equipment Operations department, this position travels on YNT and ENT trips as required and is an integral part of the YNT and ENT support staff. A high degree of professionalism is required, as is the ability to independently create quick, effective solutions for issues that arise. The position is heavily focused on ensuring the players and coaching staff can rely on having team equipment needs secured for all training, matches, etc. on and off the field. Additionally, this role collaborates closely with YNT Administrators to ensure the success of all on and off the field requirements.&nbsp;</p><p><br/></p><p><strong>Primary Responsibilities</strong></p><ul><li>Handle the duties of day-to-day operations of on-site equipment headquarters, NTC warehouse, storage and locker rooms</li><li>Use inventory software to maintain accurate product inventory, product replenishment needs and individual product dispersal&nbsp;</li><li>Forecast and assist with the departmental purchase orders seasonal buys for all Youth National Teams, Extended National Teams, and non-promo Federation departments&nbsp;</li><li>Process, manage and place both futures and at-once orders against yearly product allocation via NIKE GameDay online ordering system&nbsp;</li><li>Contribute to the movement and logistical planning for all equipment needs for YNT and ENT domestic and international camps, matches and tournaments including the coordination, packing and overseeing the shipping and receiving logistics Serve as a point of contact, if needed, for any and all critical equipment fulfillment needs that arise for traveling teams, Federation staff, departments, etc.&nbsp;</li><li>Sustain proactive communication with Management of Equipment Operations, YNT and ENT administration and coaching personnel</li><li>Assist the Manager of EQ Ops Sports Med/HP with shipping and receiving duties, if necessary</li><li>Collaborate with the YNT and ENT coaching staff with equipment and training set up, as needed</li><li>Responsible for effective team laundry needs while on the road and at the facility</li><li>Ensure presentation of the team (team gear, attire, etc.) is of the highest quality</li><li>Main up-to-date with FIFA rules and equipment protocol regulations</li><li>Support NTC-related initiatives and events as assigned, with responsibilities and event assignments determined based on organizational needs.</li><li>Serve as the primary point of contact for assigned teams during designated cycles; however, responsibilities may extend beyond assigned teams to support broader program and organizational objectives.</li></ul><p>Requirements</p><p><br/></p><p><strong>Minimum Qualifications</strong></p><ul><li>Bachelor’s degree required</li><li>At least one year of prior related experience in sports or events &nbsp;</li><li>General soccer knowledge&nbsp;</li><li>Ability to maintain strong level of professionalism and effective communication&nbsp;</li><li>Ability to anticipate needs and problem solve&nbsp;</li><li>Ability to prioritize and manage a number of different projects simultaneously</li><li>Quick learner who can function well in fast-paced, team-oriented environment</li><li>Must be able to connect “micro” details to the “macro” vision and mission</li><li>Working knowledge of Microsoft Word and Excel</li><li>Ability to lift and handle boxes weighing upwards of 75 lbs.&nbsp;</li><li>Able and willing to travel up to 50% of the year, as needed. Actual travel requirements may vary and are not guaranteed</li><li>Extensive work hours required while traveling&nbsp;</li><li>Able and willing to work non-traditional hours including evenings, weekends, and holidays as needed&nbsp;</li></ul><p><strong>Desired Qualifications</strong></p><ul><li>1-3 years of prior competitive sports team equipment management experience&nbsp;</li><li>Ability to create and enhance team centric environment&nbsp;</li><li>History of working with inventory and ordering system(s)&nbsp;</li><li>Passion and strong understanding of the soccer game and landscape</li><li>Excellent organizational, planning, and leadership skills&nbsp;</li><li>Ability to collaborate effectively with colleagues and athletes having a range of backgrounds, interests, and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;perspectives&nbsp;</li><li>Bilingual (English and Spanish)</li><li>Strong independent proficiency with Microsoft Suite products such as Word and Excel&nbsp;</li></ul><p><br/></p><p><em>U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.</em></p><p><br/></p><p><em>U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply</em>.</p> ]]></html_description>
-  <plain_text_description>Description
-
-U.S. Soccer Overview
-
-The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.
-
-We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.
-
-U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.
-
-Position Description
-
-As an Equipment Operations - Specialist for U.S. Soccer, this position is responsible managing various aspects of team equipment operations as it relates to U.S Soccer’s Youth National Teams (16), Extended National Teams (9), and key Sporting, Commercial, and Events departments based at our National Training Center (NTC) in Fayetteville, GA. The position demands a high level of familiarity with the sport of soccer, the products and equipment necessary for facilitating training and competition, both on and off the field. This position reports to and works closely with the Equipment Operations Management Team to meet departmental goals.
-
-As a member of the Equipment Operations department, this position travels on YNT and ENT trips as required and is an integral part of the YNT and ENT support staff. A high degree of professionalism is required, as is the ability to independently create quick, effective solutions for issues that arise. The position is heavily focused on ensuring the players and coaching staff can rely on having team equipment needs secured for all training, matches, etc. on and off the field. Additionally, this role collaborates closely with YNT Administrators to ensure the success of all on and off the field requirements.
-
-Primary Responsibilities
-
-- Handle the duties of day-to-day operations of on-site equipment headquarters, NTC warehouse, storage and locker rooms
-- Use inventory software to maintain accurate product inventory, product replenishment needs and individual product dispersal
-- Forecast and assist with the departmental purchase orders seasonal buys for all Youth National Teams, Extended National Teams, and non-promo Federation departments
-- Process, manage and place both futures and at-once orders against yearly product allocation via NIKE GameDay online ordering system
-- Contribute to the movement and logistical planning for all equipment needs for YNT and ENT domestic and international camps, matches and tournaments including the coordination, packing and overseeing the shipping and receiving logistics Serve as a point of contact, if needed, for any and all critical equipment fulfillment needs that arise for traveling teams, Federation staff, departments, etc.
-- Sustain proactive communication with Management of Equipment Operations, YNT and ENT administration and coaching personnel
-- Assist the Manager of EQ Ops Sports Med/HP with shipping and receiving duties, if necessary
-- Collaborate with the YNT and ENT coaching staff with equipment and training set up, as needed
-- Responsible for effective team laundry needs while on the road and at the facility
-- Ensure presentation of the team (team gear, attire, etc.) is of the highest quality
-- Main up-to-date with FIFA rules and equipment protocol regulations
-- Support NTC-related initiatives and events as assigned, with responsibilities and event assignments determined based on organizational needs.
-- Serve as the primary point of contact for assigned teams during designated cycles; however, responsibilities may extend beyond assigned teams to support broader program and organizational objectives.
-
-Requirements
-
-Minimum Qualifications
-
-- Bachelor’s degree required
-- At least one year of prior related experience in sports or events
-- General soccer knowledge
-- Ability to maintain strong level of professionalism and effective communication
-- Ability to anticipate needs and problem solve
-- Ability to prioritize and manage a number of different projects simultaneously
-- Quick learner who can function well in fast-paced, team-oriented environment
-- Must be able to connect “micro” details to the “macro” vision and mission
-- Working knowledge of Microsoft Word and Excel
-- Ability to lift and handle boxes weighing upwards of 75 lbs.
-- Able and willing to travel up to 50% of the year, as needed. Actual travel requirements may vary and are not guaranteed
-- Extensive work hours required while traveling
-- Able and willing to work non-traditional hours including evenings, weekends, and holidays as needed
-
-Desired Qualifications
-
-- 1-3 years of prior competitive sports team equipment management experience
-- Ability to create and enhance team centric environment
-- History of working with inventory and ordering system(s)
-- Passion and strong understanding of the soccer game and landscape
-- Excellent organizational, planning, and leadership skills
-- Ability to collaborate effectively with colleagues and athletes having a range of backgrounds, interests, and perspectives
-- Bilingual (English and Spanish)
-- Strong independent proficiency with Microsoft Suite products such as Word and Excel
-
-U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.
-
-U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply.</plain_text_description>
-  <company_name>US Soccer Federation</company_name>
-  <company_url>https://www.ussoccer.com/</company_url>
-  <company_logo_url></company_logo_url>
-  <salary_minimum/>
-  <salary_maximum/>
-  <salary_schedule/>
-  <salary_currency/>
- </job>
- <job>
   <guid isPermaLink="false">url-0091ee0bf2146b42-4339565</guid>
   <id>4339565</id>
   <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4339565</url>
@@ -41367,6 +41346,30 @@ Desired Qualifications
 U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.
 
 U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply.</plain_text_description>
+  <company_name>US Soccer Federation</company_name>
+  <company_url>https://www.ussoccer.com/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-0091ee0bf2146b42-4376088</guid>
+  <id>4376088</id>
+  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4376088</url>
+  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4376088</application_link>
+  <title>Assistant Grounds Mechanic / Part-Time</title>
+  <arrangement>fulltime</arrangement>
+  <location_type>onsite</location_type>
+  <location>Atlanta, GA</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at></published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p>U.S. Soccer OverviewThe U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.Position DescriptionU.S. Soccer Federation is seeking a motivated and dependable Assistant Grounds Mechanic to support the maintenance and daily operation of all turf maintenance equipment and facility golf carts at the Arthur M. Blank U.S. Soccer National Training Center, a premier training facility located outside of Atlanta. This position works closely with the Grounds Mechanic and Director of Turf and Grounds to ensure all equipment is maintained in safe, reliable, and efficient operating condition to support world-class training surfaces.Primary ResponsibilitiesEquipment Maintenance SupportAssist the Head Grounds Mechanic with preventive maintenance and daily servicing of all turf maintenance equipment, including mowers, tractors, utility vehicles, sprayers, and small engine equipment.&amp;nbsp;Perform basic troubleshooting, inspections, lubrication, blade and reel adjustments, oil changes, tire repairs, and routine maintenance tasks.&amp;nbsp;Assist with diagnosing mechanical and hydraulic issues and completing repairs in a timely manner.&amp;nbsp;Maintain cleanliness and organization of the equipment shop, maintenance areas, and storage facilities.&amp;nbsp;Support equipment setup and preparation for daily trainings, tournaments, and special events.&amp;nbsp;Help maintain accurate maintenance logs, service records, and parts inventory.&amp;nbsp;Assist with receiving, organizing, and stocking equipment parts and supplies.&amp;nbsp;Safely operate equipment as needed to support turf and grounds operations.&amp;nbsp;Team &amp;amp; Operational SupportWork collaboratively with the Head Grounds Mechanic, Director of Turf and Grounds, and grounds staff to prioritize equipment needs and minimize downtime.&amp;nbsp;Follow all shop safety standards, operational procedures, and equipment handling guidelines.&amp;nbsp;Support staff with basic equipment operation guidance and safe-use practices when needed.&amp;nbsp;Respond promptly to equipment-related issues during trainings, events, and daily operations.&amp;nbsp;Assist with special projects and facility needs as assigned.&amp;nbsp;</p> ]]></html_description>
+  <plain_text_description>U.S. Soccer OverviewThe U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.Position DescriptionU.S. Soccer Federation is seeking a motivated and dependable Assistant Grounds Mechanic to support the maintenance and daily operation of all turf maintenance equipment and facility golf carts at the Arthur M. Blank U.S. Soccer National Training Center, a premier training facility located outside of Atlanta. This position works closely with the Grounds Mechanic and Director of Turf and Grounds to ensure all equipment is maintained in safe, reliable, and efficient operating condition to support world-class training surfaces.Primary ResponsibilitiesEquipment Maintenance SupportAssist the Head Grounds Mechanic with preventive maintenance and daily servicing of all turf maintenance equipment, including mowers, tractors, utility vehicles, sprayers, and small engine equipment.&amp;nbsp;Perform basic troubleshooting, inspections, lubrication, blade and reel adjustments, oil changes, tire repairs, and routine maintenance tasks.&amp;nbsp;Assist with diagnosing mechanical and hydraulic issues and completing repairs in a timely manner.&amp;nbsp;Maintain cleanliness and organization of the equipment shop, maintenance areas, and storage facilities.&amp;nbsp;Support equipment setup and preparation for daily trainings, tournaments, and special events.&amp;nbsp;Help maintain accurate maintenance logs, service records, and parts inventory.&amp;nbsp;Assist with receiving, organizing, and stocking equipment parts and supplies.&amp;nbsp;Safely operate equipment as needed to support turf and grounds operations.&amp;nbsp;Team &amp;amp; Operational SupportWork collaboratively with the Head Grounds Mechanic, Director of Turf and Grounds, and grounds staff to prioritize equipment needs and minimize downtime.&amp;nbsp;Follow all shop safety standards, operational procedures, and equipment handling guidelines.&amp;nbsp;Support staff with basic equipment operation guidance and safe-use practices when needed.&amp;nbsp;Respond promptly to equipment-related issues during trainings, events, and daily operations.&amp;nbsp;Assist with special projects and facility needs as assigned.&amp;nbsp;</plain_text_description>
   <company_name>US Soccer Federation</company_name>
   <company_url>https://www.ussoccer.com/</company_url>
   <company_logo_url></company_logo_url>
