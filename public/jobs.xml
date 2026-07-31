@@ -1541,30 +1541,6 @@ Work Environment
   <salary_currency/>
  </job>
  <job>
-  <guid isPermaLink="false">url-5e40ce08fb6b5d72-117556928</guid>
-  <id>117556928</id>
-  <url>https://secure.workforceready.eu/ta/6189861.careers?CareersSearch=&amp;lang=en-GB</url>
-  <application_link>https://secure.workforceready.eu/ta/6189861.careers?CareersSearch=&amp;lang=en-GB</application_link>
-  <title>Lead of Performance Medicine - CFCW</title>
-  <arrangement>fulltime</arrangement>
-  <location_type>onsite</location_type>
-  <location>London, GBR</location>
-  <location_limits><location>Worldwide</location></location_limits>
-  <published_at></published_at>
-  <expires_at></expires_at>
-  <highlighted>false</highlighted>
-  <sticky>false</sticky>
-  <html_description><![CDATA[ <p>JOB TITLE: Lead of Performance Medicine – Chelsea FC Women LOCATION: Cobham Training Ground CONTRACT: Permanent, 6 days per week Shape the Future of Performance Medicine in Elite Women's Football Chelsea FC Women are seeking an exceptional Lead of Perfo...</p> ]]></html_description>
-  <plain_text_description>JOB TITLE: Lead of Performance Medicine – Chelsea FC Women LOCATION: Cobham Training Ground CONTRACT: Permanent, 6 days per week Shape the Future of Performance Medicine in Elite Women&apos;s Football Chelsea FC Women are seeking an exceptional Lead of Perfo...</plain_text_description>
-  <company_name>Chelsea FC</company_name>
-  <company_url>https://www.chelseafc.com/</company_url>
-  <company_logo_url></company_logo_url>
-  <salary_minimum/>
-  <salary_maximum/>
-  <salary_schedule/>
-  <salary_currency/>
- </job>
- <job>
   <guid isPermaLink="false">url-5e40ce08fb6b5d72-117557828</guid>
   <id>117557828</id>
   <url>https://secure.workforceready.eu/ta/6189861.careers?CareersSearch=&amp;lang=en-GB</url>
@@ -19066,7 +19042,7 @@ Preferred
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-30T19:36:31.898Z</published_at>
+  <published_at>2026-07-31T03:20:05.353Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -19096,7 +19072,7 @@ Preferred
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=f80c00e0d4c4998a&amp;CSRFHash=4548159f4444406c93d142541f4c3f42068bbb4ee3d943cf56f1bcd9431144cb">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=7bae3bb2d8f9bf76&amp;CSRFHash=37004a94bc7d63ecfe04fefed78e931c4e99a33bd5a9f409897f02f6946449ad">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -19109,7 +19085,7 @@ Preferred
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=f80c00e0d4c4998a&amp;CSRFHash=036b9d44a2b9eeacb285c42d93a8ea3b1041cc8dc1d7cea79bb4284a8ef093f8" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=7bae3bb2d8f9bf76&amp;CSRFHash=176f8066b9fe65ae0c94cb540a04d711c6c41e28d3a4df1a224fc613d44a715a" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -19171,7 +19147,7 @@ Preferred
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?1881553625" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?638090214" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -19302,7 +19278,7 @@ Preferred
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=f80c00e0d4c4998a&amp;CSRFHash=7c8c39b2fdc86f2f460d85bd0b666f9890d872bcab6bb9f4e10ca84f2686d573" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=7bae3bb2d8f9bf76&amp;CSRFHash=cefbee4da74f4888907b4b47f9acc73da4b534537b08d75619ab1369509ecf0c" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -19591,7 +19567,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=bb85760dd8e8a005564521fc4b60354a536728c8a8cba8ef96ed676fd92b63e8',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=680e44fab3cb2a81edb1c84702aad5b54ac4b9c6b769ece8a2620951d8e4cac5',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -19693,7 +19669,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=aadd77a14b218fb65856ffaebd9e9873ad58b031ee7687d769b46b8b984644e7';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=d109a30e6d3b779176f5fc977ebd9a3c5c5a52736b9ae9daa12a1809e20b0095';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -19791,7 +19767,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=c421952eaf0ec674425606927b8c6c0d6583d733712bad6d71136307ebceca6d',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=ff23d81a5b2b6266a3794b6bfc8011064d18e1dfb1fbc822944f324d1294522f',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -20047,7 +20023,7 @@ $(function(){
             clearBtn: true,
             language: "en",
             startDate: new Date(1900, 01-1, 01),
-            endDate: new Date(2126, 07-1, 30),
+            endDate: new Date(2126, 07-1, 31),
             format: "dd-mm-yyyy"
         }).on("changeDate", function(ev) {
             if (ev.date) {
@@ -20153,7 +20129,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=f80c00e0d4c4998a&CSRFHash=0f6f6ba455609f96c34377a9254eedb2440c07df09c1104b7d8e68b673cb1cbe',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=fb83a123b9a6386c64c0d17a203238ccd61b5fdd71d947f1a2e6ff03fca68d9a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20194,7 +20170,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=25c4e2cd124613232b6317421ce2cdaa4686ebd8c4b0ab0c18a82f7f5e2f8f6d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a1ee292e6f54247048eb09c3284d97670b726c5d81b2e43889f3ddf31f0abced',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20371,7 +20347,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=1d8a342dca71bf5ebfc9d34142184178b551645b5e2fa0e4881c51c43b1819ca")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=faf58c0e2a24e7dc88ea68945e797badf37476411361bed0bba1e6f1ef525340")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -20507,7 +20483,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=310dd07b08bbdef53a38cffcf0c179b10c3d98b0b0eb913673c28eadad1e3b18",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=ca4119ccb05f8289926571eed80b5c6641341eb6db19caefc8bd910de10b9c2f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -20532,7 +20508,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=742e1fb29afa1cf0a17837f45390362cd2782c2e8f0b81a1dd2d27306d32a922",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=fc8686d6e23fecc7c69d5acc3a9582be0a5bdc15c90c9d3cf7b465dbeed2b473",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -20554,7 +20530,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=93d329cc3377e9a6dbfc56aeffad673b5ff6fcecabad5c5710452983ba6024a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=cc23d6da866123f01653bc87f844c99eac05a31ad6206ebb7ead805ae1378ae8",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20580,7 +20556,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=38d664cf725bc9ccc25f41209ccc888091c4f92ee925f8a3bd9256d539dcd594",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a7a3b3fd4365554551ed4db2e49843ec89c36d9d2aa7298fd6153920bdcad5c0",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20615,7 +20591,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=2a433303a97e6fbab9d95fde3292ff3b93174b02a10859edd2b7e6a962be8320",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8a179ca756380e5f733e41756bf966cc516956620ddc4d4e77be6c92be0d8f62",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -20756,7 +20732,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=f80c00e0d4c4998a&CSRFHash=0f6f6ba455609f96c34377a9254eedb2440c07df09c1104b7d8e68b673cb1cbe',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=fb83a123b9a6386c64c0d17a203238ccd61b5fdd71d947f1a2e6ff03fca68d9a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20794,7 +20770,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=f80c00e0d4c4998a&CSRFHash=6b906c0f3ca15a18756ab230fbc2f146a7c08d0e05f39193ee66a41496e14ec9',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=c3bf53016c7b0848c965971fcae42569b2eea02ba913c4dffeabc88c0dce0ad8',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20841,7 +20817,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=25c4e2cd124613232b6317421ce2cdaa4686ebd8c4b0ab0c18a82f7f5e2f8f6d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a1ee292e6f54247048eb09c3284d97670b726c5d81b2e43889f3ddf31f0abced',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20890,7 +20866,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=85ec8914c0c696d5c4367482e64e6e9e4c873ce38be4a8bd4bfd55c2cbcd0629',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=85b7c24f92f7edc335255d605e176af666e081610d28564506246357e7d45f65',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20937,7 +20913,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=f0af821aa073bc2091252aa299aa199738c5c76e1c74a0699d8a756c09e7df5a',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=f88f52bcab10eb4441321ee7c54faf6e6f06403907da72e2b2b9193f5f59b277',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20991,7 +20967,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=8cbb35d3e93090744134fa421192ed59e9b9dacdc4dfce91a14f99c485742464',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=82e4684a855e7ec16829c0c6cba694ec013e7b920ee2145df7553af595257694',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -21045,7 +21021,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=8840ad923d3dfeed6033e6e5821763fe9b966008c47cf3ce61c2c08190808785',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a2410e2527d56fda00f8b487fd9d7d7ec2744ae6f15b106f370af423ff2dfda2',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -21286,7 +21262,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=1d8a342dca71bf5ebfc9d34142184178b551645b5e2fa0e4881c51c43b1819ca")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=faf58c0e2a24e7dc88ea68945e797badf37476411361bed0bba1e6f1ef525340")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -21705,7 +21681,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=310dd07b08bbdef53a38cffcf0c179b10c3d98b0b0eb913673c28eadad1e3b18",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=ca4119ccb05f8289926571eed80b5c6641341eb6db19caefc8bd910de10b9c2f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -21751,7 +21727,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=93d329cc3377e9a6dbfc56aeffad673b5ff6fcecabad5c5710452983ba6024a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=cc23d6da866123f01653bc87f844c99eac05a31ad6206ebb7ead805ae1378ae8",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21802,7 +21778,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=38d664cf725bc9ccc25f41209ccc888091c4f92ee925f8a3bd9256d539dcd594",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a7a3b3fd4365554551ed4db2e49843ec89c36d9d2aa7298fd6153920bdcad5c0",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21863,7 +21839,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=767c2d9397d7ccb01f8610d925ea6ac7c6d7ac1d2c340f4e3aa7da8cb5981797",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=0fcf56ca79d0425b57c83c14bceda5873ef5a8cddcad40e8f7baa6431994cf63",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -21934,7 +21910,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=93d329cc3377e9a6dbfc56aeffad673b5ff6fcecabad5c5710452983ba6024a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=cc23d6da866123f01653bc87f844c99eac05a31ad6206ebb7ead805ae1378ae8",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21982,7 +21958,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=2a433303a97e6fbab9d95fde3292ff3b93174b02a10859edd2b7e6a962be8320",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8a179ca756380e5f733e41756bf966cc516956620ddc4d4e77be6c92be0d8f62",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -22617,7 +22593,7 @@ $(function(){
 
                                             <input type="hidden" value="142469" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-07-30T19:36:34.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-07-31T03:20:07.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -22694,7 +22670,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a6ba7c1d2eff";
+        uid = "6a6c14672f534";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -22718,7 +22694,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=f80c00e0d4c4998a&CSRFHash=087c26fb66841ad843c7168b2b48746fe7537d659565fa99faafdfce0f5076af",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8beddcf0efa81bbe0aceb4a102eee984e08ec509a4f2d7baa1287bcaa68c13c0",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -23064,7 +23040,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=f80c00e0d4c4998a&CSRFHash=59e94bec4e21a887158e93e127bbf19277dba3ef450a2e475df3cc90cd555e4b",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8074d842df0093b32efc6b781de72e5b336bd7ff2c82fc12fc3c45ddd71c04d8",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -23945,7 +23921,7 @@ Accessibility statement</plain_text_description>
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-30T19:36:35.884Z</published_at>
+  <published_at>2026-07-31T03:20:09.534Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -23975,7 +23951,7 @@ Accessibility statement</plain_text_description>
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=f80c00e0d4c4998a&amp;CSRFHash=4548159f4444406c93d142541f4c3f42068bbb4ee3d943cf56f1bcd9431144cb">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=7bae3bb2d8f9bf76&amp;CSRFHash=37004a94bc7d63ecfe04fefed78e931c4e99a33bd5a9f409897f02f6946449ad">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -23988,7 +23964,7 @@ Accessibility statement</plain_text_description>
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=f80c00e0d4c4998a&amp;CSRFHash=036b9d44a2b9eeacb285c42d93a8ea3b1041cc8dc1d7cea79bb4284a8ef093f8" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=7bae3bb2d8f9bf76&amp;CSRFHash=176f8066b9fe65ae0c94cb540a04d711c6c41e28d3a4df1a224fc613d44a715a" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -24054,7 +24030,7 @@ Accessibility statement</plain_text_description>
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?212258252" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?1248688719" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -24069,11 +24045,11 @@ Accessibility statement</plain_text_description>
 								</a>
 								<a class="share__a2a a2a_button_whatsapp" aria-label="WhatsApp Share Icon Link" target="_blank" href="/#whatsapp" rel="nofollow noopener">
 									<svg viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M12.036 5.339c-3.635 0-6.591 2.956-6.593 6.589-.001 1.483.434 2.594 1.164 3.756l-.666 2.432 2.494-.654c1.117.663 2.184 1.061 3.595 1.061 3.632 0 6.591-2.956 6.592-6.59.003-3.641-2.942-6.593-6.586-6.594zm3.876 9.423c-.165.463-.957.885-1.337.942-.341.051-.773.072-1.248-.078-.288-.091-.657-.213-1.129-.417-1.987-.858-3.285-2.859-3.384-2.991-.099-.132-.809-1.074-.809-2.049 0-.975.512-1.454.693-1.653.182-.2.396-.25.528-.25l.38.007c.122.006.285-.046.446.34.165.397.561 1.372.611 1.471.049.099.083.215.016.347-.066.132-.099.215-.198.33l-.297.347c-.099.099-.202.206-.087.404.116.198.513.847 1.102 1.372.757.675 1.395.884 1.593.983.198.099.314.083.429-.05.116-.132.495-.578.627-.777s.264-.165.446-.099 1.156.545 1.354.645c.198.099.33.149.38.231.049.085.049.482-.116.945zm3.088-14.762h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-6.967 19.862c-1.327 0-2.634-.333-3.792-.965l-4.203 1.103 1.125-4.108c-.694-1.202-1.059-2.566-1.058-3.964.002-4.372 3.558-7.928 7.928-7.928 2.121.001 4.112.827 5.609 2.325s2.321 3.491 2.32 5.609c-.002 4.372-3.559 7.928-7.929 7.928z"></path></svg>
-								</a><div style="clear: both;"></div>
+								</a>
 								<a href="#" class="share__a2a share__qrcode" aria-label="QRCode Share Icon" data-qrcode="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?d=qrcode" title="QR Code">
 									<i class="mi mi-qr_code font-size-20"></i>
 								</a>
-							</div>
+							<div style="clear: both;"></div></div>
 						</div>
 					</div>
 									</div>
@@ -24192,7 +24168,7 @@ Accessibility statement</plain_text_description>
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=f80c00e0d4c4998a&amp;CSRFHash=7c8c39b2fdc86f2f460d85bd0b666f9890d872bcab6bb9f4e10ca84f2686d573" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=7bae3bb2d8f9bf76&amp;CSRFHash=cefbee4da74f4888907b4b47f9acc73da4b534537b08d75619ab1369509ecf0c" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -24481,7 +24457,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=bb85760dd8e8a005564521fc4b60354a536728c8a8cba8ef96ed676fd92b63e8',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=680e44fab3cb2a81edb1c84702aad5b54ac4b9c6b769ece8a2620951d8e4cac5',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -24583,7 +24559,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=aadd77a14b218fb65856ffaebd9e9873ad58b031ee7687d769b46b8b984644e7';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=d109a30e6d3b779176f5fc977ebd9a3c5c5a52736b9ae9daa12a1809e20b0095';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -24681,7 +24657,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=c421952eaf0ec674425606927b8c6c0d6583d733712bad6d71136307ebceca6d',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=ff23d81a5b2b6266a3794b6bfc8011064d18e1dfb1fbc822944f324d1294522f',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -24937,7 +24913,7 @@ $(function(){
             clearBtn: true,
             language: "en",
             startDate: new Date(1900, 01-1, 01),
-            endDate: new Date(2126, 07-1, 30),
+            endDate: new Date(2126, 07-1, 31),
             format: "dd-mm-yyyy"
         }).on("changeDate", function(ev) {
             if (ev.date) {
@@ -25043,7 +25019,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=f80c00e0d4c4998a&CSRFHash=0f6f6ba455609f96c34377a9254eedb2440c07df09c1104b7d8e68b673cb1cbe',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=fb83a123b9a6386c64c0d17a203238ccd61b5fdd71d947f1a2e6ff03fca68d9a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25084,7 +25060,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=25c4e2cd124613232b6317421ce2cdaa4686ebd8c4b0ab0c18a82f7f5e2f8f6d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a1ee292e6f54247048eb09c3284d97670b726c5d81b2e43889f3ddf31f0abced',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25261,7 +25237,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=1d8a342dca71bf5ebfc9d34142184178b551645b5e2fa0e4881c51c43b1819ca")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=faf58c0e2a24e7dc88ea68945e797badf37476411361bed0bba1e6f1ef525340")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -25397,7 +25373,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=310dd07b08bbdef53a38cffcf0c179b10c3d98b0b0eb913673c28eadad1e3b18",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=ca4119ccb05f8289926571eed80b5c6641341eb6db19caefc8bd910de10b9c2f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -25422,7 +25398,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=742e1fb29afa1cf0a17837f45390362cd2782c2e8f0b81a1dd2d27306d32a922",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=fc8686d6e23fecc7c69d5acc3a9582be0a5bdc15c90c9d3cf7b465dbeed2b473",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -25444,7 +25420,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=93d329cc3377e9a6dbfc56aeffad673b5ff6fcecabad5c5710452983ba6024a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=cc23d6da866123f01653bc87f844c99eac05a31ad6206ebb7ead805ae1378ae8",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -25470,7 +25446,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=38d664cf725bc9ccc25f41209ccc888091c4f92ee925f8a3bd9256d539dcd594",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a7a3b3fd4365554551ed4db2e49843ec89c36d9d2aa7298fd6153920bdcad5c0",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -25505,7 +25481,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=2a433303a97e6fbab9d95fde3292ff3b93174b02a10859edd2b7e6a962be8320",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8a179ca756380e5f733e41756bf966cc516956620ddc4d4e77be6c92be0d8f62",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -25646,7 +25622,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=f80c00e0d4c4998a&CSRFHash=0f6f6ba455609f96c34377a9254eedb2440c07df09c1104b7d8e68b673cb1cbe',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=fb83a123b9a6386c64c0d17a203238ccd61b5fdd71d947f1a2e6ff03fca68d9a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25684,7 +25660,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=f80c00e0d4c4998a&CSRFHash=6b906c0f3ca15a18756ab230fbc2f146a7c08d0e05f39193ee66a41496e14ec9',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=c3bf53016c7b0848c965971fcae42569b2eea02ba913c4dffeabc88c0dce0ad8',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25731,7 +25707,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=25c4e2cd124613232b6317421ce2cdaa4686ebd8c4b0ab0c18a82f7f5e2f8f6d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a1ee292e6f54247048eb09c3284d97670b726c5d81b2e43889f3ddf31f0abced',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25780,7 +25756,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=85ec8914c0c696d5c4367482e64e6e9e4c873ce38be4a8bd4bfd55c2cbcd0629',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=85b7c24f92f7edc335255d605e176af666e081610d28564506246357e7d45f65',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25827,7 +25803,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=f0af821aa073bc2091252aa299aa199738c5c76e1c74a0699d8a756c09e7df5a',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=f88f52bcab10eb4441321ee7c54faf6e6f06403907da72e2b2b9193f5f59b277',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25881,7 +25857,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=8cbb35d3e93090744134fa421192ed59e9b9dacdc4dfce91a14f99c485742464',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=82e4684a855e7ec16829c0c6cba694ec013e7b920ee2145df7553af595257694',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25935,7 +25911,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=f80c00e0d4c4998a&CSRFHash=8840ad923d3dfeed6033e6e5821763fe9b966008c47cf3ce61c2c08190808785',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a2410e2527d56fda00f8b487fd9d7d7ec2744ae6f15b106f370af423ff2dfda2',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -26176,7 +26152,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=1d8a342dca71bf5ebfc9d34142184178b551645b5e2fa0e4881c51c43b1819ca")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=faf58c0e2a24e7dc88ea68945e797badf37476411361bed0bba1e6f1ef525340")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -26595,7 +26571,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=310dd07b08bbdef53a38cffcf0c179b10c3d98b0b0eb913673c28eadad1e3b18",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=ca4119ccb05f8289926571eed80b5c6641341eb6db19caefc8bd910de10b9c2f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -26641,7 +26617,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=93d329cc3377e9a6dbfc56aeffad673b5ff6fcecabad5c5710452983ba6024a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=cc23d6da866123f01653bc87f844c99eac05a31ad6206ebb7ead805ae1378ae8",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -26692,7 +26668,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=38d664cf725bc9ccc25f41209ccc888091c4f92ee925f8a3bd9256d539dcd594",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=a7a3b3fd4365554551ed4db2e49843ec89c36d9d2aa7298fd6153920bdcad5c0",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -26753,7 +26729,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=767c2d9397d7ccb01f8610d925ea6ac7c6d7ac1d2c340f4e3aa7da8cb5981797",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=0fcf56ca79d0425b57c83c14bceda5873ef5a8cddcad40e8f7baa6431994cf63",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -26824,7 +26800,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=93d329cc3377e9a6dbfc56aeffad673b5ff6fcecabad5c5710452983ba6024a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=cc23d6da866123f01653bc87f844c99eac05a31ad6206ebb7ead805ae1378ae8",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -26872,7 +26848,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=f80c00e0d4c4998a&CSRFHash=2a433303a97e6fbab9d95fde3292ff3b93174b02a10859edd2b7e6a962be8320",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8a179ca756380e5f733e41756bf966cc516956620ddc4d4e77be6c92be0d8f62",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -27054,7 +27030,7 @@ $(function(){
                             <option value="27">LAUREA SPECIALISTICA A CICLO UNICO - Nuovo ordinamento</option>
                             <option value="28">LAUREA SPECIALISTICA - Nuovo ordinamento</option>
                             <option value="31">MASTER</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -27119,7 +27095,7 @@ $(function(){
                             <option value="130">Master Degree - Literary Area</option>
                             <option value="131">Master Degree - Languages Area</option>
                             <option value="132">Master Degree - Psychological Area</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
 
     <script>
         $(function() {
@@ -27261,7 +27237,7 @@ $(function(){
                             <option value="9">Spanish</option>
                             <option value="10">German</option>
                             <option value="12">Chinese</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -27312,7 +27288,7 @@ $(function(){
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -27363,7 +27339,7 @@ $(function(){
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -27507,7 +27483,7 @@ $(function(){
 
                                             <input type="hidden" value="143155" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-07-30T19:36:38.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-07-31T03:20:12.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -27584,7 +27560,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a6ba7c5db9fc";
+        uid = "6a6c146bacd9f";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -27608,7 +27584,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=f80c00e0d4c4998a&CSRFHash=087c26fb66841ad843c7168b2b48746fe7537d659565fa99faafdfce0f5076af",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8beddcf0efa81bbe0aceb4a102eee984e08ec509a4f2d7baa1287bcaa68c13c0",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -27954,7 +27930,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=f80c00e0d4c4998a&CSRFHash=59e94bec4e21a887158e93e127bbf19277dba3ef450a2e475df3cc90cd555e4b",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=7bae3bb2d8f9bf76&CSRFHash=8074d842df0093b32efc6b781de72e5b336bd7ff2c82fc12fc3c45ddd71c04d8",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -35631,6 +35607,108 @@ We are an equal opportunity employer and all qualified applicants will receive c
   <salary_currency/>
  </job>
  <job>
+  <guid isPermaLink="false">url-454a6150cb70cd38-506</guid>
+  <id>506</id>
+  <url>https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL/jobs/506</url>
+  <application_link>https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL/jobs/506/apply?flowSelection=true</application_link>
+  <title>Marketing - Street Team PT</title>
+  <arrangement>parttime</arrangement>
+  <location_type>onsite</location_type>
+  <location>GEODIS Park, 2226 Bransford Ave, Nashville, Tennessee, United States of America</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at>2026-07-30T06:00:00.000Z</published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <div style="box-sizing: inherit; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 2.1; white-space: normal; background-color: #ffffff;"><strong style="box-sizing: inherit; font-weight: bold;">Position Summary</strong></div>
+<div style="box-sizing: inherit; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 2.1; white-space: normal; background-color: #ffffff;">Nashville SC Street Team members serve as key community ambassadors for the Club throughout the 2025 season. This role supports fan engagement at public appearances, home matches, away watch parties, and community events across the Nashville area. Street Team members play a vital role in strengthening fan loyalty by enhancing the matchday and event experience, while also serving as an extension of the Club&rsquo;s Marketing and Entertainment teams.<br style="box-sizing: inherit;"><br style="box-sizing: inherit;"></div>
+<div style="box-sizing: inherit; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 2.1; white-space: normal; background-color: #ffffff;"><strong style="box-sizing: inherit; font-weight: bold;">Essential Duties &amp; Responsibilities</strong></div>
+<ul style="box-sizing: inherit; list-style-type: disc; margin: 0px 0px 0px 20px; padding: 0px; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; white-space: normal; background-color: #ffffff;">
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Facilitate on-site activations and promotional events while delivering exceptional customer service and representing the Club with energy and professionalism.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Serve as an extension of the Marketing Department by promoting club initiatives, ticket programs, and brand messaging.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Assist guests as part of the GEODIS Park guest experience team when needed.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Actively engage with fans to encourage participation in activations, distribute giveaways, and provide event-specific information.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Assist with the setup, operation, and breakdown of interactive displays, promotional booths, and event materials.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Distribute marketing collateral in an organized and professional manner.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Collect and report feedback, observations, and insights following events to supervisors.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Support pre-match activities, including Opening Act activations (e.g., Kick Wall, premium tailgate).</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Serve as a matchday runner for the Nashville SC Entertainment team as needed.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Assist with matchday entertainment management, hospitality, and game presentation needs.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Support production logistics, including entertainment personnel arrival, load-in, and load-out.<br style="box-sizing: inherit;"><br style="box-sizing: inherit;"></li>
+</ul>
+<div style="box-sizing: inherit; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 2.1; white-space: normal; background-color: #ffffff;"><strong style="box-sizing: inherit; font-weight: bold;">Shift Information</strong></div>
+<ul style="box-sizing: inherit; list-style-type: disc; margin: 0px 0px 0px 20px; padding: 0px; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; white-space: normal; background-color: #ffffff;">
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Shifts include all home matches, the majority of away matches, and additional off-site community events throughout the season.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Hours vary by event schedule, with an expected commitment of approximately&nbsp;<strong style="box-sizing: inherit; font-weight: bold;">5&ndash;15 hours per week</strong>&nbsp;during the season.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Some shifts require transporting materials to and from event locations and assisting with setup and teardown.<br style="box-sizing: inherit;"><br style="box-sizing: inherit;"></li>
+</ul>
+<div style="box-sizing: inherit; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 2.1; white-space: normal; background-color: #ffffff;"><strong style="box-sizing: inherit; font-weight: bold;">Qualifications</strong></div>
+<ul style="box-sizing: inherit; list-style-type: disc; margin: 0px 0px 0px 20px; padding: 0px; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; white-space: normal; background-color: #ffffff;">
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Ability to commit to all Nashville SC matchdays (home and away) with minimal scheduling conflicts.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">General interest in and working knowledge of soccer, including basic understanding of Nashville SC&rsquo;s schedule and roster.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Strong interpersonal and communication skills with a positive, outgoing attitude.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Comfortable engaging with fans and promoting club initiatives in public settings.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Team-oriented, collaborative mindset.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Willingness to learn club promotions, ticket programs, and soccer-related information (training provided).</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Reliable transportation, valid driver&rsquo;s license, and a good driving record.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Availability to work evenings, weekends, and select holidays.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Dependable, punctual, and professional.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Ability to lift and move materials exceeding 50 lbs.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Ability to maintain professionalism when interacting with VIP-level personnel.</li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;"><strong style="box-sizing: inherit; font-weight: bold;">Bilingual (English/Spanish) preferred but not required.</strong></li>
+<li style="box-sizing: inherit; margin-bottom: 0.5em; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 300; line-height: 2.1;">Prior experience in promotions, events, or brand ambassador roles preferred.<br style="box-sizing: inherit;"><br style="box-sizing: inherit;"></li>
+</ul>
+<div style="box-sizing: inherit; color: #08090a; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 2.1; white-space: normal; background-color: #ffffff;">We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, age, disability, gender identity, marital or veteran status, or any other protected class.</div> ]]></html_description>
+  <plain_text_description>Position Summary
+
+Nashville SC Street Team members serve as key community ambassadors for the Club throughout the 2025 season. This role supports fan engagement at public appearances, home matches, away watch parties, and community events across the Nashville area. Street Team members play a vital role in strengthening fan loyalty by enhancing the matchday and event experience, while also serving as an extension of the Club’s Marketing and Entertainment teams.
+
+Essential Duties &amp; Responsibilities
+
+- Facilitate on-site activations and promotional events while delivering exceptional customer service and representing the Club with energy and professionalism.
+- Serve as an extension of the Marketing Department by promoting club initiatives, ticket programs, and brand messaging.
+- Assist guests as part of the GEODIS Park guest experience team when needed.
+- Actively engage with fans to encourage participation in activations, distribute giveaways, and provide event-specific information.
+- Assist with the setup, operation, and breakdown of interactive displays, promotional booths, and event materials.
+- Distribute marketing collateral in an organized and professional manner.
+- Collect and report feedback, observations, and insights following events to supervisors.
+- Support pre-match activities, including Opening Act activations (e.g., Kick Wall, premium tailgate).
+- Serve as a matchday runner for the Nashville SC Entertainment team as needed.
+- Assist with matchday entertainment management, hospitality, and game presentation needs.
+- Support production logistics, including entertainment personnel arrival, load-in, and load-out.
+
+Shift Information
+
+- Shifts include all home matches, the majority of away matches, and additional off-site community events throughout the season.
+- Hours vary by event schedule, with an expected commitment of approximately 5–15 hours per week during the season.
+- Some shifts require transporting materials to and from event locations and assisting with setup and teardown.
+
+Qualifications
+
+- Ability to commit to all Nashville SC matchdays (home and away) with minimal scheduling conflicts.
+- General interest in and working knowledge of soccer, including basic understanding of Nashville SC’s schedule and roster.
+- Strong interpersonal and communication skills with a positive, outgoing attitude.
+- Comfortable engaging with fans and promoting club initiatives in public settings.
+- Team-oriented, collaborative mindset.
+- Willingness to learn club promotions, ticket programs, and soccer-related information (training provided).
+- Reliable transportation, valid driver’s license, and a good driving record.
+- Availability to work evenings, weekends, and select holidays.
+- Dependable, punctual, and professional.
+- Ability to lift and move materials exceeding 50 lbs.
+- Ability to maintain professionalism when interacting with VIP-level personnel.
+- Bilingual (English/Spanish) preferred but not required.
+- Prior experience in promotions, events, or brand ambassador roles preferred.
+
+We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, age, disability, gender identity, marital or veteran status, or any other protected class.</plain_text_description>
+  <company_name>Nashville Soccer Club</company_name>
+  <company_url>https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL</company_url>
+  <company_logo_url>https://us252.dayforcehcm.com/CandidatePortal/en-US/nashvillesc/Go?item=e851f504-d3da-4493-b1ab-249e9df4845b</company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
   <guid isPermaLink="false">url-6e15a94a4e95b29d-5853380</guid>
   <id>5853380</id>
   <url>https://careers.newcastleunited.com/job/host-families-5853380</url>
@@ -35744,7 +35822,7 @@ To express an interest and find out more information please email Callum.Thompso
   <title>Premium Sales Executive</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Commercial Job type: Permanent Job ref: 010662 Published: 3 days ago Expiry date: 04 Aug 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Commercial Job type: Permanent Job ref: 010662 Published: 4 days ago Expiry date: 04 Aug 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at></expires_at>
@@ -35986,7 +36064,7 @@ Recruitment Agencies – please note that we do not accept unsolicited candidate
   <title>Casual Stadium Tour Guide New</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Commercial Job type: Casual Job ref: 010704 Published: about 9 hours ago Expiry date: 10 Aug 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Commercial Job type: Casual Job ref: 010704 Published: about 19 hours ago Expiry date: 10 Aug 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at>2026-08-10T00:00:00.000Z</expires_at>
@@ -36781,99 +36859,6 @@ An FA Enhanced DBS disclosure is required for all relevant new appointments to t
   <salary_currency/>
  </job>
  <job>
-  <guid isPermaLink="false">url-9bd0643b6042aad5-8081649</guid>
-  <id>8081649</id>
-  <url>https://careers.nottinghamforest.co.uk/jobs/8081649-girls-academy-education-lead-part-time</url>
-  <application_link>https://careers.nottinghamforest.co.uk/jobs/8081649-girls-academy-education-lead-part-time</application_link>
-  <title>Girls Academy Education Lead (Part Time)</title>
-  <arrangement>fulltime</arrangement>
-  <location_type>onsite</location_type>
-  <location>The Nigel Doughty Academy, Nottingham, NG2 7SR, GB</location>
-  <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-16T13:27:24.000Z</published_at>
-  <expires_at>2026-07-30T22:59:59.000Z</expires_at>
-  <highlighted>false</highlighted>
-  <sticky>false</sticky>
-  <html_description><![CDATA[ <p><strong>Salary:</strong> Please state your expectations within your application</p><p><strong>Contract:</strong> Part Time, 22.5 hours a week</p><p><strong>Location:</strong> The City Ground, Nottingham, NG2 5FJ And The Nigel Doughty Academy, Nottingham, NG2 7SR</p><p><strong>Department:</strong>&nbsp;Girls Academy</p><p><strong>Reporting to:</strong> Girls Academy Manager</p><p><strong>Closing Date For Applications:</strong> 30th July 2026</p><hr><p><strong>About the Role:</strong></p><p>Lead, design and quality-assure the Academy Education Programme across the PGA, ensuring every player receives a personalised, high-quality academic support offer, developed in partnership with the player and their parents/carers, and aligned effectively with the football programme. </p><hr><p><strong>The Perks of the Job:</strong></p><ul><li><p>Opportunity to access tickets for events at The City Ground.</p></li><li><p>Employee Assistance Programme.</p></li><li><p>Access to high street and gym discounts.</p></li><li><p>Discount within our Club shop.</p></li><li><p>Free on-site parking.</p></li></ul><hr><p><strong>Key Tasks and Responsibilities:</strong></p><ul><li><p><span>Designing and periodically reviewing the overall Education Programme in partnership with learning providers.</span></p></li><li><p class="MsoNormal"><span>Coordinating academic pathways (GCSE, A-levels, BTECs, functional skills, FE/HE programmes, DiSE).</span></p></li><li><p class="MsoNormal"><span>Working with schools and colleges to align timetables with training/competition; arranging compensatory education where required.</span></p></li><li><p class="MsoNormal"><span>Monitoring academic performance by tracking attendance, reviewing attainments and progress and implementing early interventions</span></p></li><li><p class="MsoNormal"><span>Ensuring accurate documentation, reporting and data management across academic records.</span></p></li><li><p class="MsoNormal"><span>Managing internal verification and quality assurance where the club delivers any elements directly.</span></p></li><li><p class="MsoNormal"><span>Providing guidance to parents/carers on academic pathways, expectations, and how to support learning alongside football.</span></p></li><li><p class="MsoNormal"><span>Support players to develop confidence and independence in managing their academic commitments.</span></p></li></ul><p><strong>What are we looking for:</strong></p><ul><li><p>QTS or QTLS (with active SET membership for QTLS).</p></li><li><p>Enhanced DBS.</p></li><li><p>FA Safeguarding Children qualification.</p></li><li><p>Emergency First Aid / FA IFAiF (or equivalent).</p></li><li><p>Teaching, tutoring, mentoring or academic coaching experience.</p></li><li><p>Experience supporting young people through GCSE, Post-16 and FE/HE study pathways.</p></li><li><p>Leading or coordinating education provision in a school, FE, HE or performance environment.</p></li><li><p>Working with external learning providers and navigating dual career pressures.</p></li><li><p>Experience coordinating DiSE or similar programmes.</p></li><li><p>Safeguarding practice and pastoral support from an academic perspective.</p></li><li><p>Multidisciplinary working in environments with demanding schedules.</p></li><li><p>Familiarity with qualification frameworks (GCSE, BTEC, A level, FE/HE systems).</p></li><li><p>Understanding of how loan moves, Academy Dual Registrations and academy contracts impact education provision and player welfare.</p></li></ul><p></p><hr><p><strong>Forest For Everyone</strong></p><p class="MsoNormal"><span><em>We aim to create a culture which embraces and celebrates our differences, enables individuals to feel comfortable, maximise their potential and eliminate discrimination.</em></span></p><p class="MsoNormal"><span><em>Nottingham Forest Football Club is an equal opportunities employer and welcomes applications from all suitably qualified persons, regardless of age, disability, gender, gender reassignment, marital / civil partnership status, pregnancy / maternity leave, race, religion/belief, sexual orientation, or any other legally protected characteristic.</em></span></p><p class="MsoNormal"><span><em>Nottingham Forest Football Club is a signatory of the FA’s Football Leadership Diversity Code. We are committed to developing policies to promote equal opportunities and diversity within our workforce. To monitor our progress against these commitments, we Invite all applicants to provide diversity data during the application process.</em></span><br></p><p><strong>Disability Confident Committed Employer</strong></p><p><em>We are a Disability Confident Committed employer.&nbsp; We encourage applications from people with disabilities and long-term health conditions.&nbsp; If you need disability-related adjustments to the recruitment process, please indicate this in your application.</em></p><p><em>If you are likely to meet the definition of being a "disabled person" according to the&nbsp;</em><a target="_blank" href="https://www.gov.uk/guidance/equality-act-2010-guidance"><em>Equality Act 2010</em></a><em>, you may be eligible to apply for an interview via the&nbsp;</em><a target="_blank" href="https://www.gov.uk/government/publications/disability-confident-guidance-for-levels-1-2-and-3/level-1-disability-confident-committed#offer-an-interview-to-disabled-people"><em>Disability Confident Scheme</em></a><em>&nbsp;- please indicate this in your application form below.&nbsp; The information you share with us about your health or disability will not be used in recruitment selections.</em></p><p></p><p><strong>Our Commitment to Safeguarding</strong></p><p><em>As part of the Club’s commitment to safeguarding, the successful applicant may be required to undergo a Disclosure Barring Service (“DBS”) check or an enhanced DBS check. The results of a DBS check will be considered on an individual basis, and the Club will act in a proportionate manner when deciding whether or not to proceed with the appointment.</em></p><p><em>An FA Enhanced DBS disclosure is required for all relevant new appointments to the Club. Individuals will be asked to declare any convictions, cautions or reprimands, warnings or bind-overs that may have been incurred. The Club reserves the right to carry out risk assessments where content has been disclosed on a DBS disclosure if it feels that it is relevant to the job requirements. Failure to satisfy the Club and the PL's safeguarding requirements may lead to the job offer being withdrawn or, if they have already started employment, summary termination of the employment.</em></p><hr> ]]></html_description>
-  <plain_text_description>Salary: Please state your expectations within your application
-
-Contract: Part Time, 22.5 hours a week
-
-Location: The City Ground, Nottingham, NG2 5FJ And The Nigel Doughty Academy, Nottingham, NG2 7SR
-
-Department: Girls Academy
-
-Reporting to: Girls Academy Manager
-
-Closing Date For Applications: 30th July 2026
-
-About the Role:
-
-Lead, design and quality-assure the Academy Education Programme across the PGA, ensuring every player receives a personalised, high-quality academic support offer, developed in partnership with the player and their parents/carers, and aligned effectively with the football programme.
-
-The Perks of the Job:
-
-- Opportunity to access tickets for events at The City Ground.
-- Employee Assistance Programme.
-- Access to high street and gym discounts.
-- Discount within our Club shop.
-- Free on-site parking.
-
-Key Tasks and Responsibilities:
-
-- Designing and periodically reviewing the overall Education Programme in partnership with learning providers.
-- Coordinating academic pathways (GCSE, A-levels, BTECs, functional skills, FE/HE programmes, DiSE).
-- Working with schools and colleges to align timetables with training/competition; arranging compensatory education where required.
-- Monitoring academic performance by tracking attendance, reviewing attainments and progress and implementing early interventions
-- Ensuring accurate documentation, reporting and data management across academic records.
-- Managing internal verification and quality assurance where the club delivers any elements directly.
-- Providing guidance to parents/carers on academic pathways, expectations, and how to support learning alongside football.
-- Support players to develop confidence and independence in managing their academic commitments.
-
-What are we looking for:
-
-- QTS or QTLS (with active SET membership for QTLS).
-- Enhanced DBS.
-- FA Safeguarding Children qualification.
-- Emergency First Aid / FA IFAiF (or equivalent).
-- Teaching, tutoring, mentoring or academic coaching experience.
-- Experience supporting young people through GCSE, Post-16 and FE/HE study pathways.
-- Leading or coordinating education provision in a school, FE, HE or performance environment.
-- Working with external learning providers and navigating dual career pressures.
-- Experience coordinating DiSE or similar programmes.
-- Safeguarding practice and pastoral support from an academic perspective.
-- Multidisciplinary working in environments with demanding schedules.
-- Familiarity with qualification frameworks (GCSE, BTEC, A level, FE/HE systems).
-- Understanding of how loan moves, Academy Dual Registrations and academy contracts impact education provision and player welfare.
-
-Forest For Everyone
-
-We aim to create a culture which embraces and celebrates our differences, enables individuals to feel comfortable, maximise their potential and eliminate discrimination.
-
-Nottingham Forest Football Club is an equal opportunities employer and welcomes applications from all suitably qualified persons, regardless of age, disability, gender, gender reassignment, marital / civil partnership status, pregnancy / maternity leave, race, religion/belief, sexual orientation, or any other legally protected characteristic.
-
-Nottingham Forest Football Club is a signatory of the FA’s Football Leadership Diversity Code. We are committed to developing policies to promote equal opportunities and diversity within our workforce. To monitor our progress against these commitments, we Invite all applicants to provide diversity data during the application process.
-
-Disability Confident Committed Employer
-
-We are a Disability Confident Committed employer. We encourage applications from people with disabilities and long-term health conditions. If you need disability-related adjustments to the recruitment process, please indicate this in your application.
-
-If you are likely to meet the definition of being a &quot;disabled person&quot; according to theEquality Act 2010, you may be eligible to apply for an interview via theDisability Confident Scheme- please indicate this in your application form below. The information you share with us about your health or disability will not be used in recruitment selections.
-
-Our Commitment to Safeguarding
-
-As part of the Club’s commitment to safeguarding, the successful applicant may be required to undergo a Disclosure Barring Service (“DBS”) check or an enhanced DBS check. The results of a DBS check will be considered on an individual basis, and the Club will act in a proportionate manner when deciding whether or not to proceed with the appointment.
-
-An FA Enhanced DBS disclosure is required for all relevant new appointments to the Club. Individuals will be asked to declare any convictions, cautions or reprimands, warnings or bind-overs that may have been incurred. The Club reserves the right to carry out risk assessments where content has been disclosed on a DBS disclosure if it feels that it is relevant to the job requirements. Failure to satisfy the Club and the PL&apos;s safeguarding requirements may lead to the job offer being withdrawn or, if they have already started employment, summary termination of the employment.</plain_text_description>
-  <company_name>Nottingham Forest</company_name>
-  <company_url>https://www.nottinghamforest.co.uk/</company_url>
-  <company_logo_url></company_logo_url>
-  <salary_minimum/>
-  <salary_maximum/>
-  <salary_schedule/>
-  <salary_currency/>
- </job>
- <job>
   <guid isPermaLink="false">url-9bd0643b6042aad5-8110306</guid>
   <id>8110306</id>
   <url>https://careers.nottinghamforest.co.uk/jobs/8110306-academy-education-officer</url>
@@ -37138,127 +37123,6 @@ WHAT WE OFFER:
 
 NEW YORK CITY FOOTBALL CLUB OVERVIEW:
 
-At New York City FC, we are on a mission to build this city into one of the soccer capitals of the world. The Club was announced as Major League Soccer’s 20th franchise and is the first and only MLS team located within the five boroughs of New York City. The Club has qualified for the Audi MLS Cup Playoffs nine times over the past 10 seasons, winning MLS Cup in 2021. Games are available to stream via an Apple TV subscription, providing every match of the MLS regular season, the Audi MLS Cup Playoffs, annual Leagues Cup tournament, the MLS All-Star Game, the Campeones Cup, and more all in one place and with no blackouts. New York City FC is building New York City’s first-ever soccer-specific stadium, Etihad Park, which is set to open in 2027. For more information, please visit: www.newyorkcityfc.com.
-
-New York City FC is also one of 12 clubs comprising City Football Group and counts Manchester City FC, Melbourne City FC, Yokohama F-Marinos, Girona FC, Montevideo City Torque, Shenzhen Peng City FC, Lommel SK, ESTAC Troyes, Palermo FC, Bahia, and Club Bolívar among its sister clubs.
-
-We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, or any other characteristic protected by law.
-
-By clicking &quot;Apply Now&quot;, you agree to the terms of the MLS Privacy Policy.
-https://www.mlssoccer.com/legal/privacy-policy</plain_text_description>
-  <company_name>NYCFC</company_name>
-  <company_url>https://www.teamworkonline.com/soccer-jobs/nycfc/nyc-fc</company_url>
-  <company_logo_url>https://cf-production.teamworkonline.com/uploads/public/thumb_77c6ccbc-b557-48fb-b3ec-fb5ee66990ab.png</company_logo_url>
-  <salary_minimum/>
-  <salary_maximum/>
-  <salary_schedule/>
-  <salary_currency/>
- </job>
- <job>
-  <guid isPermaLink="false">url-ff742c2a871b1f7c-2177852</guid>
-  <id>2177852</id>
-  <url>https://www.teamworkonline.com/soccer-jobs/nycfc/nyc-fc/senior-manager-community-engagement-2177852</url>
-  <application_link>https://www.teamworkonline.com/employment_opportunities/2177852/applications/new</application_link>
-  <title>Senior Manager, Community Engagement</title>
-  <arrangement>fulltime</arrangement>
-  <location_type>onsite</location_type>
-  <location>New York, NY, 10016, US</location>
-  <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-06-29T00:00:00.000Z</published_at>
-  <expires_at>2026-08-01T00:00:00.000Z</expires_at>
-  <highlighted>false</highlighted>
-  <sticky>false</sticky>
-  <html_description><![CDATA[ <div><strong>JOB TITLE: </strong>Senior Manager, Community Engagement<strong><br>REPORTING TO: </strong> Director, Community Development<br><strong>DEPARTMENT: </strong>Community<br><strong>LOCATION:  </strong>New York, NY<br><br><strong>POSITION OVERVIEW:</strong><br>New York City FC is seeking a strategic, relationship-driven Senior Manager, Community Engagement to help lead how the Club engages with communities across New York City.<br>Reporting to the Director of Community Development, this role combines strategy, relationship management, and execution to strengthen the Club's community impact and visibility. The Senior Manager will lead cross-functional coordination, steward key external partnerships, oversee flagship engagement initiatives, and ensure community priorities are integrated across the organization.<br><br>The ideal candidate is a thoughtful planner, exceptional writer, and collaborative leader who enjoys building relationships, developing new ideas, and delivering high-quality work in a fast-paced environment.<br><br><strong>WHAT YOU’LL DO:</strong><br><strong>Cross-Functional Alignment</strong></div><ul><li>Serve as a strategic partner, helping translate departmental priorities into clear plans and successful execution.</li><li>Lead Community Department meetings, project planning, and follow-up, ensuring initiatives remain on track and aligned with broader Club priorities.</li><li>Drive collaboration across Marketing, Communications, Partnerships, Human Resources, Business Intelligence, Ticketing, Stadium Operations, and other departments.</li><li>Coordinate stakeholders, monitor deliverables, and maintain accountability across key initiatives.</li></ul><div><strong>Partnerships &amp; Engagement</strong></div><ul><li>Develop and manage relationships with nonprofit organizations, schools, community-based organizations, city agencies, civic leaders, and key stakeholders.</li><li>Identify opportunities to strengthen partnerships through programs, events, fundraising, volunteerism, and matchday experiences.</li><li>Support community access initiatives connected to Etihad Park, including stakeholder engagement and key community commitments.</li><li>Represent New York City FC and City in the Community at meetings, events, and community forums.</li></ul><div><strong>Programs, Events &amp; Fundraising</strong></div><ul><li>Lead development and execution of key engagement initiatives, including the Player Ambassador Program, Employee Volunteer Program, MLS community initiatives, community matchday integrations, and the Club's 50/50 raffle.</li><li>Develop and deliver community events, fundraising initiatives, stakeholder receptions, volunteer opportunities, and supporter engagement experiences.</li><li>Create meaningful opportunities that connect fans, partners, players, and community organizations to City in the Community's mission.</li><li>Evaluate programs and recommend improvements that increase participation, visibility, and impact.</li></ul><div><strong>Visibility &amp; Impact</strong></div><ul><li>Increase awareness of New York City FC and City in the Community's work across the Club, New York City, Major League Soccer, and the broader community.</li><li>Partner with Marketing, Communications, Human Resources, and Business Intelligence to elevate community initiatives through events, content, social media, storytelling, and internal communications.</li><li>Lead development of the Club's Community Impact Report, executive presentations, award submissions, newsletters, and stakeholder communications.</li><li>Identify opportunities to strengthen the Club's reputation as a leader in community engagement and social impact.</li></ul><div><strong>Department Operations</strong></div><ul><li>Support annual budget development, fiscal planning, and departmental reporting.</li><li>Manage full-time and part-time staff, consultants, and volunteers supporting community engagement initiatives.</li><li>Develop project plans, timelines, and success measures that ensure consistent, high-quality delivery.</li><li>Continuously improve processes, strengthen collaboration, and identify new opportunities to expand the Club's community impact.</li></ul><div><br><strong>WHAT YOU'LL BRING</strong></div><ul><li>5 to 7 years of experience in community engagement, partnership marketing, client management, nonprofit leadership, sports, corporate social responsibility, or a related field.</li><li>Proven ability to build and manage relationships across diverse stakeholder groups.</li><li>Experience leading cross-functional initiatives and driving projects from strategy through execution.</li><li>Strong event planning, fundraising, and partnership management experience.</li><li>Exceptional written and verbal communication skills, including experience developing executive presentations, impact reports, award submissions, and strategic communications.</li><li>Strong project management, organizational, and budget management skills.</li><li>A proactive mindset with the ability to anticipate needs, solve problems, and manage multiple priorities.</li><li>Experience managing staff, consultants, volunteers, or project teams.</li><li>Passion for community engagement and a commitment to creating meaningful social impact through sport.</li></ul><div><br><strong>WHO YOU ARE: </strong><br>At New York FC, we are committed to upholding our core club values and our values guide how we show up and work together every day.  If you share our values listed below, please consider NYCFC as a great place for you to work (and play):<br><strong>Acts Honorably</strong>: listens and communicates respectfully, without judgement</div><div><strong>Engages Collaboratively</strong>: provides and seeks constructive feedback to and from peers, proactively sharing appreciation for quality contributions of others</div><div><strong>Champions Inclusion</strong>: celebrates the value of differences recognizing the value in the unique backgrounds and lived experiences of every team member</div><div><strong>Drives Forward: </strong>embraces new opportunities with curiosity and a focus on improvement and innovation</div><div><strong>Shows Heart:</strong> demonstrates passion for the Club and sport, operating as an NYCFC ambassador in encouraging and inspiring that passion in others</div><div><br><strong>ADDITIONAL REQUIREMENTS:</strong></div><ul><li>Applicant must be able to comply with MLS Next Safety and Well-Being policy and any other applicable child safety policies provided to applicants by NYCFC</li><li>Must be able to matchdays, community events which may be at night and on weekends and holidays</li><li> Local travel throughout New York City is required.</li></ul><div><strong><br>COMPENSATION:</strong><br>This exempt position has an estimated annual base salary range of $70,000 - $80,000 and is not overtime eligible. Final compensation offer amounts are based on a wide array of factors unique to each candidate, including but not limited to demonstrated skill set, years and depth of relevant experience, and some role-dependent factors such as certifications and software expertise. We welcome direct conversations with each candidate about compensation in all of our initial calls.<br><br><strong>WHAT WE OFFER:</strong></div><ul><li>Excellent health, dental &amp; vision insurance, with options to fit you and your family’s needs</li><li>Comprehensive and competitive benefit programs, including maternal &amp; paternal leave</li><li>Ancillary benefits: Commuter, and Citi Bike discounts</li><li>Your health is important! Our wellness strategy focuses on mental and physical wellbeing through in-office and virtual programs</li><li>Four complementary tickets to every NYCFC home match</li><li>Team outings, happy hours, and annual staff gatherings to celebrate our co-workers</li><li>A dynamic, ambitious, and fun work environment</li></ul><div><br><strong>NEW YORK CITY FOOTBALL CLUB OVERVIEW:</strong><br>At New York City FC, we are on a mission to build this city into one of the soccer capitals of the world. The Club was announced as Major League Soccer’s 20th franchise and is the first and only MLS team located within the five boroughs of New York City. The Club has qualified for the Audi MLS Cup Playoffs nine times over the past 10 seasons, winning MLS Cup in 2021. Games are available to stream via an Apple TV subscription, providing every match of the MLS regular season, the Audi MLS Cup Playoffs, annual Leagues Cup tournament, the MLS All-Star Game, the Campeones Cup, and more all in one place and with no blackouts. New York City FC is building New York City’s first-ever soccer-specific stadium, Etihad Park, which is set to open in 2027. For more information, please visit: www.newyorkcityfc.com.<br> <br>New York City FC is also one of 12 clubs comprising City Football Group and counts Manchester City FC, Melbourne City FC, Yokohama F-Marinos, Girona FC, Montevideo City Torque, Shenzhen Peng City FC, Lommel SK, ESTAC Troyes, Palermo FC, Bahia, and Club Bolívar among its sister clubs.<br><br>We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, or any other characteristic protected by law.<br><br>By clicking "Apply Now", you agree to the terms of the MLS Privacy Policy.<br>https://www.mlssoccer.com/legal/privacy-policy</div> ]]></html_description>
-  <plain_text_description>JOB TITLE:Senior Manager, Community EngagementREPORTING TO: Director, Community Development
-DEPARTMENT:Community
-LOCATION:New York, NY
-
-POSITION OVERVIEW:
-New York City FC is seeking a strategic, relationship-driven Senior Manager, Community Engagement to help lead how the Club engages with communities across New York City.
-Reporting to the Director of Community Development, this role combines strategy, relationship management, and execution to strengthen the Club&apos;s community impact and visibility. The Senior Manager will lead cross-functional coordination, steward key external partnerships, oversee flagship engagement initiatives, and ensure community priorities are integrated across the organization.
-
-The ideal candidate is a thoughtful planner, exceptional writer, and collaborative leader who enjoys building relationships, developing new ideas, and delivering high-quality work in a fast-paced environment.
-
-WHAT YOU’LL DO:
-Cross-Functional Alignment
-
-- Serve as a strategic partner, helping translate departmental priorities into clear plans and successful execution.
-- Lead Community Department meetings, project planning, and follow-up, ensuring initiatives remain on track and aligned with broader Club priorities.
-- Drive collaboration across Marketing, Communications, Partnerships, Human Resources, Business Intelligence, Ticketing, Stadium Operations, and other departments.
-- Coordinate stakeholders, monitor deliverables, and maintain accountability across key initiatives.
-
-Partnerships &amp; Engagement
-
-- Develop and manage relationships with nonprofit organizations, schools, community-based organizations, city agencies, civic leaders, and key stakeholders.
-- Identify opportunities to strengthen partnerships through programs, events, fundraising, volunteerism, and matchday experiences.
-- Support community access initiatives connected to Etihad Park, including stakeholder engagement and key community commitments.
-- Represent New York City FC and City in the Community at meetings, events, and community forums.
-
-Programs, Events &amp; Fundraising
-
-- Lead development and execution of key engagement initiatives, including the Player Ambassador Program, Employee Volunteer Program, MLS community initiatives, community matchday integrations, and the Club&apos;s 50/50 raffle.
-- Develop and deliver community events, fundraising initiatives, stakeholder receptions, volunteer opportunities, and supporter engagement experiences.
-- Create meaningful opportunities that connect fans, partners, players, and community organizations to City in the Community&apos;s mission.
-- Evaluate programs and recommend improvements that increase participation, visibility, and impact.
-
-Visibility &amp; Impact
-
-- Increase awareness of New York City FC and City in the Community&apos;s work across the Club, New York City, Major League Soccer, and the broader community.
-- Partner with Marketing, Communications, Human Resources, and Business Intelligence to elevate community initiatives through events, content, social media, storytelling, and internal communications.
-- Lead development of the Club&apos;s Community Impact Report, executive presentations, award submissions, newsletters, and stakeholder communications.
-- Identify opportunities to strengthen the Club&apos;s reputation as a leader in community engagement and social impact.
-
-Department Operations
-
-- Support annual budget development, fiscal planning, and departmental reporting.
-- Manage full-time and part-time staff, consultants, and volunteers supporting community engagement initiatives.
-- Develop project plans, timelines, and success measures that ensure consistent, high-quality delivery.
-- Continuously improve processes, strengthen collaboration, and identify new opportunities to expand the Club&apos;s community impact.
-
-WHAT YOU&apos;LL BRING
-
-- 5 to 7 years of experience in community engagement, partnership marketing, client management, nonprofit leadership, sports, corporate social responsibility, or a related field.
-- Proven ability to build and manage relationships across diverse stakeholder groups.
-- Experience leading cross-functional initiatives and driving projects from strategy through execution.
-- Strong event planning, fundraising, and partnership management experience.
-- Exceptional written and verbal communication skills, including experience developing executive presentations, impact reports, award submissions, and strategic communications.
-- Strong project management, organizational, and budget management skills.
-- A proactive mindset with the ability to anticipate needs, solve problems, and manage multiple priorities.
-- Experience managing staff, consultants, volunteers, or project teams.
-- Passion for community engagement and a commitment to creating meaningful social impact through sport.
-
-WHO YOU ARE:
-At New York FC, we are committed to upholding our core club values and our values guide how we show up and work together every day. If you share our values listed below, please consider NYCFC as a great place for you to work (and play):
-Acts Honorably: listens and communicates respectfully, without judgement
-
-Engages Collaboratively: provides and seeks constructive feedback to and from peers, proactively sharing appreciation for quality contributions of others
-
-Champions Inclusion: celebrates the value of differences recognizing the value in the unique backgrounds and lived experiences of every team member
-
-Drives Forward:embraces new opportunities with curiosity and a focus on improvement and innovation
-
-Shows Heart: demonstrates passion for the Club and sport, operating as an NYCFC ambassador in encouraging and inspiring that passion in others
-
-ADDITIONAL REQUIREMENTS:
-
-- Applicant must be able to comply with MLS Next Safety and Well-Being policy and any other applicable child safety policies provided to applicants by NYCFC
-- Must be able to matchdays, community events which may be at night and on weekends and holidays
-- Local travel throughout New York City is required.
-
-COMPENSATION:
-This exempt position has an estimated annual base salary range of $70,000 - $80,000 and is not overtime eligible. Final compensation offer amounts are based on a wide array of factors unique to each candidate, including but not limited to demonstrated skill set, years and depth of relevant experience, and some role-dependent factors such as certifications and software expertise. We welcome direct conversations with each candidate about compensation in all of our initial calls.
-
-WHAT WE OFFER:
-
-- Excellent health, dental &amp; vision insurance, with options to fit you and your family’s needs
-- Comprehensive and competitive benefit programs, including maternal &amp; paternal leave
-- Ancillary benefits: Commuter, and Citi Bike discounts
-- Your health is important! Our wellness strategy focuses on mental and physical wellbeing through in-office and virtual programs
-- Four complementary tickets to every NYCFC home match
-- Team outings, happy hours, and annual staff gatherings to celebrate our co-workers
-- A dynamic, ambitious, and fun work environment
-
-NEW YORK CITY FOOTBALL CLUB OVERVIEW:
 At New York City FC, we are on a mission to build this city into one of the soccer capitals of the world. The Club was announced as Major League Soccer’s 20th franchise and is the first and only MLS team located within the five boroughs of New York City. The Club has qualified for the Audi MLS Cup Playoffs nine times over the past 10 seasons, winning MLS Cup in 2021. Games are available to stream via an Apple TV subscription, providing every match of the MLS regular season, the Audi MLS Cup Playoffs, annual Leagues Cup tournament, the MLS All-Star Game, the Campeones Cup, and more all in one place and with no blackouts. New York City FC is building New York City’s first-ever soccer-specific stadium, Etihad Park, which is set to open in 2027. For more information, please visit: www.newyorkcityfc.com.
 
 New York City FC is also one of 12 clubs comprising City Football Group and counts Manchester City FC, Melbourne City FC, Yokohama F-Marinos, Girona FC, Montevideo City Torque, Shenzhen Peng City FC, Lommel SK, ESTAC Troyes, Palermo FC, Bahia, and Club Bolívar among its sister clubs.
@@ -40792,7 +40656,7 @@ JOB DESCRIPTION</plain_text_description>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
   <html_description><![CDATA[ <h3 class="basic-info__title">Performance Analyst (Women's &amp; Girls)</h3>
-                            <div class="card--date">1 week ago</div>
+                            <div class="card--date">2 weeks ago</div>
                         <p>A new opportunity has arisen to join Wolverhampton Wanderers as our <strong>Performance Analyst</strong> for the Women's and Girls department!</p>
 <p>Your role is to support the Women’s and Girls Performance Analysis process and services, enabling us to enhance the quality of content, research and development given to Coaches and Players.</p>
 <p>This role will work closely with the Women’s Head Coach and the Head of Women’s and Girls Football, whilst also working closely with the academy analysts in the boy’s programme to align the provision</p>
@@ -40803,7 +40667,7 @@ JOB DESCRIPTION</plain_text_description>
                             <a class="button" href="https://wolves.useplaymaker.com/media/meegyaqk/wolves-jd-women-girls-analyst.pdf" target="_blank" rel="noopener external">JOB DESCRIPTION <i class="icon icon-pdf"></i></a> ]]></html_description>
   <plain_text_description>Performance Analyst (Women&apos;s &amp; Girls)
 
-1 week ago
+2 weeks ago
 
 A new opportunity has arisen to join Wolverhampton Wanderers as our Performance Analyst for the Women&apos;s and Girls department!
 
