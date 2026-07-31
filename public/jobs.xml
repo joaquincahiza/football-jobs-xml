@@ -18102,7 +18102,7 @@ Preferred
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-31T08:58:51.071Z</published_at>
+  <published_at>2026-07-31T14:18:41.834Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -18132,7 +18132,7 @@ Preferred
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=5a591804c31c48df&amp;CSRFHash=5a5f3c29515d18ecfb69de53252779e3e49675686379bba25da811d7e88c9c65">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=96355046cd63fd55&amp;CSRFHash=097529e3e8c0221df72ce0943f2bc44d1019916fef901f97b795b3dc15b5d368">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -18145,7 +18145,7 @@ Preferred
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=5a591804c31c48df&amp;CSRFHash=5ec5f28eb656b702e58ccbd86a2df335a79fd7c8855f37da663728b22c3dfd80" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=96355046cd63fd55&amp;CSRFHash=e887b110ddaf155f013c42cb4631430971223bcdffe62265d6fa010fdf404a32" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -18207,7 +18207,7 @@ Preferred
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?651787343" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?718399113" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -18338,7 +18338,7 @@ Preferred
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=5a591804c31c48df&amp;CSRFHash=ac37ef047865036e08cb05b84b9ed96419e177529f4f36a81771214f8ac703af" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=96355046cd63fd55&amp;CSRFHash=5e734b1912a70c0222505d1aea839a212cc6d3f2dcfe771d44f50e6fc5253b72" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -18627,7 +18627,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=6261cb17fa2f68ee0c0a7231953a38d43e2589858f05d9a924f224d7a2793041',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=9b8aa94f3464a547d6ee55d31d42dfa6d60d82b30c27ae16aaced875c5e67184',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -18729,7 +18729,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=c4def72708bc35c0d84ca5c8f1989969ddcf017590c396ccd5c4c6fad7483248';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=b0fb0cb17e2f4c4208c6e46cf96b3be6149fdc58fc6616f0d404bcdee8b8598f';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -18827,7 +18827,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=5616114669da5c7eeb4b2b637ac3bb00e3794cd7dd797be9b7189c92153376a1',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=aa86126c52958920fdfd557a240397cf775c88be28b3151f4808e93b6bda2fa9',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -19189,7 +19189,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=5a591804c31c48df&CSRFHash=3808582ffecd199cdbf6bb92103257dea9555faec5e71a89fa70e0a483980fe2',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=96355046cd63fd55&CSRFHash=0cbfa9db16355ceb67e39cd02973a9f5fde6c183e2d5839696557087870087e0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19230,7 +19230,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=5a591804c31c48df&CSRFHash=97c3abfef82e7a642004790d286b228d8100f20bd7d3a942b4054028e99bfc9e',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=96355046cd63fd55&CSRFHash=48ea45b20c72bcc1e232ca4b19799c1b5929dac4529a08f2a8466a0df3a95345',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19407,7 +19407,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=ec2ca508c5cdf8ec3e149dffbe8b886daa796d5d6a008ebc65cbb6e172868e36")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=bf19d531ae8b5930bbdf156ccb6e4a05f4ddad7e17b79b78fa70f1c77857ba14")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -19543,7 +19543,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=4b6daafee93319850afb7123292b53944b6c0681bf35ba3a67bd6d44f9443485",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=dd82ad3a1958a35da4be0d7f5cf9ad52b7f590cf32b6734bfed4bb3c29e03e85",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -19568,7 +19568,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=75351560ba4e8dfb9fb9748d73a665da3fb9e195dacc045c9fabd8212b51d445",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=8715a7c0594cd8633add49260656f596f8a0af18120a102ea069ba66fdbed9b8",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -19590,7 +19590,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ae8fd206134272bcb6d94854ff8f4bb7d4117b9e5eeeb867fa1d22e2688ad0f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=614dd6f2d9a8f39e5926a2dbc2c543e4e9be6cb1bd1b2621b12dd94044bcd600",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -19616,7 +19616,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ef152d76b6f0c528b1bd36348588508ecd890da3f0be70bd4e661975af17986",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=ef0e7b818a8508294aa937194f4b8a36eff9be1cbf24a6e35413923c57fd8a30",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -19651,7 +19651,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=76bd588c673ba868ce15dffb4de08fd18295fd9d74a81180a7426085ab4814cd",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=e26403fd327edd28226184468b24a06fb11d83e42a215dd97e3f8368828d53f2",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -19792,7 +19792,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=5a591804c31c48df&CSRFHash=3808582ffecd199cdbf6bb92103257dea9555faec5e71a89fa70e0a483980fe2',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=96355046cd63fd55&CSRFHash=0cbfa9db16355ceb67e39cd02973a9f5fde6c183e2d5839696557087870087e0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19830,7 +19830,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=5a591804c31c48df&CSRFHash=0062568cd53c60d78ef0f2adc44452ba5bc89af5af3faedb61c6aac5356cc52c',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=96355046cd63fd55&CSRFHash=cd2c9b889b726eeec6ec46c77a5986e2d6d2752116b619c547ad80478c168929',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19877,7 +19877,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=5a591804c31c48df&CSRFHash=97c3abfef82e7a642004790d286b228d8100f20bd7d3a942b4054028e99bfc9e',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=96355046cd63fd55&CSRFHash=48ea45b20c72bcc1e232ca4b19799c1b5929dac4529a08f2a8466a0df3a95345',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19926,7 +19926,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=5a591804c31c48df&CSRFHash=538d3042e33a69d451b75b8fe7755ad2bee418e4d06598a90a8adcce7919ae39',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=96355046cd63fd55&CSRFHash=c245ad14f3eef3411a8f031137b232fc40cda1ad777243bc062f36bc0e28f26e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19973,7 +19973,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=5a591804c31c48df&CSRFHash=fe2e9ff47a8d5922ccb6b9de1e49c74b57aba6addcd32174d8b82319587382c7',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=96355046cd63fd55&CSRFHash=8becf4572677b6ec8886fb2fefd94d7a63d573077085c72ccb16addbb111b67e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20027,7 +20027,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=5a591804c31c48df&CSRFHash=e8fc46d639f3f2b3f16a0defcdfe1027ec5bded27daa2f97504fcda544d7b8df',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=96355046cd63fd55&CSRFHash=a25cfebcb963b4987f1aff25ec2035a2762d26acfc0efa933a1d998ce619d841',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20081,7 +20081,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=5a591804c31c48df&CSRFHash=a11e2dd7a5dfedb6d3b5424bb025225926a30e3e0fd028ebaafc6e36635955dc',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=96355046cd63fd55&CSRFHash=57bf759887f751aef19645964b0c72fecdebcab9771490a091b2ba7ad77f9628',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -20322,7 +20322,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=ec2ca508c5cdf8ec3e149dffbe8b886daa796d5d6a008ebc65cbb6e172868e36")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=bf19d531ae8b5930bbdf156ccb6e4a05f4ddad7e17b79b78fa70f1c77857ba14")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -20741,7 +20741,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=4b6daafee93319850afb7123292b53944b6c0681bf35ba3a67bd6d44f9443485",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=dd82ad3a1958a35da4be0d7f5cf9ad52b7f590cf32b6734bfed4bb3c29e03e85",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -20787,7 +20787,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ae8fd206134272bcb6d94854ff8f4bb7d4117b9e5eeeb867fa1d22e2688ad0f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=614dd6f2d9a8f39e5926a2dbc2c543e4e9be6cb1bd1b2621b12dd94044bcd600",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20838,7 +20838,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ef152d76b6f0c528b1bd36348588508ecd890da3f0be70bd4e661975af17986",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=ef0e7b818a8508294aa937194f4b8a36eff9be1cbf24a6e35413923c57fd8a30",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20899,7 +20899,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=ab13c5d8ffb0286491a1e673fc5a7134aa91bf6c45c4ce042071f3a57f428646",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=ac398c823960a32c2e97ada89049a6a62339374c43dc5c5ecb90b24457a5297b",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -20970,7 +20970,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ae8fd206134272bcb6d94854ff8f4bb7d4117b9e5eeeb867fa1d22e2688ad0f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=614dd6f2d9a8f39e5926a2dbc2c543e4e9be6cb1bd1b2621b12dd94044bcd600",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -21018,7 +21018,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=76bd588c673ba868ce15dffb4de08fd18295fd9d74a81180a7426085ab4814cd",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=e26403fd327edd28226184468b24a06fb11d83e42a215dd97e3f8368828d53f2",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -21653,7 +21653,7 @@ $(function(){
 
                                             <input type="hidden" value="142469" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-07-31T08:58:53.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-07-31T14:18:44.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -21730,7 +21730,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a6c63cd55440";
+        uid = "6a6caec3c0a15";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -21754,7 +21754,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=5a591804c31c48df&CSRFHash=6a22df61dd0d75bdf02d417302bf9cfc045e80ec0bcf6bb74f25dce612c4db8b",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=96355046cd63fd55&CSRFHash=268b0b691c36f835576376c992db4868370cf025f83d8273557d57f0218e388a",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -22100,7 +22100,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=5a591804c31c48df&CSRFHash=0d3d79b8605f48534b51d7186ee0748d60425339c89cbaba7f7780b1c4c807e3",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=96355046cd63fd55&CSRFHash=1aff654cc79b36e2aa57c3ed0b817435bd46bf589be65420f70e8ed97d19257b",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -22981,7 +22981,7 @@ Accessibility statement</plain_text_description>
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-31T08:58:55.102Z</published_at>
+  <published_at>2026-07-31T14:18:46.156Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -23011,7 +23011,7 @@ Accessibility statement</plain_text_description>
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=5a591804c31c48df&amp;CSRFHash=5a5f3c29515d18ecfb69de53252779e3e49675686379bba25da811d7e88c9c65">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=96355046cd63fd55&amp;CSRFHash=097529e3e8c0221df72ce0943f2bc44d1019916fef901f97b795b3dc15b5d368">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -23024,7 +23024,7 @@ Accessibility statement</plain_text_description>
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=5a591804c31c48df&amp;CSRFHash=5ec5f28eb656b702e58ccbd86a2df335a79fd7c8855f37da663728b22c3dfd80" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=96355046cd63fd55&amp;CSRFHash=e887b110ddaf155f013c42cb4631430971223bcdffe62265d6fa010fdf404a32" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -23090,7 +23090,7 @@ Accessibility statement</plain_text_description>
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?2103483841" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?1740991651" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -23228,7 +23228,7 @@ Accessibility statement</plain_text_description>
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=5a591804c31c48df&amp;CSRFHash=ac37ef047865036e08cb05b84b9ed96419e177529f4f36a81771214f8ac703af" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=96355046cd63fd55&amp;CSRFHash=5e734b1912a70c0222505d1aea839a212cc6d3f2dcfe771d44f50e6fc5253b72" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -23517,7 +23517,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=6261cb17fa2f68ee0c0a7231953a38d43e2589858f05d9a924f224d7a2793041',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=9b8aa94f3464a547d6ee55d31d42dfa6d60d82b30c27ae16aaced875c5e67184',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -23619,7 +23619,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=c4def72708bc35c0d84ca5c8f1989969ddcf017590c396ccd5c4c6fad7483248';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=b0fb0cb17e2f4c4208c6e46cf96b3be6149fdc58fc6616f0d404bcdee8b8598f';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -23717,7 +23717,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=5616114669da5c7eeb4b2b637ac3bb00e3794cd7dd797be9b7189c92153376a1',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=aa86126c52958920fdfd557a240397cf775c88be28b3151f4808e93b6bda2fa9',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -24079,7 +24079,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=5a591804c31c48df&CSRFHash=3808582ffecd199cdbf6bb92103257dea9555faec5e71a89fa70e0a483980fe2',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=96355046cd63fd55&CSRFHash=0cbfa9db16355ceb67e39cd02973a9f5fde6c183e2d5839696557087870087e0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24120,7 +24120,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=5a591804c31c48df&CSRFHash=97c3abfef82e7a642004790d286b228d8100f20bd7d3a942b4054028e99bfc9e',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=96355046cd63fd55&CSRFHash=48ea45b20c72bcc1e232ca4b19799c1b5929dac4529a08f2a8466a0df3a95345',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24297,7 +24297,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=ec2ca508c5cdf8ec3e149dffbe8b886daa796d5d6a008ebc65cbb6e172868e36")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=bf19d531ae8b5930bbdf156ccb6e4a05f4ddad7e17b79b78fa70f1c77857ba14")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -24433,7 +24433,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=4b6daafee93319850afb7123292b53944b6c0681bf35ba3a67bd6d44f9443485",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=dd82ad3a1958a35da4be0d7f5cf9ad52b7f590cf32b6734bfed4bb3c29e03e85",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -24458,7 +24458,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=75351560ba4e8dfb9fb9748d73a665da3fb9e195dacc045c9fabd8212b51d445",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=8715a7c0594cd8633add49260656f596f8a0af18120a102ea069ba66fdbed9b8",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -24480,7 +24480,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ae8fd206134272bcb6d94854ff8f4bb7d4117b9e5eeeb867fa1d22e2688ad0f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=614dd6f2d9a8f39e5926a2dbc2c543e4e9be6cb1bd1b2621b12dd94044bcd600",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -24506,7 +24506,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ef152d76b6f0c528b1bd36348588508ecd890da3f0be70bd4e661975af17986",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=ef0e7b818a8508294aa937194f4b8a36eff9be1cbf24a6e35413923c57fd8a30",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -24541,7 +24541,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=76bd588c673ba868ce15dffb4de08fd18295fd9d74a81180a7426085ab4814cd",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=e26403fd327edd28226184468b24a06fb11d83e42a215dd97e3f8368828d53f2",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -24682,7 +24682,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=5a591804c31c48df&CSRFHash=3808582ffecd199cdbf6bb92103257dea9555faec5e71a89fa70e0a483980fe2',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=96355046cd63fd55&CSRFHash=0cbfa9db16355ceb67e39cd02973a9f5fde6c183e2d5839696557087870087e0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24720,7 +24720,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=5a591804c31c48df&CSRFHash=0062568cd53c60d78ef0f2adc44452ba5bc89af5af3faedb61c6aac5356cc52c',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=96355046cd63fd55&CSRFHash=cd2c9b889b726eeec6ec46c77a5986e2d6d2752116b619c547ad80478c168929',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24767,7 +24767,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=5a591804c31c48df&CSRFHash=97c3abfef82e7a642004790d286b228d8100f20bd7d3a942b4054028e99bfc9e',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=96355046cd63fd55&CSRFHash=48ea45b20c72bcc1e232ca4b19799c1b5929dac4529a08f2a8466a0df3a95345',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24816,7 +24816,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=5a591804c31c48df&CSRFHash=538d3042e33a69d451b75b8fe7755ad2bee418e4d06598a90a8adcce7919ae39',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=96355046cd63fd55&CSRFHash=c245ad14f3eef3411a8f031137b232fc40cda1ad777243bc062f36bc0e28f26e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24863,7 +24863,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=5a591804c31c48df&CSRFHash=fe2e9ff47a8d5922ccb6b9de1e49c74b57aba6addcd32174d8b82319587382c7',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=96355046cd63fd55&CSRFHash=8becf4572677b6ec8886fb2fefd94d7a63d573077085c72ccb16addbb111b67e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24917,7 +24917,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=5a591804c31c48df&CSRFHash=e8fc46d639f3f2b3f16a0defcdfe1027ec5bded27daa2f97504fcda544d7b8df',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=96355046cd63fd55&CSRFHash=a25cfebcb963b4987f1aff25ec2035a2762d26acfc0efa933a1d998ce619d841',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24971,7 +24971,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=5a591804c31c48df&CSRFHash=a11e2dd7a5dfedb6d3b5424bb025225926a30e3e0fd028ebaafc6e36635955dc',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=96355046cd63fd55&CSRFHash=57bf759887f751aef19645964b0c72fecdebcab9771490a091b2ba7ad77f9628',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -25212,7 +25212,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=ec2ca508c5cdf8ec3e149dffbe8b886daa796d5d6a008ebc65cbb6e172868e36")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=bf19d531ae8b5930bbdf156ccb6e4a05f4ddad7e17b79b78fa70f1c77857ba14")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -25631,7 +25631,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=4b6daafee93319850afb7123292b53944b6c0681bf35ba3a67bd6d44f9443485",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=dd82ad3a1958a35da4be0d7f5cf9ad52b7f590cf32b6734bfed4bb3c29e03e85",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -25677,7 +25677,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ae8fd206134272bcb6d94854ff8f4bb7d4117b9e5eeeb867fa1d22e2688ad0f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=614dd6f2d9a8f39e5926a2dbc2c543e4e9be6cb1bd1b2621b12dd94044bcd600",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -25728,7 +25728,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ef152d76b6f0c528b1bd36348588508ecd890da3f0be70bd4e661975af17986",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=ef0e7b818a8508294aa937194f4b8a36eff9be1cbf24a6e35413923c57fd8a30",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -25789,7 +25789,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=ab13c5d8ffb0286491a1e673fc5a7134aa91bf6c45c4ce042071f3a57f428646",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=ac398c823960a32c2e97ada89049a6a62339374c43dc5c5ecb90b24457a5297b",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -25860,7 +25860,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=7ae8fd206134272bcb6d94854ff8f4bb7d4117b9e5eeeb867fa1d22e2688ad0f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=614dd6f2d9a8f39e5926a2dbc2c543e4e9be6cb1bd1b2621b12dd94044bcd600",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -25908,7 +25908,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=5a591804c31c48df&CSRFHash=76bd588c673ba868ce15dffb4de08fd18295fd9d74a81180a7426085ab4814cd",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=96355046cd63fd55&CSRFHash=e26403fd327edd28226184468b24a06fb11d83e42a215dd97e3f8368828d53f2",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -26543,7 +26543,7 @@ $(function(){
 
                                             <input type="hidden" value="143155" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-07-31T08:58:58.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-07-31T14:18:48.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -26620,7 +26620,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a6c63d193188";
+        uid = "6a6caec8add7b";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -26644,7 +26644,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=5a591804c31c48df&CSRFHash=6a22df61dd0d75bdf02d417302bf9cfc045e80ec0bcf6bb74f25dce612c4db8b",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=96355046cd63fd55&CSRFHash=268b0b691c36f835576376c992db4868370cf025f83d8273557d57f0218e388a",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -26990,7 +26990,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=5a591804c31c48df&CSRFHash=0d3d79b8605f48534b51d7186ee0748d60425339c89cbaba7f7780b1c4c807e3",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=96355046cd63fd55&CSRFHash=1aff654cc79b36e2aa57c3ed0b817435bd46bf589be65420f70e8ed97d19257b",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -35067,7 +35067,7 @@ Recruitment Agencies – please note that we do not accept unsolicited candidate
   <title>Casual Stadium Tour Guide</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Commercial Job type: Casual Job ref: 010704 Published: about 24 hours ago Expiry date: 10 Aug 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Commercial Job type: Casual Job ref: 010704 Published: 1 day ago Expiry date: 10 Aug 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at>2026-08-10T00:00:00.000Z</expires_at>
@@ -35934,6 +35934,158 @@ What are we looking for:
 - Demonstrable experience of secondary education teaching along with successful completion of probation period.
 - Experience of working in an elite sporting environment
 - Sound organisational skills, able to prioritise and manage own workload.
+
+Forest For Everyone
+
+We aim to create a culture which embraces and celebrates our differences, enables individuals to feel comfortable, maximise their potential and eliminate discrimination.
+
+Nottingham Forest Football Club is an equal opportunities employer and welcomes applications from all suitably qualified persons, regardless of age, disability, gender, gender reassignment, marital / civil partnership status, pregnancy / maternity leave, race, religion/belief, sexual orientation, or any other legally protected characteristic.
+
+Nottingham Forest Football Club is a signatory of the FA’s Football Leadership Diversity Code. We are committed to developing policies to promote equal opportunities and diversity within our workforce. To monitor our progress against these commitments, we Invite all applicants to provide diversity data during the application process.
+
+Disability Confident Committed Employer
+
+We are a Disability Confident Committed employer. We encourage applications from people with disabilities and long-term health conditions. If you need disability-related adjustments to the recruitment process, please indicate this in your application.
+
+If you are likely to meet the definition of being a &quot;disabled person&quot; according to theEquality Act 2010, you may be eligible to apply for an interview via theDisability Confident Scheme- please indicate this in your application form below. The information you share with us about your health or disability will not be used in recruitment selections.
+
+Our Commitment to Safeguarding
+
+As part of the Club’s commitment to safeguarding, the successful applicant may be required to undergo a Disclosure Barring Service (“DBS”) check or an enhanced DBS check. The results of a DBS check will be considered on an individual basis, and the Club will act in a proportionate manner when deciding whether or not to proceed with the appointment.
+
+An FA Enhanced DBS disclosure is required for all relevant new appointments to the Club. Individuals will be asked to declare any convictions, cautions or reprimands, warnings or bind-overs that may have been incurred. The Club reserves the right to carry out risk assessments where content has been disclosed on a DBS disclosure if it feels that it is relevant to the job requirements. Failure to satisfy the Club and the PL&apos;s safeguarding requirements may lead to the job offer being withdrawn or, if they have already started employment, summary termination of the employment.</plain_text_description>
+  <company_name>Nottingham Forest</company_name>
+  <company_url>https://www.nottinghamforest.co.uk/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-9bd0643b6042aad5-8156002</guid>
+  <id>8156002</id>
+  <url>https://careers.nottinghamforest.co.uk/jobs/8156002-under-16-head-coach</url>
+  <application_link>https://careers.nottinghamforest.co.uk/jobs/8156002-under-16-head-coach</application_link>
+  <title>Under 16 Head Coach</title>
+  <arrangement>fulltime</arrangement>
+  <location_type>onsite</location_type>
+  <location>The Nigel Doughty Academy, Nottingham, NG2 7SR, GB</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at>2026-07-31T12:33:30.000Z</published_at>
+  <expires_at>2026-08-10T22:59:59.000Z</expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p><strong>Salary:</strong> Please state your expectations within your application</p><p><strong>Contract:</strong> Full Time, 42 hours a week</p><p><strong>Location:</strong> The Nigel Doughty Academy, Nottingham, NG2 7SR</p><p><strong>Department:</strong>&nbsp;Academy Coaching</p><p><strong>Reporting to:</strong> Youth Development Phase Manager</p><p><strong>Closing Date For Applications: 10th August 2026</strong></p><hr><p><strong>About the Role:</strong></p><p>The Under 16 Head Coach is responsible for leading the coaching, performance and development programme for Nottingham Forest's Under 16 squad, creating an outstanding learning environment that prepares players for the successful transition into full-time football within the Professional Development Phase. </p><p>The post-holder will lead the planning, delivery and review of all aspects of the Under 16 football programme, ensuring coaching sessions, match preparation, fixtures and individual player development are fully aligned to the Club's coaching philosophy, playing identity and long-term player development strategy. </p><p>As the final age group within the Youth Development Phase, the role plays a critical part in preparing players for a scholarship programme and the demands of the Professional Development Phase. Working under the leadership of the Youth Development Phase Manager, the successful candidate will work in close collaboration with the Professional Development Phase Manager &amp; Under 18 Head Coach to ensure every player's transition is planned, purposeful and centred around their individual development needs. </p><p>The role will also maintain a strong collaborative relationship with the Head of Football Development, ensuring player progression, succession planning and transition decisions remain aligned to the Academy's overall football strategy. </p><p>The successful candidate will create a demanding, innovative and player-centred environment that develops technically excellent, tactically intelligent and psychologically resilient players capable of thriving within Nottingham Forest's full-time development programme.</p><hr><p><strong>The Perks of the Job:</strong></p><ul><li><p>Opportunity to access tickets for events at The City Ground.</p></li><li><p>Employee Assistance Programme.</p></li><li><p>Access to high street and gym discounts.</p></li><li><p>Discount within our Club shop.</p></li><li><p>Free on-site parking.</p></li></ul><hr><p><strong>Key Tasks and Responsibilities:</strong></p><p>Under 16 Head Coach Responsibilities </p><ul><li><p>Lead and manage all aspects of the Under 16 football programme, ensuring the highest standards of coaching, preparation, performance and player development. </p></li><li><p>Plan, prepare, deliver and review all Under 16 training sessions, fixtures and competitive matches in line with the Club's coaching philosophy, playing identity and Academy methodology. Inclusive of training sessions on all three of our training models.  </p></li><li><p>Create an innovative, demanding and enjoyable learning environment where players are challenged daily to maximise their long-term potential. </p></li><li><p>Develop players technically, tactically, physically, psychologically and socially in preparation for scholarship and full-time football. </p></li><li><p>Lead all Under 16 matchday activity, including squad selection, tactical preparation, in-game coaching and post-match review. </p></li><li><p>Embed the Academy's coaching methodology and playing principles into every aspect of the Under 16 programme. </p></li><li><p>Prepare players to meet the behavioural, physical, tactical and psychological expectations of the Professional Development Phase. </p></li><li><p>Foster professionalism, resilience, independence and accountability as players prepare to enter the next stage of the Academy pathway. </p></li><li><p>Produce monthly, quarterly, and annual reports, as required by the Head of Academy, demonstrating progress and outcomes against the Academy strategy. </p></li><li><p>Ensure all information relating to the individual players performance clock and relevant team information is up to date daily on the Football iP platform. </p></li><li><p>Contribute to the Academy audit preparation ensuring all documentation is recorded and accurately keep up to date on a daily basis.  </p></li></ul><p>Player Development &amp; Transition </p><ul><li><p>Take a leading role in preparing players for transition into the Professional Development Phase, ensuring every player is equipped to thrive within a full-time training environment. </p></li><li><p>Work closely with the Youth Development Phase Manager to review player progress, establish development priorities and agree appropriate player movement. </p></li><li><p>Develop an outstanding working relationship with the Professional Development Phase Manager &amp; Under 18 Head Coach to ensure seamless transition of players into the Under 18 programme. </p></li><li><p>Collaboratively identify players who are ready to experience the Professional Development Phase through selected training sessions, fixtures and specialist development opportunities. </p></li><li><p>Contribute to scholarship recommendations, transition planning and succession planning across both phases. </p></li><li><p>Ensure all player movement between the Under 16s and Under 18s is supported by a clear developmental rationale and aligned to the player's Individual Development Plan. </p></li><li><p>Maintain regular dialogue with the Head of Football Development regarding players approaching scholarship, ensuring alignment with the Academy's long-term player pathway. </p></li><li><p>Liaise with the Head of Academy on recommendations for player scholarship offers through a strategic process of selection.  </p></li><li><p>Assist the Youth Development Phase Recruitment and Retention Manager and the PDP Emerging Talent Recruitment Manager on ensuring our trial process is full adhered to with players attending on trial.   </p></li></ul><p>Individual Player Development </p><ul><li><p>Deliver an individualised coaching programme that maximises every player's technical, tactical, physical and psychological development. </p></li><li><p>Work collaboratively with the multidisciplinary team to ensure Individual Development Plans </p></li><li><p>are aligned across football, physical performance, psychology, education and medical services. </p></li><li><p>Monitor player progress through observation, objective performance data, analysis and regular player reviews. </p></li><li><p>Deliver position-specific coaching and specialist development sessions where appropriate. </p></li><li><p>Ensure every player understands their development objectives and takes ownership of their individual learning journey. </p></li></ul><p>Collaboration &amp; Football Integration </p><ul><li><p>Work closely with the Youth Development Phase Manager to ensure alignment across all aspects of the Youth Development Phase curriculum. </p></li><li><p>Build a highly collaborative relationship with the Professional Development Phase Manager &amp; Under 18 Head Coach to ensure continuity of coaching methodology, playing philosophy and transition planning. </p></li><li><p>Maintain strong communication with the Head of Academy and Head of Football Development to support succession planning and long-term player development across the Academy. </p></li><li><p>Support the wider Academy coaching programme by contributing across age groups where appropriate through but not limited to delivering sessions.  </p></li><li><p>Build positive relationships across the multidisciplinary team to ensure players receive an  integrated, holistic development programme. </p></li><li><p>Attend and contribute positively to Phase Meetings and multidisciplinary discussions as required. </p></li><li><p>Ensure players, parents and staff consistently uphold the Club's values and Codes of Conduct. </p></li><li><p>Create an environment where players take ownership of their development and embrace challenge as an opportunity to improve. </p></li></ul><p>Administration &amp; Compliance </p><ul><li><p>Ensure all coaching administration, Individual Development Plans, Performance Clocks, player reports and YD Rules documentation are completed accurately and within required timescales. </p></li><li><p>Maintain compliance with Premier League, Football Association and Club policies, procedures and audit requirements being the lead on CASA for the Audit process.  </p></li><li><p>Ensure all player records, educational documentation and development reports are maintained to the highest professional standards. </p></li><li><p>Undertake any additional duties reasonably requested by the Head of Academy or Head of Football Development. </p></li><li><p>Completes administration relevant to the job as required by the Head of Football Development and Head of Academy, meeting the requirements of the Premier League Youth Development rules and our own internal platforms.</p></li></ul><p><strong>What are we looking for:</strong></p><p>Essential </p><ul><li><p>UEFA A Licence. </p></li><li><p>FA Advanced Youth Award. </p></li><li><p>Demonstrable experience coaching in an elite Youth Development Phase. </p></li><li><p>Excellent understanding of long-term player development, a genuine youth developer and transition into senior football. </p></li><li><p>Outstanding knowledge of coaching methodology, player development and elite performance environments. </p></li><li><p>Excellent communication, organisation and presentation skills. </p></li><li><p>Ability to build collaborative relationships across football and multidisciplinary departments. </p></li><li><p>High-level IT, planning and performance analysis skills. </p></li><li><p>BFAS First Aid qualification. </p></li><li><p>Enhanced DBS clearance. </p></li></ul><p>Desirable </p><ul><li><p>UEFA Pro Licence (or working towards). </p></li><li><p>Professional playing experience. </p></li><li><p>Experience within a Category One Academy. </p></li><li><p>Additional qualifications in Sports Science, Performance Analysis, Psychology or Education. </p></li></ul><hr><p><strong>Forest For Everyone</strong></p><p class="MsoNormal"><span><em>We aim to create a culture which embraces and celebrates our differences, enables individuals to feel comfortable, maximise their potential and eliminate discrimination.</em></span></p><p class="MsoNormal"><span><em>Nottingham Forest Football Club is an equal opportunities employer and welcomes applications from all suitably qualified persons, regardless of age, disability, gender, gender reassignment, marital / civil partnership status, pregnancy / maternity leave, race, religion/belief, sexual orientation, or any other legally protected characteristic.</em></span></p><p class="MsoNormal"><span><em>Nottingham Forest Football Club is a signatory of the FA’s Football Leadership Diversity Code. We are committed to developing policies to promote equal opportunities and diversity within our workforce. To monitor our progress against these commitments, we Invite all applicants to provide diversity data during the application process.</em></span><br></p><p><strong>Disability Confident Committed Employer</strong></p><p><em>We are a Disability Confident Committed employer.&nbsp; We encourage applications from people with disabilities and long-term health conditions.&nbsp; If you need disability-related adjustments to the recruitment process, please indicate this in your application.</em></p><p><em>If you are likely to meet the definition of being a "disabled person" according to the&nbsp;</em><a target="_blank" href="https://www.gov.uk/guidance/equality-act-2010-guidance"><em>Equality Act 2010</em></a><em>, you may be eligible to apply for an interview via the&nbsp;</em><a target="_blank" href="https://www.gov.uk/government/publications/disability-confident-guidance-for-levels-1-2-and-3/level-1-disability-confident-committed#offer-an-interview-to-disabled-people"><em>Disability Confident Scheme</em></a><em>&nbsp;- please indicate this in your application form below.&nbsp; The information you share with us about your health or disability will not be used in recruitment selections.</em></p><p></p><p><strong>Our Commitment to Safeguarding</strong></p><p><em>As part of the Club’s commitment to safeguarding, the successful applicant may be required to undergo a Disclosure Barring Service (“DBS”) check or an enhanced DBS check. The results of a DBS check will be considered on an individual basis, and the Club will act in a proportionate manner when deciding whether or not to proceed with the appointment.</em></p><p><em>An FA Enhanced DBS disclosure is required for all relevant new appointments to the Club. Individuals will be asked to declare any convictions, cautions or reprimands, warnings or bind-overs that may have been incurred. The Club reserves the right to carry out risk assessments where content has been disclosed on a DBS disclosure if it feels that it is relevant to the job requirements. Failure to satisfy the Club and the PL's safeguarding requirements may lead to the job offer being withdrawn or, if they have already started employment, summary termination of the employment.</em></p><hr> ]]></html_description>
+  <plain_text_description>Salary: Please state your expectations within your application
+
+Contract: Full Time, 42 hours a week
+
+Location: The Nigel Doughty Academy, Nottingham, NG2 7SR
+
+Department: Academy Coaching
+
+Reporting to: Youth Development Phase Manager
+
+Closing Date For Applications: 10th August 2026
+
+About the Role:
+
+The Under 16 Head Coach is responsible for leading the coaching, performance and development programme for Nottingham Forest&apos;s Under 16 squad, creating an outstanding learning environment that prepares players for the successful transition into full-time football within the Professional Development Phase.
+
+The post-holder will lead the planning, delivery and review of all aspects of the Under 16 football programme, ensuring coaching sessions, match preparation, fixtures and individual player development are fully aligned to the Club&apos;s coaching philosophy, playing identity and long-term player development strategy.
+
+As the final age group within the Youth Development Phase, the role plays a critical part in preparing players for a scholarship programme and the demands of the Professional Development Phase. Working under the leadership of the Youth Development Phase Manager, the successful candidate will work in close collaboration with the Professional Development Phase Manager &amp; Under 18 Head Coach to ensure every player&apos;s transition is planned, purposeful and centred around their individual development needs.
+
+The role will also maintain a strong collaborative relationship with the Head of Football Development, ensuring player progression, succession planning and transition decisions remain aligned to the Academy&apos;s overall football strategy.
+
+The successful candidate will create a demanding, innovative and player-centred environment that develops technically excellent, tactically intelligent and psychologically resilient players capable of thriving within Nottingham Forest&apos;s full-time development programme.
+
+The Perks of the Job:
+
+- Opportunity to access tickets for events at The City Ground.
+- Employee Assistance Programme.
+- Access to high street and gym discounts.
+- Discount within our Club shop.
+- Free on-site parking.
+
+Key Tasks and Responsibilities:
+
+Under 16 Head Coach Responsibilities
+
+- Lead and manage all aspects of the Under 16 football programme, ensuring the highest standards of coaching, preparation, performance and player development.
+- Plan, prepare, deliver and review all Under 16 training sessions, fixtures and competitive matches in line with the Club&apos;s coaching philosophy, playing identity and Academy methodology. Inclusive of training sessions on all three of our training models.
+- Create an innovative, demanding and enjoyable learning environment where players are challenged daily to maximise their long-term potential.
+- Develop players technically, tactically, physically, psychologically and socially in preparation for scholarship and full-time football.
+- Lead all Under 16 matchday activity, including squad selection, tactical preparation, in-game coaching and post-match review.
+- Embed the Academy&apos;s coaching methodology and playing principles into every aspect of the Under 16 programme.
+- Prepare players to meet the behavioural, physical, tactical and psychological expectations of the Professional Development Phase.
+- Foster professionalism, resilience, independence and accountability as players prepare to enter the next stage of the Academy pathway.
+- Produce monthly, quarterly, and annual reports, as required by the Head of Academy, demonstrating progress and outcomes against the Academy strategy.
+- Ensure all information relating to the individual players performance clock and relevant team information is up to date daily on the Football iP platform.
+- Contribute to the Academy audit preparation ensuring all documentation is recorded and accurately keep up to date on a daily basis.
+
+Player Development &amp; Transition
+
+- Take a leading role in preparing players for transition into the Professional Development Phase, ensuring every player is equipped to thrive within a full-time training environment.
+- Work closely with the Youth Development Phase Manager to review player progress, establish development priorities and agree appropriate player movement.
+- Develop an outstanding working relationship with the Professional Development Phase Manager &amp; Under 18 Head Coach to ensure seamless transition of players into the Under 18 programme.
+- Collaboratively identify players who are ready to experience the Professional Development Phase through selected training sessions, fixtures and specialist development opportunities.
+- Contribute to scholarship recommendations, transition planning and succession planning across both phases.
+- Ensure all player movement between the Under 16s and Under 18s is supported by a clear developmental rationale and aligned to the player&apos;s Individual Development Plan.
+- Maintain regular dialogue with the Head of Football Development regarding players approaching scholarship, ensuring alignment with the Academy&apos;s long-term player pathway.
+- Liaise with the Head of Academy on recommendations for player scholarship offers through a strategic process of selection.
+- Assist the Youth Development Phase Recruitment and Retention Manager and the PDP Emerging Talent Recruitment Manager on ensuring our trial process is full adhered to with players attending on trial.
+
+Individual Player Development
+
+- Deliver an individualised coaching programme that maximises every player&apos;s technical, tactical, physical and psychological development.
+- Work collaboratively with the multidisciplinary team to ensure Individual Development Plans
+- are aligned across football, physical performance, psychology, education and medical services.
+- Monitor player progress through observation, objective performance data, analysis and regular player reviews.
+- Deliver position-specific coaching and specialist development sessions where appropriate.
+- Ensure every player understands their development objectives and takes ownership of their individual learning journey.
+
+Collaboration &amp; Football Integration
+
+- Work closely with the Youth Development Phase Manager to ensure alignment across all aspects of the Youth Development Phase curriculum.
+- Build a highly collaborative relationship with the Professional Development Phase Manager &amp; Under 18 Head Coach to ensure continuity of coaching methodology, playing philosophy and transition planning.
+- Maintain strong communication with the Head of Academy and Head of Football Development to support succession planning and long-term player development across the Academy.
+- Support the wider Academy coaching programme by contributing across age groups where appropriate through but not limited to delivering sessions.
+- Build positive relationships across the multidisciplinary team to ensure players receive an integrated, holistic development programme.
+- Attend and contribute positively to Phase Meetings and multidisciplinary discussions as required.
+- Ensure players, parents and staff consistently uphold the Club&apos;s values and Codes of Conduct.
+- Create an environment where players take ownership of their development and embrace challenge as an opportunity to improve.
+
+Administration &amp; Compliance
+
+- Ensure all coaching administration, Individual Development Plans, Performance Clocks, player reports and YD Rules documentation are completed accurately and within required timescales.
+- Maintain compliance with Premier League, Football Association and Club policies, procedures and audit requirements being the lead on CASA for the Audit process.
+- Ensure all player records, educational documentation and development reports are maintained to the highest professional standards.
+- Undertake any additional duties reasonably requested by the Head of Academy or Head of Football Development.
+- Completes administration relevant to the job as required by the Head of Football Development and Head of Academy, meeting the requirements of the Premier League Youth Development rules and our own internal platforms.
+
+What are we looking for:
+
+Essential
+
+- UEFA A Licence.
+- FA Advanced Youth Award.
+- Demonstrable experience coaching in an elite Youth Development Phase.
+- Excellent understanding of long-term player development, a genuine youth developer and transition into senior football.
+- Outstanding knowledge of coaching methodology, player development and elite performance environments.
+- Excellent communication, organisation and presentation skills.
+- Ability to build collaborative relationships across football and multidisciplinary departments.
+- High-level IT, planning and performance analysis skills.
+- BFAS First Aid qualification.
+- Enhanced DBS clearance.
+
+Desirable
+
+- UEFA Pro Licence (or working towards).
+- Professional playing experience.
+- Experience within a Category One Academy.
+- Additional qualifications in Sports Science, Performance Analysis, Psychology or Education.
 
 Forest For Everyone
 
@@ -39205,6 +39357,51 @@ For more details on the role and its requirements, please see the below job desc
 Ref: JL-00-20112025
 
 JOB DESCRIPTION</plain_text_description>
+  <company_name>Wolverhampton Wanderers</company_name>
+  <company_url>https://www.wolves.co.uk/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-272f6104c424691f-part-time-football-education-coach-wolves-foundation</guid>
+  <id>part-time-football-education-coach-wolves-foundation</id>
+  <url>https://wolves.useplaymaker.com/media/mdsjutmu/football-education-coach-pt.pdf</url>
+  <application_link>mailto:FoundationJobs@wolves.co.uk</application_link>
+  <title>Part-time Football &amp; Education Coach (Wolves Foundation)</title>
+  <arrangement>contract</arrangement>
+  <location_type>onsite</location_type>
+  <location></location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at></published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <h3 class="basic-info__title">Part-time Football &amp; Education Coach (Wolves Foundation)</h3>
+                        <p><strong>This vacancy is with the Wolves Foundation, the official charity of the Wolverhampton Wanderers Football Club.</strong></p>
+<p>&nbsp;</p>
+<p style="margin-bottom: 0cm;" class="MsoNormal"><span style="mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><strong>Job purpose</strong>: To support the delivery of the Football &amp; Education programmes across the Further Education, Employability and Skills Department. The role delivers coaching sessions across the academic year to support and provide learners with an exciting football programme whilst studying on their programme. The candidate will also support the delivery of enrichments and wider sessions within the department</span></p>
+<p style="margin-bottom: 0cm;" class="MsoNormal">&nbsp;</p>
+<p style="margin-bottom: 0cm;" class="MsoNormal"><span style="mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><strong>Review Date:</strong> 14 August 2026</span></p>
+<p style="margin-bottom: 0cm;" class="MsoNormal"><span style="mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><strong>Contract Type:</strong> Part-time 16 hours per week, fixed-term contract 31 August 2027</span></p>
+<p style="margin-bottom: 0cm;" class="MsoNormal">&nbsp;</p>
+<p style="margin-bottom: 0cm;" class="MsoNormal"><span style="mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><em>To apply for this role, please complete the Application &amp; Diversity Monitoring form located on our website and return to <a href="mailto:FoundationJobs@wolves.co.uk">FoundationJobs@wolves.co.uk</a> . All other queries, including those related to salary can also be directed to the same email address.</em>&nbsp;</span></p>
+                            <a class="button" href="https://wolves.useplaymaker.com/media/mdsjutmu/football-education-coach-pt.pdf" target="_blank" rel="noopener external">Part-time Football &amp; Education Coach JDPS <i class="icon icon-pdf"></i></a> ]]></html_description>
+  <plain_text_description>Part-time Football &amp; Education Coach (Wolves Foundation)
+
+This vacancy is with the Wolves Foundation, the official charity of the Wolverhampton Wanderers Football Club.
+
+Job purpose: To support the delivery of the Football &amp; Education programmes across the Further Education, Employability and Skills Department. The role delivers coaching sessions across the academic year to support and provide learners with an exciting football programme whilst studying on their programme. The candidate will also support the delivery of enrichments and wider sessions within the department
+
+Review Date: 14 August 2026
+
+Contract Type: Part-time 16 hours per week, fixed-term contract 31 August 2027
+
+To apply for this role, please complete the Application &amp; Diversity Monitoring form located on our website and return to FoundationJobs@wolves.co.uk . All other queries, including those related to salary can also be directed to the same email address.
+
+Part-time Football &amp; Education Coach JDPS</plain_text_description>
   <company_name>Wolverhampton Wanderers</company_name>
   <company_url>https://www.wolves.co.uk/</company_url>
   <company_logo_url></company_logo_url>
