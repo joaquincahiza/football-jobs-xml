@@ -17240,7 +17240,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-08-14T02:12:53.842Z</published_at>
+  <published_at>2026-08-14T07:32:45.255Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -17270,7 +17270,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=6a134070e5afaa12&amp;CSRFHash=2386e5937808b64f92961c6b480ed19d44e616fcc4e8a771499139aec274c2dc">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=c596645e34aec135&amp;CSRFHash=734bc38044ed5b2083f5d2ddcbe2b2070564ade5d98968ec0caf49a98973fea6">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -17283,7 +17283,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=6a134070e5afaa12&amp;CSRFHash=2d10294f2af1e04846ff5c83776e63f98e0dbd494a8789fd395b33993e102942" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=c596645e34aec135&amp;CSRFHash=8816c03862111230ad6da739cecf02a46006e9fc4d70d63f9286982f44ce9368" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -17345,7 +17345,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?1460169193" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/graphic-designer-intern-142469/en/?2120109207" data-a2a-title="Vacancy: GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -17476,7 +17476,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=6a134070e5afaa12&amp;CSRFHash=f8ccf96a24fb0163b290101258f2726ee98101a9b966b7b971e683596aa68d52" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=c596645e34aec135&amp;CSRFHash=3c23dc2f0a6c5cfafa50097e9649310bf9da38c7f2a44f4ced2f6ca4d1913ced" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -17765,7 +17765,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=d38c0a1374527d98ed2ece68da3b9730017f0b45cfdc9974f02efab3a125170a',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=d181a362f791d7f39895ad2782a39ea8991d766db29a010a6726eaa87080323f',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -17867,7 +17867,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=4b92382e55da8b54fa42063a738b2e4ca59e8c2f6f95b308af786b104f1244be';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=7eb4a4fad802bcfee68b3b6c8ce15c54843502c9e4a136e325263132985c65d2';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -17966,7 +17966,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=bc7d40c5eab4886cd80f0e516409df081370a0543e9b027892e5f159afcb2f53',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=24e843978f6bb5b64e551de193c352d7e85d948dc21b0a2ca10b26b47b0f7762',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -18331,7 +18331,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=6a134070e5afaa12&CSRFHash=e15992d4b42d1c6133d81d0365d9998e3341696c240fc433ea0345e567cdfc71',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=c596645e34aec135&CSRFHash=f0c869fa8989a77f33d252bd6a118b9fd013bd096b46fc0409513db9cfee18af',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -18372,7 +18372,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=6a134070e5afaa12&CSRFHash=1c0df37753bbde01eead8d61078b9409e0fe446ad41d2e4897a65caaa61ee97f',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=c596645e34aec135&CSRFHash=123c8311ce691f553b4f8d941aa781f30ffa58f85528c1e0d7eaf5d142386082',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -18549,7 +18549,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=14949d5d79417824571e14a48bc8d591ccae13817119cc8708d11b87757f14e3")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=88a283633175625062e43cef548d9e6863b832b2ce6cdaa3f4e841a69f8c01bc")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -18685,7 +18685,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=c3c52ed6e8e8c4da414c1ac40940b92e6b2974b297fe7455a604c2884c2ba08d",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=3405576518a5b453c9812689358e2f3bfbc9b332f47dea4ded88b8f916ebc55f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -18710,7 +18710,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=e1ee3a747cf2ea10f1e430c35615e8a5d35cc1844e7f590cbda9134b470a897b",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=bd9b28ea47656f41e156f05e4fd56c26bf1efc3b5c4ea11e83da7bc2659b5fa5",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -18732,7 +18732,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=0c1596f655f5f5650f29ced0df8071be6badc2c67db39da61439f12860bcdd9a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=057152c53e824055757d9c5c9fea0d79ba23fc05c024862f5eb58f39085ef806",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -18758,7 +18758,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=d41110f7f9a992b6bc22df830f13c9e29ce0b54b02bd6573b61ac8b32221b555",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=cf49fe0fda43886288144c91db82148eaca94df972d1244e9091620329710353",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -18793,7 +18793,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=8a0ac12a25bcfb5ff9d0e19eece975051fcdbd29927c1a34d1ff1c2dc5156a40",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=93ac908b45c4d8c30df0146795b5272659a3e86de1f6412e80df9b261e46e568",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -18934,7 +18934,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=6a134070e5afaa12&CSRFHash=e15992d4b42d1c6133d81d0365d9998e3341696c240fc433ea0345e567cdfc71',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=c596645e34aec135&CSRFHash=f0c869fa8989a77f33d252bd6a118b9fd013bd096b46fc0409513db9cfee18af',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -18972,7 +18972,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=6a134070e5afaa12&CSRFHash=5956068c13084b5e226f20eed557cf680fb7532449eb841433a4534dca6d2156',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=c596645e34aec135&CSRFHash=c93674aff871276814944e63d2dc54eebebced1bb164aa9b3f2d8388afca74e7',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19019,7 +19019,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=6a134070e5afaa12&CSRFHash=1c0df37753bbde01eead8d61078b9409e0fe446ad41d2e4897a65caaa61ee97f',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=c596645e34aec135&CSRFHash=123c8311ce691f553b4f8d941aa781f30ffa58f85528c1e0d7eaf5d142386082',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19068,7 +19068,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=6a134070e5afaa12&CSRFHash=622265b2f098df7b025c93c2fb2793d1d95eb471686773f2961c790418396d5d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=c596645e34aec135&CSRFHash=d37d09658ee801db56e901a3dce40ab8c1af4a85d78f63a7aca47a2e908fe683',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19115,7 +19115,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=6a134070e5afaa12&CSRFHash=62c6b0dd8d3bd26a4f5d1860c2d296bfe031eed9d3ae1bd835ac1a6108288457',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=c596645e34aec135&CSRFHash=5f00ad384f14b8c09b94a7607843a36fa2b0b786e06546c6a2dc3cec3033aa6f',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19169,7 +19169,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=6a134070e5afaa12&CSRFHash=57624a76e2998422a7a0a66be10dc5e9bafa7953e279fe817a8d1c9bf6f7e78f',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=c596645e34aec135&CSRFHash=878542a66dcc655ecb818702249975c690b294dccc1b9a9a084ba747b5efec25',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19223,7 +19223,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=6a134070e5afaa12&CSRFHash=e8af7bcfe6c32488c27826e5903ce9fc56e271e0ea82cb3cfb43c697de224342',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=c596645e34aec135&CSRFHash=38a1bd2b417ff0fb6279152df9ba4d4a698a7507f5dd08a1c2c647eeed27ee1d',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -19464,7 +19464,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=14949d5d79417824571e14a48bc8d591ccae13817119cc8708d11b87757f14e3")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=88a283633175625062e43cef548d9e6863b832b2ce6cdaa3f4e841a69f8c01bc")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -19883,7 +19883,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=c3c52ed6e8e8c4da414c1ac40940b92e6b2974b297fe7455a604c2884c2ba08d",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=3405576518a5b453c9812689358e2f3bfbc9b332f47dea4ded88b8f916ebc55f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -19929,7 +19929,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=0c1596f655f5f5650f29ced0df8071be6badc2c67db39da61439f12860bcdd9a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=057152c53e824055757d9c5c9fea0d79ba23fc05c024862f5eb58f39085ef806",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -19980,7 +19980,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=d41110f7f9a992b6bc22df830f13c9e29ce0b54b02bd6573b61ac8b32221b555",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=cf49fe0fda43886288144c91db82148eaca94df972d1244e9091620329710353",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20041,7 +20041,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=cba7f9cf408a7425a563a7e6904856aff142bbd5dfadfda555fa07f9ce35b7dc",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=dd33b953db5c5b9b041d498b1333756814453cd89bfff3f17e5d43ff725c5fe0",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -20112,7 +20112,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=0c1596f655f5f5650f29ced0df8071be6badc2c67db39da61439f12860bcdd9a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=057152c53e824055757d9c5c9fea0d79ba23fc05c024862f5eb58f39085ef806",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -20160,7 +20160,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=8a0ac12a25bcfb5ff9d0e19eece975051fcdbd29927c1a34d1ff1c2dc5156a40",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=93ac908b45c4d8c30df0146795b5272659a3e86de1f6412e80df9b261e46e568",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -20795,7 +20795,7 @@ $(function(){
 
                                             <input type="hidden" value="142469" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-08-14T02:12:56.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-08-14T07:32:47.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -20872,7 +20872,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a7e79a7cf364";
+        uid = "6a7ec49f78d7b";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -20896,7 +20896,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=6a134070e5afaa12&CSRFHash=a2e72681e2895053303b56dd88a01a88e459c12b48953aceef2f52283dcfaad1",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=c596645e34aec135&CSRFHash=1991d2872683aa51d0320b379b2aef51aeea4e4163a5a532e601313315a3bb18",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -21242,7 +21242,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=6a134070e5afaa12&CSRFHash=1b313132a3a943b80bcef61593bf90ed3ec318a7c42e537ffef13a1f9decd5cd",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=c596645e34aec135&CSRFHash=3c00f78c351c47ee25332f5e967e5a056ce34f6ed7faa3ed7319694a174636d1",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -22123,7 +22123,7 @@ Accessibility statement</plain_text_description>
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-08-14T02:12:58.333Z</published_at>
+  <published_at>2026-08-14T07:32:49.233Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -22153,7 +22153,7 @@ Accessibility statement</plain_text_description>
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=6a134070e5afaa12&amp;CSRFHash=2386e5937808b64f92961c6b480ed19d44e616fcc4e8a771499139aec274c2dc">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=c596645e34aec135&amp;CSRFHash=734bc38044ed5b2083f5d2ddcbe2b2070564ade5d98968ec0caf49a98973fea6">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -22166,7 +22166,7 @@ Accessibility statement</plain_text_description>
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=6a134070e5afaa12&amp;CSRFHash=2d10294f2af1e04846ff5c83776e63f98e0dbd494a8789fd395b33993e102942" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=c596645e34aec135&amp;CSRFHash=8816c03862111230ad6da739cecf02a46006e9fc4d70d63f9286982f44ce9368" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -22232,7 +22232,7 @@ Accessibility statement</plain_text_description>
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?1825333202" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?590431292" data-a2a-title="Vacancy: MERCHANDISING &amp; PRODUCT INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -22247,11 +22247,11 @@ Accessibility statement</plain_text_description>
 								</a>
 								<a class="share__a2a a2a_button_whatsapp" aria-label="WhatsApp Share Icon Link" target="_blank" href="/#whatsapp" rel="nofollow noopener">
 									<svg viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M12.036 5.339c-3.635 0-6.591 2.956-6.593 6.589-.001 1.483.434 2.594 1.164 3.756l-.666 2.432 2.494-.654c1.117.663 2.184 1.061 3.595 1.061 3.632 0 6.591-2.956 6.592-6.59.003-3.641-2.942-6.593-6.586-6.594zm3.876 9.423c-.165.463-.957.885-1.337.942-.341.051-.773.072-1.248-.078-.288-.091-.657-.213-1.129-.417-1.987-.858-3.285-2.859-3.384-2.991-.099-.132-.809-1.074-.809-2.049 0-.975.512-1.454.693-1.653.182-.2.396-.25.528-.25l.38.007c.122.006.285-.046.446.34.165.397.561 1.372.611 1.471.049.099.083.215.016.347-.066.132-.099.215-.198.33l-.297.347c-.099.099-.202.206-.087.404.116.198.513.847 1.102 1.372.757.675 1.395.884 1.593.983.198.099.314.083.429-.05.116-.132.495-.578.627-.777s.264-.165.446-.099 1.156.545 1.354.645c.198.099.33.149.38.231.049.085.049.482-.116.945zm3.088-14.762h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-6.967 19.862c-1.327 0-2.634-.333-3.792-.965l-4.203 1.103 1.125-4.108c-.694-1.202-1.059-2.566-1.058-3.964.002-4.372 3.558-7.928 7.928-7.928 2.121.001 4.112.827 5.609 2.325s2.321 3.491 2.32 5.609c-.002 4.372-3.559 7.928-7.929 7.928z"></path></svg>
-								</a>
+								</a><div style="clear: both;"></div>
 								<a href="#" class="share__a2a share__qrcode" aria-label="QRCode Share Icon" data-qrcode="https://inter.intervieweb.it/jobs/merchandising-product-intern-143155/en/?d=qrcode" title="QR Code">
 									<i class="mi mi-qr_code font-size-20"></i>
 								</a>
-							<div style="clear: both;"></div></div>
+							</div>
 						</div>
 					</div>
 									</div>
@@ -22370,7 +22370,7 @@ Accessibility statement</plain_text_description>
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=6a134070e5afaa12&amp;CSRFHash=f8ccf96a24fb0163b290101258f2726ee98101a9b966b7b971e683596aa68d52" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=c596645e34aec135&amp;CSRFHash=3c23dc2f0a6c5cfafa50097e9649310bf9da38c7f2a44f4ced2f6ca4d1913ced" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -22659,7 +22659,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=d38c0a1374527d98ed2ece68da3b9730017f0b45cfdc9974f02efab3a125170a',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=d181a362f791d7f39895ad2782a39ea8991d766db29a010a6726eaa87080323f',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -22761,7 +22761,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=4b92382e55da8b54fa42063a738b2e4ca59e8c2f6f95b308af786b104f1244be';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=7eb4a4fad802bcfee68b3b6c8ce15c54843502c9e4a136e325263132985c65d2';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -22860,7 +22860,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=bc7d40c5eab4886cd80f0e516409df081370a0543e9b027892e5f159afcb2f53',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=24e843978f6bb5b64e551de193c352d7e85d948dc21b0a2ca10b26b47b0f7762',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -23225,7 +23225,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=6a134070e5afaa12&CSRFHash=e15992d4b42d1c6133d81d0365d9998e3341696c240fc433ea0345e567cdfc71',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=c596645e34aec135&CSRFHash=f0c869fa8989a77f33d252bd6a118b9fd013bd096b46fc0409513db9cfee18af',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -23266,7 +23266,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=6a134070e5afaa12&CSRFHash=1c0df37753bbde01eead8d61078b9409e0fe446ad41d2e4897a65caaa61ee97f',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=c596645e34aec135&CSRFHash=123c8311ce691f553b4f8d941aa781f30ffa58f85528c1e0d7eaf5d142386082',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -23443,7 +23443,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=14949d5d79417824571e14a48bc8d591ccae13817119cc8708d11b87757f14e3")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=88a283633175625062e43cef548d9e6863b832b2ce6cdaa3f4e841a69f8c01bc")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -23579,7 +23579,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=c3c52ed6e8e8c4da414c1ac40940b92e6b2974b297fe7455a604c2884c2ba08d",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=3405576518a5b453c9812689358e2f3bfbc9b332f47dea4ded88b8f916ebc55f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -23604,7 +23604,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=e1ee3a747cf2ea10f1e430c35615e8a5d35cc1844e7f590cbda9134b470a897b",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=bd9b28ea47656f41e156f05e4fd56c26bf1efc3b5c4ea11e83da7bc2659b5fa5",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -23626,7 +23626,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=0c1596f655f5f5650f29ced0df8071be6badc2c67db39da61439f12860bcdd9a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=057152c53e824055757d9c5c9fea0d79ba23fc05c024862f5eb58f39085ef806",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -23652,7 +23652,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=d41110f7f9a992b6bc22df830f13c9e29ce0b54b02bd6573b61ac8b32221b555",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=cf49fe0fda43886288144c91db82148eaca94df972d1244e9091620329710353",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -23687,7 +23687,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=8a0ac12a25bcfb5ff9d0e19eece975051fcdbd29927c1a34d1ff1c2dc5156a40",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=93ac908b45c4d8c30df0146795b5272659a3e86de1f6412e80df9b261e46e568",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -23828,7 +23828,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=6a134070e5afaa12&CSRFHash=e15992d4b42d1c6133d81d0365d9998e3341696c240fc433ea0345e567cdfc71',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=c596645e34aec135&CSRFHash=f0c869fa8989a77f33d252bd6a118b9fd013bd096b46fc0409513db9cfee18af',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -23866,7 +23866,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=6a134070e5afaa12&CSRFHash=5956068c13084b5e226f20eed557cf680fb7532449eb841433a4534dca6d2156',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=c596645e34aec135&CSRFHash=c93674aff871276814944e63d2dc54eebebced1bb164aa9b3f2d8388afca74e7',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -23913,7 +23913,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=6a134070e5afaa12&CSRFHash=1c0df37753bbde01eead8d61078b9409e0fe446ad41d2e4897a65caaa61ee97f',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=c596645e34aec135&CSRFHash=123c8311ce691f553b4f8d941aa781f30ffa58f85528c1e0d7eaf5d142386082',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -23962,7 +23962,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=6a134070e5afaa12&CSRFHash=622265b2f098df7b025c93c2fb2793d1d95eb471686773f2961c790418396d5d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=c596645e34aec135&CSRFHash=d37d09658ee801db56e901a3dce40ab8c1af4a85d78f63a7aca47a2e908fe683',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24009,7 +24009,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=6a134070e5afaa12&CSRFHash=62c6b0dd8d3bd26a4f5d1860c2d296bfe031eed9d3ae1bd835ac1a6108288457',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=c596645e34aec135&CSRFHash=5f00ad384f14b8c09b94a7607843a36fa2b0b786e06546c6a2dc3cec3033aa6f',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24063,7 +24063,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=6a134070e5afaa12&CSRFHash=57624a76e2998422a7a0a66be10dc5e9bafa7953e279fe817a8d1c9bf6f7e78f',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=c596645e34aec135&CSRFHash=878542a66dcc655ecb818702249975c690b294dccc1b9a9a084ba747b5efec25',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24117,7 +24117,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=6a134070e5afaa12&CSRFHash=e8af7bcfe6c32488c27826e5903ce9fc56e271e0ea82cb3cfb43c697de224342',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=c596645e34aec135&CSRFHash=38a1bd2b417ff0fb6279152df9ba4d4a698a7507f5dd08a1c2c647eeed27ee1d',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -24358,7 +24358,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=14949d5d79417824571e14a48bc8d591ccae13817119cc8708d11b87757f14e3")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=88a283633175625062e43cef548d9e6863b832b2ce6cdaa3f4e841a69f8c01bc")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -24777,7 +24777,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=c3c52ed6e8e8c4da414c1ac40940b92e6b2974b297fe7455a604c2884c2ba08d",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=3405576518a5b453c9812689358e2f3bfbc9b332f47dea4ded88b8f916ebc55f",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -24823,7 +24823,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=0c1596f655f5f5650f29ced0df8071be6badc2c67db39da61439f12860bcdd9a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=057152c53e824055757d9c5c9fea0d79ba23fc05c024862f5eb58f39085ef806",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -24874,7 +24874,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=d41110f7f9a992b6bc22df830f13c9e29ce0b54b02bd6573b61ac8b32221b555",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=cf49fe0fda43886288144c91db82148eaca94df972d1244e9091620329710353",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -24935,7 +24935,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=cba7f9cf408a7425a563a7e6904856aff142bbd5dfadfda555fa07f9ce35b7dc",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=dd33b953db5c5b9b041d498b1333756814453cd89bfff3f17e5d43ff725c5fe0",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -25006,7 +25006,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=0c1596f655f5f5650f29ced0df8071be6badc2c67db39da61439f12860bcdd9a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=057152c53e824055757d9c5c9fea0d79ba23fc05c024862f5eb58f39085ef806",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -25054,7 +25054,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=6a134070e5afaa12&CSRFHash=8a0ac12a25bcfb5ff9d0e19eece975051fcdbd29927c1a34d1ff1c2dc5156a40",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=c596645e34aec135&CSRFHash=93ac908b45c4d8c30df0146795b5272659a3e86de1f6412e80df9b261e46e568",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -25689,7 +25689,7 @@ $(function(){
 
                                             <input type="hidden" value="143155" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-08-14T02:13:00.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-08-14T07:32:51.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -25766,7 +25766,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a7e79acb1878";
+        uid = "6a7ec4a316c51";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -25790,7 +25790,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=6a134070e5afaa12&CSRFHash=a2e72681e2895053303b56dd88a01a88e459c12b48953aceef2f52283dcfaad1",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=c596645e34aec135&CSRFHash=1991d2872683aa51d0320b379b2aef51aeea4e4163a5a532e601313315a3bb18",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -26136,7 +26136,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=6a134070e5afaa12&CSRFHash=1b313132a3a943b80bcef61593bf90ed3ec318a7c42e537ffef13a1f9decd5cd",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=c596645e34aec135&CSRFHash=3c00f78c351c47ee25332f5e967e5a056ce34f6ed7faa3ed7319694a174636d1",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -33799,7 +33799,7 @@ Recruitment Agencies – please note that we do not accept unsolicited / specula
   <title>Academy Sessional Driver</title>
   <arrangement>fulltime</arrangement>
   <location_type>hybrid</location_type>
-  <location>Newcastle upon Tyne Discipline: Football Operations Job type: Casual Job ref: 010842 Published: 1 day ago Expiry date: 01 Sep 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Football Operations Job type: Casual Job ref: 010842 Published: 2 days ago Expiry date: 01 Sep 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at>2026-09-01T00:00:00.000Z</expires_at>
@@ -33873,7 +33873,7 @@ Recruitment Agencies – please note that we do not accept unsolicited / specula
   <title>Casual Matchday Supporter Liaison Assistant New</title>
   <arrangement>fulltime</arrangement>
   <location_type>hybrid</location_type>
-  <location>Newcastle upon Tyne Discipline: Commercial Job type: Casual Job ref: 010682 Published: about 10 hours ago Expiry date: 27 Aug 2026 23:59</location>
+  <location>Newcastle upon Tyne Discipline: Commercial Job type: Casual Job ref: 010682 Published: about 16 hours ago Expiry date: 27 Aug 2026 23:59</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at></expires_at>
@@ -39440,155 +39440,6 @@ We encourage you to apply even if you do not meet all of the requirements that a
   <salary_currency/>
  </job>
  <job>
-  <guid isPermaLink="false">url-d15dfbc72111204a-2180177</guid>
-  <id>2180177</id>
-  <url>https://www.teamworkonline.com/soccer-jobs/mls/philadelphia-union/philadelphia-union-youth-full-time-coach-2180177</url>
-  <application_link>https://www.teamworkonline.com/employment_opportunities/2180177/applications/new</application_link>
-  <title>Philadelphia Union Youth Full-Time Coach</title>
-  <arrangement>fulltime</arrangement>
-  <location_type>onsite</location_type>
-  <location>Chester, PA, 19013, US</location>
-  <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-07-15T00:00:00.000Z</published_at>
-  <expires_at>2026-08-14T00:00:00.000Z</expires_at>
-  <highlighted>false</highlighted>
-  <sticky>false</sticky>
-  <html_description><![CDATA[ <div><strong>WHO WE ARE </strong></div><div>Awarded Major League Soccer’s 16th franchise in 2008, the Philadelphia Union officially took the pitch in 2010 and have been raising expectations ever since. Owned and operated by Union Sports &amp; Entertainment, the Philadelphia Union call Subaru Park home—an 18,500-seat, world-class, soccer-specific stadium set along the Delaware River beneath the Commodore Barry Bridge, just 15 miles from downtown Philadelphia.<br><br>On the field, the Union have established themselves as one of Major League Soccer’s most consistent and competitive clubs. The team reached the Lamar Hunt U.S. Open Cup Final three times (2014, 2015, and 2018), made multiple MLS Cup Playoff appearances, and captured the <strong>Supporters’ Shield in 2020 and again in 2025</strong>, recognizing the club’s excellence and consistency across the regular season. The Union also hosted the Eastern Conference Final in 2021, were crowned <strong>Eastern Conference Champions in 2022</strong>, and advanced to the MLS Cup Final that same year in one of the most thrilling matches in league history. The club has continued to represent Philadelphia on the international stage through participation in the Scotiabank CONCACAF Champions League.<br><br>Off the field, the Philadelphia Union are defined by a culture that is Young, Fearless, and Challenger-driven. We are unafraid to think differently, push boundaries, and pursue excellence in everything we do. We believe success is built through accountability, collaboration, innovation, and a relentless drive to raise the bar.<br><br>Our deep connection to Philadelphia is woven into who we are. From the Club’s crest and colors to the thirteen stars and rallying cry, the Union proudly reflect the city’s revolutionary spirit and its legacy as the birthplace of American independence.  If you’re ready to challenge the ordinary and help shape the future of soccer in Philadelphia, we invite you to join us.</div><div> </div><div><strong>ABOUT THIS ROLE <br>**This is not a role with the Philadelphia Union first team, second team, or Academy**  </strong></div><div>It’s never just a job at Philadelphia Union.  It’s a way of life. We live and breathe soccer and growing our fan base in the community. We believe each role is as unique as the person who does it. The Philadelphia Union is seeking full-time coaches to join the Union Youth department. The Union Youth Coach will be responsible to coach in the community at the grassroots and developmental level from ages 5 to 18 years old. The coach must also deliver the Union Youth curriculum in various training programs such as our Affiliate training, Clinics, Camps, and prestigious Player Pathway Program (PPP) across the tri-state area—Pennsylvania, New Jersey, and Delaware. This position will report directly to the Technical Director. All employees must adhere within the guidelines and policies of the Philadelphia Union and the MLS. <br><br><strong>WHAT CAMPS &amp; PROGRAMS DO WE OFFER?</strong><br>Union Youth Soccer Camps &amp; Programs are designed to meet players where they are in terms of development. The camps &amp; programs offered throughout the year include UTrain, Union Camps, Union Tournaments, and the Player Pathway Program.<br><br><strong>UTRAIN<br></strong>Philadelphia Union provide youth programs and clinics which are designed to provide a series of training sessions that allow the Union to connect with local clubs and the soccer community. The UTrain Program offers programs for all level of players looking to train outside of their club environment. The programs range from beginner to elite level and delivered under the instruction of the Philadelphia Union Youth coaching staff. <br><br><strong>UNION CAMPS<br></strong>Union Youth Soccer Camps are designed for ages 6 to 14 years old.  All camps are designed to create a professional &amp; engaging environment for players to learn and improve their game.<br><br><strong>PLAYER PATHWAY PROGRAM<br></strong>The Philadelphia Union Youth Player Pathway Program (PPP) provides supplemental development training (club neutral) by creating a player-centered learning environment for advanced level boys and girls ages U8— U14. The Union Youth is also part of the identification program for the Union Academy.</div><div><br><strong>RESPONSIBILITIES</strong></div><ul><li>Assist in planning and organizing Union Youth training sessions.</li><li>Develop training curriculums for weekly training sessions for all programs.</li><li>Implement Union Youth coaching philosophy.</li><li>Provide training assessment and feedback for affiliate directors and head coaches.</li><li>Provide a fun and developing training environment.</li><li>Create an inclusive atmosphere for all athletes to feel welcome.</li><li>Set specific goals and desired outcome in each session.</li><li>Provide a player-centric approach.</li><li>Ensure safety and well-being of youth athletes.</li><li>Identify and recommend, potential PPP players.</li><li>Attend monthly coaches’ meetings and field/classroom sessions.</li><li>Maintain a hybrid schedule of both office and on field duties.</li><li>Organize and assist in the running of camps/clinics/tryouts throughout the year.</li><li>Ongoing assessment and mentoring of summer junior coaching staff.</li><li>Set up and take down Union Youth branding and equipment.</li><li>Enjoy grassroots coaching and developing fundamentals of the game.</li><li>Report incidents to a supervisor in a timely manner as directed through the Union protocols.</li><li>Other duties as assigned.</li></ul><div><br><strong> **This is not a role with the Philadelphia Union first team, second team, or Academy**  </strong></div><div><br><strong>PERSONAL ATTRIBUTES</strong></div><ul><li>Passion to learn.</li><li>Desire to explore and develop a career path in coaching soccer.</li><li>Remarkable leadership and motivational skills.</li><li>Ability to coordinate and lead multiple tasks and projects.</li><li>Possess strong organizational and interpersonal skills</li><li>Have excellent written and verbal communication skills.</li><li>Ability to multitask and work effectively with exceptional time management skills.</li><li>Detail-oriented and organized.</li><li>Self-motivated and self-starter mindset.</li><li>Positive attitude and strong work ethic.</li><li>Professional appearance and attitude, as well as ability to work with others.</li></ul><div><br></div><div><strong>QUALIFICATIONS</strong></div><ul><li>Valid US driver license. </li><li>Personal transportation (must be able to transport equipment).</li><li>Must have a minimum of a USSF ‘C’ (or equivalent).</li><li>Have 3 years minimum experience coaching youth, collegiate and/or professional soccer.</li><li>Possess the drive to develop youth players and work as part of a team.</li><li>Be a motivated individual who can work a varied schedule of nights, weekends, and holidays.</li><li>Have knowledge of identifying and developing talent.</li><li>Possess basic computer skills, example Excel, word, power point, keynote.</li><li>Can plan weekly training sessions under the Union curriculum.</li><li>Must be self-motivated, detail-oriented and have a strong sense of accountability.</li><li>Possess a positive, outgoing, engaging, and professional personality.</li><li>Strong understanding and passion for the sport of soccer.</li><li>Experience working with youth players in a structured environment.</li><li>Occasional bending, lifting, and carrying of objects up to 30 pounds.</li><li>Ability to walk and stand for short periods of time.</li><li>Ability to work as business needs require which may include long days, evenings, weekends, occasional holidays, and travel if/when necessary.</li><li>Must possess U.S. work authorization not requiring sponsorship by the employer.</li></ul><div><strong> <br>OUR PERKS</strong></div><ul><li>Comprehensive benefits package including three medical options, vision and dental coverage, including flexible spending &amp; health savings accounts.</li><li>Pre-tax and Roth 401k (up to 4% is matched, after eligibility period).</li><li>Company-paid life insurance and disability.</li><li>Paid holidays and additional flexible time off (FTO).</li><li>Wellness reimbursements through Independence Blue Cross.</li><li>50% merchandise discount.</li><li>Other league and partner discounts. </li><li>Complimentary or discounted tickets.</li><li>24/7 state-of-the-art Fitness Center and locker rooms.</li><li>On-site Café with grab-and-go options, salad bar, and grill!</li></ul><div> </div><div><strong>Coaches are required to maintain valid criminal background clearances in the state of PA:</strong></div><ul><li><strong>PA Child Abuse History Clearance </strong></li><li><strong>PA State Police Criminal Record Check</strong></li><li><strong>FBI Criminal Background Check (via fingerprinting)</strong></li><li><strong>Annual Safe Sport Certification</strong></li></ul><div> <br><strong>WHY THE UNION?</strong><br>At the Philadelphia Union, development is in our DNA. From our world-class academy to our front office, we believe in identifying talent early, investing in it fully, and creating real pathways for growth. If you’re driven, coachable, and willing to put in the work, the Union will match your ambition.<br><br>You’ll join a competitive, high-energy environment where:</div><ul><li><strong>People get better every day </strong>as leaders and teammates</li><li><strong>Winning matters</strong>, but how we win matters just as much</li><li><strong>Coaching, feedback, and accountability</strong> are part of the culture, not buzzwords</li><li><strong>Soccer passion is real </strong>and matchdays mean something here</li></ul><div>We celebrate effort, creativity, and results. We challenge each other. We have fun. And we take pride in developing future leaders who go on to make an impact across the sports industry.<br><br><strong>OUR PERKS</strong> </div><ul><li>Comprehensive benefits package including three medical options, vision and dental coverage, including flexible spending &amp; health savings accounts.</li><li>Pre-tax and Roth 401k (up to 4% is matched, after elimination period).</li><li>Company-paid life insurance and disability.</li><li>Wellness reimbursements through IBX.</li><li>50% discount on Philadelphia Union merchandise.</li><li>Other league and partner discounts. </li><li>Complimentary and discounted tickets to Philadelphia Union matches and select events.</li><li>24/7 state-of-the-art Fitness Center, locker rooms, and Sportsplex.</li><li>On-site Café with grab-and-go options, salad bar, and grill!</li></ul><div><br>We encourage you to apply even if you do not meet all of the requirements that are listed within this job description.  <strong>Championship teams are built on diverse strengths. If you’re passionate about sports and excited about this role, we want to hear from you!</strong> We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, age, disability, gender identity, marital or veteran status, or any other protected class. </div> ]]></html_description>
-  <plain_text_description>WHO WE ARE
-
-Awarded Major League Soccer’s 16th franchise in 2008, the Philadelphia Union officially took the pitch in 2010 and have been raising expectations ever since. Owned and operated by Union Sports &amp; Entertainment, the Philadelphia Union call Subaru Park home—an 18,500-seat, world-class, soccer-specific stadium set along the Delaware River beneath the Commodore Barry Bridge, just 15 miles from downtown Philadelphia.
-
-On the field, the Union have established themselves as one of Major League Soccer’s most consistent and competitive clubs. The team reached the Lamar Hunt U.S. Open Cup Final three times (2014, 2015, and 2018), made multiple MLS Cup Playoff appearances, and captured the Supporters’ Shield in 2020 and again in 2025, recognizing the club’s excellence and consistency across the regular season. The Union also hosted the Eastern Conference Final in 2021, were crowned Eastern Conference Champions in 2022, and advanced to the MLS Cup Final that same year in one of the most thrilling matches in league history. The club has continued to represent Philadelphia on the international stage through participation in the Scotiabank CONCACAF Champions League.
-
-Off the field, the Philadelphia Union are defined by a culture that is Young, Fearless, and Challenger-driven. We are unafraid to think differently, push boundaries, and pursue excellence in everything we do. We believe success is built through accountability, collaboration, innovation, and a relentless drive to raise the bar.
-
-Our deep connection to Philadelphia is woven into who we are. From the Club’s crest and colors to the thirteen stars and rallying cry, the Union proudly reflect the city’s revolutionary spirit and its legacy as the birthplace of American independence. If you’re ready to challenge the ordinary and help shape the future of soccer in Philadelphia, we invite you to join us.
-
-ABOUT THIS ROLE
-**This is not a role with the Philadelphia Union first team, second team, or Academy**
-
-It’s never just a job at Philadelphia Union. It’s a way of life. We live and breathe soccer and growing our fan base in the community. We believe each role is as unique as the person who does it. The Philadelphia Union is seeking full-time coaches to join the Union Youth department. The Union Youth Coach will be responsible to coach in the community at the grassroots and developmental level from ages 5 to 18 years old. The coach must also deliver the Union Youth curriculum in various training programs such as our Affiliate training, Clinics, Camps, and prestigious Player Pathway Program (PPP) across the tri-state area—Pennsylvania, New Jersey, and Delaware. This position will report directly to the Technical Director. All employees must adhere within the guidelines and policies of the Philadelphia Union and the MLS.
-
-WHAT CAMPS &amp; PROGRAMS DO WE OFFER?
-Union Youth Soccer Camps &amp; Programs are designed to meet players where they are in terms of development. The camps &amp; programs offered throughout the year include UTrain, Union Camps, Union Tournaments, and the Player Pathway Program.
-
-UTRAINPhiladelphia Union provide youth programs and clinics which are designed to provide a series of training sessions that allow the Union to connect with local clubs and the soccer community. The UTrain Program offers programs for all level of players looking to train outside of their club environment. The programs range from beginner to elite level and delivered under the instruction of the Philadelphia Union Youth coaching staff.
-
-UNION CAMPSUnion Youth Soccer Camps are designed for ages 6 to 14 years old. All camps are designed to create a professional &amp; engaging environment for players to learn and improve their game.
-
-PLAYER PATHWAY PROGRAMThe Philadelphia Union Youth Player Pathway Program (PPP) provides supplemental development training (club neutral) by creating a player-centered learning environment for advanced level boys and girls ages U8— U14. The Union Youth is also part of the identification program for the Union Academy.
-
-RESPONSIBILITIES
-
-- Assist in planning and organizing Union Youth training sessions.
-- Develop training curriculums for weekly training sessions for all programs.
-- Implement Union Youth coaching philosophy.
-- Provide training assessment and feedback for affiliate directors and head coaches.
-- Provide a fun and developing training environment.
-- Create an inclusive atmosphere for all athletes to feel welcome.
-- Set specific goals and desired outcome in each session.
-- Provide a player-centric approach.
-- Ensure safety and well-being of youth athletes.
-- Identify and recommend, potential PPP players.
-- Attend monthly coaches’ meetings and field/classroom sessions.
-- Maintain a hybrid schedule of both office and on field duties.
-- Organize and assist in the running of camps/clinics/tryouts throughout the year.
-- Ongoing assessment and mentoring of summer junior coaching staff.
-- Set up and take down Union Youth branding and equipment.
-- Enjoy grassroots coaching and developing fundamentals of the game.
-- Report incidents to a supervisor in a timely manner as directed through the Union protocols.
-- Other duties as assigned.
-
-**This is not a role with the Philadelphia Union first team, second team, or Academy**
-
-PERSONAL ATTRIBUTES
-
-- Passion to learn.
-- Desire to explore and develop a career path in coaching soccer.
-- Remarkable leadership and motivational skills.
-- Ability to coordinate and lead multiple tasks and projects.
-- Possess strong organizational and interpersonal skills
-- Have excellent written and verbal communication skills.
-- Ability to multitask and work effectively with exceptional time management skills.
-- Detail-oriented and organized.
-- Self-motivated and self-starter mindset.
-- Positive attitude and strong work ethic.
-- Professional appearance and attitude, as well as ability to work with others.
-
-QUALIFICATIONS
-
-- Valid US driver license.
-- Personal transportation (must be able to transport equipment).
-- Must have a minimum of a USSF ‘C’ (or equivalent).
-- Have 3 years minimum experience coaching youth, collegiate and/or professional soccer.
-- Possess the drive to develop youth players and work as part of a team.
-- Be a motivated individual who can work a varied schedule of nights, weekends, and holidays.
-- Have knowledge of identifying and developing talent.
-- Possess basic computer skills, example Excel, word, power point, keynote.
-- Can plan weekly training sessions under the Union curriculum.
-- Must be self-motivated, detail-oriented and have a strong sense of accountability.
-- Possess a positive, outgoing, engaging, and professional personality.
-- Strong understanding and passion for the sport of soccer.
-- Experience working with youth players in a structured environment.
-- Occasional bending, lifting, and carrying of objects up to 30 pounds.
-- Ability to walk and stand for short periods of time.
-- Ability to work as business needs require which may include long days, evenings, weekends, occasional holidays, and travel if/when necessary.
-- Must possess U.S. work authorization not requiring sponsorship by the employer.
-
-OUR PERKS
-
-- Comprehensive benefits package including three medical options, vision and dental coverage, including flexible spending &amp; health savings accounts.
-- Pre-tax and Roth 401k (up to 4% is matched, after eligibility period).
-- Company-paid life insurance and disability.
-- Paid holidays and additional flexible time off (FTO).
-- Wellness reimbursements through Independence Blue Cross.
-- 50% merchandise discount.
-- Other league and partner discounts.
-- Complimentary or discounted tickets.
-- 24/7 state-of-the-art Fitness Center and locker rooms.
-- On-site Café with grab-and-go options, salad bar, and grill!
-
-Coaches are required to maintain valid criminal background clearances in the state of PA:
-
-- PA Child Abuse History Clearance
-- PA State Police Criminal Record Check
-- FBI Criminal Background Check (via fingerprinting)
-- Annual Safe Sport Certification
-
-WHY THE UNION?
-At the Philadelphia Union, development is in our DNA. From our world-class academy to our front office, we believe in identifying talent early, investing in it fully, and creating real pathways for growth. If you’re driven, coachable, and willing to put in the work, the Union will match your ambition.
-
-You’ll join a competitive, high-energy environment where:
-
-- People get better every dayas leaders and teammates
-- Winning matters, but how we win matters just as much
-- Coaching, feedback, and accountability are part of the culture, not buzzwords
-- Soccer passion is realand matchdays mean something here
-
-We celebrate effort, creativity, and results. We challenge each other. We have fun. And we take pride in developing future leaders who go on to make an impact across the sports industry.
-
-OUR PERKS
-
-- Comprehensive benefits package including three medical options, vision and dental coverage, including flexible spending &amp; health savings accounts.
-- Pre-tax and Roth 401k (up to 4% is matched, after elimination period).
-- Company-paid life insurance and disability.
-- Wellness reimbursements through IBX.
-- 50% discount on Philadelphia Union merchandise.
-- Other league and partner discounts.
-- Complimentary and discounted tickets to Philadelphia Union matches and select events.
-- 24/7 state-of-the-art Fitness Center, locker rooms, and Sportsplex.
-- On-site Café with grab-and-go options, salad bar, and grill!
-
-We encourage you to apply even if you do not meet all of the requirements that are listed within this job description. Championship teams are built on diverse strengths. If you’re passionate about sports and excited about this role, we want to hear from you! We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, age, disability, gender identity, marital or veteran status, or any other protected class.</plain_text_description>
-  <company_name>Philadelphia Union</company_name>
-  <company_url>https://www.teamworkonline.com/soccer-jobs/mls/philadelphia-union</company_url>
-  <company_logo_url>https://cf-production.teamworkonline.com/uploads/public/thumb_263d5b0a-021f-49e6-98fa-641b0a6a636d.png</company_logo_url>
-  <salary_minimum/>
-  <salary_maximum/>
-  <salary_schedule/>
-  <salary_currency/>
- </job>
- <job>
   <guid isPermaLink="false">url-a3a79de5452eeccf-374862</guid>
   <id>374862</id>
   <url>https://emp.jobylon.com/jobs/374862-uefa-statutory-regulatory-lawyer/</url>
@@ -40425,100 +40276,6 @@ Desired Qualifications
 - Strong problem-solving capabilities to address and resolve issues that face a growing company
 - Proven ability to set and deliver on clear, ambitious goals and to be accountable for results
 - Creative thinker, self-starter with strong analytical skills
-
-U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.
-
-U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply.</plain_text_description>
-  <company_name>US Soccer Federation</company_name>
-  <company_url>https://www.ussoccer.com/</company_url>
-  <company_logo_url></company_logo_url>
-  <salary_minimum/>
-  <salary_maximum/>
-  <salary_schedule/>
-  <salary_currency/>
- </job>
- <job>
-  <guid isPermaLink="false">url-0091ee0bf2146b42-4291973</guid>
-  <id>4291973</id>
-  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4291973</url>
-  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4291973</application_link>
-  <title>Podcast Producer</title>
-  <arrangement>fulltime</arrangement>
-  <location_type>onsite</location_type>
-  <location>Atlanta, GA, US</location>
-  <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-06-30T00:24:04.000Z</published_at>
-  <expires_at></expires_at>
-  <highlighted>false</highlighted>
-  <sticky>false</sticky>
-  <html_description><![CDATA[ <p>Description</p><p><br/></p><p><strong>U.S. Soccer Overview</strong></p><p><br/></p><p>The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.</p><p><br/></p><p>We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.</p><p><br/></p><p>U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.</p><p><br/></p><p><strong>Position Description</strong></p><p><br/></p><p>U.S. Soccer is seeking an experienced producer and audio/video storyteller to lead the day-to-day editorial, production and distribution of the U.S. Soccer Podcast. The Podcast Producer will create compelling conversations and original segments that bring fans closer to the people, stories and moments shaping soccer in the United States, from the Senior National Teams to the broader Federation ecosystem.</p><p><br/></p><p>This role will own the full podcast lifecycle, from editorial planning and guest development through recording, editing, publishing, audience growth and performance reporting. The producer will create programming and integrated segments that support U.S. Soccer’s commercial, marketing and membership priorities while maintaining the editorial quality, authenticity and credibility of the show.</p><p><br/></p><p>The Podcast Producer will build adaptable, repeatable production playbooks for international camps, tournaments, match days and other major Federation moments. They will help create a year-round content engine that keeps soccer fans engaged through an audience-led approach and close collaboration with Editorial, Social Media, Video, Partnerships Marketing and other stakeholders across the organization.</p><p><br/></p><p>We are seeking a relationship-driven producer with the ability to collaborate, communicate and build trust with a wide range of internal and external stakeholders. Travel to team events, camps and matches will be required as needed.</p><p><br/></p><p><strong>Primary Responsibilities</strong></p><ul><li>Own the editorial development of the U.S. Soccer Podcast, including episode concepts, guest strategy, run of show, interview preparation, segment development and post-production storytelling.</li><li>Produce each episode as a multi-platform content package, including full-length audio and video episodes, short-form social clips, promotional assets, episode titles, descriptions, thumbnails and publishing metadata.</li><li>Produce live and live-to-tape podcast programming around matches, camps, tournaments and major Federation moments, including technical planning, guest coordination, run of show and real-time editorial decision-making.</li><li>Develop scalable production workflows for studio, remote, on-location and live podcast environments.</li><li>Build, organize and manage the podcast content calendar, including episode planning, campaign integration and release schedules, in collaboration with stakeholders throughout the organization.</li><li>Work closely with internal stakeholders to develop episode topics and interview outlines that align with U.S. Soccer’s brand, editorial standards and messaging.</li><li>Build trusted relationships with athletes, coaches, technical staff, communications teams, external guests and other stakeholders to secure meaningful access and produce thoughtful, well-prepared conversations.</li><li>Exercise sound editorial judgment and discretion when working with confidential, sensitive or embargoed information.</li><li>Partner with Editorial, Social Media, Video, Post-Production and Marketing teams to identify and deliver high-impact clips, promotional assets and supporting content around each episode.</li><li>Develop and execute audience-growth and distribution strategies across podcast platforms, YouTube, social media and other relevant channels.</li><li>Establish and report against podcast KPIs, including audience growth, listens and views, watch time, completion rate, subscriber growth, social engagement, Insiders conversion and commercial deliverables.</li><li>Use audience insights and performance data to refine editorial strategy, publishing cadence, distribution and promotional tactics.</li><li>Collaborate with Partnerships Marketing on the ideation and development of integrated segments and branded content, ensuring all deliverables meet partner objectives while preserving the authenticity and audience value of the show.</li><li>Coordinate podcast production logistics, including equipment, studio needs, remote-recording workflows, vendors, freelancers and production budgets, as applicable.</li><li>Stay current on podcast, YouTube, social video and audience-development trends, applying new formats, platform features and distribution tactics where they can strengthen the show.</li></ul><p>Requirements</p><p><br/></p><p><strong>Minimum Qualifications</strong></p><ul><li>5+ years of experience producing podcasts, audio programming, video podcasts or comparable editorial content, with demonstrated ownership of projects from concept through distribution.</li><li>Demonstrated experience producing video podcasts and/or YouTube-first programming.</li><li>Experience producing live, remote and on-location recordings.</li><li>Strong command of Adobe Creative Cloud, including Adobe Audition and Premiere Pro, or comparable audio/video production tools.</li><li>Proficient experience with Microsoft Suite (Word, PowerPoint, Excel, and Outlook).</li><li>Experience with podcast hosting, publishing and analytics platforms.</li><li>Strong writing, scripting and interview-preparation skills, with the ability to craft compelling narratives and conversations.</li><li>Demonstrated ability to manage multiple projects, shifting priorities and fast-turn deadlines in a fast-paced environment.</li><li>Strong organizational, communication and stakeholder-management skills.</li><li>Ability to work effectively with a broad range of internal and external stakeholders, including talent, communications teams, partners and vendors.</li><li>Passion for soccer and an understanding of the U.S. sports and soccer ecosystem.</li><li>Ability and willingness to travel and work non-traditional hours, including evenings and weekends, as needed.</li><li>When not traveling, ability to work from U.S. Soccer’s headquarters in Atlanta, Georgia.</li><li>Demonstrated discretion and sound judgment when handling confidential information.</li><li>Must be able to connect “micro” details to the “macro” vision and mission.</li><li>Portfolio or work samples demonstrating podcast, interview, audio storytelling and/or video production experience.</li></ul><p><strong>Desired Qualifications</strong></p><ul><li>Experience in sports media, digital media, journalism, entertainment or another fast-paced editorial environment.</li><li>Experience producing live sports, event-based programming or rapid-turn content around major moments.</li><li>Spanish-language proficiency.</li><li>Familiarity with multimedia storytelling, including video production, social video and digital publishing.</li><li>Strong command of AP style and soccer terminology.</li><li>Experience managing freelancers, vendors, production budgets or external production partners.</li></ul><p><br/></p><p><em>U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.</em></p><p><br/></p><p><em>U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply</em>.</p> ]]></html_description>
-  <plain_text_description>Description
-
-U.S. Soccer Overview
-
-The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.
-
-We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.
-
-U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.
-
-Position Description
-
-U.S. Soccer is seeking an experienced producer and audio/video storyteller to lead the day-to-day editorial, production and distribution of the U.S. Soccer Podcast. The Podcast Producer will create compelling conversations and original segments that bring fans closer to the people, stories and moments shaping soccer in the United States, from the Senior National Teams to the broader Federation ecosystem.
-
-This role will own the full podcast lifecycle, from editorial planning and guest development through recording, editing, publishing, audience growth and performance reporting. The producer will create programming and integrated segments that support U.S. Soccer’s commercial, marketing and membership priorities while maintaining the editorial quality, authenticity and credibility of the show.
-
-The Podcast Producer will build adaptable, repeatable production playbooks for international camps, tournaments, match days and other major Federation moments. They will help create a year-round content engine that keeps soccer fans engaged through an audience-led approach and close collaboration with Editorial, Social Media, Video, Partnerships Marketing and other stakeholders across the organization.
-
-We are seeking a relationship-driven producer with the ability to collaborate, communicate and build trust with a wide range of internal and external stakeholders. Travel to team events, camps and matches will be required as needed.
-
-Primary Responsibilities
-
-- Own the editorial development of the U.S. Soccer Podcast, including episode concepts, guest strategy, run of show, interview preparation, segment development and post-production storytelling.
-- Produce each episode as a multi-platform content package, including full-length audio and video episodes, short-form social clips, promotional assets, episode titles, descriptions, thumbnails and publishing metadata.
-- Produce live and live-to-tape podcast programming around matches, camps, tournaments and major Federation moments, including technical planning, guest coordination, run of show and real-time editorial decision-making.
-- Develop scalable production workflows for studio, remote, on-location and live podcast environments.
-- Build, organize and manage the podcast content calendar, including episode planning, campaign integration and release schedules, in collaboration with stakeholders throughout the organization.
-- Work closely with internal stakeholders to develop episode topics and interview outlines that align with U.S. Soccer’s brand, editorial standards and messaging.
-- Build trusted relationships with athletes, coaches, technical staff, communications teams, external guests and other stakeholders to secure meaningful access and produce thoughtful, well-prepared conversations.
-- Exercise sound editorial judgment and discretion when working with confidential, sensitive or embargoed information.
-- Partner with Editorial, Social Media, Video, Post-Production and Marketing teams to identify and deliver high-impact clips, promotional assets and supporting content around each episode.
-- Develop and execute audience-growth and distribution strategies across podcast platforms, YouTube, social media and other relevant channels.
-- Establish and report against podcast KPIs, including audience growth, listens and views, watch time, completion rate, subscriber growth, social engagement, Insiders conversion and commercial deliverables.
-- Use audience insights and performance data to refine editorial strategy, publishing cadence, distribution and promotional tactics.
-- Collaborate with Partnerships Marketing on the ideation and development of integrated segments and branded content, ensuring all deliverables meet partner objectives while preserving the authenticity and audience value of the show.
-- Coordinate podcast production logistics, including equipment, studio needs, remote-recording workflows, vendors, freelancers and production budgets, as applicable.
-- Stay current on podcast, YouTube, social video and audience-development trends, applying new formats, platform features and distribution tactics where they can strengthen the show.
-
-Requirements
-
-Minimum Qualifications
-
-- 5+ years of experience producing podcasts, audio programming, video podcasts or comparable editorial content, with demonstrated ownership of projects from concept through distribution.
-- Demonstrated experience producing video podcasts and/or YouTube-first programming.
-- Experience producing live, remote and on-location recordings.
-- Strong command of Adobe Creative Cloud, including Adobe Audition and Premiere Pro, or comparable audio/video production tools.
-- Proficient experience with Microsoft Suite (Word, PowerPoint, Excel, and Outlook).
-- Experience with podcast hosting, publishing and analytics platforms.
-- Strong writing, scripting and interview-preparation skills, with the ability to craft compelling narratives and conversations.
-- Demonstrated ability to manage multiple projects, shifting priorities and fast-turn deadlines in a fast-paced environment.
-- Strong organizational, communication and stakeholder-management skills.
-- Ability to work effectively with a broad range of internal and external stakeholders, including talent, communications teams, partners and vendors.
-- Passion for soccer and an understanding of the U.S. sports and soccer ecosystem.
-- Ability and willingness to travel and work non-traditional hours, including evenings and weekends, as needed.
-- When not traveling, ability to work from U.S. Soccer’s headquarters in Atlanta, Georgia.
-- Demonstrated discretion and sound judgment when handling confidential information.
-- Must be able to connect “micro” details to the “macro” vision and mission.
-- Portfolio or work samples demonstrating podcast, interview, audio storytelling and/or video production experience.
-
-Desired Qualifications
-
-- Experience in sports media, digital media, journalism, entertainment or another fast-paced editorial environment.
-- Experience producing live sports, event-based programming or rapid-turn content around major moments.
-- Spanish-language proficiency.
-- Familiarity with multimedia storytelling, including video production, social video and digital publishing.
-- Strong command of AP style and soccer terminology.
-- Experience managing freelancers, vendors, production budgets or external production partners.
 
 U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.
 
