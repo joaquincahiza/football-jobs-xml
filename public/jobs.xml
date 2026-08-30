@@ -15952,7 +15952,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-08-30T04:26:06.764Z</published_at>
+  <published_at>2026-08-30T11:35:50.814Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -15982,7 +15982,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=9474cf90b5a94144&amp;CSRFHash=aca0d5ae356326e1bf171435a926fd9525f651b9ee9fdea7dcf7a22cbd27bfe6">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=080a0f8d72ba2c01&amp;CSRFHash=8fd67329474d56741aaf44c3dfdc6552be6257b989778829e7bc425646eedd93">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -15995,7 +15995,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=9474cf90b5a94144&amp;CSRFHash=d0b0bf842e541505b8d2fad564525cd265426c4417ae3d660a4261018a668d39" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=080a0f8d72ba2c01&amp;CSRFHash=99e8c14996f02cae99221fb08a44d03c02b286755c59509784ae7b29d452fb37" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -16061,7 +16061,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/cybersecurity-intern-146488/en/?705139369" data-a2a-title="Vacancy: CYBERSECURITY INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/cybersecurity-intern-146488/en/?1972869067" data-a2a-title="Vacancy: CYBERSECURITY INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -16199,7 +16199,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=9474cf90b5a94144&amp;CSRFHash=ff749f6df4218c92bf90da7665b24e946cb1c6e69709a15a03488a6e9aea481a" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=080a0f8d72ba2c01&amp;CSRFHash=bec8c5476732f73c35f13ad45220cba9b1d7b3930ce674982067b8c53e1d8069" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -16488,7 +16488,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=c4b69cb4518878102e603d5a4f3ade79d95286a17e24e4b13960e7352408f7ff',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=1b69d3afc99eb874ebb258980debc95df0d7249504c23edb017f65f48467d582',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -16590,7 +16590,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=ddf2940d6ed67de998bdb88af81d631ef02da11251ac0ab3a9a815485d3db164';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=1049c30047b062e5d1ed6207e94ef5e9e8f75a39add9f3fd518311be981c1817';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -16689,7 +16689,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=8837b4d940147c66dbe71f86a7b62e5141fecb78205f4dde7eb9cacfa9efb7f9',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=4b44476ca0d081614b5cbd36209e713ab2c2164ac1115c16b24a273ccf00e768',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -17054,7 +17054,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=9474cf90b5a94144&CSRFHash=1e50b57cb144e217a6c11f4d87122f8b070b3727e99b33ef66e771236206b27d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=080a0f8d72ba2c01&CSRFHash=c0f8182bd1e859ea7cfbbcb6fc298ec6b94128b9e26074dbb4da94a9ef130cff',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17095,7 +17095,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=9474cf90b5a94144&CSRFHash=4838d86bbedec9e30f44298abb2c10472c4d3e662d1e0afa156dddcc590a3457',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=080a0f8d72ba2c01&CSRFHash=0e6d37a7a9dd848c6a4f94fbcb848a1836b0d92de45358cb44b3e48cd486ec5e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17272,7 +17272,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=e3d430a8ddaab89ccfd65bda1f8ef3b4bc4da8c259b4f088ecaff77a79735b7a")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=9d00114b8e9216e1071c9e4626074cb2b81570b199dab56964dcf7bc1f3d81ee")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -17408,7 +17408,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=c0fea9f795571f834e803cc293cf48530f7caea27178c7d2b0bebd07cc0f77d6",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=ee9baf22eb3b7c86a14a279672baba801f3c67c0fc5514b4205c93d875f73ce4",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -17433,7 +17433,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=793b80a3c583af0dfb21bbafd24b427d41884d06cde06f7a14ae4a3b740ba7c7",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=3420794bf69aa550dab95a0698c3b65ada58fe42465286a8265a6fd87458e128",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -17455,7 +17455,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=b1813c2af14444211da799a1be32add34ff611d675faf213b30b81b225d75ccf",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=ec41aba9e24b2076dea09f7cbb63b1c50df6d0c36590052ce8e84940bfe076ee",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17481,7 +17481,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=9aa3697a1445db58bb080fc7884ea7f9fe61a6f8296ef7b5822bb84d516664d0",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=fea8c19805a2616550b0efe0b3d1ff52f4cb09bc9c90155f7c835d18d9067325",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17516,7 +17516,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=5bd05d28186e02a5cdd9de43f9e8f874e480b2b5732613f2d030bf69509a041f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=bcb51f49cca7b9354cb2682da91f63458dc7bc9a367afddf46a45fd928803211",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -17657,7 +17657,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=9474cf90b5a94144&CSRFHash=1e50b57cb144e217a6c11f4d87122f8b070b3727e99b33ef66e771236206b27d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=080a0f8d72ba2c01&CSRFHash=c0f8182bd1e859ea7cfbbcb6fc298ec6b94128b9e26074dbb4da94a9ef130cff',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17695,7 +17695,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=9474cf90b5a94144&CSRFHash=a38aa0a57bbd89db221cb1f60eb868a4d42626e898f3d30cfe5b8e59135f885c',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=080a0f8d72ba2c01&CSRFHash=af8a0acafb59fba800fa871e07c28935ba5bb0cd8265844b4adbe70b3443f1b3',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17742,7 +17742,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=9474cf90b5a94144&CSRFHash=4838d86bbedec9e30f44298abb2c10472c4d3e662d1e0afa156dddcc590a3457',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=080a0f8d72ba2c01&CSRFHash=0e6d37a7a9dd848c6a4f94fbcb848a1836b0d92de45358cb44b3e48cd486ec5e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17791,7 +17791,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=9474cf90b5a94144&CSRFHash=4dddcfed4128ca9d5aa69fe839099afb1605de8aa11d8414debaa897dd0c97ba',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=080a0f8d72ba2c01&CSRFHash=a1ccb538c5029ff370248e5b9f9432ca9670b16ab4cd4114554dc608e41c7a49',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17838,7 +17838,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=9474cf90b5a94144&CSRFHash=21ee20b4575e2d578c0154830410d846dfce29b6585c4715dfba198c02f3806a',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=080a0f8d72ba2c01&CSRFHash=92a4667d335e995defea638e50238ef13377fd586300e1758174ffb4faae22ec',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17892,7 +17892,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=9474cf90b5a94144&CSRFHash=902ff44e32bb55b7a8e5227694df31b9cda7e817454b37d7aa213f08d4ab3a95',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=080a0f8d72ba2c01&CSRFHash=fd983747f7a2366c254797dae8f8858eacc0712867f68e4762feb336c04f87d0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17946,7 +17946,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=9474cf90b5a94144&CSRFHash=cb1a6c563bb4fb0431bdc77704426b7693f52b73e88172bf03c19588473ee2d2',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=080a0f8d72ba2c01&CSRFHash=9f7b3194e907e43f3eeb8bfda974dfcd9e6928a4a463b0963e923a24e19e4ca7',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -18187,7 +18187,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=e3d430a8ddaab89ccfd65bda1f8ef3b4bc4da8c259b4f088ecaff77a79735b7a")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=9d00114b8e9216e1071c9e4626074cb2b81570b199dab56964dcf7bc1f3d81ee")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -18606,7 +18606,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=c0fea9f795571f834e803cc293cf48530f7caea27178c7d2b0bebd07cc0f77d6",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=ee9baf22eb3b7c86a14a279672baba801f3c67c0fc5514b4205c93d875f73ce4",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -18652,7 +18652,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=b1813c2af14444211da799a1be32add34ff611d675faf213b30b81b225d75ccf",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=ec41aba9e24b2076dea09f7cbb63b1c50df6d0c36590052ce8e84940bfe076ee",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -18703,7 +18703,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=9aa3697a1445db58bb080fc7884ea7f9fe61a6f8296ef7b5822bb84d516664d0",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=fea8c19805a2616550b0efe0b3d1ff52f4cb09bc9c90155f7c835d18d9067325",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -18764,7 +18764,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=5f0237c7868277dad7142721bfd54dceb61ecb625db243c894450a0b317c09e0",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=8a33b2f7d00c5f87327cbb981484b2565d86d2f8e94969d69e5ae809ea7d0a39",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -18835,7 +18835,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=b1813c2af14444211da799a1be32add34ff611d675faf213b30b81b225d75ccf",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=ec41aba9e24b2076dea09f7cbb63b1c50df6d0c36590052ce8e84940bfe076ee",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -18883,7 +18883,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=9474cf90b5a94144&CSRFHash=5bd05d28186e02a5cdd9de43f9e8f874e480b2b5732613f2d030bf69509a041f",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=080a0f8d72ba2c01&CSRFHash=bcb51f49cca7b9354cb2682da91f63458dc7bc9a367afddf46a45fd928803211",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -19518,7 +19518,7 @@ $(function(){
 
                                             <input type="hidden" value="146488" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-08-30T04:26:09.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-08-30T11:35:54.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -19595,7 +19595,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6a93b0e12fd67";
+        uid = "6a9415998fd85";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -19619,7 +19619,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=9474cf90b5a94144&CSRFHash=3d269800fa898b410ef6137690d9dd57cf484a174fa43110bcf96a4cacf2eb8a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=080a0f8d72ba2c01&CSRFHash=b0bfb8003a1652482cdaf2cd0f20964f02b59f2ad049ffcb1d05cede88209355",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -19965,7 +19965,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=9474cf90b5a94144&CSRFHash=d8eaf5f06810d4c5b4019f53bf9b6d192e72dfab49f4309c904c4da86ad70368",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=080a0f8d72ba2c01&CSRFHash=700d62db02de375771187db353056739571a60106498bccf045a1be54ed770b1",
                 type: 'POST',
                 data: {
                     module: 'register',
