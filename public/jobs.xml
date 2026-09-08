@@ -14935,7 +14935,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-09-08T16:20:09.540Z</published_at>
+  <published_at>2026-09-08T20:56:59.164Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -14965,7 +14965,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=437e8401d07d57fb&amp;CSRFHash=48e2de25506cbb8bb41e6ba4d3308052a068a12d149e66864cd4022de670fe72">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=e39306d836bad222&amp;CSRFHash=d68d717260f0ab58bd8b171455c14654c3e8ee98d01c7ed4c46d868cbbfc7f67">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -14978,7 +14978,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=437e8401d07d57fb&amp;CSRFHash=702615763c534c60342bcf1558b310766a1142b5ca79b0a9d4debb4d3db3e3c0" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=e39306d836bad222&amp;CSRFHash=8c8a53e985615fd8b57f1a6996d51f96ce9ec93307264633887f9ecedec51988" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -15040,7 +15040,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/social-graphic-designer-intern-148999/en/?40945685" data-a2a-title="Vacancy: SOCIAL GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/social-graphic-designer-intern-148999/en/?1215971279" data-a2a-title="Vacancy: SOCIAL GRAPHIC DESIGNER INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -15171,7 +15171,7 @@ Understanding of Physical Education standards in schools (Ofsted guidance)</plai
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=437e8401d07d57fb&amp;CSRFHash=b4ad1da2840f43f943dc9a46a8200d5ef3e4307598520eb28e6b05f01907e10e" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=e39306d836bad222&amp;CSRFHash=00bafd888c6b113bccacdaabb5ee73b944a16fd9abf35bcc204dcbe80331091a" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -15460,7 +15460,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=b4efadaea532eee96e6d562d296694ef2be0de5b620bed4531204ca4a8ff4f19',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=2e831488a0e37e50d47c98beac3d8fb99192284864a0a7d72bc5cdadc304ab2b',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -15562,7 +15562,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=643c40724a0be57d853a94ef056a774b4b61ebe7528c400bf8188e39113fdf93';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=8ec15b22d904e69b5e6e356b81e85f53762afeb8bfe18bbdeb5a4553b7dd454a';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -15661,7 +15661,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=27ad5de57f9749ccda6ab709bf8e228eec68c6ff918f99e22444fa506a3c82fa',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=cf829e746d94aa1a611ab75af129494c40371f147b9af6b4a2ee9c54482e34e9',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -16026,7 +16026,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=437e8401d07d57fb&CSRFHash=f28047c39ab2d9b558acd62a8b98b71e132175c8b96bcf5faed431bf8969469b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=e39306d836bad222&CSRFHash=62ca29d27b5a650fb274976137d29fa9471b6d163178cc358c8cf66825ad26f8',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16067,7 +16067,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=437e8401d07d57fb&CSRFHash=80712c69679f1853c65cc6b740ae38bf5ce5b0f198b019a3bfb39e20311c27f3',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=e39306d836bad222&CSRFHash=46992104fdc33a9ce6d6a75b65f37060f88cdf1c50b562bdbcc173e4f009be5a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16244,7 +16244,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=266b9a03acf621f7ccbab5eaff7512a57b598a45c50cddf737c3d38f43f4ecff")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=1e1e19400a85f2582f252369a50974df582b59cffb1e56ac82ed0c61f52b8741")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -16380,7 +16380,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=a6f694a9bfde1591c3bf7938d6350d97b4c6bdda151c57afe4abbbda16165179",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=9b1f856c2e6436c1b67b41b0c528317e9f1a65fba14db6ae82d3632f3ea21886",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -16405,7 +16405,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=581cb2d0e1f7f0eb69d936ba798f094e44cd203bda5effbdff59121ef25fe818",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=9108ef1ad867be0a34739c10e967c5e07f72f5b1f53eb0932b98a3253d1a20fb",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -16427,7 +16427,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=7b50b15d78144aad38aa47cf8718c5a62e8c6bac77694221d4ec3d06106737f1",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=a3fbbb20bcf7e67800f959968db01c8d99524a80df624dffe72cf8d245341112",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -16453,7 +16453,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=922019d9cfdce7d3a225c41fc704474d28c6264cb1eac0ea7c5221c3eaf39242",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=7ee066afe651ef9fc29b7ed40161c4ec6077846f4c8cff53ab498c310d1cb27a",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -16488,7 +16488,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=b17f5f829da39c9d97faba95d9ca58552b911a0c8cd4944eca502d21f89e3706",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=bbd990aede4cde80497a1be06a2226c9b85ff89003e4b1d1ecac1640c9e936cc",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -16629,7 +16629,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=437e8401d07d57fb&CSRFHash=f28047c39ab2d9b558acd62a8b98b71e132175c8b96bcf5faed431bf8969469b',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=e39306d836bad222&CSRFHash=62ca29d27b5a650fb274976137d29fa9471b6d163178cc358c8cf66825ad26f8',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16667,7 +16667,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=437e8401d07d57fb&CSRFHash=e39fe2f354a7aeb8d461583e14d34bb89ec3102f6e9da1d0fa632e03c26d70fa',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=e39306d836bad222&CSRFHash=14d3fef8cd2318eeaa6849df66d8f012333b67a7d23af3e4a6b450d46ab896dd',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16714,7 +16714,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=437e8401d07d57fb&CSRFHash=80712c69679f1853c65cc6b740ae38bf5ce5b0f198b019a3bfb39e20311c27f3',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=e39306d836bad222&CSRFHash=46992104fdc33a9ce6d6a75b65f37060f88cdf1c50b562bdbcc173e4f009be5a',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16763,7 +16763,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=437e8401d07d57fb&CSRFHash=059fc8366b26d5247768fef59f4dd79d9096597e62fb1161473b14a300e8c845',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=e39306d836bad222&CSRFHash=f08a4b8e404f460fa91f3dfd561fecd37729a74b89fbaad104473a532faee505',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16810,7 +16810,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=437e8401d07d57fb&CSRFHash=e01270a4a71815821ee93646959b62a646ea80fb5f6306ae002809221768749c',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=e39306d836bad222&CSRFHash=6738afda41a0c5983c7651124e439270dd93823ca27aebb11358813dc750eade',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16864,7 +16864,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=437e8401d07d57fb&CSRFHash=c9b809aeb7e4146c2c254feab6d79342f6b4091543bc89423acea4d621b4dede',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=e39306d836bad222&CSRFHash=6dba428e0ce549b2497dba599de8138d1c4288357a4485906ea37ebdd88b4aaa',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16918,7 +16918,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=437e8401d07d57fb&CSRFHash=c60d605d5794afac4b76646188b8c77e2a6ccfd40501da80c80dafab735a5040',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=e39306d836bad222&CSRFHash=4577cef4c60633ba085888a2c00f7f71c446df3901f294a7d3856553ee8aa7d2',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -17159,7 +17159,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=266b9a03acf621f7ccbab5eaff7512a57b598a45c50cddf737c3d38f43f4ecff")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=1e1e19400a85f2582f252369a50974df582b59cffb1e56ac82ed0c61f52b8741")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -17578,7 +17578,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=a6f694a9bfde1591c3bf7938d6350d97b4c6bdda151c57afe4abbbda16165179",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=9b1f856c2e6436c1b67b41b0c528317e9f1a65fba14db6ae82d3632f3ea21886",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -17624,7 +17624,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=7b50b15d78144aad38aa47cf8718c5a62e8c6bac77694221d4ec3d06106737f1",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=a3fbbb20bcf7e67800f959968db01c8d99524a80df624dffe72cf8d245341112",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17675,7 +17675,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=922019d9cfdce7d3a225c41fc704474d28c6264cb1eac0ea7c5221c3eaf39242",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=7ee066afe651ef9fc29b7ed40161c4ec6077846f4c8cff53ab498c310d1cb27a",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17736,7 +17736,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=721c2ab3e9cc7e09bedd420ae800a39a20c691f62bbad443d610cd621b27037a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=0b49bfcffce5868147c5ce9d95d889c7f31f65d7bcb12333188dfde2d2e51751",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -17807,7 +17807,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=7b50b15d78144aad38aa47cf8718c5a62e8c6bac77694221d4ec3d06106737f1",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=a3fbbb20bcf7e67800f959968db01c8d99524a80df624dffe72cf8d245341112",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17855,7 +17855,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=437e8401d07d57fb&CSRFHash=b17f5f829da39c9d97faba95d9ca58552b911a0c8cd4944eca502d21f89e3706",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=e39306d836bad222&CSRFHash=bbd990aede4cde80497a1be06a2226c9b85ff89003e4b1d1ecac1640c9e936cc",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -18490,7 +18490,7 @@ $(function(){
 
                                             <input type="hidden" value="148999" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-09-08T16:20:12.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-09-08T20:57:01.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -18567,7 +18567,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6aa035bc504a9";
+        uid = "6aa0769d815b5";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -18591,7 +18591,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=437e8401d07d57fb&CSRFHash=084fe9bff66e17330ad8418ed58945291692b293924c046a4a55259f17c731d9",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=e39306d836bad222&CSRFHash=5e00c2237bc59730652c5f82c0bdb7e9fd1f5325ded2d9f6e5fd673ec45f5dce",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -18937,7 +18937,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=437e8401d07d57fb&CSRFHash=400388cb0bbd9d0fc8c3cfa9d3dcf4224c06cecf0462caa3e1e800c5cad7e3f0",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=e39306d836bad222&CSRFHash=3cc4e461add696de0bed14837f0d9f1f2e452d33be2f24d6604b4f49cf90cee5",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -25329,7 +25329,7 @@ Recruitment Agencies – please note that we do not accept unsolicited candidate
   <title>Retail Supervisor New</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne</location>
+  <location>:</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at>2026-09-20T00:00:00.000Z</expires_at>
@@ -25399,7 +25399,7 @@ Recruitment Agencies – please note that we do not accept unsolicited / specula
   <title>Grounds Staff New</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Venue Operations Job type: Permanent Job ref: 011242 Published: about 4 hours ago Expiry date: 21 Sep 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Venue Operations Job type: Permanent Job ref: 011242 Published: about 9 hours ago Expiry date: 21 Sep 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at>2026-09-21T00:00:00.000Z</expires_at>
@@ -30779,6 +30779,80 @@ U.S. Soccer is an equal opportunity employer that is committed to diversity, equ
   <salary_currency/>
  </job>
  <job>
+  <guid isPermaLink="false">url-0091ee0bf2146b42-4453995</guid>
+  <id>4453995</id>
+  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4453995</url>
+  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4453995</application_link>
+  <title>U.S. Soccer Summer 2027 Internship Program</title>
+  <arrangement>fulltime</arrangement>
+  <location_type>onsite</location_type>
+  <location>Atlanta, GA, US</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at>2026-09-09T01:30:03.000Z</published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p>Description</p><p><br/></p><p><strong>U.S. Soccer Overview</strong></p><p><br/></p><p>The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.</p><p><br/></p><p>We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.</p><p><br/></p><p>U.S. Soccer is in a period of significant growth, with ambitions plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.</p><p>&nbsp;&nbsp;</p><p><strong>We are thrilled to launch our third annual Summer Internship Program, specifically for college students who live in the metro Atlanta, Georgia area either during the school year or over the summer.</strong><br/><br/><strong>Position Description</strong></p><p><br/></p><p>We are seeking motivated and enthusiastic interns to join our team for a 12-week internship program. As an intern, you will have the opportunity to gain hands-on experience in your chosen department, work on meaningful projects, and develop valuable professional skills. You will collaborate with experienced professionals, attend training sessions, and participate in networking events designed to enhance your career development.</p><p>Requirements</p><p><br/></p><p><strong>General Qualifications and Requirements</strong></p><ul><li>Minimum GPA: 3.0</li><li>Enrolled in a 4-year undergraduate program with anticipated graduation year of 2028 or 2029</li><li>Able to participate in this 12-week internship during the summer</li><li>Able to dedicate 40 hours per week to this internship</li><li>Able to work in-person at U.S. Soccer’s Fayetteville, GA office at least 3 days per week</li><li>Strong attention to detail and analytical / problem-solving skills&nbsp;</li><li>Excellent communication and interpersonal skills&nbsp;</li><li>Ability to prioritize tasks and work effectively in a fast-paced environment</li><li>Recommended: Participation and interest in soccer/athletics; campus involvement and leadership</li><li>Deep ties to the Atlanta area – either currently living in metro Atlanta or from the area with a desire to build a career here post-graduation</li></ul><p><strong>Perks and Benefits</strong></p><ul><li><em>Professional growth &amp; networking:</em> weekly professional development sessions with leaders from across the organization and U.S. soccer ecosystem, meaningful, resume-building work in one of 15+ departments, with personalized mentorship and support, regular networking and social events with fellow interns and full-time staff, official U.S. Soccer gear and intern headshots provided</li><li><em>Behind-the-scenes access:</em> experience the lead-up to the 2027 FIFA World Cup from inside the U.S. Soccer Federation, attend a U.S. National Team training camp and an Atlanta United match as part of the program, daily access to the <a href="https://www.ussoccer.com/ntchq"><strong>Arthur M. Blank National Training Center</strong></a></li><li><em>Financial support:</em> Salary: $20/hour, Transportation costs will be covered by U.S. Soccer for the duration of the internship (either mileage reimbursement or Uber/Lyft pass)</li></ul><p>&nbsp;&nbsp;</p><p><strong>*IMPORTANT: Application instructions*</strong><br/>As part of the application, you will be asked to respond to three (3) short essay questions. Please note that our system does not allow you to save progress, so you’ll need to complete and submit your application in one sitting.</p><p><br/></p><p>We're excited to hear your authentic voice and perspective. Please submit original essay responses written in your own words. <strong>Responses that rely substantially on AI-generated content will not be considered.</strong></p><p><br/></p><p>A cover letter is <strong>not required</strong>. If you have any questions, please reach out to internships@ussoccer.org.&nbsp;</p><p>&nbsp;<br/><u><strong>Application process and next steps</strong></u></p><p>Thank you for your interest in the U.S. Soccer Internship Program. Applications will be reviewed this fall, and interview invitations will be shared via email.&nbsp;</p><p><br/></p><p><a href="https://ussoccer-my.sharepoint.com/:b:/g/personal/aguy_ussoccer_org/IQDE_Gp-ipZuRZ0BJySn_QFkAU2tDbVY0a21yJn2TWtwf7U?e=o4E4sO" target="_blank"><strong>***IMPORTANT: Before proceeding please click this link to review descriptions of participating departments, along with unique preferred qualifications.***</strong></a><strong>&nbsp;</strong></p><p><br/></p><p><br/></p><p>&nbsp;&nbsp;</p><p><em>U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply.</em></p> ]]></html_description>
+  <plain_text_description>Description
+
+U.S. Soccer Overview
+
+The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.
+
+We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.
+
+U.S. Soccer is in a period of significant growth, with ambitions plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.
+
+We are thrilled to launch our third annual Summer Internship Program, specifically for college students who live in the metro Atlanta, Georgia area either during the school year or over the summer.
+
+Position Description
+
+We are seeking motivated and enthusiastic interns to join our team for a 12-week internship program. As an intern, you will have the opportunity to gain hands-on experience in your chosen department, work on meaningful projects, and develop valuable professional skills. You will collaborate with experienced professionals, attend training sessions, and participate in networking events designed to enhance your career development.
+
+Requirements
+
+General Qualifications and Requirements
+
+- Minimum GPA: 3.0
+- Enrolled in a 4-year undergraduate program with anticipated graduation year of 2028 or 2029
+- Able to participate in this 12-week internship during the summer
+- Able to dedicate 40 hours per week to this internship
+- Able to work in-person at U.S. Soccer’s Fayetteville, GA office at least 3 days per week
+- Strong attention to detail and analytical / problem-solving skills
+- Excellent communication and interpersonal skills
+- Ability to prioritize tasks and work effectively in a fast-paced environment
+- Recommended: Participation and interest in soccer/athletics; campus involvement and leadership
+- Deep ties to the Atlanta area – either currently living in metro Atlanta or from the area with a desire to build a career here post-graduation
+
+Perks and Benefits
+
+- Professional growth &amp; networking: weekly professional development sessions with leaders from across the organization and U.S. soccer ecosystem, meaningful, resume-building work in one of 15+ departments, with personalized mentorship and support, regular networking and social events with fellow interns and full-time staff, official U.S. Soccer gear and intern headshots provided
+- Behind-the-scenes access: experience the lead-up to the 2027 FIFA World Cup from inside the U.S. Soccer Federation, attend a U.S. National Team training camp and an Atlanta United match as part of the program, daily access to the Arthur M. Blank National Training Center
+- Financial support: Salary: $20/hour, Transportation costs will be covered by U.S. Soccer for the duration of the internship (either mileage reimbursement or Uber/Lyft pass)
+
+*IMPORTANT: Application instructions*
+As part of the application, you will be asked to respond to three (3) short essay questions. Please note that our system does not allow you to save progress, so you’ll need to complete and submit your application in one sitting.
+
+We&apos;re excited to hear your authentic voice and perspective. Please submit original essay responses written in your own words. Responses that rely substantially on AI-generated content will not be considered.
+
+A cover letter is not required. If you have any questions, please reach out to internships@ussoccer.org.
+
+Application process and next steps
+
+Thank you for your interest in the U.S. Soccer Internship Program. Applications will be reviewed this fall, and interview invitations will be shared via email.
+
+***IMPORTANT: Before proceeding please click this link to review descriptions of participating departments, along with unique preferred qualifications.***
+
+U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply.</plain_text_description>
+  <company_name>US Soccer Federation</company_name>
+  <company_url>https://www.ussoccer.com/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
   <guid isPermaLink="false">url-0091ee0bf2146b42-4461211</guid>
   <id>4461211</id>
   <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4461211</url>
@@ -31143,6 +31217,121 @@ Desired Qualifications
 - Experience delivering fan experience programs for a large-scale event or major tournament.
 - Expertise in data-driven marketing, loyalty strategy, or direct-to-consumer fan experience design.
 - Bilingual or multicultural fluency to engage diverse audiences.
+
+U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.
+
+U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply.</plain_text_description>
+  <company_name>US Soccer Federation</company_name>
+  <company_url>https://www.ussoccer.com/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-0091ee0bf2146b42-4485697</guid>
+  <id>4485697</id>
+  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4485697</url>
+  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4485697</application_link>
+  <title>Senior Performance Coach, Women’s Youth National Teams (WYNT)</title>
+  <arrangement>fulltime</arrangement>
+  <location_type>onsite</location_type>
+  <location>Atlanta, GA, US</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at>2026-09-08T23:58:42.000Z</published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p>Description</p><p><br/></p><p><strong>U.S. Soccer Overview</strong></p><p><br/></p><p>The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.</p><p><br/></p><p>We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.</p><p><br/></p><p>U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.</p><p><br/></p><p><strong>Position Description</strong></p><p>&nbsp;&nbsp;</p><p>U.S. Soccer is seeking a collaborative and growth-oriented Senior Performance Coach to support the Women’s Youth National Teams. As a member of the Integrated Performance Support (IPS) department, this role will contribute to the delivery and continuous evolution of integrated performance practices through a female lens across camps, competitions, and other player development environments.&nbsp;</p><p><br/></p><p>Emphasizing that the female lens is at the heart of everything we do, this role aligns with the WNT strategy while integrating an interdisciplinary approach. This position will collaborate closely with Performance Medicine, Performance Nutrition, Performance &amp; Data Analytics, Performance Innovation, and Technical staff to optimize player availability, development, and performance.</p><p><br/></p><p>The Senior Performance Coach will support the design and implementation of evidence-informed physical preparation strategies, including readiness and load monitoring, physical testing, strength and conditioning, recovery, and performance planning through a female lens. In partnership with coaches and IPS colleagues, this role will help create world-class player experiences that support both team success and long-term player development.</p><p><br/></p><p>A key focus of this position will be advancing U.S. Soccer’s commitment to becoming world-leading in female health, development, and performance. Working within the Arthur M. Blank National Training Center, the Senior Performance Coach will contribute to the development of integrated systems, innovative practices, and environments that elevate player care across the Women’s Youth National Team pathway.</p><p><br/></p><p>The ideal candidate is an intellectually curious practitioner and strong teammate who thrives in collaborative, fast-paced environments, embraces innovation, and is passionate about supporting the growth of elite female players.</p><p><br/></p><p><strong>Primary Responsibilities</strong></p><p><br/></p><p><em>Integrated Performance Delivery</em></p><ul><li>Support the delivery of integrated performance services across the U19-U20 Women’s National Team environments, including domestic and international camps and competitions.</li><li>Contribute to the design and implementation of individual and team-based performance strategies that optimize player availability, development, and performance.</li><li>Collaborate closely with technical staff on training design, competition preparation, recovery, and long-term player development.</li><li>Collaborate with WNT, U23 and other WYNT technical, performance, and medical staff to align club, college, and country communications, facilitate the exchange of information, and promote continuity of player care, to ensure smooth player transitions between club and country environments.</li><li>Travel with Youth National Teams to provide on-site performance support.</li></ul><p><em>Female Health &amp; Performance</em></p><ul><li>Advance U.S. Soccer’s commitment to becoming world-leading in female health, development, and performance.</li><li>Support initiatives related to growth and maturation, female health, injury-risk reduction, and long-term player development.</li><li>Collaborate with performance medicine, performance nutrition, and technical staff to optimize player readiness and availability.</li></ul><p><em>Physical Preparation &amp; Performance Science</em></p><ul><li>Support the design and implementation of physical preparation programs (using Teamworks AMS), including strength and conditioning, recovery, and load management strategies.</li><li>Oversee player monitoring, physical testing, and performance profiling systems to support evidence-informed decision-making.</li><li>Utilize technologies including PlayerData GPS, VALD performance tools, OURA, FitrWoman, Raw Stadia, and a growing portfolio of technologies to support health and performance.</li><li>Translate objective performance data into actionable insights for players, coaches, and IPS staff.</li><li>Contribute to the ongoing development of best practices in performance science across the women’s pathway.</li></ul><p><em>Integrated Performance Support Collaboration</em></p><ul><li>Serve as a key member of the Integrated Performance Support (IPS) team, supporting world-class player care and performance services.</li><li>Collaborate with Performance Medicine, Performance Nutrition, Performance &amp; Data Analytics, Performance Innovation, and technical staff to support integrated decision-making and player development.</li><li>Execute and continuously improve performance methodologies, testing protocols, and operational standards across camps and competitions.</li><li>Contribute to a culture of curiosity, collaboration, accountability, and continuous learning.</li><li>Support the onboarding and development of network practitioners and interns as needed.</li></ul><p><em>Data, Analytics &amp; Innovation</em></p><ul><li>Oversee the collection, interpretation, communication, and storage of player performance data in accordance with U.S. Soccer standards.</li><li>Partner with analytics and innovation teams to develop and implement novel approaches to player monitoring and decision-making.</li><li>Support longitudinal player profiling and talent development initiatives across the Women’s pathway.</li><li>Build and maintain relationships with clubs, universities, and external partners to facilitate the exchange of performance information and best practices.</li><li>Contribute to the National Training Center as a world-class environment for integrated athlete support, innovation, and organizational learning.</li></ul><p>Requirements</p><p><br/></p><p><strong>Minimum Qualifications</strong></p><ul><li>Master’s degree or higher in Sport Science, Exercise Physiology, Kinesiology, Strength &amp; Conditioning, or related field.</li><li>Demonstrated experience supporting elite female athletes and/or female teams.</li><li>Certified Strength &amp; Conditioning Specialist (CSCS), Certified Performance &amp; Sport Scientist (CPSS), or equivalent international certification.</li><li>Minimum of 3–5 years of experience working in elite sport environments, including professional clubs, collegiate athletics, academies, or national teams.</li><li>Strong understanding of soccer and the physical demands of the international game.</li><li>Experience working within multidisciplinary and integrated performance environments.</li><li>Significant experience with athlete monitoring and performance technologies, including GPS, force plates, athlete management systems, and wellness platforms.</li><li>Ability to synthesize objective data and translate insights into practical recommendations for players, coaches, and staff.</li><li>Strong communication, planning, and organizational skills.</li><li>Capable of working in fast-paced and demanding environments.</li><li>Must be able to connect “micro” details to the “macro” vision and mission.</li><li>Proficient experience with Microsoft Suite (Word, PowerPoint, Excel, and Outlook).</li><li>Ability to work non-traditional hours, including evenings, weekends, and extensive domestic and international travel.</li><li>Current First Aid and CPR certification.</li></ul><p><strong>Desired Qualifications</strong></p><ul><li>Knowledge of female athlete health, growth and maturation, and long-term athlete development principles.</li><li>PhD in Sport Science, Exercise Physiology, Kinesiology, or related fields.</li><li>Experience supporting Youth National Teams, professional clubs, or elite female development pathways.</li><li>Experience working collaboratively within multidisciplinary teams.</li><li>Bilingual (English and Spanish).</li></ul><p><br/></p><p><em>U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.</em></p><p><br/></p><p><em>U.S. Soccer is an equal opportunity employer that is committed to diversity, equity, and inclusion, and prohibits discrimination and harassment of any kind on the basis of race, color, sex, religion, national origin, citizenship, pregnancy, sexual orientation, gender identity, age, disability, genetic information, military status, political belief, or any other characteristic protected under the law. This policy applies to all our employment practices within our organization. We strongly encourage women, people of color, LGBTQIA, veterans, parents, and persons with disabilities to apply</em>.</p> ]]></html_description>
+  <plain_text_description>Description
+
+U.S. Soccer Overview
+
+The U.S. Soccer Federation exists in service to soccer. Our aim is to ignite a national passion for the game. Because we believe that soccer is more than a sport; it is a force for good.
+
+We understand the importance and the power of teamwork, on and off the pitch. That is why we work closely with our Federation partners and members, to inspire, support and guide every level of the game: from the grassroots to the National Teams. We want to bring soccer into every home and every community, right across America. Because we believe that soccer can transform lives like no other sport. Soccer can represent the best of U.S.
+
+U.S. Soccer is in a period of significant growth, with ambitious plans for U.S. Soccer in the near and far future. We are, therefore, looking for dynamic servant leaders to join us on this journey: in service to soccer. Applicants must be able to demonstrate visionary leadership, analytical decision-making, professional flexibility, and an empathic management style that builds bold teams and delivers globally significant results.
+
+Position Description
+
+U.S. Soccer is seeking a collaborative and growth-oriented Senior Performance Coach to support the Women’s Youth National Teams. As a member of the Integrated Performance Support (IPS) department, this role will contribute to the delivery and continuous evolution of integrated performance practices through a female lens across camps, competitions, and other player development environments.
+
+Emphasizing that the female lens is at the heart of everything we do, this role aligns with the WNT strategy while integrating an interdisciplinary approach. This position will collaborate closely with Performance Medicine, Performance Nutrition, Performance &amp; Data Analytics, Performance Innovation, and Technical staff to optimize player availability, development, and performance.
+
+The Senior Performance Coach will support the design and implementation of evidence-informed physical preparation strategies, including readiness and load monitoring, physical testing, strength and conditioning, recovery, and performance planning through a female lens. In partnership with coaches and IPS colleagues, this role will help create world-class player experiences that support both team success and long-term player development.
+
+A key focus of this position will be advancing U.S. Soccer’s commitment to becoming world-leading in female health, development, and performance. Working within the Arthur M. Blank National Training Center, the Senior Performance Coach will contribute to the development of integrated systems, innovative practices, and environments that elevate player care across the Women’s Youth National Team pathway.
+
+The ideal candidate is an intellectually curious practitioner and strong teammate who thrives in collaborative, fast-paced environments, embraces innovation, and is passionate about supporting the growth of elite female players.
+
+Primary Responsibilities
+
+Integrated Performance Delivery
+
+- Support the delivery of integrated performance services across the U19-U20 Women’s National Team environments, including domestic and international camps and competitions.
+- Contribute to the design and implementation of individual and team-based performance strategies that optimize player availability, development, and performance.
+- Collaborate closely with technical staff on training design, competition preparation, recovery, and long-term player development.
+- Collaborate with WNT, U23 and other WYNT technical, performance, and medical staff to align club, college, and country communications, facilitate the exchange of information, and promote continuity of player care, to ensure smooth player transitions between club and country environments.
+- Travel with Youth National Teams to provide on-site performance support.
+
+Female Health &amp; Performance
+
+- Advance U.S. Soccer’s commitment to becoming world-leading in female health, development, and performance.
+- Support initiatives related to growth and maturation, female health, injury-risk reduction, and long-term player development.
+- Collaborate with performance medicine, performance nutrition, and technical staff to optimize player readiness and availability.
+
+Physical Preparation &amp; Performance Science
+
+- Support the design and implementation of physical preparation programs (using Teamworks AMS), including strength and conditioning, recovery, and load management strategies.
+- Oversee player monitoring, physical testing, and performance profiling systems to support evidence-informed decision-making.
+- Utilize technologies including PlayerData GPS, VALD performance tools, OURA, FitrWoman, Raw Stadia, and a growing portfolio of technologies to support health and performance.
+- Translate objective performance data into actionable insights for players, coaches, and IPS staff.
+- Contribute to the ongoing development of best practices in performance science across the women’s pathway.
+
+Integrated Performance Support Collaboration
+
+- Serve as a key member of the Integrated Performance Support (IPS) team, supporting world-class player care and performance services.
+- Collaborate with Performance Medicine, Performance Nutrition, Performance &amp; Data Analytics, Performance Innovation, and technical staff to support integrated decision-making and player development.
+- Execute and continuously improve performance methodologies, testing protocols, and operational standards across camps and competitions.
+- Contribute to a culture of curiosity, collaboration, accountability, and continuous learning.
+- Support the onboarding and development of network practitioners and interns as needed.
+
+Data, Analytics &amp; Innovation
+
+- Oversee the collection, interpretation, communication, and storage of player performance data in accordance with U.S. Soccer standards.
+- Partner with analytics and innovation teams to develop and implement novel approaches to player monitoring and decision-making.
+- Support longitudinal player profiling and talent development initiatives across the Women’s pathway.
+- Build and maintain relationships with clubs, universities, and external partners to facilitate the exchange of performance information and best practices.
+- Contribute to the National Training Center as a world-class environment for integrated athlete support, innovation, and organizational learning.
+
+Requirements
+
+Minimum Qualifications
+
+- Master’s degree or higher in Sport Science, Exercise Physiology, Kinesiology, Strength &amp; Conditioning, or related field.
+- Demonstrated experience supporting elite female athletes and/or female teams.
+- Certified Strength &amp; Conditioning Specialist (CSCS), Certified Performance &amp; Sport Scientist (CPSS), or equivalent international certification.
+- Minimum of 3–5 years of experience working in elite sport environments, including professional clubs, collegiate athletics, academies, or national teams.
+- Strong understanding of soccer and the physical demands of the international game.
+- Experience working within multidisciplinary and integrated performance environments.
+- Significant experience with athlete monitoring and performance technologies, including GPS, force plates, athlete management systems, and wellness platforms.
+- Ability to synthesize objective data and translate insights into practical recommendations for players, coaches, and staff.
+- Strong communication, planning, and organizational skills.
+- Capable of working in fast-paced and demanding environments.
+- Must be able to connect “micro” details to the “macro” vision and mission.
+- Proficient experience with Microsoft Suite (Word, PowerPoint, Excel, and Outlook).
+- Ability to work non-traditional hours, including evenings, weekends, and extensive domestic and international travel.
+- Current First Aid and CPR certification.
+
+Desired Qualifications
+
+- Knowledge of female athlete health, growth and maturation, and long-term athlete development principles.
+- PhD in Sport Science, Exercise Physiology, Kinesiology, or related fields.
+- Experience supporting Youth National Teams, professional clubs, or elite female development pathways.
+- Experience working collaboratively within multidisciplinary teams.
+- Bilingual (English and Spanish).
 
 U.S. Soccer offers a comprehensive compensation package, casual work environment, an inclusive culture, and an atmosphere for professional development.
 
