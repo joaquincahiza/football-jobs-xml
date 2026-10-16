@@ -14531,7 +14531,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-10-16T16:22:22.049Z</published_at>
+  <published_at>2026-10-16T20:43:37.526Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -14561,7 +14561,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=df1b65bd102dfb4b&amp;CSRFHash=4d8dea8c84828925ed1b0a2e9aefb3b10ff5aa55d541976dee9d67a134f0d1e5">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=934f8893f270d3e5&amp;CSRFHash=21916dd85e0c2c9e1b1fa60beb4e2957313c081e1a9eef6898268e82d1d800e7">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -14574,7 +14574,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=df1b65bd102dfb4b&amp;CSRFHash=cc67689e5e638eac27f1ffbefb26619822a10b39937306ec2347f0447cccc51c" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=934f8893f270d3e5&amp;CSRFHash=4f312dfcd06be16f4affd7ef9f663cd1ff785616abf8665761b2c251735b7039" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -14636,7 +14636,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/procurement-logistics-intern-154396/en/?1456535834" data-a2a-title="Vacancy: PROCUREMENT &amp; LOGISTICS INTERN" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/procurement-logistics-intern-154396/en/?1644657749" data-a2a-title="Vacancy: PROCUREMENT &amp; LOGISTICS INTERN" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -14767,7 +14767,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                         </div>
                         <div class="d-inline-flex align-items-center">
                             <button type="submit" class="btn btn-primary btn-iframe btn-lg mr-bien-gutter">Login</button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=df1b65bd102dfb4b&amp;CSRFHash=7a521b096ac43d9fad7c666fda0abcf36e3134fc5cde0d00cc487bd0b46d386d" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=934f8893f270d3e5&amp;CSRFHash=be475022a31ba22b8779f459be6994eded421796ecef4a871b209968d2e88581" target="_blank" class="font-size-12 text-iframe">Password Recovery</a>
                         </div>
                     </form>
                 </div>
@@ -15057,7 +15057,7 @@ $(function(){
                                 });
 
                                 let ajaxCall = $.ajax({
-                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=5717e0b4cb8b5427a6f9fb574f670aa7aee375584208abd03075ba36f1260e47',
+                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=d2b86c347a90d31612c50081920d1b6b8885757f03204e61d15b16e383af2743',
                                     async: false,
                                     type: 'POST',
                                     data: {
@@ -15159,7 +15159,7 @@ $(function(){
 
                             function infoExAjaxCall(cvFile, isIframe = false) {
                                 let ajax = new XMLHttpRequest();
-                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=14d96c66243548c1213957e672025315168bf10158c239262b6833cb96a73748';
+                                let serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=1fa2bbcf320038928fff7292f90e2e5df3d441b59e2c02acd535a241c386af30';
                                 let formData = new FormData();
                                 formData.append("cvFile", cvFile);
                                 ajax.open('POST', serverUrl, true);
@@ -15258,7 +15258,7 @@ $(function(){
                                                             // Dialoging with service in order to get the postalCode identifier
                                                             $.ajax({
                                                                 type: 'POST',
-                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=8972502ceb76cb8fb9842c66a904c29d2f33993e9be17142d0feac7b2804d681',
+                                                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=71804bc981c7d9c034346653fb302502f2b1c0a282b1e526aa84c56055ca35cb',
                                                                 dataType: 'json',
                                                                 data: {
                                                                     nationId: countryCode,
@@ -15623,7 +15623,7 @@ $(function(){
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=df1b65bd102dfb4b&CSRFHash=aaa702d5616a089cf66be3835ee15830063945e0212ee3d1f547f26c4d959673',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=934f8893f270d3e5&CSRFHash=293ae201c5a77e2fe06959a483556f58f4e0003cd431918b45f5d21e485c515e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -15664,7 +15664,7 @@ $(function(){
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=df1b65bd102dfb4b&CSRFHash=1ae69a4661b0fe0d6b6fad6a44a49e3fc389433a61dbd07af944631d92874763',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=934f8893f270d3e5&CSRFHash=29fa460bcb3b26094f195b7553979b58265e5fd5a5dd5b083c2b39b4fe8217b9',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -15841,7 +15841,7 @@ $(function(){
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=61eb572f27239edb9ca2558dc06df3b516dda564da78662b2a4e558319da2633")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=362228cbce8c5c2c2e07eb738b215417a36cf9c25db78df614c919f594d884e2")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -15977,7 +15977,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=fe55f62d384b97450a930dafb0f928c38f919738c47aaa6f18747da59cd1b829",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=d33fa962383fb143e3aa7a6f5e620e63ad11d9920bf3be1758cf5688307318c8",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -16002,7 +16002,7 @@ $(function(){
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=4f2965b643012730418d8caada1482d5935e1af9859b12dc02559e4261f1c7cb",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=a773dbb05dbd158b43b7041c947d847df4ba6965c4bc63bbec1ea41096aba371",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -16024,7 +16024,7 @@ $(function(){
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=e45fa14a474712d748c126035c4c3b140678a91cf801bfa0abc571a74766401d",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=02b828ffb6b3ba7384672da9a66d1f4b85a0b0f25407103a75f5b19a69a396b0",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -16050,7 +16050,7 @@ $(function(){
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=05050896741bb12f983a23dd6a95c1608c5a60a8d5e3ce637507dcefcdfc1d4e",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=eff71c48970cd4ab85dbe8e193c23cfe07437e99db9dadea182b0b2d88e7f6c6",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -16085,7 +16085,7 @@ $(function(){
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=aad13da5571f168bb4a89984f3ef61970bb23221457d0ae1f8f87c87f8dcdda6",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=ba49757f0c5419d259974d1be9f5bf27462b154a09ff7e67ee06eae4f77aabf7",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -16226,7 +16226,7 @@ $(function(){
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=df1b65bd102dfb4b&CSRFHash=aaa702d5616a089cf66be3835ee15830063945e0212ee3d1f547f26c4d959673',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=934f8893f270d3e5&CSRFHash=293ae201c5a77e2fe06959a483556f58f4e0003cd431918b45f5d21e485c515e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16264,7 +16264,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=df1b65bd102dfb4b&CSRFHash=5b5874ca820a641c67ae9b81db8d200b8770113a6d82c387482c123b54f94794',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=934f8893f270d3e5&CSRFHash=3cb8f456ea1d91b5c3564ef0ecab37a641935713f58738e45cf81a4672b7cd36',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16311,7 +16311,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=df1b65bd102dfb4b&CSRFHash=1ae69a4661b0fe0d6b6fad6a44a49e3fc389433a61dbd07af944631d92874763',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=934f8893f270d3e5&CSRFHash=29fa460bcb3b26094f195b7553979b58265e5fd5a5dd5b083c2b39b4fe8217b9',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16360,7 +16360,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=df1b65bd102dfb4b&CSRFHash=19398b13a59028039f7066857d86b74555b23e5bb5bd82dc3afffee6edfc392d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=934f8893f270d3e5&CSRFHash=9be21851e742b70f764935d638adba12f9409d16957c32e5800435e491c4eedf',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16407,7 +16407,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=df1b65bd102dfb4b&CSRFHash=9ce2586fc1d6323dfbc6237ee104554989160b16c5ba5377c01e5b9c46be8efc',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=934f8893f270d3e5&CSRFHash=72cc27b03c0e2fc672fb1fba56f0fab5c3c46f2b58244cd79e3b272524c39da0',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16461,7 +16461,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=df1b65bd102dfb4b&CSRFHash=844dd9b244232ab56e62a4bfd14f0dd2ea2580bcfd1f05c647cdf43af3f8644d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=934f8893f270d3e5&CSRFHash=23b7bd74f093e23cbc24c00899aa276a6158f99e4c0c36694a3a2bd2a1fc2bde',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16515,7 +16515,7 @@ $(function(){
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=df1b65bd102dfb4b&CSRFHash=db3847e68450c35da4e823baf470cc7cbd44f2a2324c05cd3db90ac01810977e',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=934f8893f270d3e5&CSRFHash=28d80dfe5777cfae3cb90841632cce91f44aa3a489b11e726b54f348d15fd80e',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -16756,7 +16756,7 @@ $(function(){
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=61eb572f27239edb9ca2558dc06df3b516dda564da78662b2a4e558319da2633")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=362228cbce8c5c2c2e07eb738b215417a36cf9c25db78df614c919f594d884e2")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -17175,7 +17175,7 @@ $(function(){
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=fe55f62d384b97450a930dafb0f928c38f919738c47aaa6f18747da59cd1b829",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=d33fa962383fb143e3aa7a6f5e620e63ad11d9920bf3be1758cf5688307318c8",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -17221,7 +17221,7 @@ $(function(){
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=e45fa14a474712d748c126035c4c3b140678a91cf801bfa0abc571a74766401d",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=02b828ffb6b3ba7384672da9a66d1f4b85a0b0f25407103a75f5b19a69a396b0",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17272,7 +17272,7 @@ $(function(){
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=05050896741bb12f983a23dd6a95c1608c5a60a8d5e3ce637507dcefcdfc1d4e",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=eff71c48970cd4ab85dbe8e193c23cfe07437e99db9dadea182b0b2d88e7f6c6",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17333,7 +17333,7 @@ $(function(){
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=718ed7dffa08f090714a2e3ceb5634c0925951d14b39ca212d4708a62d8a5576",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=44fca685bbdee1aa66d59e017b76902f54896921706d6b764138fafbe19dba5c",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -17404,7 +17404,7 @@ $(function(){
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=e45fa14a474712d748c126035c4c3b140678a91cf801bfa0abc571a74766401d",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=02b828ffb6b3ba7384672da9a66d1f4b85a0b0f25407103a75f5b19a69a396b0",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -17452,7 +17452,7 @@ $(function(){
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=df1b65bd102dfb4b&CSRFHash=aad13da5571f168bb4a89984f3ef61970bb23221457d0ae1f8f87c87f8dcdda6",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=934f8893f270d3e5&CSRFHash=ba49757f0c5419d259974d1be9f5bf27462b154a09ff7e67ee06eae4f77aabf7",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -17634,7 +17634,7 @@ $(function(){
                             <option value="27">LAUREA SPECIALISTICA A CICLO UNICO - Nuovo ordinamento</option>
                             <option value="28">LAUREA SPECIALISTICA - Nuovo ordinamento</option>
                             <option value="31">MASTER</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -17699,7 +17699,7 @@ $(function(){
                             <option value="130">Master Degree - Literary Area</option>
                             <option value="131">Master Degree - Languages Area</option>
                             <option value="132">Master Degree - Psychological Area</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
 
     <script>
         $(function() {
@@ -17841,7 +17841,7 @@ $(function(){
                             <option value="9">Spanish</option>
                             <option value="10">German</option>
                             <option value="12">Chinese</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -17892,7 +17892,7 @@ $(function(){
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -17943,7 +17943,7 @@ $(function(){
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -18040,7 +18040,7 @@ $(function(){
 
                                             <input type="hidden" value="154396" name="input__IdAnnuncio" id="input__IdAnnuncio">
                         <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-                        <input type="hidden" value="2026-10-16T16:22:24.000Z" id="input__loadDatetime" name="input__loadDatetime">
+                        <input type="hidden" value="2026-10-16T20:43:39.000Z" id="input__loadDatetime" name="input__loadDatetime">
                         <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
                         <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
                         <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -18117,7 +18117,7 @@ $(function(){
         var formatErrorFields = [];
         var isIframe = (0 == 1);
 
-        uid = "6ad24f405b0ba";
+        uid = "6ad28c7b49a68";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -18141,7 +18141,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=df1b65bd102dfb4b&CSRFHash=dcc722753526bbc8b4d6fa612e1008f77a29d985d4722aa7398440e1d720743a",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=934f8893f270d3e5&CSRFHash=b1acb753fb17c2576eb9dcbd01dd0344379a27074177201c8300d6dd933ef21e",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -18487,7 +18487,7 @@ $(function(){
             $.ajax({
 
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=df1b65bd102dfb4b&CSRFHash=d123de5bb5dfe4c9b4b1385f9856a973b7db89ce3e58ae3c607c9f4529db0f45",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=934f8893f270d3e5&CSRFHash=3c817ba96b34654811d7b61585b5a6a08abf30c74679deb1348c3bb9a61b28ae",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -21200,7 +21200,7 @@ Inter Miami CF is an equal opportunity employer, and all qualified applicants wi
   <location_type>onsite</location_type>
   <location>1000 Stadium Drive, Miami, FL, 33125, US</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-10-16T20:18:46.000Z</published_at>
+  <published_at>2026-10-16T22:03:29.000Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -21265,7 +21265,7 @@ Inter Miami CF is an equal opportunity employer, and all qualified applicants wi
   <location_type>onsite</location_type>
   <location>1000 Stadium Drive, Miami, FL, 33125, US</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-10-16T20:35:53.000Z</published_at>
+  <published_at>2026-10-16T22:49:35.000Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -21388,6 +21388,209 @@ Start date:January 11, 2027
 End date: June 4, 2027
 
 Schedule: Part-time, fewer than 20 hours per week
+
+Inter Miami CF is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, marital status, protected veteran status, disability status, or any other characteristics protected by the law.</plain_text_description>
+  <company_name>Inter Miami</company_name>
+  <company_url>https://www.intermiamicf.com/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-fc92e2d4009b51b8-4592771</guid>
+  <id>4592771</id>
+  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4592771</url>
+  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4592771</application_link>
+  <title>Intern, Business Intelligence | Sprint Season</title>
+  <arrangement>fulltime</arrangement>
+  <location_type>onsite</location_type>
+  <location>1000 Stadium Drive, Miami, FL, 33125, US</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at>2026-10-16T21:26:20.000Z</published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p>Description</p><p><strong>About Us: </strong>Miami is a global city fueled by culture, connection and ambition. At Inter Miami CF, we reflect the community we call home through our courage, creativity and passion for the game. We challenge convention, celebrate what makes Miami extraordinary and bring world-class fútbol to a world-class city. We are here to change the game.</p><p><br/></p><p><strong>Number 10 Internship | Be a Playmaker</strong></p><p>The Number 10 Internship is our commitment to developing the next generation of leaders in sports and entertainment. Inspired by fútbol’s No. 10, the visionary, creator and playmaker, our interns gain hands-on experience through meaningful projects, cross-functional collaboration and full immersion in the Club’s day-to-day. It’s an opportunity to learn, contribute and make an impact while building your career in the game.</p><p><br/></p><p><strong>Position Summary:</strong> Inter Miami CF is looking for an <strong>Intern,</strong> <strong>Business Intelligence</strong> to assist the BI team with routine and ad hoc customer insights research and reporting. This position is designed to develop foundational skills in business intelligence and customer behavior analytics.</p><p><br/></p><p>This is a paid, part-time internship within our Number 10 Internship program for the 2027 Sprint Season cohort.</p><p><br/></p><p><strong>Responsibilities:</strong></p><ul><li>Conduct market research to help ideate and develop innovative activation concepts and marketing campaigns for prospective and existing partners.</li><li>Generate targeted lead lists to support sales efforts for both ticketing campaigns and corporate sponsorship procurement.</li><li>Update and maintain accurate tracking of sponsorship asset inventory.</li><li>Compile weekly newsletters summarizing trends, financial news, and significant developments within the sports industry.</li><li>Monitor and track the performance of the team’s social media channels, creating reports to summarize engagement and ways to improve performance.</li><li>Execute industry research to inform team of trends emerging across brands, teams, and leagues to assist in the development of new business for the club.</li></ul><p>Requirements</p><ul><li>Currently pursuing an undergraduate or graduate degree in Business Administration, Finance, Business Analytics, or a related field, or recently graduated from a related program</li><li>Working knowledge of algorithms for classification, regression, clustering, and anomaly detection&nbsp;</li><li>Excellent communication and organization skills, capable of conveying complex data in a clear and concise manner</li><li>Proficiency in Microsoft Office Suite, particularly Excel and PowerPoint; experience with data visualization tools (e.g., Tableau, Power BI) is a plus</li><li>Bilingual (English and Spanish) fluency is a plus&nbsp;</li><li>Passion for fútbol is a plus</li></ul><p>All applicants must pass a pre-employment background check.</p><p><br/></p><p><strong>Additional Information:</strong></p><p><strong>Start date: </strong>January 11, 2027</p><p><strong>End date:</strong> June 4, 2027</p><p><strong>Schedule</strong>: Part-time, fewer than 20 hours per week</p><p><br/></p><p><em>Inter Miami CF is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, marital status, protected veteran status, disability status,</em> &nbsp;<em>or any other characteristics protected by the law</em>&nbsp;</p> ]]></html_description>
+  <plain_text_description>Description
+
+About Us:Miami is a global city fueled by culture, connection and ambition. At Inter Miami CF, we reflect the community we call home through our courage, creativity and passion for the game. We challenge convention, celebrate what makes Miami extraordinary and bring world-class fútbol to a world-class city. We are here to change the game.
+
+Number 10 Internship | Be a Playmaker
+
+The Number 10 Internship is our commitment to developing the next generation of leaders in sports and entertainment. Inspired by fútbol’s No. 10, the visionary, creator and playmaker, our interns gain hands-on experience through meaningful projects, cross-functional collaboration and full immersion in the Club’s day-to-day. It’s an opportunity to learn, contribute and make an impact while building your career in the game.
+
+Position Summary: Inter Miami CF is looking for an Intern, Business Intelligence to assist the BI team with routine and ad hoc customer insights research and reporting. This position is designed to develop foundational skills in business intelligence and customer behavior analytics.
+
+This is a paid, part-time internship within our Number 10 Internship program for the 2027 Sprint Season cohort.
+
+Responsibilities:
+
+- Conduct market research to help ideate and develop innovative activation concepts and marketing campaigns for prospective and existing partners.
+- Generate targeted lead lists to support sales efforts for both ticketing campaigns and corporate sponsorship procurement.
+- Update and maintain accurate tracking of sponsorship asset inventory.
+- Compile weekly newsletters summarizing trends, financial news, and significant developments within the sports industry.
+- Monitor and track the performance of the team’s social media channels, creating reports to summarize engagement and ways to improve performance.
+- Execute industry research to inform team of trends emerging across brands, teams, and leagues to assist in the development of new business for the club.
+
+Requirements
+
+- Currently pursuing an undergraduate or graduate degree in Business Administration, Finance, Business Analytics, or a related field, or recently graduated from a related program
+- Working knowledge of algorithms for classification, regression, clustering, and anomaly detection
+- Excellent communication and organization skills, capable of conveying complex data in a clear and concise manner
+- Proficiency in Microsoft Office Suite, particularly Excel and PowerPoint; experience with data visualization tools (e.g., Tableau, Power BI) is a plus
+- Bilingual (English and Spanish) fluency is a plus
+- Passion for fútbol is a plus
+
+All applicants must pass a pre-employment background check.
+
+Additional Information:
+
+Start date:January 11, 2027
+
+End date: June 4, 2027
+
+Schedule: Part-time, fewer than 20 hours per week
+
+Inter Miami CF is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, marital status, protected veteran status, disability status, or any other characteristics protected by the law</plain_text_description>
+  <company_name>Inter Miami</company_name>
+  <company_url>https://www.intermiamicf.com/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-fc92e2d4009b51b8-4592870</guid>
+  <id>4592870</id>
+  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4592870</url>
+  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4592870</application_link>
+  <title>Intern, Marketing Operations | Sprint Season</title>
+  <arrangement>parttime</arrangement>
+  <location_type>onsite</location_type>
+  <location>1000 Stadium Drive, Miami, FL, 33125, US</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at>2026-10-16T22:35:50.000Z</published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p>Description</p><p><strong>About Us: </strong>Miami is a global city fueled by culture, connection and ambition. At Inter Miami CF, we reflect the community we call home through our courage, creativity and passion for the game. We challenge convention, celebrate what makes Miami extraordinary and bring world-class fútbol to a world-class city. We are here to change the game.</p><p><br/></p><p><strong>Number 10 Internship | Be a Playmaker</strong></p><p>The Number 10 Internship is our commitment to developing the next generation of leaders in sports and entertainment. Inspired by fútbol’s No. 10, the visionary, creator and playmaker, our interns gain hands-on experience through meaningful projects, cross-functional collaboration and full immersion in the club’s day-to-day. It’s an opportunity to learn, contribute and make an impact while building your career in the game.</p><p><br/></p><p><strong>Position Summary:</strong> Inter Miami CF is lookin for a <strong>Intern,</strong> <strong>Marketing</strong> <strong>Operations</strong> to support the day-to-day activities of the Marketing Department, assisting in the coordination and execution of marketing campaigns, events, and departmental initiatives across the Club. We seek for someone with a strong grasp of our culture, superior organization skills, an unequalled work-ethic and a creative mind to help us achieve our goals.&nbsp;</p><p><br/></p><p>This is a paid, part-time internship within our Number 10 Internship program for the 2027 Sprint Season cohort.</p><p><br/></p><p><strong>Responsibilities:</strong></p><ul><li>Support day-to-day marketing operations, including project coordination, scheduling, and follow-ups across departments.&nbsp;</li><li>Maintain and update Monday.com boards to track requests, deliverables, and deadlines.&nbsp;</li><li>Assist with campaign planning and execution, ensuring assets move efficiently from intake through delivery.&nbsp;</li><li>Coordinate with internal teams (Creative, Digital, Communications, etc.) to ensure timely completion of marketing projects.&nbsp;</li><li>Prepare meeting notes, recaps, and simple decks or reports to support ongoing initiatives.&nbsp;</li><li>Support department-wide efforts such as process optimization, Marketing Day, and other special projects.&nbsp;</li><li>Assist with event logistics and on-site coordination during activations, matchdays, or community events.&nbsp;</li><li>Maintain organized file management systems and contribute to workflow and documentation improvements. &nbsp;</li></ul><p>Requirements</p><ul><li>Currently pursuing an undergraduate or graduate degree in Sports Management, Marketing, Business Management or a related field, or recently graduated from a related program</li><li>Strong organizational skills with experience managing multiple projects and timelines</li><li>Knowledge of marketing, promotions and event planning</li><li>Exceptional creative abilities; looking to push the envelope and develop and implement fresh ideas</li><li>Able to work non-traditional hours, in non-traditional settings, within a team atmosphere</li><li>Bilingual (English and Spanish) fluency is a plus&nbsp;</li><li>Passion for fútbol is a plus</li></ul><p>All applicants must pass a pre-employment background check.</p><p><br/></p><p><strong>Additional information:</strong></p><p><strong>Start date: </strong>January 11, 2027</p><p><strong>End date:</strong> June 4, 2027</p><p><strong>Schedule</strong>: Part-time, fewer than 20 hours per week</p><p><br/></p><p><em>Inter Miami CF is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion sex, sexual orientation, gender identity, national origin, age, marital status, protected veteran status, disability status,</em> &nbsp;<em>or any other characteristics protected by the law.&nbsp;</em></p> ]]></html_description>
+  <plain_text_description>Description
+
+About Us:Miami is a global city fueled by culture, connection and ambition. At Inter Miami CF, we reflect the community we call home through our courage, creativity and passion for the game. We challenge convention, celebrate what makes Miami extraordinary and bring world-class fútbol to a world-class city. We are here to change the game.
+
+Number 10 Internship | Be a Playmaker
+
+The Number 10 Internship is our commitment to developing the next generation of leaders in sports and entertainment. Inspired by fútbol’s No. 10, the visionary, creator and playmaker, our interns gain hands-on experience through meaningful projects, cross-functional collaboration and full immersion in the club’s day-to-day. It’s an opportunity to learn, contribute and make an impact while building your career in the game.
+
+Position Summary: Inter Miami CF is lookin for a Intern, Marketing Operations to support the day-to-day activities of the Marketing Department, assisting in the coordination and execution of marketing campaigns, events, and departmental initiatives across the Club. We seek for someone with a strong grasp of our culture, superior organization skills, an unequalled work-ethic and a creative mind to help us achieve our goals.
+
+This is a paid, part-time internship within our Number 10 Internship program for the 2027 Sprint Season cohort.
+
+Responsibilities:
+
+- Support day-to-day marketing operations, including project coordination, scheduling, and follow-ups across departments.
+- Maintain and update Monday.com boards to track requests, deliverables, and deadlines.
+- Assist with campaign planning and execution, ensuring assets move efficiently from intake through delivery.
+- Coordinate with internal teams (Creative, Digital, Communications, etc.) to ensure timely completion of marketing projects.
+- Prepare meeting notes, recaps, and simple decks or reports to support ongoing initiatives.
+- Support department-wide efforts such as process optimization, Marketing Day, and other special projects.
+- Assist with event logistics and on-site coordination during activations, matchdays, or community events.
+- Maintain organized file management systems and contribute to workflow and documentation improvements.
+
+Requirements
+
+- Currently pursuing an undergraduate or graduate degree in Sports Management, Marketing, Business Management or a related field, or recently graduated from a related program
+- Strong organizational skills with experience managing multiple projects and timelines
+- Knowledge of marketing, promotions and event planning
+- Exceptional creative abilities; looking to push the envelope and develop and implement fresh ideas
+- Able to work non-traditional hours, in non-traditional settings, within a team atmosphere
+- Bilingual (English and Spanish) fluency is a plus
+- Passion for fútbol is a plus
+
+All applicants must pass a pre-employment background check.
+
+Additional information:
+
+Start date:January 11, 2027
+
+End date: June 4, 2027
+
+Schedule: Part-time, fewer than 20 hours per week
+
+Inter Miami CF is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion sex, sexual orientation, gender identity, national origin, age, marital status, protected veteran status, disability status, or any other characteristics protected by the law.</plain_text_description>
+  <company_name>Inter Miami</company_name>
+  <company_url>https://www.intermiamicf.com/</company_url>
+  <company_logo_url></company_logo_url>
+  <salary_minimum/>
+  <salary_maximum/>
+  <salary_schedule/>
+  <salary_currency/>
+ </job>
+ <job>
+  <guid isPermaLink="false">url-fc92e2d4009b51b8-4593202</guid>
+  <id>4593202</id>
+  <url>https://recruiting.paylocity.com/Recruiting/Jobs/Details/4593202</url>
+  <application_link>https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4593202</application_link>
+  <title>Intern, Guest Services | Sprint Season</title>
+  <arrangement>fulltime</arrangement>
+  <location_type>onsite</location_type>
+  <location>1000 Stadium Drive, Miami, FL, 33125, US</location>
+  <location_limits><location>Worldwide</location></location_limits>
+  <published_at>2026-10-16T22:40:11.000Z</published_at>
+  <expires_at></expires_at>
+  <highlighted>false</highlighted>
+  <sticky>false</sticky>
+  <html_description><![CDATA[ <p>Description</p><p>&nbsp;&nbsp;</p><p><strong>About Us: </strong>Miami is a global city fueled by culture, connection and ambition. At Inter Miami CF, we reflect the community we call home through our courage, creativity and passion for the game. We challenge convention, celebrate what makes Miami extraordinary and bring world-class fútbol to a world-class city. We are here to change the game.</p><p><br/></p><p><strong>Number 10 Internship | Be a Playmaker</strong></p><p>The Number 10 Internship is our commitment to developing the next generation of leaders in sports and entertainment. Inspired by fútbol’s No. 10, the visionary, creator and playmaker, our interns gain hands-on experience through meaningful projects, cross-functional collaboration and full immersion in the Club’s day-to-day. It’s an opportunity to learn, contribute and make an impact while building your career in the game.</p><p><br/></p><p><strong>Position Summary:</strong> Inter Miami CF is looking for an <strong>Intern,</strong> <strong>Guest Services</strong> to support the planning and execution of matchday operations and special events while helping deliver an exceptional experience for our fans. This role will provide exposure to guest services operations, staff training, scheduling, and event coordination while collaborating with various departments across the Club.&nbsp;</p><p><br/></p><p>This is a paid, part-time internship within our Number 10 Internship program for the 2027 Sprint Season cohort.</p><p><br/></p><p><strong>Responsibilities:</strong></p><ul><li>Assist with developing training materials and facilitating training sessions for all departments part-time staff.</li><li>Contribute to the recruitment and onboarding process for Guest Service Representatives.</li><li>Assist with scheduling Guest Service Representatives for match days, special events, and stadium tours.</li><li>Lead Guest Service Representatives on Match Days and Special Events to ensure they are fulfilling their job duties.</li><li>Assist with planning operational meetings as required, ensuring smooth coordination of Guest Services.</li><li>Help coordinate event day briefings, staffing deployments, and matchday resources.</li><li>Support employee communication, recognition, and engagement efforts.</li><li>Research industry standards and provide insight on Fan Experience improvements.</li><li>Cross department collaboration with Security, Operations, HR, Partnerships, Marketing, Food &amp; Beverage, Member Services, and IT.&nbsp;</li><li>Inventory management of staff uniforms, ticket scanners, wristbands and premium area accreditation.</li><li>All other duties as assigned.</li></ul><p>Requirements</p><ul><li>Currently pursuing an undergraduate or graduate degree in Hospitality, Sports Management, Business Administration, or a related field, or recently graduated from a related program</li><li>Exceptional reliability, interpersonal communication and organizational skills &nbsp;</li><li>Proficient in Microsoft Office skills, including Word, Excel, PowerPoint, etc. &nbsp;&nbsp;</li><li>Effective verbal and written communication skills &nbsp;</li><li>Ability to manage multiple tasks and prioritize efficiently &nbsp;</li><li>Ability to work in a fast-paced and team-oriented environment &nbsp;&nbsp;</li><li>Ability to work weekends and holidays when required. &nbsp;</li><li>Bilingual (English and Spanish) fluency is a plus&nbsp;</li><li>Passion for fútbol is a plus</li></ul><p>All applicants must pass a pre-employment background check.</p><p><br/></p><p><strong>Additional Information:</strong></p><p>· <strong>Start date: </strong>January 11, 2027</p><p>· <strong>End date:</strong> June 4, 2027</p><p>· <strong>Schedule</strong>: Part-time, fewer than 20 hours per week</p><p><br/></p><p><em>Inter Miami CF is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, marital status, protected veteran status, disability status,</em> &nbsp;<em>or any other characteristics protected by the law.&nbsp;</em></p> ]]></html_description>
+  <plain_text_description>Description
+
+About Us:Miami is a global city fueled by culture, connection and ambition. At Inter Miami CF, we reflect the community we call home through our courage, creativity and passion for the game. We challenge convention, celebrate what makes Miami extraordinary and bring world-class fútbol to a world-class city. We are here to change the game.
+
+Number 10 Internship | Be a Playmaker
+
+The Number 10 Internship is our commitment to developing the next generation of leaders in sports and entertainment. Inspired by fútbol’s No. 10, the visionary, creator and playmaker, our interns gain hands-on experience through meaningful projects, cross-functional collaboration and full immersion in the Club’s day-to-day. It’s an opportunity to learn, contribute and make an impact while building your career in the game.
+
+Position Summary: Inter Miami CF is looking for an Intern, Guest Services to support the planning and execution of matchday operations and special events while helping deliver an exceptional experience for our fans. This role will provide exposure to guest services operations, staff training, scheduling, and event coordination while collaborating with various departments across the Club.
+
+This is a paid, part-time internship within our Number 10 Internship program for the 2027 Sprint Season cohort.
+
+Responsibilities:
+
+- Assist with developing training materials and facilitating training sessions for all departments part-time staff.
+- Contribute to the recruitment and onboarding process for Guest Service Representatives.
+- Assist with scheduling Guest Service Representatives for match days, special events, and stadium tours.
+- Lead Guest Service Representatives on Match Days and Special Events to ensure they are fulfilling their job duties.
+- Assist with planning operational meetings as required, ensuring smooth coordination of Guest Services.
+- Help coordinate event day briefings, staffing deployments, and matchday resources.
+- Support employee communication, recognition, and engagement efforts.
+- Research industry standards and provide insight on Fan Experience improvements.
+- Cross department collaboration with Security, Operations, HR, Partnerships, Marketing, Food &amp; Beverage, Member Services, and IT.
+- Inventory management of staff uniforms, ticket scanners, wristbands and premium area accreditation.
+- All other duties as assigned.
+
+Requirements
+
+- Currently pursuing an undergraduate or graduate degree in Hospitality, Sports Management, Business Administration, or a related field, or recently graduated from a related program
+- Exceptional reliability, interpersonal communication and organizational skills
+- Proficient in Microsoft Office skills, including Word, Excel, PowerPoint, etc.
+- Effective verbal and written communication skills
+- Ability to manage multiple tasks and prioritize efficiently
+- Ability to work in a fast-paced and team-oriented environment
+- Ability to work weekends and holidays when required.
+- Bilingual (English and Spanish) fluency is a plus
+- Passion for fútbol is a plus
+
+All applicants must pass a pre-employment background check.
+
+Additional Information:
+
+· Start date:January 11, 2027
+
+· End date: June 4, 2027
+
+· Schedule: Part-time, fewer than 20 hours per week
 
 Inter Miami CF is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, marital status, protected veteran status, disability status, or any other characteristics protected by the law.</plain_text_description>
   <company_name>Inter Miami</company_name>
