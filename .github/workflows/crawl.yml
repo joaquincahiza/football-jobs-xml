@@ -14,7 +14,9 @@ concurrency:
 
 jobs:
   crawl:
-    runs-on: ubuntu-latest
+    # Fijado a 24.04: ubuntu-latest pasó a Ubuntu 26 (oct 2026) y
+    # `playwright install --with-deps` falla ahí.
+    runs-on: ubuntu-24.04
     defaults:
       run:
         working-directory: .
