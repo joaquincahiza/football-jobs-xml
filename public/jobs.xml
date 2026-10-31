@@ -12054,7 +12054,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
   <location_type>onsite</location_type>
   <location>Milano, Italia</location>
   <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-10-31T11:57:38.376Z</published_at>
+  <published_at>2026-10-31T17:04:37.065Z</published_at>
   <expires_at></expires_at>
   <highlighted>false</highlighted>
   <sticky>false</sticky>
@@ -12084,7 +12084,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 					<div id="header__login-form" class="dropdown-menu dropdown-menu-right collapse p-0 my-3">
 						<div class="card">
 							<div class="card-body">
-								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=3beab5e36233600e&amp;CSRFHash=738520ef06608ee0b16e2cb92aa0eddadc789284d6c5881a2dc5f72e399fe893">
+								<form method="post" action="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=company&amp;act1=login&amp;back=0&amp;CSRFToken=e3be5f7788c37a31&amp;CSRFHash=87f6b746eec76fe2fc9247b73c87f3fae2d8406c4be92810dcc64eeaded4a779">
 									<h2 class="font-size-18 font-weight-bold mb-bien-gutter">Login</h2>
 									<div class="row">
 										<div class="col-12 mb-bien-gutter">
@@ -12097,7 +12097,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 										</div>
 										<div class="col-12">
 											<button type="submit" class="btn btn-primary btn-block mb-2">Login</button>
-											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=3beab5e36233600e&amp;CSRFHash=cd43b92d7d6417101a9d0b602e038eadc27765a42ac0621688f959cf91cf97a7" class="font-size-12">
+											<a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;back=0&amp;CSRFToken=e3be5f7788c37a31&amp;CSRFHash=64d90a5e3e8870173112bdc867de3b6e6d3ea1ee2b365ac1f8ede772f4e2806a" class="font-size-12">
 												Password Recovery											</a>
 										</div>
 									</div>
@@ -12159,7 +12159,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 					<div class="share__social mt-bien-gutter" id="social-media-links">
 						<label class="share__labels">Share on social media</label>
 						<div class="d-flex align-items-center">
-							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/stadium-revenue-analyst-158560/en/?537262210" data-a2a-title="Vacancy: STADIUM REVENUE ANALYST" style="line-height: 16px;">
+							<div class="a2a_kit a2a_default_style" data-a2a-url="https://inter.intervieweb.it/jobs/stadium-revenue-analyst-158560/en/?853559657" data-a2a-title="Vacancy: STADIUM REVENUE ANALYST" style="line-height: 16px;">
 								<a class="share__a2a a2a_button_facebook" aria-label="Facebook Share Icon Link" target="_blank" href="/#facebook" rel="nofollow noopener">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="social-media-links"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"></path></svg>
 								</a>
@@ -12289,7 +12289,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                         <div class="w-100 d-flex flex-column flex-md-row align-items-center gap-bien-gutter-half">
                             <button type="submit" class="btn btn-lg btn-primary font-weight-bold w-100 w-md-auto">
                                 Login                            </button>
-                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=3beab5e36233600e&amp;CSRFHash=a23ca4421ce8f98aa9b8df366287823afcb08e4895597a61a5c9486cc80adf5b" target="_blank" class="btn btn-link p-0 font-size-normal font-weight-bold text-nowrap mr-0 mr-md-auto">
+                            <a href="https://inter.intervieweb.it/app.php?opmode=guest&amp;module=passwordrecovery&amp;FW=&amp;FWS=&amp;cid=&amp;FWM=&amp;CSRFToken=e3be5f7788c37a31&amp;CSRFHash=25bdd9df0fd3532132408656d9938224b52fd4e6ede0ee855c5c6f926983f10c" target="_blank" class="btn btn-link p-0 font-size-normal font-weight-bold text-nowrap mr-0 mr-md-auto">
                                 <span class="font-inherit">Password Recovery</span>
                             </a>
 
@@ -12619,7 +12619,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function infoExAjaxCall(cvFile) {
             const semanticInit = $('#registerFormSemantic');
             const semanticSuccessAlert = $('#semantic-form-alert-success');
-            const serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=6cfaae9aa28ca42c9202371329e03938dd4123f327a03babcabda0bb0cfa6a4c';
+            const serverUrl = 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticCvToJson&IdAzienda=2362&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=fea3c6a75eb4b83825f6f595aebc6d314f7a20f6d6d98bce4fe5040178445354';
 
             const formData = new FormData();
             formData.append('cvFile', cvFile);
@@ -12804,7 +12804,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                                                 // Dialoging with service in order to get the postalCode identifier
                                                 $.ajax({
                                                     type: 'POST',
-                                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=3cecb9aaa7a666e91f2b65e855b4f2ab9b400348e5bae8740d7dfc8bdd0a4e8c',
+                                                    url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_postal_codes&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=76791c0f082da34264393be6195733e1bbe53a3842c2272ee791351dcc622d11',
                                                     dataType: 'json',
                                                     data: {
                                                         nationId: countryCode,
@@ -12919,7 +12919,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                             });
 
                             let ajaxCall = $.ajax({
-                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=d87a084998ae97eafd298b5348d98881bbbfedfd4f62394c05863086ae802151',
+                                url: 'https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=semanticSelect&IdAzienda=2362&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=b055a7bced8a6291c404c7f290b427937233df6f4cb39995cff27abaed79d939',
                                 async: false,
                                 type: 'POST',
                                 data: {
@@ -13219,7 +13219,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__422449__value__iso2__autocompletebox = $('#field_0__422449__value__iso2__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=3beab5e36233600e&CSRFHash=4477240489c7d8ba56fed0989766d8bc23f0367734aa2d65a1e22a9a5956da17',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=e3be5f7788c37a31&CSRFHash=b6fa13c634abe373518ff5692db66f34506ee993a77465bcc33facd7e1ea9324',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -13260,7 +13260,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__422449__value__autocomplete_city__autocompletebox = $('#field_0__422449__value__autocomplete_city__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=3beab5e36233600e&CSRFHash=22a39924e8befced066c5d2b8a47662dc1160b80e2441526f1978f035b75238d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=e3be5f7788c37a31&CSRFHash=d8febb27fca82488ec8e3c5355a3fd63cc67e9c8d0572806b2828b91632519e9',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -13437,7 +13437,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                         dropdown.find('input[name="field[0][422449][value][cod_cap]"]').val('');
                         dropdown.find('input[name="field[0][422449][value][level]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=8616057582d7a9f66a98e9f6bfbb3e04ecb34668a8961805305d1c110332fd8e")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=5f8a396e109d7449504dd0546638a8241824d1f2b596631d013bad215041d536")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -13573,7 +13573,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=6fb35162e6ebc8aa992665efcac121137b5017697fee073cfdc9ab1f378cb7a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=2a0d05e93c92bb575a56c28f33c678fde57788fa36d6d66efc200e1fb791f85a",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -13598,7 +13598,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function ajax_loadDetails_ISO2_field_0__422449__value_(dropdown, nationId, ceased = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=496922a82268805908e64425120847279ffae674a7cd8a28b232b238a04d1709",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_convertISO2ToCatastale&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=f8ac4685ebb4e9f82d4fa921b1d8cbbfd145e625f3e8279d0da0d6289bda0af5",
                 dataType: 'json',
                 data: {
                     nationId: nationId
@@ -13620,7 +13620,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function ajax_loadLevel_field_0__422449__value_(dropdown, nationId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=7554cbcec0431fa223d6f8cd053e33fa16ac806701b334979cb73e52952529c9",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=d342147287b4cb4c290e59ff1cc19a91b8549e90e0a5d3a8cb507ecfe775ff43",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -13646,7 +13646,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function ajax_fillDetails_field_0__422449__value_(dropdown, nationId, postalCityId) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=809c69c5cbaec44b27472bea5deb7a47b28d53383dbb082056852cf538b3078b",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=475f186677fd5bb42e254fcd1d9a919df232370d170811e08079a812ac4cd919",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -13681,7 +13681,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function convertHierarchyCode_field_0__422449__value_(dropdown, countryId, code, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=53aebc6dcd4c3da6421948dad125846315283ea2de55b9dbc711ae96475d2afe",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=212038afd4035e25c94aec6c86c60db86e23794c7614a11fd1cc33a487f36705",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -13822,7 +13822,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__421391__value__nazioneISO__autocompletebox = $('#field_0__421391__value__nazioneISO__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=3beab5e36233600e&CSRFHash=4477240489c7d8ba56fed0989766d8bc23f0367734aa2d65a1e22a9a5956da17',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_nations&lang=en&CSRFToken=e3be5f7788c37a31&CSRFHash=b6fa13c634abe373518ff5692db66f34506ee993a77465bcc33facd7e1ea9324',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -13860,7 +13860,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__421391__value__autocomplete_cap__autocompletebox = $('#field_0__421391__value__autocomplete_cap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=3beab5e36233600e&CSRFHash=759da49bdd5297875a6219a929885e614f03c04de36e653fa15200cedbd14920',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_postal_codes&CSRFToken=e3be5f7788c37a31&CSRFHash=22eb205ff270d8ace4fc91e77cdc3fb110ece97c487f5c5e6bb029f2b6b055c8',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -13907,7 +13907,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__421391__value__autocomplete_nocap__autocompletebox = $('#field_0__421391__value__autocomplete_nocap__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=3beab5e36233600e&CSRFHash=22a39924e8befced066c5d2b8a47662dc1160b80e2441526f1978f035b75238d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_dynamic_levels&CSRFToken=e3be5f7788c37a31&CSRFHash=d8febb27fca82488ec8e3c5355a3fd63cc67e9c8d0572806b2828b91632519e9',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -13956,7 +13956,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__421391__value__autocomplete_regione__autocompletebox = $('#field_0__421391__value__autocomplete_regione__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=3beab5e36233600e&CSRFHash=e533147cdd62f5605468cda64a93b788421167d10dd46e4ae62b424916a4c562',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_first_levels&CSRFToken=e3be5f7788c37a31&CSRFHash=6cd33dbeb2fcbebb420d85852b7da591674d2317f2695bc039c273306557e30b',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -14003,7 +14003,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__421391__value__autocomplete_provincia__autocompletebox = $('#field_0__421391__value__autocomplete_provincia__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=3beab5e36233600e&CSRFHash=d942ffad9c9a15c869968dcc73d32531e95c7cdde83c99575e5c58d656747b48',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_second_levels&CSRFToken=e3be5f7788c37a31&CSRFHash=7a6ab3357fcac2280d7e84ebd69bb67b749158770e6adf64075652f856f67220',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -14057,7 +14057,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__421391__value__autocomplete_comune__autocompletebox = $('#field_0__421391__value__autocomplete_comune__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=3beab5e36233600e&CSRFHash=f49447e9d75ea067e050cf0047b31a1fec2e581cbeb4569804713ebc93bacc1d',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_third_levels&CSRFToken=e3be5f7788c37a31&CSRFHash=95da26b94c04d61091bd44c229c2df3582d70256aa0a0530f586140e6af17e59',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -14111,7 +14111,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             var widget_field_0__421391__value__autocomplete_fourth_level__autocompletebox = $('#field_0__421391__value__autocomplete_fourth_level__autocompletebox').selectAutocomplete({
                 id: null,
                 name: null,
-                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=3beab5e36233600e&CSRFHash=48980e710e06b1d4a972cae2884d4433124a7a6b7aaa477b5e94184ba16f3450',
+                sourceUrl: 'https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&ajax=1&action=geolocation_get_fourth_levels&CSRFToken=e3be5f7788c37a31&CSRFHash=1ddfb9efc76d60543137f368cdee0aeadba7275ad749bd869b710c6649012e51',
                 limit : 20,
                 offset : 0,
                 labelPattern : "{label}",
@@ -14352,7 +14352,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                         dropdown.find('input[name="field[0][421391][value][cap]"]').val('');
                         dropdown.find('input[name="field[0][421391][value][cod_cap]"]').val('');
 
-                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=8616057582d7a9f66a98e9f6bfbb3e04ecb34668a8961805305d1c110332fd8e")
+                                                fetch("https://inter.intervieweb.it/app.php?opmode=guest&module=GuestAjax&act1=geoip&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=5f8a396e109d7449504dd0546638a8241824d1f2b596631d013bad215041d536")
                             .then(response => {
                                 if (!response.ok) {
                                     return "IT";
@@ -14771,7 +14771,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
             countryIdentifier = typeof countryIdentifier != 'string' ? "IT" : countryIdentifier;
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=6fb35162e6ebc8aa992665efcac121137b5017697fee073cfdc9ab1f378cb7a2",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_single_nation&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=2a0d05e93c92bb575a56c28f33c678fde57788fa36d6d66efc200e1fb791f85a",
                 dataType: 'json',
                 data: {
                     country_id: countryIdentifier
@@ -14817,7 +14817,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function ajax_loadDetails_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=7554cbcec0431fa223d6f8cd053e33fa16ac806701b334979cb73e52952529c9",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=d342147287b4cb4c290e59ff1cc19a91b8549e90e0a5d3a8cb507ecfe775ff43",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -14868,7 +14868,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function ajax_fillDetails_field_0__421391__value_(dropdown, nationId, postalCodeId, select_postalCode) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=809c69c5cbaec44b27472bea5deb7a47b28d53383dbb082056852cf538b3078b",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_details&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=475f186677fd5bb42e254fcd1d9a919df232370d170811e08079a812ac4cd919",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -14929,7 +14929,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function ajax_fillNoCapDetails_field_0__421391__value_(dropdown, nationId, entityId, level) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=627f19ba4abe408b1c75fff6265f20a95f0a35f4087a2803c4050629e97c91dc",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_autofill_from_division&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=51cd1276e1a5142319190ba84bf58596bbe64c8aeaac444a6fe90e8b1e2bfb0e",
                 dataType: 'json',
                 data: {
                     nationId,
@@ -15000,7 +15000,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function setCapManually_field_0__421391__value_(dropdown, nationId, noCapCountry = false) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=7554cbcec0431fa223d6f8cd053e33fa16ac806701b334979cb73e52952529c9",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_hierarchy_details&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=d342147287b4cb4c290e59ff1cc19a91b8549e90e0a5d3a8cb507ecfe775ff43",
                 dataType: 'json',
                 data: {
                     nationId: nationId,
@@ -15048,7 +15048,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         function convertHierarchyCode_field_0__421391__value_(dropdown, countryId, code, level, refresh = true) {
             $.ajax({
                 type: 'POST',
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=3beab5e36233600e&CSRFHash=53aebc6dcd4c3da6421948dad125846315283ea2de55b9dbc711ae96475d2afe",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=CompanyAutocomplete&action=geolocation_get_level_details&ajax=1&back=0&CSRFToken=e3be5f7788c37a31&CSRFHash=212038afd4035e25c94aec6c86c60db86e23794c7614a11fd1cc33a487f36705",
                 dataType: 'json',
                 data: {
                     country_id: countryId,
@@ -15236,7 +15236,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                             <option value="27">LAUREA SPECIALISTICA A CICLO UNICO - Nuovo ordinamento</option>
                             <option value="28">LAUREA SPECIALISTICA - Nuovo ordinamento</option>
                             <option value="31">MASTER</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421417__value__select" title="Select" id="field_0__421417__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -15301,7 +15301,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                             <option value="130">Master Degree - Literary Area</option>
                             <option value="131">Master Degree - Languages Area</option>
                             <option value="132">Master Degree - Psychological Area</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle bs-placeholder btn-default form-control" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421420__value__select" title="Select" id="field_0__421420__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu" style="max-height: 250px; overflow: hidden; min-height: 93px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" style="max-height: 248px; overflow-y: auto; min-height: 91px;"><ul class="dropdown-menu inner " role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li><a role="option" class="dropdown-item" id="bs-select-3-0" tabindex="0"><div class="text">Select</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><div class="text">Bachelor Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><div class="text">Bachelor Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-3" tabindex="0"><div class="text">Bachelor Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-4" tabindex="0"><div class="text">Bachelor Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-5" tabindex="0"><div class="text">Bachelor Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-6" tabindex="0"><div class="text">Bachelor Degree - Law Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-7" tabindex="0"><div class="text">Bachelor Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-8" tabindex="0"><div class="text">Bachelor Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-9" tabindex="0"><div class="text">Bachelor Degree - Psychology Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-10" tabindex="0"><div class="text">Bachelor Degree . Physical Education Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-11" tabindex="0"><div class="text">Degree - Chemical Pharmaceutical Group</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-12" tabindex="0"><div class="text">Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-13" tabindex="0"><div class="text">Master Degree - Scientific Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-14" tabindex="0"><div class="text">Master Degree - Chemical Pharmaceutical Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-15" tabindex="0"><div class="text">Master Degree - Medicine Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-16" tabindex="0"><div class="text">Master Degree - Engineering Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-17" tabindex="0"><div class="text">Master Degree - Statistic/Economic Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-18" tabindex="0"><div class="text">Master Degree - Social/Political Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-19" tabindex="0"><div class="text">Master Degree - Literary Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-20" tabindex="0"><div class="text">Master Degree - Languages Area</div></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-21" tabindex="0"><div class="text">Master Degree - Psychological Area</div></a></li></ul></div></div></div>
 
     <script>
         $(function() {
@@ -15449,7 +15449,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                             <option value="9">Spanish</option>
                             <option value="10">German</option>
                             <option value="12">Chinese</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421430__value__select" title="Select" id="field_0__421430__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -15500,7 +15500,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421432__value__select" title="Select" id="field_0__421432__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -15551,7 +15551,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
                             <option value="9">B2 - INTERMEDIO SUPERIORE</option>
                             <option value="10">C1 - AVANZATO</option>
                             <option value="11">C2 - PADRONANZA IN SITUAZIONI COMPLESSE</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
+                        </select><button type="button" tabindex="-1" class="field dropdown-toggle btn-default form-control bs-placeholder" data-display="static" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" data-id="field_0__421433__value__select" title="Select" id="field_0__421433__value__select-btn"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select</div></div> </div><span class="bs-clear collapse"><span class="mi mi-close"></span></span><span class="bs-caret"><span class="mi mi-keyboard_arrow_down"></span></span></button><div class="dropdown-menu"><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner " role="presentation"></ul></div></div></div>
 
     <script>
         $(function() {
@@ -15650,7 +15650,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 
     <input type="hidden" value="158560" name="input__IdAnnuncio" id="input__IdAnnuncio">
     <input type="hidden" value="2362" name="input__IdAzienda" id="input__IdAzienda">
-    <input type="hidden" value="2026-10-31T11:57:40.000Z" id="input__loadDatetime" name="input__loadDatetime">
+    <input type="hidden" value="2026-10-31T17:04:40.000Z" id="input__loadDatetime" name="input__loadDatetime">
     <input type="hidden" value="" id="input__readDatetime" name="input__readDatetime">
     <input type="hidden" value="" id="input__completeDatetime" name="input__completeDatetime">
     <input type="hidden" value="" id="input__timeToRead" name="input__timeToRead">
@@ -15726,7 +15726,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
         var formatErrorFields = [];
         var isIframe = (0 === 1);
 
-        uid = "6ae5d7b439fae";
+        uid = "6ae61fa78ea86";
 
         function logFormValidation(el, isValid, alertMessage) {
             const form_data = $(el)
@@ -15750,7 +15750,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 
             $.ajax({
                 type: "POST",
-                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=3beab5e36233600e&CSRFHash=7a91cd9b8163b9717f849a9595e388abde28eb8f8992158e292b551c145f6d52",
+                url: "https://inter.intervieweb.it/app.php?opmode=guest&module=logFormReg&ajax=1&CSRFToken=e3be5f7788c37a31&CSRFHash=2877f6a5a6658ff0938295a7c7d07283f06ee8b210277fb3a5797347b59141eb",
                 data: {
                     calluid: uid,
                     sentAt: now,
@@ -16113,7 +16113,7 @@ We expect to close applications on Friday 30th October, but if we receive a high
 
             $.ajax({
                 async: async,
-                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=3beab5e36233600e&CSRFHash=5f91645c1dc072e2e35184687f3f66ad27b0a47fe379e685043884ba5d520a31",
+                url: "/app.php?act1=addGroup&ajax=1&CSRFToken=e3be5f7788c37a31&CSRFHash=37da76e4b3b69c7903ed254205dbd1a23f7174e7d07cab985156d0e3ca48c691",
                 type: 'POST',
                 data: {
                     module: 'register',
@@ -23139,10 +23139,10 @@ Recruitment Agencies – please note that we do not accept unsolicited candidate
   <id>6074956</id>
   <url>https://careers.newcastleunited.com/job/nuw-academy-safeguarding-and-welfare-coordinator-6074956</url>
   <application_link>https://careers.newcastleunited.com/job/nuw-academy-safeguarding-and-welfare-coordinator-6074956/apply</application_link>
-  <title>NUW Academy Safeguarding &amp; Welfare Coordinator New</title>
+  <title>NUW Academy Safeguarding &amp; Welfare Coordinator</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Football Operations Job type: Permanent Job ref: 012142 Published: about 21 hours ago Expiry date: 13 Nov 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Football Operations Job type: Permanent Job ref: 012142 Published: 1 day ago Expiry date: 13 Nov 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at></expires_at>
