@@ -17466,97 +17466,6 @@ We are an equal opportunity employer, and all qualified applicants will receive 
   <salary_currency/>
  </job>
  <job>
-  <guid isPermaLink="false">url-454a6150cb70cd38-610</guid>
-  <id>610</id>
-  <url>https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL/jobs/610</url>
-  <application_link>https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL/jobs/610/apply?flowSelection=true</application_link>
-  <title>Data Analyst</title>
-  <arrangement>fulltime</arrangement>
-  <location_type>onsite</location_type>
-  <location>Nashville, TN, USA</location>
-  <location_limits><location>Worldwide</location></location_limits>
-  <published_at>2026-10-20T06:00:00.000Z</published_at>
-  <expires_at>2026-11-07T06:59:00.000Z</expires_at>
-  <highlighted>false</highlighted>
-  <sticky>false</sticky>
-  <html_description><![CDATA[ <p style="margin: 0in 0in 7pt; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">The Data Analyst supports decision-making across the Club's sporting organization through data analysis and visualization. The position will primarily answer ad-hoc questions from across the sporting organization while also supporting recurring match reporting and broader analysis projects.</p>
-<p style="margin: 0in 0in 7pt; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">The Data Analyst will work with event, tracking-derived, physical, and other soccer data and collaborate with stakeholders across the Front Office, Scouting &amp; Recruitment, Analysis, and High Performance departments.</p>
-<p style="margin: 0in 0in 7pt; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">The position reports directly to the Head of Analytics. The Data Analyst will receive direction on departmental priorities while being given autonomy to determine appropriate approaches to their work.</p>
-<h1 style="margin: 11pt 0in 6pt; line-height: 104%; break-after: avoid; font-size: 12pt; font-family: Calibri, sans-serif; color: black;">Responsibilities</h1>
-<ul style="margin-bottom: 0in; margin-top: 0px;">
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Answer ad-hoc questions related to team performance, player evaluation, recruitment, opposition analysis, physical performance, and other sporting needs.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Analyze soccer data and translate findings into clear, actionable insights through effective visualizations, reports, metrics, models, and tools.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Produce and maintain recurring reporting around First Team matches.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Develop and maintain accurate, reproducible workflows within the Club's existing Python-based environment.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Balance short-turnaround requests, recurring responsibilities, and longer-running projects while collaborating with stakeholders across the sporting organization.</li>
-<li style="margin: 0in 0in 5pt 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Apply soccer knowledge and tactical understanding when framing questions, interpreting results, and communicating findings.</li>
-</ul>
-<h1 style="margin: 11pt 0in 6pt; line-height: 104%; break-after: avoid; font-size: 12pt; font-family: Calibri, sans-serif; color: black;">Key Deliverables</h1>
-<ul style="margin-bottom: 0in; margin-top: 0px;">
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Timely ad-hoc analysis supporting sporting and player-personnel decisions.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Recurring pre- and post-match reporting.</li>
-<li style="margin: 0in 0in 5pt 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Clear, reliable visualizations, metrics, tools, and workflows.</li>
-</ul>
-<h1 style="margin: 11pt 0in 6pt; line-height: 104%; break-after: avoid; font-size: 12pt; font-family: Calibri, sans-serif; color: black;">Minimum Qualifications</h1>
-<ul style="margin-bottom: 0in; margin-top: 0px;">
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Bachelor's degree in Data Science, Statistics, Mathematics, Economics, Computer Science, Sports Analytics, or a related quantitative field, or equivalent demonstrated experience.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Experience using Python for data analysis and developing statistical or machine-learning models, with strong data manipulation, visualization, and statistical skills. Additional experience with SQL, APIs, Git/version control, or data pipelines.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Strong understanding of soccer, including tactical concepts, and the ability to connect quantitative analysis to the game.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Strong problem-solving skills, including structuring open-ended questions, working independently, and communicating findings clearly to technical and non-technical audiences.</li>
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Effective management of competing priorities, openness to direction and feedback, and attention to accuracy in high-pressure and time-sensitive environments.</li>
-<li style="margin: 0in 0in 5pt 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Availability to work in person and accommodate non-traditional hours, including evenings and weekends, when needed around matches and team operations.</li>
-</ul>
-<h1 style="margin: 11pt 0in 6pt; line-height: 104%; break-after: avoid; font-size: 12pt; font-family: Calibri, sans-serif; color: black;">Preferred Qualifications</h1>
-<ul style="margin-bottom: 0in; margin-top: 0px;">
-<li style="margin: 0in 0in 0in 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Experience working with soccer event, tracking-derived, or physical-performance data through professional work, academic research, or independent projects.</li>
-<li style="margin: 0in 0in 5pt 0px; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Demonstrated success in professional or collegiate sports, or another high-performance environment.</li>
-</ul>
-<p style="margin: 0in 0in 7pt; line-height: 104%; font-size: 11pt; font-family: Calibri, sans-serif; color: black;">Nashville Soccer Club is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to characteristics protected by applicable law.</p> ]]></html_description>
-  <plain_text_description>The Data Analyst supports decision-making across the Club&apos;s sporting organization through data analysis and visualization. The position will primarily answer ad-hoc questions from across the sporting organization while also supporting recurring match reporting and broader analysis projects.
-
-The Data Analyst will work with event, tracking-derived, physical, and other soccer data and collaborate with stakeholders across the Front Office, Scouting &amp; Recruitment, Analysis, and High Performance departments.
-
-The position reports directly to the Head of Analytics. The Data Analyst will receive direction on departmental priorities while being given autonomy to determine appropriate approaches to their work.
-
-Responsibilities
-
-- Answer ad-hoc questions related to team performance, player evaluation, recruitment, opposition analysis, physical performance, and other sporting needs.
-- Analyze soccer data and translate findings into clear, actionable insights through effective visualizations, reports, metrics, models, and tools.
-- Produce and maintain recurring reporting around First Team matches.
-- Develop and maintain accurate, reproducible workflows within the Club&apos;s existing Python-based environment.
-- Balance short-turnaround requests, recurring responsibilities, and longer-running projects while collaborating with stakeholders across the sporting organization.
-- Apply soccer knowledge and tactical understanding when framing questions, interpreting results, and communicating findings.
-
-Key Deliverables
-
-- Timely ad-hoc analysis supporting sporting and player-personnel decisions.
-- Recurring pre- and post-match reporting.
-- Clear, reliable visualizations, metrics, tools, and workflows.
-
-Minimum Qualifications
-
-- Bachelor&apos;s degree in Data Science, Statistics, Mathematics, Economics, Computer Science, Sports Analytics, or a related quantitative field, or equivalent demonstrated experience.
-- Experience using Python for data analysis and developing statistical or machine-learning models, with strong data manipulation, visualization, and statistical skills. Additional experience with SQL, APIs, Git/version control, or data pipelines.
-- Strong understanding of soccer, including tactical concepts, and the ability to connect quantitative analysis to the game.
-- Strong problem-solving skills, including structuring open-ended questions, working independently, and communicating findings clearly to technical and non-technical audiences.
-- Effective management of competing priorities, openness to direction and feedback, and attention to accuracy in high-pressure and time-sensitive environments.
-- Availability to work in person and accommodate non-traditional hours, including evenings and weekends, when needed around matches and team operations.
-
-Preferred Qualifications
-
-- Experience working with soccer event, tracking-derived, or physical-performance data through professional work, academic research, or independent projects.
-- Demonstrated success in professional or collegiate sports, or another high-performance environment.
-
-Nashville Soccer Club is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to characteristics protected by applicable law.</plain_text_description>
-  <company_name>Nashville Soccer Club</company_name>
-  <company_url>https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL</company_url>
-  <company_logo_url>https://us252.dayforcehcm.com/CandidatePortal/en-US/nashvillesc/Go?item=e851f504-d3da-4493-b1ab-249e9df4845b</company_logo_url>
-  <salary_minimum/>
-  <salary_maximum/>
-  <salary_schedule/>
-  <salary_currency/>
- </job>
- <job>
   <guid isPermaLink="false">url-454a6150cb70cd38-612</guid>
   <id>612</id>
   <url>https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL/jobs/612</url>
@@ -18380,10 +18289,10 @@ Please apply as soon as possible, as this vacancy may close early if we receive 
   <id>6083654</id>
   <url>https://careers.newcastleunited.com/job/premium-account-executive-business-club-6083654</url>
   <application_link>https://careers.newcastleunited.com/job/premium-account-executive-business-club-6083654/apply</application_link>
-  <title>Premium Account Executive (Business Club) New</title>
+  <title>Premium Account Executive (Business Club)</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Commercial Job type: Fixed-Term Job ref: 012282 Published: about 17 hours ago Expiry date: 15 Nov 2026 23:45</location>
+  <location>Newcastle upon Tyne Discipline: Commercial Job type: Fixed-Term Job ref: 012282 Published: 1 day ago Expiry date: 15 Nov 2026 23:45</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at></expires_at>
@@ -18453,7 +18362,7 @@ This position is UK based and requires proof of the right to live and work in th
   <title>Cleaning Assistant New</title>
   <arrangement>fulltime</arrangement>
   <location_type>onsite</location_type>
-  <location>Newcastle upon Tyne Discipline: Venue Operations Job type: Permanent Job ref: 012322 Published: about 14 hours ago Expiry date: 20 Nov 2026 08:00</location>
+  <location>Newcastle upon Tyne Discipline: Venue Operations Job type: Permanent Job ref: 012322 Published: about 21 hours ago Expiry date: 20 Nov 2026 08:00</location>
   <location_limits><location>Worldwide</location></location_limits>
   <published_at></published_at>
   <expires_at></expires_at>
